@@ -32,8 +32,6 @@
 546            00             00         129            118            03             //Jeweler Raul
 566            00             00         139            140            01             //Party Search
 450            00             00         114            132            03             //Cherry Blossom Spirit
-709	       00	      00	 126		143	       03
-794	       00	      00	 130		128	       03             //Search store
 end
 
 0
