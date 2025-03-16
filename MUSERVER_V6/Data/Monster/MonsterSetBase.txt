@@ -4,6 +4,29 @@
 0
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
 254            00             00         118            113            03             //Pasi the Mage
+<<<<<<< HEAD
+=======
+385            00             00         055            243            01             //Mirage
+249            00             00         056            244            01             //Guard
+249            00             20         173            125            03             //Guard
+249            00             20         094            130            07             //Guard
+249            00             20         094            125            07             //Guard
+249            00             30         131            148            01             //Guard
+240            00             00         148            145            01             //Safety Guardian
+240            00             00         146            110            03             //Safety Guardian
+257            00             00         096            129            01             //Shadow Phantom Soldier
+375            00             00         132            161            03             //Chaos Card Master
+257            00             00         132            165            03             //Shadow Phantom Soldier
+257            00             00         132            090            03             //Shadow Phantom Soldier
+257            00             00         170            129            01             //Shadow Phantom Soldier
+543            00             00         130            134            03             //Gens Duprian Steward
+544            00             00         130            136            03             //Gens Vanert Steward
+546            00             00         129            118            03             //Jeweler Raul
+566            00             00         139            140            01             //Party Search
+450            00             00         114            132            03             //Cherry Blossom Spirit
+709	       00	      00	 126		143	       03
+794	       00	      00	 130		128	       03             //Search store
+>>>>>>> origin/main
 end
 
 0
