@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Processes>
-  <Process Run="True" Delay="1000" Path="D:\Muszerobarimmal\MUSERVER_V6\ConnectServer\ConnectServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="D:\Muszerobarimmal\MUSERVER_V6\JoinServer\JoinServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="D:\Muszerobarimmal\MUSERVER_V6\DataServer\DataServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="D:\Muszerobarimmal\MUSERVER_V6\GameServer\GameServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="D:\Muszerobarimmal\MUSERVER_V6\GameServerCS\GameServerCS.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="D:\Muszerobarimmal\MUSERVER_V6\MHPServer\InfiniteServer.exe" Parameters="" />
-</Processes>

@@ -1,0 +1,35 @@
+16:06:37 [ServerInfo] CashShop loaded successfully
+16:06:37 [ServerInfo] ChaosMix loaded successfully
+16:06:37 [ServerInfo] Character loaded successfully
+16:06:37 [ServerInfo] Custom loaded successfully
+16:06:37 [ServerInfo] Command loaded successfully
+16:06:37 [ServerInfo] Common loaded successfully
+16:06:37 [ Crywolf ] State (0) -> NONE
+16:06:37 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+16:06:37 [ServerInfo] Event loaded successfully
+16:06:37 [ServerInfo] EventItemBag loaded successfully
+16:06:37 [AntiFlood] File Loaded Successfull!
+16:06:37 [ServerInfo] Hack loaded successfully
+16:06:37 [ServerInfo] Item loaded successfully
+16:06:37 [ServerInfo] Monster loaded successfully
+16:06:37 [ServerInfo] Move loaded successfully
+16:06:37 [ServerInfo] Quest loaded successfully
+16:06:38 [ServerInfo] Shop loaded successfully
+16:06:38 [ServerInfo] Skill loaded successfully
+16:06:38 [ServerInfo] Util loaded successfully
+16:06:38 [ReadBotInfo] BotSystem loaded successfully
+16:06:39 [CastleSiege] CCastleSiege::DataRequest() - REQUEST DATA FIRST
+16:06:39 [ Crywolf ][ ApplyDBInfo] OccupationState : 0
+16:06:39 [CastleSiege] CCastleSiege::LoadData() - Siege Start Date (2017-9-16)
+16:06:39 [CastleSiege] CCastleSiege::LoadData() - Siege Date (7-0-0)
+16:06:39 [CastleSiege] CCastleSiege::LoadData() - Siege End Date (2017-9-23(0:0:0))
+16:06:39 [CastleSiege] CCastleSiege::Init() - START
+16:06:39 [CastleSiege] CCastleSiege::Init() - CheckSync() == FALSE
+16:06:40 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:07:12 [Obj][3500] AddClient (192.168.101.5)
+16:07:12 [Obj][3500] AddAccount (kojizu)
+16:07:12 [Obj][3500] LogInCharacter (KojiZUMG)
+16:09:23 [Obj][3500] LogOutCharacter (KojiZUMG)
+16:09:23 [Obj][3500] LogOutCharacter ()
+16:09:23 [Obj][3500] DelAccount (kojizu)
+16:09:23 [Obj][3500] DelClient (192.168.101.5)

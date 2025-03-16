@@ -1,0 +1,5 @@
+21:02:09 [SocketManager] Server started at port [55970]
+21:02:17 [ServerManager][0] AddServer (25.60.79.171)
+21:02:17 [ServerManager][0] ServerInfo (FlyMu) (55901) (0)
+21:02:19 [ServerManager][1] AddServer (25.60.79.171)
+21:02:19 [ServerManager][1] ServerInfo (FlyMu_CS) (55919) (19)

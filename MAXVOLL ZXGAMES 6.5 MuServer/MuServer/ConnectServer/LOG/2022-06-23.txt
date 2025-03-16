@@ -1,0 +1,40 @@
+10:14:13 [SocketManager] Server started at port [44405]
+10:14:13 [ServerList] ServerList loaded successfully
+10:14:17 [ServerList] JoinServer online
+10:14:19 [ServerList] GameServer online (MUMexico) (0)
+10:42:05 [SocketManager] Server started at port [44405]
+10:42:05 [ServerList] ServerList loaded successfully
+10:42:08 [ServerList] JoinServer online
+10:42:10 [ServerList] GameServer online (MUMexico) (0)
+14:11:12 [SocketManager] Server started at port [44405]
+14:11:12 [ServerList] ServerList loaded successfully
+14:11:15 [ServerList] JoinServer online
+14:11:17 [ServerList] GameServer online (MUMexico) (0)
+14:13:09 [SocketManager] Server started at port [44405]
+14:13:09 [ServerList] ServerList loaded successfully
+14:13:12 [ServerList] JoinServer online
+14:13:14 [ServerList] GameServer online (MUMexico) (0)
+14:14:11 [SocketManager] Server started at port [44405]
+14:14:11 [ServerList] ServerList loaded successfully
+14:14:14 [ServerList] JoinServer online
+14:14:16 [ServerList] GameServer online (MUMexico) (0)
+14:17:10 [SocketManager] Server started at port [44405]
+14:17:10 [ServerList] ServerList loaded successfully
+14:17:13 [ServerList] JoinServer online
+14:17:15 [ServerList] GameServer online (MUMexico) (0)
+14:20:11 [SocketManager] Server started at port [44405]
+14:20:11 [ServerList] ServerList loaded successfully
+14:20:14 [ServerList] JoinServer online
+14:20:16 [ServerList] GameServer online (MUMexico) (0)
+14:28:31 [SocketManager] Server started at port [44405]
+14:28:31 [ServerList] ServerList loaded successfully
+14:28:34 [ServerList] JoinServer online
+14:28:36 [ServerList] GameServer online (MUMexico) (0)
+18:28:15 [SocketManager] Server started at port [44405]
+18:28:15 [ServerList] ServerList loaded successfully
+18:28:19 [ServerList] JoinServer online
+18:28:20 [ServerList] GameServer online (MUMexico) (0)
+19:37:19 [SocketManager] Server started at port [44405]
+19:37:19 [ServerList] ServerList loaded successfully
+19:37:23 [ServerList] JoinServer online
+19:37:25 [ServerList] GameServer online (MUMexico) (0)

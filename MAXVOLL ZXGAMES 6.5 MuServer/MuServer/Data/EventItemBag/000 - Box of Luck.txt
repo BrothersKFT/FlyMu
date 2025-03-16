@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////
+//Editor Cortesia de www.GamesBit.net
+///////////////////////////
+//Aporte de www.facebook.com/Arnold.DGD
+///////////////////////////
+//Archivo: 000 - Box of Luck
+/////////////////////////////////////////////////////////////////////////////
+0
+//EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
+"Box of Luck"	0	1001	10	0	0	1
+end
+
+1
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	NameItem
+14	13	0	0	0	0	0	0
+14	14	0	0	0	0	0	0
+14	16	0	0	0	0	0	0
+end
+2
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
+end

@@ -1,0 +1,2 @@
+23:31:53 [AccountInfo] Account connected (Account: kojizu, IpAddress: 192.168.101.5, GameServerCode: 0)
+23:48:19 [AccountInfo] Account connected (Account: kojizu4, IpAddress: 192.168.101.5, GameServerCode: 0)

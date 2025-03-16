@@ -1,0 +1,4 @@
+06:40:41 [SocketManager] Server started at port [44405]
+06:40:41 [ServerList] ServerList loaded successfully
+06:40:45 [ServerList] JoinServer online
+06:40:46 [ServerList] GameServer online (MUMexico) (0)

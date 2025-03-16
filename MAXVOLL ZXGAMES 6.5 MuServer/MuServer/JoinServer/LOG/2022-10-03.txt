@@ -1,0 +1,9 @@
+11:12:11 [SocketManager] Server started at port [55970]
+11:12:13 [ServerManager][0] AddServer (127.0.0.1)
+11:12:13 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+12:50:14 EXEC WZ_GetAccountLevel 'kojizu'
+12:50:14 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][Shared Memory]ConnectionWrite (send()).
+12:50:14 [QueryManager] State (08S01), Diagnostic: [Microsoft][ODBC SQL Server Driver][Shared Memory]Error general de red. Consulte la documentación de la red.
+15:55:41 [ServerManager][0] DelServer (127.0.0.1)
+15:55:49 [ServerManager][1] AddServer (127.0.0.1)
+15:55:49 [ServerManager][1] ServerInfo (MUZXGAMES) (55901) (0)

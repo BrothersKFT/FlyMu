@@ -1,0 +1,87 @@
+61@1@100@Orb of Rageful Blow@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1000|@6156@5@1@1000|@1@0@669
+61@2@101@Orb of Swell Life@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1010|@6158@5@1@1010|@1@0@669
+61@3@103@Orb of Penetration@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1030|@6161@5@1@1030|@1@0@669
+61@4@102@Orb of Ice Arrow@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1020|@6162@5@1@1020|@1@0@669
+61@5@104@Orb of Fire Slash@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1040|@6160@5@1@1040|@1@0@669
+61@6@105@Orb of Death Stab@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1050|@6163@5@1@1050|@1@0@669
+61@7@106@Crystal of Destruction@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1060|@6188@5@1@1060|@1@0@669
+61@8@107@Crystal of Multi-Shot@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1070|@6189@5@1@1070|@1@0@669
+61@9@108@Crystal of Recovery@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1080|@6190@5@1@1080|@1@0@669
+61@10@109@Crystal of Flame Strike@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1090|@6191@5@1@1090|@1@0@669
+62@1@139@Small Cape of Lord@170@200@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1390|@-382@5@1@1390|@1@0@669
+62@2@140@Small Wing of Curse@170@200@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1400|@-381@5@1@1400|@1@0@669
+62@3@141@Small Wings of Elf@170@200@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1410|@-380@5@1@1410|@1@0@669
+62@4@142@Small Wings of Heaven@170@200@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1420|@-379@5@1@1420|@1@0@669
+62@5@143@Small Wings of Satan@170@200@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1430|@-378@5@1@1430|@1@0@669
+62@6@144@Small Cloak of Warrior@170@200@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1440|@-377@5@1@1440|@1@0@669
+62@7@145@Guardian Angel@170@10@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1450|@6656@5@1@1450|@1@0@669
+62@8@146@Imp@170@10@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1460|@6657@5@1@1460|@1@0@669
+62@9@147@Horn of Uniria@170@10@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1470|@6658@5@1@1470|@1@0@669
+62@10@148@Horn of Dinorant@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1480|@6659@5@1@1480|@1@0@669
+62@11@149@Dark Horse@170@150@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1490|@6660@5@1@1490|@1@0@669
+62@12@150@Dark Raven@170@150@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1500|@6661@5@1@1500|@1@0@669
+62@13@151@Devil Square Ticket@170@100@255 units@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1510|@6702@5@1@1510|@1@0@669
+62@14@152@Blood Castle Ticket@170@100@255 units@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1520|@6703@5@1@1520|@1@0@669
+62@15@153@Kalima Ticket@170@100@255 units@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1530|@6704@5@1@1530|@1@0@669
+62@16@154@Demon@170@150@Increases Attack (or wizardry) Power +40% #Increases Attack Speed +10@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1540|@6720@5@1@1540|@1@0@669
+62@17@155@Spirit of Guardian@170@150@Reduces damage from monsters +30% #Increases max HP +50@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1550|@6721@5@1@1550|@1@0@669
+62@18@156@Pet Rudolf@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1560|@6723@5@1@1560|@1@0@669
+62@19@157@Pet Rudolf@170@150@Automatically collects Zen@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1570|@6723@5@1@1570|@1@0@669
+62@20@158@Snowman Transformation Ring@170@150@Snowman Character Skin is applied to the character.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1580|@6724@5@1@1580|@1@0@669
+62@21@159@Panda Ring@170@150@Panda Skin #Increase zen  +50% #Increase Damage/Wizardry Damage/Curse Power +30 #When you use it with pet skeleton or  pet panda increase exp +30%.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1590|@6732@5@1@1590|@1@0@669
+62@22@160@Pet Panda@170@150@Increases Experience Acquired by +50% #Increases Defense +50 #Collects Zen Automatically@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1600|@6736@5@1@1600|@1@0@669
+62@23@161@Pet Unicorn@170@150@Increases Zen Acquired by +50% #Increases Defense +50 #Collects Zen Automatically #Level of Use from Level 28@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1610|@6762@5@1@1610|@1@0@669
+62@24@162@Pet Skeleton@170@150@Increases Damage /Wizardry Damage/ Curse Power by 20%. #Increases Attack Speed ​​+10 #Increases Experience Acquired by 30%. #Having the Pet Skeleton and Ring Skeleton on increases Experience Acquired by 30%.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1620|@6779@5@1@1620|@1@0@669
+62@25@163@Skeleton Transformation Ring@170@150@Turns you into a Skeleton #Increases Damage/Wizardry Damage/Curse Power +40 #If you have equipped the Pet Skeleton increases the Experience gained by 30%@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1630|@6778@5@1@1630|@1@0@669
+62@26@164@Open Access Ticket to Varka@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1640|@6782@5@1@1640|@1@0@669
+62@27@165@Open Access Ticket to Varka Ma@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1650|@6783@5@1@1650|@1@0@669
+62@28@166@Open Access Ticket to Doppelga@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1660|@6781@5@1@1660|@1@0@669
+62@29@167@Moonstone Pendant@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1670|@6694@5@1@1670|@1@0@669
+63@1@110@Scroll of FireBurst@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1100|@6165@5@1@1100|@1@0@669
+63@2@111@Scroll of Summon@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1110|@6166@5@1@1110|@1@0@669
+63@3@112@Scroll of Critical Damage@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1120|@6167@5@1@1120|@1@0@669
+63@4@113@Scroll of Electric Spark@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1130|@6168@5@1@1130|@1@0@669
+63@5@114@Scroll of Fire Scream@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1140|@6179@5@1@1140|@1@0@669
+63@6@115@Scroll of Hellfire@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1150|@7689@5@1@1150|@1@0@669
+63@7@116@Scroll of Aqua Beam@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1160|@7691@5@1@1160|@1@0@669
+63@8@117@Scroll of Cometfall@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1170|@7692@5@1@1170|@1@0@669
+63@9@118@Scroll of Inferno@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1180|@7693@5@1@1180|@1@0@669
+63@10@119@Scroll of Teleport Ally@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1190|@7694@5@1@1190|@1@0@669
+63@11@120@Scroll of Soul Barrier@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1200|@7695@5@1@1200|@1@0@669
+63@12@121@Scroll of Decay@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1210|@7696@5@1@1210|@1@0@669
+63@13@122@Scroll of Ice Storm@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1220|@7697@5@1@1220|@1@0@669
+63@14@123@Scroll of Nova@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1230|@7698@5@1@1230|@1@0@669
+63@15@124@Lightning Shock Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1240|@7701@5@1@1240|@1@0@669
+63@16@125@Damage Reflection Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1250|@7702@5@1@1250|@1@0@669
+63@17@126@Sleep Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1260|@7704@5@1@1260|@1@0@669
+63@18@127@Weakness Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1270|@7706@5@1@1270|@1@0@669
+63@19@128@Innovation Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1280|@7707@5@1@1280|@1@0@669
+63@20@129@Scroll of Wizardry Enhance@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1290|@7708@5@1@1290|@1@0@669
+63@21@130@Scroll of Gigantic Storm@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1300|@7709@5@1@1300|@1@0@669
+63@22@131@Chain Driver Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1310|@7710@5@1@1310|@1@0@669
+63@23@132@Dark Side Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1320|@7711@5@1@1320|@1@0@669
+63@24@133@Dragon Lore Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1330|@7712@5@1@1330|@1@0@669
+63@25@134@Dragon Slayer Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1340|@7713@5@1@1340|@1@0@669
+63@26@135@Red Armor Ignore Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1350|@7714@5@1@1350|@1@0@669
+63@27@136@Fitness Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1360|@7715@5@1@1360|@1@0@669
+63@28@137@Defense Rate Parchment@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1370|@7716@5@1@1370|@1@0@669
+63@29@138@Summon of Scroll@170@50@Description@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1380|@7730@5@1@1380|@1@0@669
+64@1@168@Seal of Ascension@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1680|@6699@5@1@1680|@1@0@669
+64@2@169@Seal of Wealth@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1690|@6700@5@1@1690|@1@0@669
+64@3@170@Seal of Sustenance@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1700|@6701@5@1@1700|@1@0@669
+64@4@171@Seal of Mobility@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1710|@6715@5@1@1710|@1@0@669
+64@5@172@Seal of Healing@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1720|@6718@5@1@1720|@1@0@669
+64@6@173@Seal of Divinity@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1730|@6719@5@1@1730|@1@0@669
+64@7@174@Talisman of Guardian@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1740|@6737@5@1@1740|@1@0@669
+64@8@175@Talisman of Item Protection@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1750|@6738@5@1@1750|@1@0@669
+64@9@176@Master Seal of Ascension@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1760|@6749@5@1@1760|@1@0@669
+64@10@177@Master Seal of Wealth@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1770|@6750@5@1@1770|@1@0@669
+64@11@178@Party EXP Scroll@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1780|@6759@5@1@1780|@1@0@669
+64@12@179@Max AG Boost Aura@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1790|@6760@5@1@1790|@1@0@669
+64@13@180@Max SD Boost Aura@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1800|@6761@5@1@1800|@1@0@669
+64@14@181@Hawk Figurine@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1810|@6784@5@1@1810|@1@0@669
+64@15@182@Goat Figurine@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1820|@6785@5@1@1820|@1@0@669
+64@16@183@Oak Charm@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1830|@6786@5@1@1830|@1@0@669
+64@17@184@Maple Charm@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1840|@6787@5@1@1840|@1@0@669
+64@18@185@Golden Oak Charm@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1850|@6788@5@1@1850|@1@0@669
+64@19@186@Golden Maple Charm@170@150@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1860|@6789@5@1@1860|@1@0@669

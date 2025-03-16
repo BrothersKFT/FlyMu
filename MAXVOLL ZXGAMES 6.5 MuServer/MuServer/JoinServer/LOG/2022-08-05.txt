@@ -1,0 +1,38 @@
+10:55:50 [SocketManager] Server started at port [55970]
+10:55:51 [ServerManager][0] AddServer (127.0.0.1)
+10:55:51 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+11:09:48 [ServerManager][0] DelServer (127.0.0.1)
+11:13:52 [SocketManager] Server started at port [55970]
+11:13:54 [ServerManager][0] AddServer (127.0.0.1)
+11:13:54 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+11:19:22 SELECT memb__pwd FROM MEMB_INFO WHERE memb___id='kojizu' COLLATE Latin1_General_BIN
+11:19:22 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][Shared Memory]ConnectionWrite (send()).
+11:19:22 [QueryManager] State (08S01), Diagnostic: [Microsoft][ODBC SQL Server Driver][Shared Memory]Error general de red. Consulte la documentación de la red.
+12:02:47 [SocketManager] Server started at port [55970]
+12:02:49 [ServerManager][0] AddServer (127.0.0.1)
+12:02:49 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+12:10:57 [SocketManager] Server started at port [55970]
+12:10:58 [ServerManager][0] AddServer (127.0.0.1)
+12:10:58 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+12:11:31 [ServerManager][0] DelServer (127.0.0.1)
+12:11:51 [ServerManager][0] AddServer (127.0.0.1)
+12:11:51 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+12:12:50 [ServerManager][0] DelServer (127.0.0.1)
+13:13:25 [SocketManager] Server started at port [55970]
+13:13:27 [ServerManager][0] AddServer (127.0.0.1)
+13:13:27 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+14:13:14 [SocketManager] Server started at port [55970]
+14:13:15 [ServerManager][0] AddServer (127.0.0.1)
+14:13:15 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+14:32:29 [SocketManager] Server started at port [55970]
+14:32:30 [ServerManager][0] AddServer (127.0.0.1)
+14:32:30 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+15:40:40 [SocketManager] Server started at port [55970]
+15:40:41 [ServerManager][0] AddServer (127.0.0.1)
+15:40:41 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+18:12:08 [SocketManager] Server started at port [55970]
+18:12:10 [ServerManager][0] AddServer (127.0.0.1)
+18:12:10 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+18:36:27 [SocketManager] Server started at port [55970]
+18:36:29 [ServerManager][0] AddServer (127.0.0.1)
+18:36:29 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)

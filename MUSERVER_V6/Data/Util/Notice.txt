@@ -1,3 +1,0 @@
-//Message	Type   Count   Opacity   Delay   Red   Green   Blue   Speed   RepeatTime
-"ZxGames-MaxVoll"	0      0       0         0       0     0       0      0       120
-end

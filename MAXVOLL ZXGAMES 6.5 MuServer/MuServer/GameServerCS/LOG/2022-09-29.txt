@@ -1,0 +1,59 @@
+12:14:27 [ServerInfo] CashShop loaded successfully
+12:14:27 [ServerInfo] ChaosMix loaded successfully
+12:14:27 [ServerInfo] Character loaded successfully
+12:14:27 [ServerInfo] Custom loaded successfully
+12:14:27 [ServerInfo] Command loaded successfully
+12:14:27 [ServerInfo] Common loaded successfully
+12:14:27 [ Crywolf ] State (0) -> NONE
+12:14:27 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+12:14:27 [ServerInfo] Event loaded successfully
+12:14:27 [ServerInfo] EventItemBag loaded successfully
+12:14:27 [AntiFlood] File Loaded Successfull!
+12:14:27 [ServerInfo] Hack loaded successfully
+12:14:27 [ServerInfo] Item loaded successfully
+12:14:28 [ServerInfo] Monster loaded successfully
+12:14:28 [ServerInfo] Move loaded successfully
+12:14:28 [ServerInfo] Quest loaded successfully
+12:14:28 [ServerInfo] Shop loaded successfully
+12:14:28 [ServerInfo] Skill loaded successfully
+12:14:28 [ServerInfo] Util loaded successfully
+12:14:28 [ReadBotInfo] BotSystem loaded successfully
+12:14:29 [CastleSiege] CCastleSiege::DataRequest() - REQUEST DATA FIRST
+12:14:29 [ Crywolf ][ ApplyDBInfo] OccupationState : 0
+12:14:29 [CastleSiege] CCastleSiege::LoadData() - Siege Start Date (2017-9-16)
+12:14:29 [CastleSiege] CCastleSiege::LoadData() - Siege Date (7-0-0)
+12:14:29 [CastleSiege] CCastleSiege::LoadData() - Siege End Date (2017-9-23(0:0:0))
+12:14:29 [CastleSiege] CCastleSiege::Init() - START
+12:14:29 [CastleSiege] CCastleSiege::Init() - CheckSync() == FALSE
+12:14:30 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+12:14:47 [Obj][3500] AddClient (192.168.101.5)
+12:14:47 [Obj][3500] AddAccount (kojizu)
+12:14:47 [Obj][3500] LogInCharacter (KojiZUDL)
+12:15:15 [Obj][3500] LogOutCharacter (KojiZUDL)
+12:15:15 [Obj][3500] LogOutCharacter ()
+12:15:15 [Obj][3500] DelAccount (kojizu)
+12:15:15 [Obj][3500] DelClient (192.168.101.5)
+12:15:37 [CastleSiege] Stage 1 : 12 : 16
+12:15:37 [CastleSiege] Stage 2 : 12 : 22
+12:15:37 [CastleSiege] Stage 3 : 12 : 23
+12:15:37 [CastleSiege] Stage 4 : 12 : 29
+12:15:37 [CastleSiege] Stage 5 : 12 : 30
+12:15:37 [CastleSiege] Stage 6 : 12 : 31
+12:15:37 [CastleSiege] Stage 7 : 12 : 32
+12:15:37 [CastleSiege] Stage 8 : 13 : 3
+12:15:37 [CastleSiege] Stage 9 : 13 : 4
+12:15:37 [CastleSiege] CCastleSiege::LoadData() - Siege Start Date (2022-9-29)
+12:15:37 [CastleSiege] CCastleSiege::LoadData() - Siege Date (0-13-4)
+12:15:37 [CastleSiege] CCastleSiege::LoadData() - Siege End Date (2022-9-29(13:4:0))
+12:15:37 [CastleSiege] CCastleSiege::Init() - START
+12:15:37 SET SetState_IDLE_1()
+12:36:01 [OnlineLoterry] No Winner
+13:10:00 [CustomQuiz] Start
+13:13:00 [CustomQuiz] Finish
+13:36:01 [OnlineLoterry] No Winner
+14:10:00 [CustomQuiz] Start
+14:13:00 [CustomQuiz] Finish
+14:36:01 [OnlineLoterry] No Winner
+15:10:00 [CustomQuiz] Start
+15:13:00 [CustomQuiz] Finish
+15:36:01 [OnlineLoterry] No Winner

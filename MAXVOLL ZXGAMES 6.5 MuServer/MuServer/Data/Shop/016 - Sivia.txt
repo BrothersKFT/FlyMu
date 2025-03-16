@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+//Shop Editor cortesia de www.fb.com/igkgamers
+///////////////////////////
+//Aporte de www.fb.com/karuritoku
+///////////////////////////
+//Shop: 016 - Sivia
+/////////////////////////////////////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Acc	JoH	Oex	Sck[1]	Sck[2]	Sck[3]	Sck[4]	Sck[5]	Info
+/////////////////////////////////////////////////////////////////////////////
+//
+5	14	6	0	0	1	4	0	0	0	0	255	255	255	255	255	//Mystery Stick
+7	39	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Violent Wind Helm
+8	39	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Violent Wind Armor
+9	39	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Violent Wind Pants
+5	21	6	0	0	1	4	0	0	0	0	255	255	255	255	255	//Book of Samut
+10	39	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Violent Wind Gloves
+11	39	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Violent Wind Boots
+end

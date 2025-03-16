@@ -1,0 +1,5 @@
+//MinReset   MaxReset   Level_AL0   Level_AL1   Level_AL2   Level_AL3   Money_AL0   Money_AL1   Money_AL2   Money_AL3   Point_AL0   Point_AL1   Point_AL2   Point_AL3
+0            15         350         350         350         350         30000000    25000000    25000000    25000000    500         500         500         500
+16           40         380         350         350         350         50000000    35000000    35000000    35000000    500         500         500         500
+41           999        400         380         380         380         60000000    40000000    40000000    40000000    500         500         500         500
+end

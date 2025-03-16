@@ -1,0 +1,29 @@
+21:02:14 [ServerInfo] CashShop loaded successfully
+21:02:14 [ServerInfo] ChaosMix loaded successfully
+21:02:14 [ServerInfo] Character loaded successfully
+21:02:14 [ServerInfo] Custom loaded successfully
+21:02:14 [ServerInfo] Command loaded successfully
+21:02:14 [ServerInfo] Common loaded successfully
+21:02:14 [ Crywolf ] State (0) -> NONE
+21:02:14 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+21:02:14 [ServerInfo] Event loaded successfully
+21:02:15 [ServerInfo] EventItemBag loaded successfully
+21:02:15 [AntiFlood] File Loaded Successfull!
+21:02:15 [ServerInfo] Hack loaded successfully
+21:02:15 [ServerInfo] Item loaded successfully
+21:02:16 [ServerInfo] Monster loaded successfully
+21:02:16 [ServerInfo] Move loaded successfully
+21:02:16 [ServerInfo] Quest loaded successfully
+21:02:17 [ServerInfo] Shop loaded successfully
+21:02:17 [ServerInfo] Skill loaded successfully
+21:02:17 [ServerInfo] Util loaded successfully
+21:02:17 [ReadBotInfo] BotSystem loaded successfully
+21:02:21 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+21:05:01 [Obj][11000] AddClient (25.60.79.171)
+21:05:04 [Obj][11000] AddAccount (teszt1)
+21:05:07 [Obj][11000] LogInCharacter (CSICSKAVVA)
+21:05:42 [ServerInfo] Monster loaded successfully
+21:05:51 [ServerInfo] Monster loaded successfully
+21:06:53 [ServerInfo] Monster loaded successfully
+21:07:18 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+21:07:18 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132

@@ -1,0 +1,8 @@
+09:20:02 [AccountInfo] Account connected (Account: kojizu, IpAddress: 192.168.101.5, GameServerCode: 0)
+10:48:41 [AccountInfo] Account connected (Account: kojizu4, IpAddress: 192.168.101.5, GameServerCode: 0)
+10:50:42 [AccountInfo] Account connected (Account: kojizu2, IpAddress: 192.168.101.5, GameServerCode: 0)
+21:19:11 [AccountInfo] Account disconnected (Account: kojizu, IpAddress: 192.168.101.5, GameServerCode: 0)
+21:19:11 [AccountInfo] Account connected (Account: kojizu, IpAddress: 192.168.101.5, GameServerCode: 0)
+21:19:20 [AccountInfo] Account disconnected (Account: kojizu, IpAddress: 192.168.101.5, GameServerCode: 0)
+21:19:23 [AccountInfo] Account disconnected (Account: kojizu4, IpAddress: 192.168.101.5, GameServerCode: 0)
+21:19:23 [AccountInfo] Account disconnected (Account: kojizu2, IpAddress: 192.168.101.5, GameServerCode: 0)

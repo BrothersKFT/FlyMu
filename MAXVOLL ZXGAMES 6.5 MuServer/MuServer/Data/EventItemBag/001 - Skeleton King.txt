@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+//Editor Cortesia de www.GamesBit.net
+///////////////////////////
+//Aporte de www.facebook.com/Arnold.DGD
+///////////////////////////
+//Archivo: 001 - Skeleton King
+/////////////////////////////////////////////////////////////////////////////
+0
+//EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
+"Skeleton King"	1000	100	10	0	0	0
+end
+
+1
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	NameItem
+14	13	0	0	0	0	0	0
+end
+2
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
+end

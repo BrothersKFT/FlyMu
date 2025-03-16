@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+//Editor Cortesia de www.GamesBit.net
+///////////////////////////
+//Aporte de www.facebook.com/Arnold.DGD
+///////////////////////////
+//Archivo: 017 - Blood Castle 6
+/////////////////////////////////////////////////////////////////////////////
+0
+//EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
+"Blood Castle 6"	1000	100	10	0	0	0
+end
+
+1
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	NameItem
+14	13	0	0	0	0	0	0
+end
+2
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
+end

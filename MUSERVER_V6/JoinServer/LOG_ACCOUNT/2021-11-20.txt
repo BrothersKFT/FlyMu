@@ -1,3 +1,0 @@
-14:33:35 [AccountInfo] Account disconnected (Account: malito, IpAddress: 192.168.0.16, GameServerCode: 0)
-21:21:56 [AccountInfo] Account connected (Account: malito, IpAddress: 192.168.0.16, GameServerCode: 0)
-21:23:21 [AccountInfo] Account disconnected (Account: malito, IpAddress: 192.168.0.16, GameServerCode: 0)
