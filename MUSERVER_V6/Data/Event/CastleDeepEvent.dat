@@ -1,0 +1,15 @@
+0
+//Year   Month   Day   DoW   Hour   Minute   Second
+end
+
+1
+//Group   SpawnRate
+end
+
+2
+//Index   Group   SpawnMinute
+end
+
+3
+//Index   Group   Monster   Count   X      Y      TX      TY
+end

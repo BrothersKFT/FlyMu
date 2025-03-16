@@ -1,0 +1,104 @@
+<!--
+// ============================================================
+// MUGAMES DEVELOP VENEZUELA
+// ============================================================
+// MU Online Season 6 Episode 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//  INFO:
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Skype: MaxVoll
+// http://www.facebook.com/mugames.online
+// ============================================================
+//
+// ### IncreaseRate ###
+//	JewelOfChaos: Percentage that increases this jewel
+//	JewelOfBless: Percentage that increases this jewel
+//	JewelOfSoul: Percentage that increases this jewel
+//	JewelOfLife: Percentage that increases this jewel
+//	JewelOfCreation: Percentage that increases this jewel
+//
+// ### BotsTrader::Bot ###
+//	Id: Id of Bot
+//	Enable: Switch to enable bot
+//	Class:
+//		~ Dark Wizard : 0,1,2
+//		~ Dark Knight : 16,17,18
+//		~ Fairy Elf : 32,33,34
+//		~ Magic Gladiator : 48,50
+//		~ Dark Lord : 64,66
+//		~ Summoner : 80,81,82
+//		~ Rage Fighter : 96,98
+//	PKLevel: Pk Level of Bot (1 ~ 7)
+//	Map: Number of a map the bot appears on
+//	PosX: X Coordinate of the Bot
+//	PosY: Y Coordinate of the Bot
+//	Dir: Direction the Bot is looking at
+//		~ 0: Central
+//		~ 1: South-West
+//		~ 2: South
+//		~ 3: South-East
+//		~ 4: East
+//		~ 5: North-East
+//		~ 6: North
+//		~ 7: North-West
+//		~ 8: West
+//		~ -1: Random
+//	Name: Name of a Bot, max 10 characters
+//
+// ### BotsTrader::Bot::Equipment:Item ###
+//	Slot: Slot the item is placed on
+//		~ 0: Left Hand
+//		~ 1: Right Hand
+//		~ 2: Helmet
+//		~ 3: Armor
+//		~ 4: Pants
+//		~ 5: Gloves
+//		~ 6: Boots
+//		~ 7: Wings
+//		~ 8: Helper (Pet)
+//		~ 9: Pedant
+//		~ 10: Left Ring
+//		~ 11: Right Ring
+//	ItemCat: Category of the item, see Item.txt
+//	ItemIndex: Index of the item, see Item.txt
+//	ItemLevel: Level of the item, 0-15
+//
+// ### BotsTrader::Bot::Section ###
+//	MinRate: Minimum rate of add items from the item section
+//	MaxRate: Maximum rate of add items from the item section, -1 no limit
+//
+// ### BotsTrader::Bot::Section::Item ###
+//	Cat: Item category, refer to \Data\Item\Item.txt
+//	Index: Item index, refer to \Data\Item\Item.txt
+//	Durability: Durability is optional attribute, if used then defined value will be used, otherwise generated automatically, 0-255
+//	LevelOption: Item level option, refer to ItemOptionRate.xml [ItemOptionRate::LevelOption::Option::Index] -1: No option
+//	SkillOption: Item skill option, refer to ItemOptionRate.xml [ItemOptionRate::SkillOption::Option::Index] -1: No option
+//	LuckOption: Item luck option, refer to ItemOptionRate.xml [ItemOptionRate::LuckOption::Option::Index] -1: No option
+//	JoLOption: Item JoL option, refer to ItemOptionRate.xml [ItemOptionRate::JoLOption::Option::Index] -1: No option
+//	ExcOption: Item exc option, refer to ItemOptionRate.xml [ItemOptionRate::ExcOption::Option::Index]  -1: No option
+//	SetOption: Item set option, refer to ItemOptionRate.xml [ItemOptionRate::SetOption::Option::Index] -1: No option
+//	SocketOption: socket level option, refer to ItemOptionRate.xml [ItemOptionRate::SocketOption::Option::Index] -1: No option
+//	Duration: Duration of item, 0: no limit.
+//	Rate: Drop rate of items from the item list, n/10000
+-->
+
+<IncreaseRate JewelOfChaos="10" JewelOfBless="50" JewelOfSoul="40" JewelOfLife="30" JewelOfCreation="20" />
+
+<BotsTrader>
+	<Bot Enable="1" Id="0" Class="50" PKLevel="0" Map="0" PosX="129" PosY="118" Dir="3" Name="<TRADER>" >
+		<Equipment>
+			<Item Slot="0" ItemCat="5" ItemIndex="5" ItemLevel="15" />
+			<Item Slot="1" ItemCat="5" ItemIndex="5" ItemLevel="15" />
+			<Item Slot="3" ItemCat="8" ItemIndex="3" ItemLevel="15" />
+			<Item Slot="4" ItemCat="9" ItemIndex="3" ItemLevel="15" />
+			<Item Slot="5" ItemCat="10" ItemIndex="3" ItemLevel="15" />
+			<Item Slot="6" ItemCat="11" ItemIndex="3" ItemLevel="15" />
+			<Item Slot="7" ItemCat="12" ItemIndex="6" ItemLevel="15" />
+		</Equipment>
+		<ItemList>
+			<Section MinRate="50" MaxRate="100">
+				<Item Cat="0" Index="14" Durability="2" LevelOption="-1" SkillOption="-1" LuckOption="-1" JoLOption="-1" ExcOption="-1" SetOption="-1" SocketOption="-1" Duration="0" Rate="3000" />
+			</Section>
+		</ItemList>
+	</Bot>
+</BotsTrader>

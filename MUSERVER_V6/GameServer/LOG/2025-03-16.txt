@@ -1,0 +1,560 @@
+14:33:33 [ServerInfo] CashShop loaded successfully
+14:33:33 [ServerInfo] ChaosMix loaded successfully
+14:33:34 [ServerInfo] Character loaded successfully
+14:33:34 [ServerInfo] Custom loaded successfully
+14:33:34 [ServerInfo] Command loaded successfully
+14:33:34 [ServerInfo] Common loaded successfully
+14:33:34 [ Crywolf ] State (0) -> NONE
+14:33:34 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+14:33:34 [ServerInfo] Event loaded successfully
+14:33:34 [ServerInfo] EventItemBag loaded successfully
+14:33:34 [AntiFlood] File Loaded Successfull!
+14:33:34 [ServerInfo] Hack loaded successfully
+14:33:34 [ServerInfo] Item loaded successfully
+14:33:34 [ServerInfo] Monster loaded successfully
+14:33:34 [ServerInfo] Move loaded successfully
+14:33:34 [ServerInfo] Quest loaded successfully
+14:33:34 [ServerInfo] Shop loaded successfully
+14:33:34 [ServerInfo] Skill loaded successfully
+14:33:34 [ServerInfo] Util loaded successfully
+14:33:34 [ReadBotInfo] BotSystem loaded successfully
+14:36:15 [ServerInfo] CashShop loaded successfully
+14:36:15 [ServerInfo] ChaosMix loaded successfully
+14:36:15 [ServerInfo] Character loaded successfully
+14:36:15 [ServerInfo] Custom loaded successfully
+14:36:15 [ServerInfo] Command loaded successfully
+14:36:15 [ServerInfo] Common loaded successfully
+14:36:15 [ Crywolf ] State (0) -> NONE
+14:36:15 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+14:36:15 [ServerInfo] Event loaded successfully
+14:36:15 [ServerInfo] EventItemBag loaded successfully
+14:36:15 [AntiFlood] File Loaded Successfull!
+14:36:15 [ServerInfo] Hack loaded successfully
+14:36:15 [ServerInfo] Item loaded successfully
+14:36:15 [ServerInfo] Monster loaded successfully
+14:36:15 [ServerInfo] Move loaded successfully
+14:36:15 [ServerInfo] Quest loaded successfully
+14:36:15 [ServerInfo] Shop loaded successfully
+14:36:15 [ServerInfo] Skill loaded successfully
+14:36:15 [ServerInfo] Util loaded successfully
+14:36:15 [ReadBotInfo] BotSystem loaded successfully
+14:41:19 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:41:19 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:41:57 [ServerInfo] CashShop loaded successfully
+14:41:57 [ServerInfo] ChaosMix loaded successfully
+14:41:57 [ServerInfo] Character loaded successfully
+14:41:57 [ServerInfo] Custom loaded successfully
+14:41:57 [ServerInfo] Command loaded successfully
+14:41:57 [ServerInfo] Common loaded successfully
+14:41:57 [ Crywolf ] State (0) -> NONE
+14:41:57 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+14:41:57 [ServerInfo] Event loaded successfully
+14:41:57 [ServerInfo] EventItemBag loaded successfully
+14:41:57 [AntiFlood] File Loaded Successfull!
+14:41:57 [ServerInfo] Hack loaded successfully
+14:41:57 [ServerInfo] Item loaded successfully
+14:41:57 [ServerInfo] Monster loaded successfully
+14:41:57 [ServerInfo] Move loaded successfully
+14:41:57 [ServerInfo] Quest loaded successfully
+14:41:57 [ServerInfo] Shop loaded successfully
+14:41:57 [ServerInfo] Skill loaded successfully
+14:41:57 [ServerInfo] Util loaded successfully
+14:41:57 [ReadBotInfo] BotSystem loaded successfully
+14:42:06 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+14:42:41 [ServerInfo] CashShop loaded successfully
+14:42:41 [ServerInfo] ChaosMix loaded successfully
+14:42:41 [ServerInfo] Character loaded successfully
+14:42:41 [ServerInfo] Custom loaded successfully
+14:42:41 [ServerInfo] Command loaded successfully
+14:42:41 [ServerInfo] Common loaded successfully
+14:42:41 [ Crywolf ] State (0) -> NONE
+14:42:41 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+14:42:41 [ServerInfo] Event loaded successfully
+14:42:41 [ServerInfo] EventItemBag loaded successfully
+14:42:41 [AntiFlood] File Loaded Successfull!
+14:42:41 [ServerInfo] Hack loaded successfully
+14:42:41 [ServerInfo] Item loaded successfully
+14:42:41 [ServerInfo] Monster loaded successfully
+14:42:41 [ServerInfo] Move loaded successfully
+14:42:41 [ServerInfo] Quest loaded successfully
+14:42:41 [ServerInfo] Shop loaded successfully
+14:42:41 [ServerInfo] Skill loaded successfully
+14:42:41 [ServerInfo] Util loaded successfully
+14:42:41 [ReadBotInfo] BotSystem loaded successfully
+14:42:51 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+14:47:44 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:47:44 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 160 Y: 59)
+14:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 160 Y: 59)
+14:52:45 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+14:52:45 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+14:57:46 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+14:57:46 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+15:02:47 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+15:02:47 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+15:07:48 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+15:07:48 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+15:10:00 [CustomQuiz] Start
+15:12:49 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+15:12:49 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+15:13:00 [CustomQuiz] Finish
+15:17:50 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+15:17:50 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+15:22:51 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+15:22:51 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+15:27:52 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+15:27:52 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+15:32:53 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+15:32:53 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+15:36:01 [OnlineLoterry] No Winner
+15:37:54 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+15:37:54 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+15:42:55 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+15:42:55 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+15:47:56 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+15:47:56 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+15:58:52 [ServerInfo] CashShop loaded successfully
+15:58:52 [ServerInfo] ChaosMix loaded successfully
+15:58:52 [ServerInfo] Character loaded successfully
+15:58:52 [ServerInfo] Custom loaded successfully
+15:58:52 [ServerInfo] Command loaded successfully
+15:58:52 [ServerInfo] Common loaded successfully
+15:58:52 [ Crywolf ] State (0) -> NONE
+15:58:52 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+15:58:52 [ServerInfo] Event loaded successfully
+15:58:52 [ServerInfo] EventItemBag loaded successfully
+15:58:52 [AntiFlood] File Loaded Successfull!
+15:58:52 [ServerInfo] Hack loaded successfully
+15:58:52 [ServerInfo] Item loaded successfully
+15:58:53 [ServerInfo] Monster loaded successfully
+15:58:53 [ServerInfo] Move loaded successfully
+15:58:53 [ServerInfo] Quest loaded successfully
+15:58:53 [ServerInfo] Shop loaded successfully
+15:58:53 [ServerInfo] Skill loaded successfully
+15:58:53 [ServerInfo] Util loaded successfully
+15:58:53 [ReadBotInfo] BotSystem loaded successfully
+15:59:01 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:03:56 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+16:03:56 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+16:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 77)
+16:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 197 Y: 77)
+16:08:57 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+16:08:57 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+16:09:10 [Obj][11000] AddClient (25.60.79.171)
+16:09:22 [Obj][11000] DelClient (25.60.79.171)
+16:15:41 [ServerInfo] CashShop loaded successfully
+16:15:42 [ServerInfo] ChaosMix loaded successfully
+16:15:42 [ServerInfo] Character loaded successfully
+16:15:42 [ServerInfo] Custom loaded successfully
+16:15:42 [ServerInfo] Command loaded successfully
+16:15:42 [ServerInfo] Common loaded successfully
+16:15:42 [ Crywolf ] State (0) -> NONE
+16:15:42 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+16:15:42 [ServerInfo] Event loaded successfully
+16:15:42 [ServerInfo] EventItemBag loaded successfully
+16:15:42 [AntiFlood] File Loaded Successfull!
+16:15:42 [ServerInfo] Hack loaded successfully
+16:15:42 [ServerInfo] Item loaded successfully
+16:15:42 [ServerInfo] Monster loaded successfully
+16:15:42 [ServerInfo] Move loaded successfully
+16:15:42 [ServerInfo] Quest loaded successfully
+16:15:42 [ServerInfo] Shop loaded successfully
+16:15:42 [ServerInfo] Skill loaded successfully
+16:15:42 [ServerInfo] Util loaded successfully
+16:15:42 [ReadBotInfo] BotSystem loaded successfully
+16:15:51 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:16:09 [Obj][11000] AddClient (25.60.79.171)
+16:16:14 [Obj][11000] DelClient (25.60.79.171)
+16:20:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+16:20:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+16:21:31 [Obj][11000] AddClient (25.60.79.171)
+16:21:35 [Obj][11000] DelClient (25.60.79.171)
+16:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 56 Y: 30)
+16:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 56 Y: 30)
+16:25:46 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+16:25:46 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+16:30:47 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+16:30:47 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+16:32:50 [ServerInfo] CashShop loaded successfully
+16:32:50 [ServerInfo] ChaosMix loaded successfully
+16:32:50 [ServerInfo] Character loaded successfully
+16:32:50 [ServerInfo] Custom loaded successfully
+16:32:50 [ServerInfo] Command loaded successfully
+16:32:50 [ServerInfo] Common loaded successfully
+16:32:50 [ Crywolf ] State (0) -> NONE
+16:32:50 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+16:32:50 [ServerInfo] Event loaded successfully
+16:32:50 [ServerInfo] EventItemBag loaded successfully
+16:32:50 [AntiFlood] File Loaded Successfull!
+16:32:50 [ServerInfo] Hack loaded successfully
+16:32:50 [ServerInfo] Item loaded successfully
+16:32:50 [ServerInfo] Monster loaded successfully
+16:32:50 [ServerInfo] Move loaded successfully
+16:32:50 [ServerInfo] Quest loaded successfully
+16:32:50 [ServerInfo] Shop loaded successfully
+16:32:50 [ServerInfo] Skill loaded successfully
+16:32:50 [ServerInfo] Util loaded successfully
+16:32:50 [ReadBotInfo] BotSystem loaded successfully
+16:32:59 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:33:32 [Obj][11000] AddClient (25.60.79.171)
+16:33:35 [Obj][11000] DelClient (25.60.79.171)
+16:36:01 [OnlineLoterry] No Winner
+16:37:52 [ServerInfo] CashShop loaded successfully
+16:37:52 [ServerInfo] ChaosMix loaded successfully
+16:37:53 [ServerInfo] Character loaded successfully
+16:37:53 [ServerInfo] Custom loaded successfully
+16:37:53 [ServerInfo] Command loaded successfully
+16:37:53 [ServerInfo] Common loaded successfully
+16:37:53 [ Crywolf ] State (0) -> NONE
+16:37:53 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+16:37:53 [ServerInfo] Event loaded successfully
+16:37:53 [ServerInfo] EventItemBag loaded successfully
+16:37:53 [AntiFlood] File Loaded Successfull!
+16:37:53 [ServerInfo] Hack loaded successfully
+16:37:53 [ServerInfo] Item loaded successfully
+16:37:53 [ServerInfo] Monster loaded successfully
+16:37:53 [ServerInfo] Move loaded successfully
+16:37:53 [ServerInfo] Quest loaded successfully
+16:37:53 [ServerInfo] Shop loaded successfully
+16:37:53 [ServerInfo] Skill loaded successfully
+16:37:53 [ServerInfo] Util loaded successfully
+16:37:53 [ReadBotInfo] BotSystem loaded successfully
+16:38:01 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:38:18 [ServerInfo] CashShop loaded successfully
+16:38:18 [ServerInfo] ChaosMix loaded successfully
+16:38:18 [ServerInfo] Character loaded successfully
+16:38:18 [ServerInfo] Custom loaded successfully
+16:38:18 [ServerInfo] Command loaded successfully
+16:38:18 [ServerInfo] Common loaded successfully
+16:38:18 [ Crywolf ] State (0) -> NONE
+16:38:18 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+16:38:18 [ServerInfo] Event loaded successfully
+16:38:18 [ServerInfo] EventItemBag loaded successfully
+16:38:18 [AntiFlood] File Loaded Successfull!
+16:38:18 [ServerInfo] Hack loaded successfully
+16:38:18 [ServerInfo] Item loaded successfully
+16:38:19 [ServerInfo] Monster loaded successfully
+16:38:19 [ServerInfo] Move loaded successfully
+16:38:19 [ServerInfo] Quest loaded successfully
+16:38:19 [ServerInfo] Shop loaded successfully
+16:38:19 [ServerInfo] Skill loaded successfully
+16:38:19 [ServerInfo] Util loaded successfully
+16:38:19 [ReadBotInfo] BotSystem loaded successfully
+16:38:27 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:38:56 [Obj][11000] AddClient (25.60.79.171)
+16:39:10 [Obj][11000] DelClient (25.60.79.171)
+16:43:22 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+16:43:22 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+16:44:38 [ServerInfo] CashShop loaded successfully
+16:44:38 [ServerInfo] ChaosMix loaded successfully
+16:44:38 [ServerInfo] Character loaded successfully
+16:44:38 [ServerInfo] Custom loaded successfully
+16:44:38 [ServerInfo] Command loaded successfully
+16:44:38 [ServerInfo] Common loaded successfully
+16:44:38 [ Crywolf ] State (0) -> NONE
+16:44:38 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+16:44:38 [ServerInfo] Event loaded successfully
+16:44:38 [ServerInfo] EventItemBag loaded successfully
+16:44:38 [AntiFlood] File Loaded Successfull!
+16:44:38 [ServerInfo] Hack loaded successfully
+16:44:39 [ServerInfo] Item loaded successfully
+16:44:39 [ServerInfo] Monster loaded successfully
+16:44:39 [ServerInfo] Move loaded successfully
+16:44:39 [ServerInfo] Quest loaded successfully
+16:44:39 [ServerInfo] Shop loaded successfully
+16:44:39 [ServerInfo] Skill loaded successfully
+16:44:39 [ServerInfo] Util loaded successfully
+16:44:39 [ReadBotInfo] BotSystem loaded successfully
+16:44:43 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+16:45:28 [Obj][11000] AddClient (25.60.79.171)
+16:45:32 [Obj][11000] DelClient (25.60.79.171)
+16:49:40 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+16:49:40 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 197 Y: 83)
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 197 Y: 83)
+16:54:41 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+16:54:41 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+16:59:42 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+16:59:42 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+17:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 51 Y: 107)
+17:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 51 Y: 107)
+17:04:43 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:04:43 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:09:44 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:09:44 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:10:00 [CustomQuiz] Start
+17:13:00 [CustomQuiz] Finish
+17:14:45 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+17:14:45 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+17:15:31 [ServerInfo] CashShop loaded successfully
+17:15:31 [ServerInfo] ChaosMix loaded successfully
+17:15:31 [ServerInfo] Character loaded successfully
+17:15:31 [ServerInfo] Custom loaded successfully
+17:15:31 [ServerInfo] Command loaded successfully
+17:15:31 [ServerInfo] Common loaded successfully
+17:15:31 [ Crywolf ] State (0) -> NONE
+17:15:31 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+17:15:31 [ServerInfo] Event loaded successfully
+17:15:31 [ServerInfo] EventItemBag loaded successfully
+17:15:31 [AntiFlood] File Loaded Successfull!
+17:15:31 [ServerInfo] Hack loaded successfully
+17:15:31 [ServerInfo] Item loaded successfully
+17:15:31 [ServerInfo] Monster loaded successfully
+17:15:31 [ServerInfo] Move loaded successfully
+17:15:31 [ServerInfo] Quest loaded successfully
+17:15:31 [ServerInfo] Shop loaded successfully
+17:15:31 [ServerInfo] Skill loaded successfully
+17:15:31 [ServerInfo] Util loaded successfully
+17:15:31 [ReadBotInfo] BotSystem loaded successfully
+17:15:36 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:16:03 [Obj][11000] AddClient (25.60.79.171)
+17:16:17 [Obj][11000] DelClient (25.60.79.171)
+17:17:44 [ServerInfo] CashShop loaded successfully
+17:17:44 [ServerInfo] ChaosMix loaded successfully
+17:17:44 [ServerInfo] Character loaded successfully
+17:17:44 [ServerInfo] Custom loaded successfully
+17:17:44 [ServerInfo] Command loaded successfully
+17:17:44 [ServerInfo] Common loaded successfully
+17:17:44 [ Crywolf ] State (0) -> NONE
+17:17:44 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+17:17:44 [ServerInfo] Event loaded successfully
+17:17:44 [ServerInfo] EventItemBag loaded successfully
+17:17:44 [AntiFlood] File Loaded Successfull!
+17:17:44 [ServerInfo] Hack loaded successfully
+17:17:44 [ServerInfo] Item loaded successfully
+17:17:44 [ServerInfo] Monster loaded successfully
+17:17:44 [ServerInfo] Move loaded successfully
+17:17:44 [ServerInfo] Quest loaded successfully
+17:17:44 [ServerInfo] Shop loaded successfully
+17:17:44 [ServerInfo] Skill loaded successfully
+17:17:44 [ServerInfo] Util loaded successfully
+17:17:44 [ReadBotInfo] BotSystem loaded successfully
+17:17:48 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:18:15 [Obj][11000] AddClient (25.60.79.171)
+17:18:17 [Obj][11000] DelClient (25.60.79.171)
+17:19:28 [Obj][11000] AddClient (25.60.51.186)
+17:19:33 [Obj][11000] DelClient (25.60.51.186)
+17:22:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+17:22:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+17:23:12 [Obj][11000] AddClient (25.60.79.171)
+17:23:14 [Obj][11000] DelClient (25.60.79.171)
+17:23:42 [Obj][11000] AddClient (25.60.79.171)
+17:23:44 [Obj][11000] DelClient (25.60.79.171)
+17:27:46 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:27:46 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:32:47 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+17:32:47 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+17:33:55 [Obj][11000] AddClient (25.60.79.171)
+17:34:00 [Obj][11000] DelClient (25.60.79.171)
+17:36:01 [OnlineLoterry] No Winner
+17:37:48 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:37:48 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:42:49 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:42:49 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+17:46:46 [ServerInfo] CashShop loaded successfully
+17:46:46 [ServerInfo] ChaosMix loaded successfully
+17:46:46 [ServerInfo] Character loaded successfully
+17:46:46 [ServerInfo] Custom loaded successfully
+17:46:46 [ServerInfo] Command loaded successfully
+17:46:46 [ServerInfo] Common loaded successfully
+17:46:46 [ Crywolf ] State (0) -> NONE
+17:46:46 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+17:46:46 [ServerInfo] Event loaded successfully
+17:46:46 [ServerInfo] EventItemBag loaded successfully
+17:46:46 [AntiFlood] File Loaded Successfull!
+17:46:46 [ServerInfo] Hack loaded successfully
+17:46:46 [ServerInfo] Item loaded successfully
+17:46:46 [ServerInfo] Monster loaded successfully
+17:46:46 [ServerInfo] Move loaded successfully
+17:46:46 [ServerInfo] Quest loaded successfully
+17:46:46 [ServerInfo] Shop loaded successfully
+17:46:47 [ServerInfo] Skill loaded successfully
+17:46:47 [ServerInfo] Util loaded successfully
+17:46:47 [ReadBotInfo] BotSystem loaded successfully
+17:46:51 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:47:05 [Obj][11000] AddClient (25.60.79.171)
+17:47:19 [Obj][11000] DelClient (25.60.79.171)
+17:49:24 [ServerInfo] CashShop loaded successfully
+17:49:24 [ServerInfo] ChaosMix loaded successfully
+17:49:24 [ServerInfo] Character loaded successfully
+17:49:24 [ServerInfo] Custom loaded successfully
+17:49:24 [ServerInfo] Command loaded successfully
+17:49:24 [ServerInfo] Common loaded successfully
+17:49:24 [ Crywolf ] State (0) -> NONE
+17:49:24 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+17:49:24 [ServerInfo] Event loaded successfully
+17:49:24 [ServerInfo] EventItemBag loaded successfully
+17:49:24 [AntiFlood] File Loaded Successfull!
+17:49:24 [ServerInfo] Hack loaded successfully
+17:49:24 [ServerInfo] Item loaded successfully
+17:49:24 [ServerInfo] Monster loaded successfully
+17:49:24 [ServerInfo] Move loaded successfully
+17:49:24 [ServerInfo] Quest loaded successfully
+17:49:24 [ServerInfo] Shop loaded successfully
+17:49:24 [ServerInfo] Skill loaded successfully
+17:49:24 [ServerInfo] Util loaded successfully
+17:49:24 [ReadBotInfo] BotSystem loaded successfully
+17:49:29 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:49:56 [Obj][11000] AddClient (25.60.79.171)
+17:49:58 [Obj][11000] DelClient (25.60.79.171)
+17:50:23 [ServerInfo] CashShop loaded successfully
+17:50:23 [ServerInfo] ChaosMix loaded successfully
+17:50:23 [ServerInfo] Character loaded successfully
+17:50:23 [ServerInfo] Custom loaded successfully
+17:50:23 [ServerInfo] Command loaded successfully
+17:50:23 [ServerInfo] Common loaded successfully
+17:50:23 [ Crywolf ] State (0) -> NONE
+17:50:23 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+17:50:23 [ServerInfo] Event loaded successfully
+17:50:23 [ServerInfo] EventItemBag loaded successfully
+17:50:23 [AntiFlood] File Loaded Successfull!
+17:50:23 [ServerInfo] Hack loaded successfully
+17:50:23 [ServerInfo] Item loaded successfully
+17:50:23 [ServerInfo] Monster loaded successfully
+17:50:23 [ServerInfo] Move loaded successfully
+17:50:23 [ServerInfo] Quest loaded successfully
+17:50:23 [ServerInfo] Shop loaded successfully
+17:50:23 [ServerInfo] Skill loaded successfully
+17:50:23 [ServerInfo] Util loaded successfully
+17:50:23 [ReadBotInfo] BotSystem loaded successfully
+17:50:28 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:50:46 [Obj][11000] AddClient (25.60.79.171)
+17:50:57 [Obj][11000] DelClient (25.60.79.171)
+17:57:20 [ServerInfo] CashShop loaded successfully
+17:57:20 [ServerInfo] ChaosMix loaded successfully
+17:57:20 [ServerInfo] Character loaded successfully
+17:57:20 [ServerInfo] Custom loaded successfully
+17:57:20 [ServerInfo] Command loaded successfully
+17:57:20 [ServerInfo] Common loaded successfully
+17:57:20 [ Crywolf ] State (0) -> NONE
+17:57:20 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+17:57:20 [ServerInfo] Event loaded successfully
+17:57:20 [ServerInfo] EventItemBag loaded successfully
+17:57:20 [AntiFlood] File Loaded Successfull!
+17:57:20 [ServerInfo] Hack loaded successfully
+17:57:20 [ServerInfo] Item loaded successfully
+17:57:20 [ServerInfo] Monster loaded successfully
+17:57:20 [ServerInfo] Move loaded successfully
+17:57:20 [ServerInfo] Quest loaded successfully
+17:57:20 [ServerInfo] Shop loaded successfully
+17:57:20 [ServerInfo] Skill loaded successfully
+17:57:20 [ServerInfo] Util loaded successfully
+17:57:20 [ReadBotInfo] BotSystem loaded successfully
+17:57:24 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+17:58:52 [Obj][11000] AddClient (25.60.79.171)
+17:59:05 [Obj][11000] DelClient (25.60.79.171)
+18:10:04 [ServerInfo] CashShop loaded successfully
+18:10:04 [ServerInfo] ChaosMix loaded successfully
+18:10:04 [ServerInfo] Character loaded successfully
+18:10:04 [ServerInfo] Custom loaded successfully
+18:10:04 [ServerInfo] Command loaded successfully
+18:10:04 [ServerInfo] Common loaded successfully
+18:10:04 [ Crywolf ] State (0) -> NONE
+18:10:04 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+18:10:04 [ServerInfo] Event loaded successfully
+18:10:04 [ServerInfo] EventItemBag loaded successfully
+18:10:04 [AntiFlood] File Loaded Successfull!
+18:10:04 [ServerInfo] Hack loaded successfully
+18:10:04 [ServerInfo] Item loaded successfully
+18:10:04 [ServerInfo] Monster loaded successfully
+18:10:04 [ServerInfo] Move loaded successfully
+18:10:04 [ServerInfo] Quest loaded successfully
+18:10:04 [ServerInfo] Shop loaded successfully
+18:10:04 [ServerInfo] Skill loaded successfully
+18:10:04 [ServerInfo] Util loaded successfully
+18:10:04 [ReadBotInfo] BotSystem loaded successfully
+18:10:09 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+18:10:47 [Obj][11000] AddClient (25.60.79.171)
+18:10:52 [Obj][11000] DelClient (25.60.79.171)
+18:12:58 [ServerInfo] CashShop loaded successfully
+18:12:58 [ServerInfo] ChaosMix loaded successfully
+18:12:58 [ServerInfo] Character loaded successfully
+18:12:58 [ServerInfo] Custom loaded successfully
+18:12:58 [ServerInfo] Command loaded successfully
+18:12:58 [ServerInfo] Common loaded successfully
+18:12:58 [ Crywolf ] State (0) -> NONE
+18:12:58 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+18:12:58 [ServerInfo] Event loaded successfully
+18:12:59 [ServerInfo] EventItemBag loaded successfully
+18:12:59 [AntiFlood] File Loaded Successfull!
+18:12:59 [ServerInfo] Hack loaded successfully
+18:12:59 [ServerInfo] Item loaded successfully
+18:12:59 [ServerInfo] Monster loaded successfully
+18:12:59 [ServerInfo] Move loaded successfully
+18:12:59 [ServerInfo] Quest loaded successfully
+18:12:59 [ServerInfo] Shop loaded successfully
+18:12:59 [ServerInfo] Skill loaded successfully
+18:12:59 [ServerInfo] Util loaded successfully
+18:12:59 [ReadBotInfo] BotSystem loaded successfully
+18:13:03 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+18:13:25 [Obj][11000] AddClient (25.60.79.171)
+18:13:33 [Obj][11000] DelClient (25.60.79.171)
+18:17:52 [ServerInfo] CashShop loaded successfully
+18:17:52 [ServerInfo] ChaosMix loaded successfully
+18:17:52 [ServerInfo] Character loaded successfully
+18:17:52 [ServerInfo] Custom loaded successfully
+18:17:52 [ServerInfo] Command loaded successfully
+18:17:52 [ServerInfo] Common loaded successfully
+18:17:52 [ Crywolf ] State (0) -> NONE
+18:17:52 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+18:17:52 [ServerInfo] Event loaded successfully
+18:17:52 [ServerInfo] EventItemBag loaded successfully
+18:17:52 [AntiFlood] File Loaded Successfull!
+18:17:52 [ServerInfo] Hack loaded successfully
+18:17:52 [ServerInfo] Item loaded successfully
+18:17:52 [ServerInfo] Monster loaded successfully
+18:17:52 [ServerInfo] Move loaded successfully
+18:17:52 [ServerInfo] Quest loaded successfully
+18:17:52 [ServerInfo] Shop loaded successfully
+18:17:52 [ServerInfo] Skill loaded successfully
+18:17:52 [ServerInfo] Util loaded successfully
+18:17:52 [ReadBotInfo] BotSystem loaded successfully
+18:17:57 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+18:18:24 [Obj][11000] AddClient (25.60.79.171)
+18:18:31 [Obj][11000] AddAccount (teszt1)
+18:18:36 [Obj][11000] LogInCharacter (CSICSKAVVA)
+18:22:53 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+18:22:53 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+18:27:54 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+18:27:54 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+18:32:55 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+18:32:55 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+18:36:01 [OnlineLoterry] Add Member (CSICSKAVVA)
+18:36:01 [OnlineLoterry] Winner (CSICSKAVVA)
+18:36:01 [teszt1][CSICSKAVVA] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+18:37:57 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+18:37:57 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+18:41:34 [Obj][11001] AddClient (25.60.51.186)
+18:41:52 [Obj][11001] AddAccount (SonXeeZ)
+18:42:01 [Obj][11001] LogInCharacter (adminusz)
+18:42:57 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+18:42:57 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+18:43:34 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:43:44 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:43:45 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:43:54 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:43:56 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:43:57 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:44:03 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:44:04 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:44:09 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:44:23 [SonXeeZ][adminusz] WZ_SetCoin(Monster Coins) Val1: 1, Val2: 0, Val3: 0, ruud: 0
+18:45:09 [ServerInfo] Monster loaded successfully
+18:45:19 [ServerInfo] Monster loaded successfully
+18:46:55 [ServerInfo] Monster loaded successfully
+18:47:59 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+18:47:59 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 157 Y: 59)
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 157 Y: 59)
+18:52:59 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+18:52:59 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+18:58:00 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+18:58:00 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+19:03:01 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:03:01 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:08:02 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:08:02 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:10:00 [CustomQuiz] Start
+19:13:00 [CustomQuiz] Finish
+19:13:03 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+19:13:03 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0

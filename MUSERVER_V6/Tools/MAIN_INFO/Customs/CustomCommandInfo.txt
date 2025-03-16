@@ -1,0 +1,20 @@
+// Add info commands in custom menu
+// Colors:
+// 1 - Gold
+// 2 - White
+// 3 - Orange
+// 4 - Red
+// 5 - Green
+// 6 - Yellow
+// 7 - Purple
+/////////////////////////////////////////////////////////////////////////////////////////
+//	#ID	#Color	#CommandInfo 		#CommandDescription			 	
+	0	2	"/move <Map>"		"Move to a map"				
+	1	2	"/post <Msg>"		"Post a message in global chat"		
+	2	2	"/str <points>"		"Add points in Str"				
+	3	2	"/agi <points>"		"Add points in Agi"				
+	4	2	"/vit <points>"		"Add points in Vit"				
+	5	2	"/ene <points>"		"Add points in Ene"				
+	6	2	"/c <points>"		"Add points in Com"			
+	7	2	"/inoob"			"Summoned helpers for you =) max:200lvl"	
+end

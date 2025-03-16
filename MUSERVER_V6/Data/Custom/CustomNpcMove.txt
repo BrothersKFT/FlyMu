@@ -1,0 +1,14 @@
+// ============================================================
+// MUGAMES DEVELOP VENEZUELA
+// ============================================================
+// MU Online Season 6 Episode 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//  INFO:
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Skype: MaxVoll
+// http://www.facebook.com/mugames.online
+// ============================================================
+//
+//Index   Npc       Name        NpcMap    NpcX    NpcY   MoveMap  MoveX  MoveY  MinLevel    MaxLevel     MinReset   MaxReset    MinMReset    MaxMReset   AccountLevel   PKMove  ItemCat  ItemIndex      ItemLevel    ItemLuck   ItemSkill      Cantidad         Comment
+0         450   SKY_EVENT     0      114     132       89     61     201      *            *           *           *            *           *            *            1       12         15            *            *           *             1       // TEST
+end

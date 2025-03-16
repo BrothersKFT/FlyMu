@@ -1,0 +1,32 @@
+0
+//Mode   State   Month   Day   DayOfWeek   Hour   Minute   ContinuanceTime
+end
+
+1
+//State   Hour   Minute   Second
+end
+
+2
+//AIGroupNumber
+end
+
+3
+//Group   TurnUpTime
+end
+
+4
+//AIChangeTime
+end
+
+5
+//MVPScoreTable1   MVPScoreTable2   MVPScoreTable3   MVPScoreTable4   MVPScoreTable5   MVPScoreTable6   MVPScoreTable7
+end
+
+6
+//MVPRankScoreTable1   MVPRankScoreTable2   MVPRankScoreTable3   MVPRankScoreTable4   MVPRankScoreTable5
+end
+
+7
+//MVPRankExpTable1   MVPRankExpTable2   MVPRankExpTable3   MVPRankExpTable4   MVPRankExpTable5
+0	             200000	        800000	           1200000	      1800000
+end

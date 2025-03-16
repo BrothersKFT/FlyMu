@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Processes>
+  <Process Run="True" Delay="1000" Path="D:\MuOnline\MuEmu\[PG]WAR_X\xPROYECTOx\MuServer\ConnectServer\ConnectServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="D:\MuOnline\MuEmu\[PG]WAR_X\xPROYECTOx\MuServer\JoinServer\JoinServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="D:\MuOnline\MuEmu\[PG]WAR_X\xPROYECTOx\MuServer\DataServer\DataServer.exe" Parameters="" />
+  <Process Run="False" Delay="1000" Path="D:\MuOnline\MuEmu\[PG]WAR_X\xPROYECTOx\MuServer\GameServer\GameServer.exe" Parameters="" />
+</Processes>

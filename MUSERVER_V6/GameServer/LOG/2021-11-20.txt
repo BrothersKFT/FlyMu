@@ -1,0 +1,496 @@
+00:04:42 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+00:04:42 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 200 Y: 78)
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 200 Y: 78)
+00:09:43 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+00:09:43 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+00:10:00 [CustomQuiz] Start
+00:13:00 [CustomQuiz] Finish
+00:14:44 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+00:14:44 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 35 Y: 170)
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 35 Y: 170)
+00:19:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+00:19:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+00:24:46 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+00:24:46 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+00:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 39 Y: 74)
+00:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 39 Y: 74)
+00:29:47 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+00:29:47 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+00:34:48 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+00:34:48 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+00:36:01 [OnlineLoterry] Add Member (Carajito)
+00:36:01 [OnlineLoterry] Winner (Carajito)
+00:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+00:39:49 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+00:39:49 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+00:44:50 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+00:44:50 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+00:49:51 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+00:49:51 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 158 Y: 52)
+00:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 158 Y: 52)
+00:54:52 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+00:54:52 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+00:59:53 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+00:59:53 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+01:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 51 Y: 106)
+01:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 51 Y: 106)
+01:04:54 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+01:04:54 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+01:09:55 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+01:09:55 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+01:10:00 [CustomQuiz] Start
+01:13:00 [CustomQuiz] Finish
+01:14:56 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+01:14:56 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+01:19:57 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+01:19:57 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+01:24:58 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+01:24:58 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+01:29:59 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+01:29:59 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+01:35:00 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+01:35:00 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+01:36:01 [OnlineLoterry] Add Member (Carajito)
+01:36:01 [OnlineLoterry] Winner (Carajito)
+01:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+01:40:01 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+01:40:01 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+01:45:02 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+01:45:02 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+01:50:03 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+01:50:03 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+01:55:04 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+01:55:04 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+02:00:05 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+02:00:05 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+02:05:06 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+02:05:06 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+02:10:00 [CustomQuiz] Start
+02:10:07 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+02:10:07 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+02:13:00 [CustomQuiz] Finish
+02:15:08 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+02:15:08 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+02:20:09 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+02:20:09 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+02:25:10 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+02:25:10 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+02:30:11 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+02:30:11 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+02:35:12 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+02:35:12 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+02:36:01 [OnlineLoterry] Add Member (Carajito)
+02:36:01 [OnlineLoterry] Winner (Carajito)
+02:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+02:40:13 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+02:40:13 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+02:45:14 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+02:45:14 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+02:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 160 Y: 52)
+02:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 160 Y: 52)
+02:50:15 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+02:50:15 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+02:55:16 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+02:55:16 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+03:00:17 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+03:00:17 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+03:05:18 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+03:05:18 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+03:10:00 [CustomQuiz] Start
+03:10:19 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+03:10:19 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+03:13:00 [CustomQuiz] Finish
+03:15:20 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+03:15:20 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+03:20:21 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+03:20:21 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+03:25:22 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+03:25:22 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+03:30:23 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+03:30:23 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+03:35:24 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+03:35:24 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+03:36:01 [OnlineLoterry] Add Member (Carajito)
+03:36:01 [OnlineLoterry] Winner (Carajito)
+03:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+03:40:25 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+03:40:25 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+03:45:26 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+03:45:26 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+03:50:27 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+03:50:27 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+03:55:28 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+03:55:28 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+04:00:29 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+04:00:29 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+04:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 130 Y: 200)
+04:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 130 Y: 200)
+04:05:30 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:05:30 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:10:00 [CustomQuiz] Start
+04:10:31 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+04:10:31 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+04:13:00 [CustomQuiz] Finish
+04:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 22 Y: 45)
+04:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 22 Y: 45)
+04:15:32 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:15:32 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:20:33 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+04:20:33 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+04:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 108 Y: 159)
+04:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 108 Y: 159)
+04:25:34 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:25:34 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:30:35 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:30:35 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:35:36 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+04:35:36 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+04:36:01 [OnlineLoterry] Add Member (Carajito)
+04:36:01 [OnlineLoterry] Winner (Carajito)
+04:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+04:40:37 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+04:40:37 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+04:45:38 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+04:45:38 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+04:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 194 Y: 85)
+04:50:00 [Invasion Manager] Index(3) Boss Position (Map: 3 X: 194 Y: 85)
+04:50:39 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+04:50:39 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+04:55:40 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+04:55:40 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 154 Y: 10)
+05:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 154 Y: 10)
+05:00:41 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+05:00:41 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+05:05:42 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+05:05:42 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+05:10:00 [CustomQuiz] Start
+05:10:43 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+05:10:43 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+05:13:00 [CustomQuiz] Finish
+05:15:44 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+05:15:44 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+05:20:45 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+05:20:45 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+05:25:46 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+05:25:46 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+05:30:47 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+05:30:47 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+05:35:48 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:35:48 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:36:01 [OnlineLoterry] Add Member (Carajito)
+05:36:01 [OnlineLoterry] Winner (Carajito)
+05:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+05:40:49 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:40:49 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:45:50 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:45:50 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:50:51 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:50:51 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:55:52 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+05:55:52 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+06:00:53 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+06:00:53 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+06:05:54 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+06:05:54 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+06:10:00 [CustomQuiz] Start
+06:10:55 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+06:10:55 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+06:13:00 [CustomQuiz] Finish
+06:15:56 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+06:15:56 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+06:20:57 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+06:20:57 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+06:25:58 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+06:25:58 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+06:30:59 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+06:30:59 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+06:36:00 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+06:36:00 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+06:36:01 [OnlineLoterry] Add Member (Carajito)
+06:36:01 [OnlineLoterry] Winner (Carajito)
+06:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+06:41:01 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+06:41:01 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+06:46:02 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+06:46:02 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+06:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 163 Y: 14)
+06:50:00 [Invasion Manager] Index(7) Boss Position (Map: 2 X: 163 Y: 14)
+06:51:03 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+06:51:03 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+06:56:04 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+06:56:04 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+07:01:05 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+07:01:05 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+07:06:06 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+07:06:06 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+07:10:00 [CustomQuiz] Start
+07:11:07 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+07:11:07 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+07:13:00 [CustomQuiz] Finish
+07:16:08 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+07:16:08 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+07:21:09 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+07:21:09 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+07:26:10 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+07:26:10 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+07:31:11 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+07:31:11 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+07:36:01 [OnlineLoterry] Add Member (Carajito)
+07:36:01 [OnlineLoterry] Winner (Carajito)
+07:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+07:36:12 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+07:36:12 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+07:41:13 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+07:41:13 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+07:46:14 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+07:46:14 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+07:51:15 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+07:51:15 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+07:56:16 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+07:56:16 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+08:01:17 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+08:01:17 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+08:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 202 Y: 78)
+08:05:00 [Invasion Manager] Index(0) Boss Position (Map: 3 X: 202 Y: 78)
+08:06:18 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+08:06:18 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+08:10:00 [CustomQuiz] Start
+08:11:19 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+08:11:19 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+08:13:00 [CustomQuiz] Finish
+08:15:01 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 204 Y: 87)
+08:15:01 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 204 Y: 87)
+08:16:20 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+08:16:20 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+08:21:21 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+08:21:21 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+08:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 76 Y: 232)
+08:25:00 [Invasion Manager] Index(2) Boss Position (Map: 37 X: 76 Y: 232)
+08:26:22 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+08:26:22 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+08:31:23 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+08:31:23 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+08:36:01 [OnlineLoterry] Add Member (Carajito)
+08:36:01 [OnlineLoterry] Winner (Carajito)
+08:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+08:36:24 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+08:36:24 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+08:41:25 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+08:41:25 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+08:46:26 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+08:46:26 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+08:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 155 Y: 61)
+08:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 155 Y: 61)
+08:51:27 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+08:51:27 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+08:56:28 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+08:56:28 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+09:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 180 Y: 123)
+09:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 180 Y: 123)
+09:01:29 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+09:01:29 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+09:06:30 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+09:06:30 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+09:10:00 [CustomQuiz] Start
+09:11:31 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+09:11:31 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+09:13:00 [CustomQuiz] Finish
+09:16:32 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+09:16:32 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+09:21:33 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+09:21:33 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+09:26:34 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+09:26:34 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+09:31:35 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+09:31:35 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+09:36:01 [OnlineLoterry] Add Member (Carajito)
+09:36:01 [OnlineLoterry] Winner (Carajito)
+09:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+09:36:36 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+09:36:36 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+09:41:37 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+09:41:37 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+09:46:38 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+09:46:38 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+09:51:39 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+09:51:39 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+09:56:40 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+09:56:40 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+10:01:41 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+10:01:41 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+10:06:42 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:06:42 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:10:00 [CustomQuiz] Start
+10:11:43 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:11:43 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:13:00 [CustomQuiz] Finish
+10:16:44 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:16:44 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:21:45 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:21:45 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:26:46 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+10:26:46 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+10:31:47 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+10:31:47 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+10:36:01 [OnlineLoterry] Add Member (Carajito)
+10:36:01 [OnlineLoterry] Winner (Carajito)
+10:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+10:36:48 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+10:36:48 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+10:41:49 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:41:49 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+10:46:50 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+10:46:50 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+10:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 148 Y: 53)
+10:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 148 Y: 53)
+10:51:51 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+10:51:51 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+10:56:52 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+10:56:52 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+11:01:53 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+11:01:53 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+11:06:54 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+11:06:54 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+11:10:00 [CustomQuiz] Start
+11:11:55 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+11:11:55 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+11:13:00 [CustomQuiz] Finish
+11:16:56 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+11:16:56 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+11:21:57 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+11:21:57 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+11:26:58 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+11:26:58 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+11:31:59 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+11:31:59 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+11:36:01 [OnlineLoterry] Add Member (Carajito)
+11:36:01 [OnlineLoterry] Winner (Carajito)
+11:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+11:37:00 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+11:37:00 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+11:42:01 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+11:42:01 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+11:47:02 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+11:47:02 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+11:52:03 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+11:52:03 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+11:57:04 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+11:57:04 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+12:02:05 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+12:02:05 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+12:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 130 Y: 195)
+12:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 130 Y: 195)
+12:07:06 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+12:07:06 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+12:10:00 [CustomQuiz] Start
+12:12:07 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:12:07 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:13:00 [CustomQuiz] Finish
+12:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 85 Y: 181)
+12:15:00 [Invasion Manager] Index(1) Boss Position (Map: 0 X: 85 Y: 181)
+12:17:08 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+12:17:08 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+12:22:09 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+12:22:09 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+12:27:10 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:27:10 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:32:11 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:32:11 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:36:01 [OnlineLoterry] Add Member (Carajito)
+12:36:01 [OnlineLoterry] Winner (Carajito)
+12:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+12:37:12 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+12:37:12 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+12:42:13 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+12:42:13 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+12:47:14 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+12:47:14 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+12:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 163 Y: 48)
+12:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 163 Y: 48)
+12:52:15 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:52:15 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:57:16 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+12:57:16 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 131 Y: 166)
+13:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 131 Y: 166)
+13:02:17 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+13:02:17 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+13:07:18 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+13:07:18 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+13:10:00 [CustomQuiz] Start
+13:12:19 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+13:12:19 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+13:13:00 [CustomQuiz] Finish
+13:17:20 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+13:17:20 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+13:22:21 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:22:21 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:27:22 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:27:22 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:32:23 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+13:32:23 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+13:36:01 [OnlineLoterry] Add Member (Carajito)
+13:36:01 [OnlineLoterry] Winner (Carajito)
+13:36:01 [malito][Carajito] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+13:37:24 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:37:24 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:42:25 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:42:25 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:47:26 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+13:47:26 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+13:52:27 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+13:52:27 [TeleporMarlon] - Mapa: 0 PosicionX: 137 PosicionY: 87
+13:57:28 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+13:57:28 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:02:29 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+14:02:29 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+14:07:30 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+14:07:30 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+14:10:00 [CustomQuiz] Start
+14:12:31 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+14:12:31 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+14:13:00 [CustomQuiz] Finish
+14:17:32 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+14:17:32 [TeleporMarlon] - Mapa: 7 PosicionX: 17 PosicionY: 25
+14:22:33 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:22:33 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:27:34 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+14:27:34 [TeleporMarlon] - Mapa: 3 PosicionX: 169 PosicionY: 89
+14:32:35 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:32:35 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+14:33:35 [Obj][11000] LogOutCharacter (Carajito)
+14:33:35 [Obj][11000] LogOutCharacter ()
+14:33:35 [Obj][11000] DelAccount (malito)
+14:33:35 [Obj][11000] DelClient (192.168.0.16)
+21:21:07 [ServerInfo] CashShop loaded successfully
+21:21:07 [ServerInfo] ChaosMix loaded successfully
+21:21:07 [ServerInfo] Character loaded successfully
+21:21:07 [ServerInfo] Custom loaded successfully
+21:21:07 [ServerInfo] Command loaded successfully
+21:21:07 [ServerInfo] Common loaded successfully
+21:21:07 [ Crywolf ] State (0) -> NONE
+21:21:07 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+21:21:07 [ServerInfo] Event loaded successfully
+21:21:09 [ServerInfo] EventItemBag loaded successfully
+21:21:09 [AntiFlood] File Loaded Successfull!
+21:21:09 [ServerInfo] Hack loaded successfully
+21:21:09 [ServerInfo] Item loaded successfully
+21:21:09 [ServerInfo] Monster loaded successfully
+21:21:10 [ServerInfo] Move loaded successfully
+21:21:10 [ServerInfo] Quest loaded successfully
+21:21:10 [ServerInfo] Shop loaded successfully
+21:21:10 [ServerInfo] Skill loaded successfully
+21:21:10 [ServerInfo] Util loaded successfully
+21:21:10 [ReadBotInfo] BotSystem loaded successfully
+21:21:14 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+21:21:53 [Obj][11000] AddClient (192.168.0.16)
+21:21:56 [Obj][11000] AddAccount (malito)
+21:21:59 [Obj][11000] LogInCharacter (Carajito)
+21:23:21 [Obj][11000] LogOutCharacter (Carajito)
+21:23:21 [Obj][11000] LogOutCharacter ()
+21:23:21 [Obj][11000] DelAccount (malito)
+21:23:21 [Obj][11000] DelClient (192.168.0.16)

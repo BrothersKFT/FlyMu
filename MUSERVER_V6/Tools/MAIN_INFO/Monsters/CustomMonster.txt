@@ -1,0 +1,70 @@
+// ----------------------------------------------------------------------------------
+// Type = 0: NPC
+// Type = 1: Monster
+// ----------------------------------------------------------------------------------
+// MonsterID | Type 	| Name 					| Dir 								| Folder 						| BMDFile 			| Size
+// ----------------------------------------------------------------------------------
+601	    0		"SpiritNixie"			        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "SpiritOfNixies"	    2.00
+700		1	"Debenter Devilfairy"               "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster240"	        1.50
+701		1	"Debenter E. Beast"                 "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster241"	        0.80
+702		1	"Debenter E. Knight"                "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster242"	        0.60
+703		1	"Urk Devil Fairy"                   "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster260"	        1.00
+704		1	"Urk Elemental Beast"               "Data\\Custom\\Monster\\"   "Custom\\Monster\\"	   "Monster261"	        1.00
+705		1	"Urk Elemental Knight"              "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster262"	        1.00
+706		1	"Lord Silvester"                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster263"		    1.10
+707		1	"Nars Devil Fairy"                  "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster274"		    1.00
+708		1	"Nars Elemental Beast"              "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster275"	        1.00
+709		1	"Nars Elemental Knight"             "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster276"	        1.00
+710		1	"Core Magriffy"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster277"		    1.10
+711		1	"Salamander"                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster225"	        1.00
+712		1	"Undine"                            "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster224"	        1.10
+713		1	"Sylphid"                           "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster226"	        1.30
+714		1	"Gnome"                             "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster246"	        0.80
+715		1	"Hellraiser"                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster228"	        1.00
+716		1	"Sellihoden"                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster225"	        1.00
+717		1	"Ukanva"                            "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster224"		    1.10
+718		1	"Silla"                             "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster227"	        0.80
+719		1	"Normus"                            "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster226"		    1.30
+720		1	"Muff"                              "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "monster228"	        1.00
+721		1	"Ferea Knight"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster286"		    0.50
+722		1	"Ferea Archer"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster287"		    0.50
+723		1	"Ferea Fighter"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster288"		    0.50
+724		1	"Ferea General"                     "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster289"	        3.00
+725		1   "Lord of Ferea"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster290"		    0.75
+726		1	"Ferea Crystal Orb"                 "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Fereaorb"	        1.10
+727		1	"Paraca"	                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster299"		    1.20
+728		1	"Bass"	                            "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster300"		    1.10
+729		1	"Vasuki"	                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster301"		    1.10
+730		1	"Boss Nix"	                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster302"		    1.20
+731		1	"Mindigger"	                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster338"		    1.00
+732		1	"Main Carrier"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster339"		    1.00
+733		1	"Mine Porter"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster340"		    1.00
+734		1	"Main Driller"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster341"		    1.00
+735		1	"Dead Digger"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster342"		    1.00
+736		1	"Dead Showbell"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster343"		    1.00
+737		1	"Dead Porter"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster344"		    1.00
+738		1	"Swamp Ent"	                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster324"		    1.00
+739		1	"Wooden Beast"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster325"		    1.00
+740	    1	"Swamp Wizard"	                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster326"		    1.00
+741		1	"Mutanlite"	                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster327"		    1.00
+742		1	"Monster of the Swamp"	            "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster328"		    1.30
+743   	1	"Monster of the Water"	            "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster331"		    1.30
+744		1	"God of Darkness"                   "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster332"		    1.30
+745		0	"Quest"                             "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "guardlancer"	    1.00
+746		1	"Deep D Larva"                      "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster315"	        0.80
+747		1	"Deep D Cyclops"                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster316"	        0.95
+748		1	"Deep D Ghost"                      "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster317"	        1.00
+749		1	"Deep D HellHound"                  "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster318"	        1.00
+750		1	"Deep D Hell Spider"                "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster319"	        1.15
+751		1	"Deep D Thunder Lich"               "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster320"	        1.05
+752		1	"Deep D Poison Bull F"              "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster321"	        1.05
+753		1	"Deep D Dark Knight"                "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster322"	        0.90
+754		1	"Deep D Gorgon"                     "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster323"	        1.55
+755		1	"Elemental Beast"                   "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster219"	        1.60
+756		1	"Elemental Knight"                  "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster220"	        1.50
+757		1	"Ubaid Devilfairy"                  "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster221"	        1.20
+758		1	"Ubaid Elemental Beast"             "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster222"	        1.60
+759		1	"Ubaid Elemental Knight"            "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster223"	        0.90
+760		1	"Devilfairy"                        "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster218"	        1.20
+772		0	"Priest James"                      "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "James"	        	3.05
+end

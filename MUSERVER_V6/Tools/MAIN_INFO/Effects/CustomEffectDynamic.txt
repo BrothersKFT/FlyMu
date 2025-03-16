@@ -1,0 +1,19 @@
+//ItemIndex   EffectIndex   EffectValue   EffectLevel   ColorR   ColorG   ColorB  EffectType     EffectSize   ColorSide
+//Horn of Steal (hornofsteel.bmd)
+1044 32395 9 0 0.25 0.25 0.25 0.0 0.0 0.0
+1044 32395 10 0 0.25 0.25 0.25 0.0 0.0 0.0
+1044 32395 11 0 0.25 0.25 0.25 0.0 0.0 0.0
+1044 32395 12 0 0.25 0.25 0.25 0.0 0.0 0.0
+1044 32395 13 0 0.25 0.25 0.25 0.0 0.0 0.0
+1044 32395 14 0 0.25 0.25 0.25 0.0 0.0 0.0
+//Magmus Peer (MagmaSpear.bmd)
+1548 32389 2 0 1.00 0.18 0.00 0.0 0.0 0.5
+1548 32389 4 0 1.00 0.18 0.00 0.0 0.0 0.5
+1548 32389 7 0 1.00 0.18 0.00 0.0 0.0 0.5
+//Spite Staff (kerberos_spear_dark_road.bmd)
+2597 32392 3 0 1.00 1.00 1.00 0.0 0.0 0.5
+//Angelic Bow (bow26.bmd)
+2073 32119 13 0 0.50 0.87 0.40 0.0 -0.5 0.2
+//Thunderbolt (thunder_bolt.bmd)
+1043 32119 7 0 0.20 0.46 0.90 1.0 -0.5 1.0
+end

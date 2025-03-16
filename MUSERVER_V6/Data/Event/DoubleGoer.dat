@@ -1,0 +1,11 @@
+0
+//NotifyTime   EventTime   CloseTime
+end
+
+1
+//MonsterAIUnitNumber1   MonsterAIUnitNumber2   MonsterAIUnitNumber3   MonsterAIUnitNumber4
+end
+
+2
+//Index   Level1   Level2   Level3   Level4   Level5   MaxLife1   MaxLife2   MaxLife3   MaxLife4   MaxLife5   Damage1   Damage2   Damage3   Damage4   Damage5   Defense1   Defense2   Defense3   Defense4   Defense5
+end

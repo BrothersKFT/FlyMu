@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////
+//Shop Editor cortesia de www.fb.com/igkgamers
+///////////////////////////
+//Aporte de www.fb.com/karuritoku
+///////////////////////////
+//Shop: 008 - Zienna the Weapon Merchant
+/////////////////////////////////////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Acc	JoH	Oex	Sck[1]	Sck[2]	Sck[3]	Sck[4]	Sck[5]	Info
+/////////////////////////////////////////////////////////////////////////////
+//
+8	15	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Storm Crow Armor
+9	15	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Storm Crow Pants
+10	15	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Storm Crow Gloves
+11	15	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Storm Crow Boots
+8	20	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Thunder Hawk Armor
+9	20	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Thunder Hawk Pants
+10	20	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Thunder Hawk Gloves
+11	20	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Thunder Hawk Boots
+0	18	6	0	1	1	4	0	0	0	0	255	255	255	255	255	//Thunder Blade
+0	31	6	0	1	1	4	0	0	0	0	255	255	255	255	255	//Knight Blade
+12	16	0	0	0	0	0	0	0	0	0	255	255	255	255	255	//Orb of Fire Slash
+12	47	0	0	0	0	0	0	0	0	0	255	255	255	255	255	//Crystal of Flame Strike
+end

@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////////////////////////
+//Shop Editor cortesia de www.fb.com/igkgamers
+///////////////////////////
+//Aporte de www.fb.com/karuritoku
+///////////////////////////
+//Shop: 007 - Isabel the Wizard
+/////////////////////////////////////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Acc	JoH	Oex	Sck[1]	Sck[2]	Sck[3]	Sck[4]	Sck[5]	Info
+/////////////////////////////////////////////////////////////////////////////
+//
+13	18	1	0	0	0	0	0	0	0	0	255	255	255	255	255	//Invisibility Cloak
+13	18	2	0	0	0	0	0	0	0	0	255	255	255	255	255	//Invisibility Cloak
+13	18	3	0	0	0	0	0	0	0	0	255	255	255	255	255	//Invisibility Cloak
+13	18	4	0	0	0	0	0	0	0	0	255	255	255	255	255	//Invisibility Cloak
+13	18	5	0	0	0	0	0	0	0	0	255	255	255	255	255	//Invisibility Cloak
+13	18	6	0	0	0	0	0	0	0	0	255	255	255	255	255	//Invisibility Cloak
+13	18	7	0	0	0	0	0	0	0	0	255	255	255	255	255	//Invisibility Cloak
+13	29	0	0	0	0	0	0	0	0	0	255	255	255	255	255	//Armor of Guardsman
+14	19	1	0	0	0	0	0	0	0	0	255	255	255	255	255	//Devil's Invitation
+14	19	2	0	0	0	0	0	0	0	0	255	255	255	255	255	//Devil's Invitation
+14	19	3	0	0	0	0	0	0	0	0	255	255	255	255	255	//Devil's Invitation
+14	19	4	0	0	0	0	0	0	0	0	255	255	255	255	255	//Devil's Invitation
+14	19	5	0	0	0	0	0	0	0	0	255	255	255	255	255	//Devil's Invitation
+14	19	6	0	0	0	0	0	0	0	0	255	255	255	255	255	//Devil's Invitation
+end

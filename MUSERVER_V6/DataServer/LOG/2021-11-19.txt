@@ -1,0 +1,47 @@
+20:10:23 [SocketManager] Server started at port [55960]
+20:10:23 [ServerManager][0] AddServer (127.0.0.1)
+20:10:23 [ServerManager][0] ServerInfo (GameServer) (55901) (0)
+20:10:40 [ServerManager][0] DelServer (127.0.0.1)
+20:10:53 [ServerManager][0] AddServer (127.0.0.1)
+20:10:53 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+20:10:54 EXEC EX_RANKING1
+20:10:54 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'EX_RANKING1'.
+20:13:12 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='Super'
+20:13:12 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:13:12 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='Lagarton'
+20:13:12 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:13:12 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='Chorizo'
+20:13:12 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:13:12 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='Perico'
+20:13:12 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:13:12 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='$PETON$#'
+20:13:12 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:13:37 [ServerManager][0] DelServer (127.0.0.1)
+20:18:08 [ServerManager][0] AddServer (127.0.0.1)
+20:18:08 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+20:18:09 EXEC EX_RANKING1
+20:18:09 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'EX_RANKING1'.
+20:18:35 [ServerManager][0] DelServer (127.0.0.1)
+20:19:51 [ServerManager][0] AddServer (127.0.0.1)
+20:19:51 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)
+20:19:52 EXEC EX_RANKING1
+20:19:52 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'EX_RANKING1'.
+20:20:06 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='Super'
+20:20:06 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:20:06 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='Lagarton'
+20:20:06 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:20:06 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='Chorizo'
+20:20:06 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:20:06 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='Perico'
+20:20:06 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:20:06 SELECT cLevel,Class,Inventory,CtlCode,ResetCount,MasterResetCount,LevelPlus FROM Character WHERE AccountID='malito' AND Name='$PETON$#'
+20:20:06 [QueryManager] State (42S22), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'LevelPlus'.
+20:20:48 [ServerManager][0] DelServer (127.0.0.1)
+20:28:59 [ServerManager][0] AddServer (127.0.0.1)
+20:28:59 SELECT ItemCount FROM GameServerInfo WHERE Number=0
+20:28:59 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][Shared Memory]ConnectionWrite (send()).
+20:28:59 [QueryManager] State (08S01), Diagnostic: [Microsoft][ODBC SQL Server Driver][Shared Memory]Error general de red. Consulte la documentación de la red.
+20:28:59 INSERT INTO GameServerInfo (Number,ItemCount,ZenCount,AceItemCount) VALUES (0,0,0,0)
+20:28:59 [QueryManager] State (23000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'PK_GameServerInfo'. Cannot insert duplicate key in object 'dbo.GameServerInfo'.
+20:28:59 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated.
+20:28:59 [ServerManager][0] ServerInfo (MUZXGAMES) (55901) (0)

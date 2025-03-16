@@ -1,0 +1,96 @@
+﻿  stdafx.cpp
+  AllowableIpList.cpp
+  ArcaBattle.cpp
+  BadSyntax.cpp
+  CashShop.cpp
+  CastleDBSet.cpp
+  CharacterManager.cpp
+  CommandManager.cpp
+  CriticalSection.cpp
+  CSProtocol.cpp
+  DataServer.cpp
+  DataServerProtocol.cpp
+  ESProtocol.cpp
+  EventInventory.cpp
+  GensSystem.cpp
+  GuildManager.cpp
+  GuildMatching.cpp
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\CashShop.cpp(548,138): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  (compiling source file '/CashShop.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\CharacterManager.cpp(49,7): error C2039: 'transform': is not a member of 'std'
+  (compiling source file '/CharacterManager.cpp')
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(23,1):
+      see declaration of 'std'
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\CharacterManager.cpp(49,7): error C3861: 'transform': identifier not found
+  (compiling source file '/CharacterManager.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\CharacterManager.cpp(70,7): error C2039: 'transform': is not a member of 'std'
+  (compiling source file '/CharacterManager.cpp')
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(23,1):
+      see declaration of 'std'
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\CharacterManager.cpp(70,7): error C3861: 'transform': identifier not found
+  (compiling source file '/CharacterManager.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\CharacterManager.cpp(92,7): error C2039: 'transform': is not a member of 'std'
+  (compiling source file '/CharacterManager.cpp')
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(23,1):
+      see declaration of 'std'
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\CharacterManager.cpp(92,7): error C3861: 'transform': identifier not found
+  (compiling source file '/CharacterManager.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\CSProtocol.cpp(542,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file '/CSProtocol.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\DataServerProtocol.cpp(3392,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file '/DataServerProtocol.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\DataServerProtocol.cpp(3413,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file '/DataServerProtocol.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\DataServerProtocol.cpp(3423,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file '/DataServerProtocol.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\DataServerProtocol.cpp(3598,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiling source file '/DataServerProtocol.cpp')
+  
+  Helper.cpp
+  Log.cpp
+  LuckyCoin.cpp
+  LuckyItem.cpp
+  Compiling...
+  MasterSkillTree.cpp
+  MemScript.cpp
+  MiniDump.cpp
+  MonsterKillCount.cpp
+  MuRummy.cpp
+  MuunSystem.cpp
+  NpcTalk.cpp
+  PartyMatching.cpp
+  PcPoint.cpp
+  PentagramSystem.cpp
+  PersonalShop.cpp
+  Protect.cpp
+  QueryManager.cpp
+  Quest.cpp
+  QuestWorld.cpp
+  Queue.cpp
+  ReiDoMU.cpp
+  ServerDisplayer.cpp
+  ServerManager.cpp
+  SocketManager.cpp
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\SocketManager.cpp(136,21): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  (compiling source file '/SocketManager.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\SocketManager.cpp(574,39): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  (compiling source file '/SocketManager.cpp')
+  
+D:\Muszerobarimmal\szerver source\DataServerUp\DataServer\SocketManager.cpp(624,36): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  (compiling source file '/SocketManager.cpp')
+  
+  Compiling...
+  Util.cpp
+  Warehouse.cpp
