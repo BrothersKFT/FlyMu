@@ -15,6 +15,7 @@
 244            00             00         125            135            01             //Liaman the Barmaid
 254            00             00         118            113            03             //Pasi the Mage
 385            00             00         055            243            01             //Mirage
+249            00             00         056            244            01             //Guard
 249            00             20         173            125            03             //Guard
 249            00             20         094            130            07             //Guard
 249            00             20         094            125            07             //Guard
@@ -27,8 +28,8 @@
 257            00             00         132            090            03             //Shadow Phantom Soldier
 257            00             00         170            129            01             //Shadow Phantom Soldier
 543            00             00         130            134            03             //Gens Duprian Steward
-544            00             00         130            133            03             //Gens Vanert Steward
-546            00             00         130            121            03             //Jeweler Raul
+544            00             00         130            136            03             //Gens Vanert Steward
+546            00             00         129            118            03             //Jeweler Raul
 566            00             00         139            140            01             //Party Search
 450            00             00         114            132            03             //Cherry Blossom Spirit
 709	       00	      00	 126		143	       03
@@ -173,7 +174,7 @@ end
 577            80             00         121            102            03             //Leina the General Goods Merchan
 578            80             00         117            126            03             //Weapons Merchant Bolo
 240            80             00         123            132            02             //Safety Guardian
-240            80             00         122            096             03             //Safety Guardian
+240            80             00         122            096            03             //Safety Guardian
 240            80             00         157            127            01             //Safety Guardian
 end
 
@@ -698,9 +699,133 @@ end
 354            37             30         134            039            -1             //Blade Hunter
 354            37             30         138            039            -1             //Blade Hunter
 354            37             30         142            041            -1             //Blade Hunter
-355            37             30         108            138            -1             //Persona
-359            37             30         109            158            -1             //Twin Tale
-358            37             30         122            126            -1             //Persona
+355            37             30         137            042            -1             //Kentauros
+355            37             30         136            051            -1             //Kentauros
+355            37             30         117            026            -1             //Kentauros
+354            37             30         120            028            -1             //Blade Hunter
+354            37             30         126            018            -1             //Blade Hunter
+354            37             30         124            025            -1             //Blade Hunter
+354            37             30         116            043            -1             //Blade Hunter
+354            37             30         122            044            -1             //Blade Hunter
+355            37             30         119            055            -1             //Kentauros
+355            37             30         115            065            -1             //Kentauros
+355            37             30         076            053            -1             //Kentauros
+355            37             30         072            062            -1             //Kentauros
+355            37             30         087            071            -1             //Kentauros
+350            37             30         085            061            -1             //Berserker
+356            37             30         087            036            -1             //Gigantis
+350            37             30         085            021            -1             //Berserker
+356            37             30         077            028            -1             //Gigantis
+350            37             30         061            031            -1             //Berserker
+356            37             30         066            021            -1             //Gigantis
+350            37             30         071            020            -1             //Berserker
+356            37             30         059            040            -1             //Gigantis
+350            37             30         046            034            -1             //Berserker
+356            37             30         090            039            -1             //Gigantis
+357            37             30         037            059            -1             //Genocider
+356            37             30         041            037            -1             //Gigantis
+356            37             30         051            032            -1             //Gigantis
+357            37             30         045            070            -1             //Genocider
+357            37             30         035            069            -1             //Genocider
+357            37             30         063            101            -1             //Genocider
+350            37             30         064            097            -1             //Berserker
+350            37             30         066            099            -1             //Berserker
+357            37             30         035            055            -1             //Genocider
+357            37             30         032            076            -1             //Genocider
+357            37             30         058            104            -1             //Genocider
+357            37             30         058            092            -1             //Genocider
+357            37             30         046            102            -1             //Genocider
+350            37             30         048            103            -1             //Berserker
+350            37             30         031            087            -1             //Berserker
+357            37             30         047            054            -1             //Genocider
+350            37             30         050            049            -1             //Berserker
+357            37             30         044            044            -1             //Genocider
+356            37             30         077            019            -1             //Gigantis
+356            37             30         068            028            -1             //Gigantis
+350            37             30         055            104            -1             //Berserker
+350            37             30         038            051            -1             //Berserker
+350            37             30         056            044            -1             //Berserker
+350            37             30         065            035            -1             //Berserker
+350            37             30         101            068            -1             //Berserker
+350            37             30         122            022            -1             //Berserker
+350            37             30         129            019            -1             //Berserker
+350            37             30         137            026            -1             //Berserker
+350            37             30         117            040            -1             //Berserker
+350            37             30         145            047            -1             //Berserker
+351            37             30         042            227            -1             //Splinter Wolf
+351            37             30         170            224            -1             //Splinter Wolf
+351            37             30         157            204            -1             //Splinter Wolf
+351            37             30         189            211            -1             //Splinter Wolf
+352            37             30         225            141            -1             //Iron Rider
+553            37             30         068            164            -1             //Berserker Warrior
+553            37             30         077            157            -1             //Berserker Warrior
+553            37             30         079            166            -1             //Berserker Warrior
+554            37             30         074            162            -1             //Kentauros Warrior
+554            37             30         096            156            -1             //Kentauros Warrior
+554            37             30         102            150            -1             //Kentauros Warrior
+554            37             30         136            161            -1             //Kentauros Warrior
+554            37             30         133            127            -1             //Kentauros Warrior
+554            37             30         089            124            -1             //Kentauros Warrior
+553            37             30         060            156            -1             //Berserker Warrior
+553            37             30         058            135            -1             //Berserker Warrior
+553            37             30         104            157            -1             //Berserker Warrior
+553            37             30         124            165            -1             //Berserker Warrior
+553            37             30         093            118            -1             //Berserker Warrior
+553            37             30         131            119            -1             //Berserker Warrior
+553            37             30         110            140            -1             //Berserker Warrior
+553            37             30         098            137            -1             //Berserker Warrior
+553            37             30         069            158            -1             //Berserker Warrior
+554            37             30         061            131            -1             //Kentauros Warrior
+554            37             30         052            153            -1             //Kentauros Warrior
+554            37             30         094            128            -1             //Kentauros Warrior
+554            37             30         115            162            -1             //Kentauros Warrior
+554            37             30         140            152            -1             //Kentauros Warrior
+555            37             30         120            160            -1             //Gigantis Warrior
+555            37             30         141            159            -1             //Gigantis Warrior
+555            37             30         128            130            -1             //Gigantis Warrior
+555            37             30         081            125            -1             //Gigantis Warrior
+555            37             30         107            103            -1             //Gigantis Warrior
+555            37             30         115            104            -1             //Gigantis Warrior
+555            37             30         126            109            -1             //Gigantis Warrior
+555            37             30         134            107            -1             //Gigantis Warrior
+555            37             30         142            127            -1             //Gigantis Warrior
+556            37             30         145            133            -1             //Genocider Warrior
+556            37             30         148            129            -1             //Genocider Warrior
+556            37             30         167            114            -1             //Genocider Warrior
+556            37             30         171            106            -1             //Genocider Warrior
+556            37             30         191            096            -1             //Genocider Warrior
+556            37             30         187            087            -1             //Genocider Warrior
+556            37             30         131            081            -1             //Genocider Warrior
+556            37             30         119            087            -1             //Genocider Warrior
+556            37             30         181            109            -1             //Genocider Warrior
+556            37             30         177            089            -1             //Genocider Warrior
+556            37             30         141            089            -1             //Genocider Warrior
+556            37             30         151            087            -1             //Genocider Warrior
+555            37             30         145            091            -1             //Gigantis Warrior
+555            37             30         167            090            -1             //Gigantis Warrior
+555            37             30         175            113            -1             //Gigantis Warrior
+555            37             30         129            114            -1             //Gigantis Warrior
+555            37             30         112            098            -1             //Gigantis Warrior
+555            37             30         145            153            -1             //Gigantis Warrior
+554            37             30         086            119            -1             //Kentauros Warrior
+554            37             30         091            164            -1             //Kentauros Warrior
+554            37             30         049            140            -1             //Kentauros Warrior
+554            37             30         132            111            -1             //Kentauros Warrior
+554            37             30         171            111            -1             //Kentauros Warrior
+554            37             30         145            087            -1             //Kentauros Warrior
+554            37             30         141            133            -1             //Kentauros Warrior
+555            37             30         110            106            -1             //Gigantis Warrior
+556            37             30         115            098            -1             //Genocider Warrior
+end
+
+1
+//=================================
+//SPOT - KANTURU relics
+//=================================
+//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+358            38             05         108            138            108          138          -1             06            //Persona
+359            38             05         109            158            109          158          -1             06            //Twin Tale
+358            38             05         122            126            122          126          -1             06            //Persona
 end
 
 //=================================
@@ -924,45 +1049,64 @@ end
 486            63             30         218            221            -1             //Blood Assassin
 486            63             30         208            208            -1             //Blood Assassin
 486            63             30         173            111            -1             //Blood Assassin
-486            63             30         179            073            -1             //Burning Lava Giant
-486            63             30         152            056            -1             //Burning Lava Giant
-486            63             30         160            050            -1             //Burning Lava Giant
-486            63             30         157            031            -1             //Burning Lava Giant
-486            63             30         150            018            -1             //Burning Lava Giant
-486            63             30         188            015            -1             //Burning Lava Giant
-486            63             30         196            012            -1             //Burning Lava Giant
-486            63             30         194            025            -1             //Burning Lava Giant
-486            63             30         207            028            -1             //Burning Lava Giant
-486            63             30         214            026            -1             //Burning Lava Giant
-486            63             30         212            051            -1             //Burning Lava Giant
-486            63             30         217            044            -1             //Burning Lava Giant
-486            63             30         234            050            -1             //Burning Lava Giant
-486            63             30         237            066            -1             //Burning Lava Giant
-486            63             30         233            061            -1             //Burning Lava Giant
-486            63             30         211            066            -1             //Burning Lava Giant
-486            63             30         222            066            -1             //Burning Lava Giant
-486            63             30         183            063            -1             //Burning Lava Giant
-486            63             30         186            039            -1             //Burning Lava Giant
-486            63             30         175            046            -1             //Burning Lava Giant
-486            63             30         170            027            -1             //Burning Lava Giant
-486            63             30         143            078            -1             //Burning Lava Giant
-486            63             30         152            089            -1             //Burning Lava Giant
-486            63             30         184            070            -1             //Burning Lava Giant
-486            63             30         195            061            -1             //Burning Lava Giant
-487            63             30         193            019            -1             //Ruthless Lava Giant
-487            63             30         209            023            -1             //Ruthless Lava Giant
-487            63             30         216            050            -1             //Ruthless Lava Giant
-487            63             30         237            052            -1             //Ruthless Lava Giant
-487            63             30         235            058            -1             //Ruthless Lava Giant
-487            63             30         205            066            -1             //Ruthless Lava Giant
-487            63             30         174            068            -1             //Ruthless Lava Giant
-487            63             30         161            057            -1             //Ruthless Lava Giant
-487            63             30         154            052            -1             //Ruthless Lava Giant
-487            63             30         151            012            -1             //Ruthless Lava Giant
-487            63             30         162            032            -1             //Ruthless Lava Giant
-487            63             30         191            042            -1             //Ruthless Lava Giant
-487            63             30         215            061            -1             //Ruthless Lava Giant
-487            63             30         164            078            -1             //Ruthless Lava Giant
+486            63             30         179            108            -1             //Blood Assassin
+486            63             30         193            125            -1             //Blood Assassin
+486            63             30         198            113            -1             //Blood Assassin
+486            63             30         199            107            -1             //Blood Assassin
+486            63             30         209            132            -1             //Blood Assassin
+486            63             30         215            113            -1             //Blood Assassin
+486            63             30         234            118            -1             //Blood Assassin
+486            63             30         241            126            -1             //Blood Assassin
+486            63             30         204            143            -1             //Blood Assassin
+487            63             30         178            115            -1             //Cruel Blood Assassin
+487            63             30         195            106            -1             //Cruel Blood Assassin
+487            63             30         204            124            -1             //Cruel Blood Assassin
+487            63             30         216            127            -1             //Cruel Blood Assassin
+487            63             30         218            116            -1             //Cruel Blood Assassin
+487            63             30         240            119            -1             //Cruel Blood Assassin
+487            63             30         236            122            -1             //Cruel Blood Assassin
+487            63             30         202            134            -1             //Cruel Blood Assassin
+487            63             30         185            123            -1             //Cruel Blood Assassin
+487            63             30         219            136            -1             //Cruel Blood Assassin
+489            63             30         178            073            -1             //Burning Lava Giant
+489            63             30         152            056            -1             //Burning Lava Giant
+489            63             30         160            050            -1             //Burning Lava Giant
+489            63             30         157            031            -1             //Burning Lava Giant
+489            63             30         150            018            -1             //Burning Lava Giant
+489            63             30         188            015            -1             //Burning Lava Giant
+489            63             30         196            012            -1             //Burning Lava Giant
+489            63             30         194            025            -1             //Burning Lava Giant
+489            63             30         207            028            -1             //Burning Lava Giant
+489            63             30         214            026            -1             //Burning Lava Giant
+489            63             30         212            051            -1             //Burning Lava Giant
+489            63             30         217            044            -1             //Burning Lava Giant
+489            63             30         234            050            -1             //Burning Lava Giant
+489            63             30         237            066            -1             //Burning Lava Giant
+489            63             30         233            061            -1             //Burning Lava Giant
+489            63             30         211            066            -1             //Burning Lava Giant
+489            63             30         222            066            -1             //Burning Lava Giant
+489            63             30         183            063            -1             //Burning Lava Giant
+489            63             30         186            039            -1             //Burning Lava Giant
+489            63             30         175            046            -1             //Burning Lava Giant
+489            63             30         170            027            -1             //Burning Lava Giant
+489            63             30         143            078            -1             //Burning Lava Giant
+489            63             30         152            089            -1             //Burning Lava Giant
+489            63             30         184            070            -1             //Burning Lava Giant
+489            63             30         195            061            -1             //Burning Lava Giant
+490            63             30         193            019            -1             //Ruthless Lava Giant
+490            63             30         209            023            -1             //Ruthless Lava Giant
+490            63             30         216            050            -1             //Ruthless Lava Giant
+490            63             30         237            052            -1             //Ruthless Lava Giant
+490            63             30         235            058            -1             //Ruthless Lava Giant
+490            63             30         205            066            -1             //Ruthless Lava Giant
+490            63             30         174            068            -1             //Ruthless Lava Giant
+490            63             30         161            057            -1             //Ruthless Lava Giant
+490            63             30         154            052            -1             //Ruthless Lava Giant
+490            63             30         151            012            -1             //Ruthless Lava Giant
+490            63             30         162            032            -1             //Ruthless Lava Giant
+490            63             30         191            042            -1             //Ruthless Lava Giant
+490            63             30         215            061            -1             //Ruthless Lava Giant
+490            63             30         164            078            -1             //Ruthless Lava Giant
 484            63             30         106            228            -1             //Ash Slaughterer
 484            63             30         143            224            -1             //Ash Slaughterer
 484            63             30         199            226            -1             //Ash Slaughterer
@@ -1745,6 +1889,10 @@ end
 429            52             30         015            026            07             //Chief Skeleton Archer
 429            52             30         013            045            07             //Chief Skeleton Archer
 429            52             30         013            023            07             //Chief Skeleton Archer
+429            52             30         015            043            07             //Chief Skeleton Archer
+429            52             30         015            039            07             //Chief Skeleton Archer
+429            52             30         015            037            07             //Chief Skeleton Archer
+429            52             30         013            029            07             //Chief Skeleton Archer
 429            52             30         015            028            07             //Chief Skeleton Archer
 429            52             30         013            025            07             //Chief Skeleton Archer
 429            52             30         013            021            07             //Chief Skeleton Archer
@@ -1949,6 +2097,10 @@ end
 039            09             30         131            177            -1             //Poison Shadow
 039            09             30         149            166            -1             //Poison Shadow
 039            09             30         135            159            -1             //Poison Shadow
+039            09             30         143            176            -1             //Poison Shadow
+039            09             30         146            174            -1             //Poison Shadow
+039            09             30         145            181            -1             //Poison Shadow
+039            09             30         129            157            -1             //Poison Shadow
 039            09             30         143            169            -1             //Poison Shadow
 039            09             30         137            166            -1             //Poison Shadow
 039            09             30         144            175            -1             //Poison Shadow
@@ -2091,7 +2243,21 @@ end
 051            09             30         058            167            -1             //Great Bahamut
 051            09             30         069            148            -1             //Great Bahamut
 051            09             30         078            154            -1             //Great Bahamut
-051            09             30         051            140            -1             //Silver Valkyrie
+051            09             30         057            150            -1             //Great Bahamut
+051            09             30         074            155            -1             //Great Bahamut
+051            09             30         057            153            -1             //Great Bahamut
+051            09             30         051            165            -1             //Great Bahamut
+048            09             30         060            154            -1             //Lizard King
+048            09             30         067            148            -1             //Lizard King
+048            09             30         067            151            -1             //Lizard King
+048            09             30         061            152            -1             //Lizard King
+048            09             30         063            160            -1             //Lizard King
+048            09             30         054            149            -1             //Lizard King
+048            09             30         071            140            -1             //Lizard King
+048            09             30         072            163            -1             //Lizard King
+048            09             30         062            144            -1             //Lizard King
+048            09             30         066            148            -1             //Lizard King
+052            09             30         051            140            -1             //Silver Valkyrie
 052            09             30         053            158            -1             //Silver Valkyrie
 052            09             30         071            152            -1             //Silver Valkyrie
 052            09             30         054            148            -1             //Silver Valkyrie
@@ -2631,356 +2797,356 @@ end
 163            18             30         040            104            00             //Chaos Castle 2
 162            18             30         044            102            00             //Chaos Castle 1
 163            18             30         043            098            00             //Chaos Castle 2
-162            18             30         026            105            01             //Chaos Castle 3
-165            18             30         026            098            01             //Chaos Castle 4
-164            18             30         028            090            01             //Chaos Castle 3
-165            18             30         027            086            01             //Chaos Castle 4
-164            18             30         028            082            01             //Chaos Castle 3
-165            18             30         026            079            01             //Chaos Castle 4
-164            18             30         034            078            01             //Chaos Castle 3
-165            18             30         033            081            01             //Chaos Castle 4
-164            18             30         039            078            01             //Chaos Castle 3
-165            18             30         026            077            01             //Chaos Castle 4
-164            18             30         038            080            01             //Chaos Castle 3
-165            18             30         043            077            01             //Chaos Castle 4
-164            18             30         038            086            01             //Chaos Castle 3
-165            18             30         043            084            01             //Chaos Castle 4
-164            18             30         041            082            01             //Chaos Castle 3
-165            18             30         027            094            01             //Chaos Castle 4
-164            18             30         032            091            01             //Chaos Castle 3
-165            18             30         029            084            01             //Chaos Castle 4
-164            18             30         042            090            01             //Chaos Castle 3
-165            18             30         044            087            01             //Chaos Castle 4
-164            18             30         030            078            01             //Chaos Castle 3
-165            18             30         038            092            01             //Chaos Castle 4
-164            18             30         040            098            01             //Chaos Castle 3
-165            18             30         029            101            01             //Chaos Castle 4
-164            18             30         033            103            01             //Chaos Castle 3
-165            18             30         038            089            01             //Chaos Castle 4
-164            18             30         042            105            01             //Chaos Castle 3
-165            18             30         042            099            01             //Chaos Castle 4
-164            18             30         035            105            01             //Chaos Castle 3
-165            18             30         029            093            01             //Chaos Castle 4
-164            18             30         028            097            01             //Chaos Castle 3
-165            18             30         026            084            01             //Chaos Castle 4
-164            18             30         028            079            01             //Chaos Castle 3
-164            18             30         025            082            01             //Chaos Castle 3
-165            18             30         029            076            01             //Chaos Castle 4
-164            18             30         033            076            01             //Chaos Castle 3
-165            18             30         035            079            01             //Chaos Castle 4
-164            18             30         031            080            01             //Chaos Castle 3
-165            18             30         041            079            01             //Chaos Castle 4
-164            18             30         038            076            01             //Chaos Castle 3
-165            18             30         036            081            01             //Chaos Castle 4
-164            18             30         039            082            01             //Chaos Castle 3
-165            18             30         041            086            01             //Chaos Castle 4
-164            18             30         042            094            01             //Chaos Castle 3
-165            18             30         035            092            01             //Chaos Castle 4
-164            18             30         034            090            01             //Chaos Castle 3
-165            18             30         038            101            01             //Chaos Castle 4
-164            18             30         030            105            01             //Chaos Castle 3
-165            18             30         026            102            01             //Chaos Castle 4
-164            18             30         028            100            01             //Chaos Castle 3
-165            18             30         038            106            01             //Chaos Castle 4
-164            18             30         035            102            01             //Chaos Castle 3
-165            18             30         042            102            01             //Chaos Castle 4
-164            18             30         043            096            01             //Chaos Castle 3
-165            18             30         030            088            01             //Chaos Castle 4
-164            18             30         025            091            01             //Chaos Castle 3
-165            18             30         029            091            01             //Chaos Castle 4
-164            18             30         030            098            01             //Chaos Castle 3
-165            18             30         041            093            01             //Chaos Castle 4
-164            18             30         041            089            01             //Chaos Castle 3
-165            18             30         043            091            01             //Chaos Castle 4
-164            18             30         039            095            01             //Chaos Castle 3
-165            18             30         032            101            01             //Chaos Castle 4
-164            18             30         029            103            01             //Chaos Castle 3
-165            18             30         033            105            01             //Chaos Castle 4
-164            18             30         025            097            01             //Chaos Castle 3
-165            18             30         024            094            01             //Chaos Castle 4
-164            18             30         027            088            01             //Chaos Castle 3
-165            18             30         032            094            01             //Chaos Castle 4
-164            18             30         032            089            01             //Chaos Castle 3
-165            18             30         036            092            01             //Chaos Castle 4
-164            18             30         037            089            01             //Chaos Castle 3
-165            18             30         040            091            01             //Chaos Castle 4
-164            18             30         038            099            01             //Chaos Castle 3
-165            18             30         040            101            01             //Chaos Castle 4
-164            18             30         043            081            01             //Chaos Castle 3
-165            18             30         036            076            01             //Chaos Castle 4
-164            18             30         042            075            01             //Chaos Castle 3
-165            18             30         026            075            01             //Chaos Castle 4
-164            18             30         024            080            01             //Chaos Castle 3
-165            18             30         030            082            01             //Chaos Castle 4
-164            18             30         024            089            01             //Chaos Castle 3
-165            18             30         024            086            01             //Chaos Castle 4
-164            18             30         024            101            01             //Chaos Castle 3
-165            18             30         037            104            01             //Chaos Castle 4
-164            18             30         041            096            01             //Chaos Castle 3
-165            18             30         039            087            01             //Chaos Castle 4
-164            18             30         041            076            01             //Chaos Castle 3
-165            18             30         038            084            01             //Chaos Castle 4
-164            18             30         038            096            01             //Chaos Castle 3
-165            18             30         030            095            01             //Chaos Castle 4
-164            18             30         032            078            01             //Chaos Castle 3
-165            18             30         029            086            01             //Chaos Castle 4
-164            18             30         027            104            01             //Chaos Castle 3
-165            18             30         040            104            01             //Chaos Castle 4
-164            18             30         044            102            01             //Chaos Castle 3
-165            18             30         043            098            01             //Chaos Castle 4
-164            18             30         039            093            01             //Chaos Castle 3
-165            18             30         041            084            01             //Chaos Castle 4
+162            18             30         039            093            00             //Chaos Castle 1
+163            18             30         041            084            00             //Chaos Castle 2
 end
 
 4
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
-166            19             30         026            105            02             //Chaos Castle 5
-167            19             30         026            098            02             //Chaos Castle 6
-166            19             30         028            090            02             //Chaos Castle 5
-167            19             30         027            086            02             //Chaos Castle 6
-166            19             30         028            082            02             //Chaos Castle 5
-167            19             30         026            079            02             //Chaos Castle 6
-166            19             30         034            078            02             //Chaos Castle 5
-167            19             30         033            081            02             //Chaos Castle 6
-166            19             30         039            078            02             //Chaos Castle 5
-167            19             30         026            077            02             //Chaos Castle 6
-166            19             30         038            080            02             //Chaos Castle 5
-167            19             30         043            077            02             //Chaos Castle 6
-166            19             30         038            086            02             //Chaos Castle 5
-167            19             30         043            084            02             //Chaos Castle 6
-166            19             30         041            082            02             //Chaos Castle 5
-167            19             30         027            094            02             //Chaos Castle 6
-166            19             30         032            091            02             //Chaos Castle 5
-167            19             30         029            084            02             //Chaos Castle 6
-166            19             30         042            090            02             //Chaos Castle 5
-167            19             30         044            087            02             //Chaos Castle 6
-166            19             30         030            078            02             //Chaos Castle 5
-167            19             30         038            092            02             //Chaos Castle 6
-166            19             30         040            098            02             //Chaos Castle 5
-167            19             30         029            101            02             //Chaos Castle 6
-166            19             30         033            103            02             //Chaos Castle 5
-167            19             30         038            089            02             //Chaos Castle 6
-166            19             30         042            105            02             //Chaos Castle 5
-167            19             30         042            099            02             //Chaos Castle 6
-166            19             30         035            105            02             //Chaos Castle 5
-167            19             30         029            093            02             //Chaos Castle 6
-166            19             30         028            097            02             //Chaos Castle 5
-167            19             30         026            084            02             //Chaos Castle 6
-166            19             30         028            079            02             //Chaos Castle 5
-166            19             30         025            082            02             //Chaos Castle 5
-167            19             30         029            076            02             //Chaos Castle 6
-166            19             30         033            076            02             //Chaos Castle 5
-167            19             30         035            079            02             //Chaos Castle 6
-166            19             30         031            080            02             //Chaos Castle 5
-167            19             30         041            079            02             //Chaos Castle 6
-166            19             30         038            076            02             //Chaos Castle 5
-167            19             30         036            081            02             //Chaos Castle 6
-166            19             30         039            082            02             //Chaos Castle 5
-167            19             30         041            086            02             //Chaos Castle 6
-166            19             30         042            094            02             //Chaos Castle 5
-167            19             30         035            092            02             //Chaos Castle 6
-166            19             30         034            090            02             //Chaos Castle 5
-167            19             30         038            101            02             //Chaos Castle 6
-166            19             30         030            105            02             //Chaos Castle 5
-167            19             30         026            102            02             //Chaos Castle 6
-166            19             30         028            100            02             //Chaos Castle 5
-167            19             30         038            106            02             //Chaos Castle 6
-166            19             30         035            102            02             //Chaos Castle 5
-167            19             30         042            102            02             //Chaos Castle 6
-166            19             30         043            096            02             //Chaos Castle 5
-167            19             30         030            088            02             //Chaos Castle 6
-166            19             30         025            091            02             //Chaos Castle 5
-167            19             30         029            091            02             //Chaos Castle 6
-166            19             30         030            098            02             //Chaos Castle 5
-167            19             30         041            093            02             //Chaos Castle 6
-166            19             30         041            089            02             //Chaos Castle 5
-167            19             30         043            091            02             //Chaos Castle 6
-166            19             30         039            095            02             //Chaos Castle 5
-167            19             30         032            101            02             //Chaos Castle 6
-166            19             30         029            103            02             //Chaos Castle 5
-167            19             30         033            105            02             //Chaos Castle 6
-166            19             30         025            097            02             //Chaos Castle 5
-167            19             30         024            094            02             //Chaos Castle 6
-166            19             30         027            088            02             //Chaos Castle 5
-167            19             30         032            094            02             //Chaos Castle 6
-166            19             30         032            089            02             //Chaos Castle 5
-167            19             30         036            092            02             //Chaos Castle 6
-166            19             30         037            089            02             //Chaos Castle 5
-167            19             30         040            091            02             //Chaos Castle 6
-166            19             30         038            099            02             //Chaos Castle 5
-167            19             30         040            101            02             //Chaos Castle 6
-166            19             30         043            081            02             //Chaos Castle 5
-167            19             30         036            076            02             //Chaos Castle 6
-166            19             30         042            075            02             //Chaos Castle 5
-167            19             30         026            075            02             //Chaos Castle 6
-166            19             30         024            080            02             //Chaos Castle 5
-167            19             30         030            082            02             //Chaos Castle 6
-166            19             30         024            089            02             //Chaos Castle 5
-167            19             30         024            086            02             //Chaos Castle 6
-166            19             30         024            101            02             //Chaos Castle 5
-167            19             30         037            104            02             //Chaos Castle 6
-166            19             30         041            096            02             //Chaos Castle 5
-167            19             30         039            087            02             //Chaos Castle 6
-166            19             30         041            076            02             //Chaos Castle 5
-167            19             30         038            084            02             //Chaos Castle 6
-166            19             30         038            096            02             //Chaos Castle 5
-167            19             30         030            095            02             //Chaos Castle 6
-166            19             30         032            078            02             //Chaos Castle 5
-167            19             30         029            086            02             //Chaos Castle 6
-166            19             30         027            104            02             //Chaos Castle 5
-167            19             30         040            104            02             //Chaos Castle 6
-166            19             30         044            102            02             //Chaos Castle 5
-167            19             30         043            098            02             //Chaos Castle 6
-166            19             30         039            093            02             //Chaos Castle 5
-167            19             30         041            084            02             //Chaos Castle 6
-end
-166            19             30         026            105            02             //Chaos Castle 5
-167            19             30         026            098            02             //Chaos Castle 6
-166            19             30         028            090            02             //Chaos Castle 5
-167            19             30         027            086            02             //Chaos Castle 6
-166            19             30         028            082            02             //Chaos Castle 5
-167            19             30         026            079            02             //Chaos Castle 6
-
-4
-//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
-168            20             30         026            105            03             //Chaos Castle 7
-169            20             30         026            098            03             //Chaos Castle 8
-168            20             30         028            090            03             //Chaos Castle 7
-169            20             30         027            086            03             //Chaos Castle 8
-168            20             30         028            082            03             //Chaos Castle 7
-169            20             30         026            079            03             //Chaos Castle 8
-168            20             30         034            078            03             //Chaos Castle 7
-169            20             30         033            081            03             //Chaos Castle 8
-168            20             30         039            078            03             //Chaos Castle 7
-169            20             30         026            077            03             //Chaos Castle 8
-168            20             30         038            080            03             //Chaos Castle 7
-169            20             30         043            077            03             //Chaos Castle 8
-168            20             30         038            086            03             //Chaos Castle 7
-169            20             30         043            084            03             //Chaos Castle 8
-168            20             30         041            082            03             //Chaos Castle 7
-169            20             30         027            094            03             //Chaos Castle 8
-168            20             30         032            091            03             //Chaos Castle 7
-169            20             30         029            084            03             //Chaos Castle 8
-168            20             30         042            090            03             //Chaos Castle 7
-169            20             30         044            087            03             //Chaos Castle 8
-168            20             30         030            078            03             //Chaos Castle 7
-169            20             30         038            092            03             //Chaos Castle 8
-168            20             30         040            098            03             //Chaos Castle 7
-169            20             30         029            101            03             //Chaos Castle 8
-168            20             30         033            103            03             //Chaos Castle 7
-169            20             30         038            089            03             //Chaos Castle 8
-168            20             30         042            105            03             //Chaos Castle 7
-169            20             30         042            099            03             //Chaos Castle 8
-168            20             30         035            105            03             //Chaos Castle 7
-169            20             30         029            093            03             //Chaos Castle 8
-168            20             30         028            097            03             //Chaos Castle 7
-169            20             30         026            084            03             //Chaos Castle 8
-168            20             30         028            079            03             //Chaos Castle 7
-168            20             30         025            082            03             //Chaos Castle 7
-169            20             30         029            076            03             //Chaos Castle 8
-168            20             30         033            076            03             //Chaos Castle 7
-169            20             30         035            079            03             //Chaos Castle 8
-168            20             30         031            080            03             //Chaos Castle 7
-169            20             30         041            079            03             //Chaos Castle 8
-168            20             30         038            076            03             //Chaos Castle 7
-169            20             30         036            081            03             //Chaos Castle 8
-168            20             30         039            082            03             //Chaos Castle 7
-169            20             30         041            086            03             //Chaos Castle 8
-168            20             30         042            094            03             //Chaos Castle 7
-169            20             30         035            092            03             //Chaos Castle 8
-168            20             30         034            090            03             //Chaos Castle 7
-169            20             30         038            101            03             //Chaos Castle 8
-168            20             30         030            105            03             //Chaos Castle 7
-169            20             30         026            102            03             //Chaos Castle 8
-168            20             30         028            100            03             //Chaos Castle 7
-169            20             30         038            106            03             //Chaos Castle 8
-168            20             30         035            102            03             //Chaos Castle 7
-169            20             30         042            102            03             //Chaos Castle 8
-168            20             30         043            096            03             //Chaos Castle 7
-169            20             30         030            088            03             //Chaos Castle 8
-168            20             30         025            091            03             //Chaos Castle 7
-169            20             30         029            091            03             //Chaos Castle 8
-168            20             30         030            098            03             //Chaos Castle 7
-169            20             30         041            093            03             //Chaos Castle 8
-168            20             30         041            089            03             //Chaos Castle 7
-169            20             30         043            091            03             //Chaos Castle 8
-168            20             30         039            095            03             //Chaos Castle 7
-169            20             30         032            101            03             //Chaos Castle 8
-168            20             30         029            103            03             //Chaos Castle 7
-169            20             30         033            105            03             //Chaos Castle 8
-168            20             30         025            097            03             //Chaos Castle 7
-169            20             30         024            094            03             //Chaos Castle 8
-168            20             30         027            088            03             //Chaos Castle 7
-169            20             30         032            094            03             //Chaos Castle 8
-168            20             30         032            089            03             //Chaos Castle 7
-169            20             30         036            092            03             //Chaos Castle 8
-168            20             30         037            089            03             //Chaos Castle 7
-169            20             30         040            091            03             //Chaos Castle 8
-168            20             30         038            099            03             //Chaos Castle 7
-169            20             30         040            101            03             //Chaos Castle 8
-168            20             30         043            081            03             //Chaos Castle 7
-169            20             30         036            076            03             //Chaos Castle 8
-168            20             30         042            075            03             //Chaos Castle 7
-169            20             30         026            075            03             //Chaos Castle 8
-168            20             30         024            080            03             //Chaos Castle 7
-169            20             30         030            082            03             //Chaos Castle 8
-168            20             30         024            089            03             //Chaos Castle 7
-169            20             30         024            086            03             //Chaos Castle 8
-168            20             30         024            101            03             //Chaos Castle 7
-169            20             30         037            104            03             //Chaos Castle 8
-168            20             30         041            096            03             //Chaos Castle 7
-169            20             30         039            087            03             //Chaos Castle 8
-168            20             30         041            076            03             //Chaos Castle 7
-169            20             30         038            084            03             //Chaos Castle 8
-168            20             30         038            096            03             //Chaos Castle 7
-169            20             30         030            095            03             //Chaos Castle 8
-168            20             30         032            078            03             //Chaos Castle 7
-169            20             30         029            086            03             //Chaos Castle 8
-168            20             30         027            104            03             //Chaos Castle 7
-169            20             30         040            104            03             //Chaos Castle 8
-168            20             30         044            102            03             //Chaos Castle 7
-169            20             30         043            098            03             //Chaos Castle 8
-168            20             30         039            093            03             //Chaos Castle 7
-169            20             30         041            084            03             //Chaos Castle 8
+164            19             30         026            105            01             //Chaos Castle 3
+165            19             30         026            098            01             //Chaos Castle 4
+164            19             30         028            090            01             //Chaos Castle 3
+165            19             30         027            086            01             //Chaos Castle 4
+164            19             30         028            082            01             //Chaos Castle 3
+165            19             30         026            079            01             //Chaos Castle 4
+164            19             30         034            078            01             //Chaos Castle 3
+165            19             30         033            081            01             //Chaos Castle 4
+164            19             30         039            078            01             //Chaos Castle 3
+165            19             30         026            077            01             //Chaos Castle 4
+164            19             30         038            080            01             //Chaos Castle 3
+165            19             30         043            077            01             //Chaos Castle 4
+164            19             30         038            086            01             //Chaos Castle 3
+165            19             30         043            084            01             //Chaos Castle 4
+164            19             30         041            082            01             //Chaos Castle 3
+165            19             30         027            094            01             //Chaos Castle 4
+164            19             30         032            091            01             //Chaos Castle 3
+165            19             30         029            084            01             //Chaos Castle 4
+164            19             30         042            090            01             //Chaos Castle 3
+165            19             30         044            087            01             //Chaos Castle 4
+164            19             30         030            078            01             //Chaos Castle 3
+165            19             30         038            092            01             //Chaos Castle 4
+164            19             30         040            098            01             //Chaos Castle 3
+165            19             30         029            101            01             //Chaos Castle 4
+164            19             30         033            103            01             //Chaos Castle 3
+165            19             30         038            089            01             //Chaos Castle 4
+164            19             30         042            105            01             //Chaos Castle 3
+165            19             30         042            099            01             //Chaos Castle 4
+164            19             30         035            105            01             //Chaos Castle 3
+165            19             30         029            093            01             //Chaos Castle 4
+164            19             30         028            097            01             //Chaos Castle 3
+165            19             30         026            084            01             //Chaos Castle 4
+164            19             30         028            079            01             //Chaos Castle 3
+164            19             30         025            082            01             //Chaos Castle 3
+165            19             30         029            076            01             //Chaos Castle 4
+164            19             30         033            076            01             //Chaos Castle 3
+165            19             30         035            079            01             //Chaos Castle 4
+164            19             30         031            080            01             //Chaos Castle 3
+165            19             30         041            079            01             //Chaos Castle 4
+164            19             30         038            076            01             //Chaos Castle 3
+165            19             30         036            081            01             //Chaos Castle 4
+164            19             30         039            082            01             //Chaos Castle 3
+165            19             30         041            086            01             //Chaos Castle 4
+164            19             30         042            094            01             //Chaos Castle 3
+165            19             30         035            092            01             //Chaos Castle 4
+164            19             30         034            090            01             //Chaos Castle 3
+165            19             30         038            101            01             //Chaos Castle 4
+164            19             30         030            105            01             //Chaos Castle 3
+165            19             30         026            102            01             //Chaos Castle 4
+164            19             30         028            100            01             //Chaos Castle 3
+165            19             30         038            106            01             //Chaos Castle 4
+164            19             30         035            102            01             //Chaos Castle 3
+165            19             30         042            102            01             //Chaos Castle 4
+164            19             30         043            096            01             //Chaos Castle 3
+165            19             30         030            088            01             //Chaos Castle 4
+164            19             30         025            091            01             //Chaos Castle 3
+165            19             30         029            091            01             //Chaos Castle 4
+164            19             30         030            098            01             //Chaos Castle 3
+165            19             30         041            093            01             //Chaos Castle 4
+164            19             30         041            089            01             //Chaos Castle 3
+165            19             30         043            091            01             //Chaos Castle 4
+164            19             30         039            095            01             //Chaos Castle 3
+165            19             30         032            101            01             //Chaos Castle 4
+164            19             30         029            103            01             //Chaos Castle 3
+165            19             30         033            105            01             //Chaos Castle 4
+164            19             30         025            097            01             //Chaos Castle 3
+165            19             30         024            094            01             //Chaos Castle 4
+164            19             30         027            088            01             //Chaos Castle 3
+165            19             30         032            094            01             //Chaos Castle 4
+164            19             30         032            089            01             //Chaos Castle 3
+165            19             30         036            092            01             //Chaos Castle 4
+164            19             30         037            089            01             //Chaos Castle 3
+165            19             30         040            091            01             //Chaos Castle 4
+164            19             30         038            099            01             //Chaos Castle 3
+165            19             30         040            101            01             //Chaos Castle 4
+164            19             30         043            081            01             //Chaos Castle 3
+165            19             30         036            076            01             //Chaos Castle 4
+164            19             30         042            075            01             //Chaos Castle 3
+165            19             30         026            075            01             //Chaos Castle 4
+164            19             30         024            080            01             //Chaos Castle 3
+165            19             30         030            082            01             //Chaos Castle 4
+164            19             30         024            089            01             //Chaos Castle 3
+165            19             30         024            086            01             //Chaos Castle 4
+164            19             30         024            101            01             //Chaos Castle 3
+165            19             30         037            104            01             //Chaos Castle 4
+164            19             30         041            096            01             //Chaos Castle 3
+165            19             30         039            087            01             //Chaos Castle 4
+164            19             30         041            076            01             //Chaos Castle 3
+165            19             30         038            084            01             //Chaos Castle 4
+164            19             30         038            096            01             //Chaos Castle 3
+165            19             30         030            095            01             //Chaos Castle 4
+164            19             30         032            078            01             //Chaos Castle 3
+165            19             30         029            086            01             //Chaos Castle 4
+164            19             30         027            104            01             //Chaos Castle 3
+165            19             30         040            104            01             //Chaos Castle 4
+164            19             30         044            102            01             //Chaos Castle 3
+165            19             30         043            098            01             //Chaos Castle 4
+164            19             30         039            093            01             //Chaos Castle 3
+165            19             30         041            084            01             //Chaos Castle 4
 end
 
 4
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
-170            21             30         026            105            04             //Chaos Castle 9
-171            21             30         026            098            04             //Chaos Castle 10
-170            21             30         028            090            04             //Chaos Castle 9
-171            21             30         027            086            04             //Chaos Castle 10
-170            21             30         028            082            04             //Chaos Castle 9
-171            21             30         026            079            04             //Chaos Castle 10
-170            21             30         034            078            04             //Chaos Castle 9
-171            21             30         033            081            04             //Chaos Castle 10
-170            21             30         039            078            04             //Chaos Castle 9
-171            21             30         026            077            04             //Chaos Castle 10
-170            21             30         038            080            04             //Chaos Castle 9
-171            21             30         043            077            04             //Chaos Castle 10
-170            21             30         038            086            04             //Chaos Castle 9
-171            21             30         043            084            04             //Chaos Castle 10
-170            21             30         041            082            04             //Chaos Castle 9
-171            21             30         027            094            04             //Chaos Castle 10
-170            21             30         032            091            04             //Chaos Castle 9
-171            21             30         029            084            04             //Chaos Castle 10
-170            21             30         042            090            04             //Chaos Castle 9
-171            21             30         044            087            04             //Chaos Castle 10
-170            21             30         030            078            04             //Chaos Castle 9
-171            21             30         038            092            04             //Chaos Castle 10
-170            21             30         040            098            04             //Chaos Castle 9
-171            21             30         029            101            04             //Chaos Castle 10
-170            21             30         033            103            04             //Chaos Castle 9
-171            21             30         038            089            04             //Chaos Castle 10
-170            21             30         042            105            04             //Chaos Castle 9
-171            21             30         042            099            04             //Chaos Castle 10
-170            21             30         035            105            04             //Chaos Castle 9
-171            21             30         029            093            04             //Chaos Castle 10
-170            21             30         028            097            04             //Chaos Castle 9
-171            21             30         026            084            04             //Chaos Castle 10
-170            21             30         028            079            04             //Chaos Castle 9
-170            21             30         025            082            04             //Chaos Castle 9
-171            21             30         029            076            04             //Chaos Castle 10
+166            20             30         026            105            02             //Chaos Castle 5
+167            20             30         026            098            02             //Chaos Castle 6
+166            20             30         028            090            02             //Chaos Castle 5
+167            20             30         027            086            02             //Chaos Castle 6
+166            20             30         028            082            02             //Chaos Castle 5
+167            20             30         026            079            02             //Chaos Castle 6
+166            20             30         034            078            02             //Chaos Castle 5
+167            20             30         033            081            02             //Chaos Castle 6
+166            20             30         039            078            02             //Chaos Castle 5
+167            20             30         026            077            02             //Chaos Castle 6
+166            20             30         038            080            02             //Chaos Castle 5
+167            20             30         043            077            02             //Chaos Castle 6
+166            20             30         038            086            02             //Chaos Castle 5
+167            20             30         043            084            02             //Chaos Castle 6
+166            20             30         041            082            02             //Chaos Castle 5
+167            20             30         027            094            02             //Chaos Castle 6
+166            20             30         032            091            02             //Chaos Castle 5
+167            20             30         029            084            02             //Chaos Castle 6
+166            20             30         042            090            02             //Chaos Castle 5
+167            20             30         044            087            02             //Chaos Castle 6
+166            20             30         030            078            02             //Chaos Castle 5
+167            20             30         038            092            02             //Chaos Castle 6
+166            20             30         040            098            02             //Chaos Castle 5
+167            20             30         029            101            02             //Chaos Castle 6
+166            20             30         033            103            02             //Chaos Castle 5
+167            20             30         038            089            02             //Chaos Castle 6
+166            20             30         042            105            02             //Chaos Castle 5
+167            20             30         042            099            02             //Chaos Castle 6
+166            20             30         035            105            02             //Chaos Castle 5
+167            20             30         029            093            02             //Chaos Castle 6
+166            20             30         028            097            02             //Chaos Castle 5
+167            20             30         026            084            02             //Chaos Castle 6
+166            20             30         028            079            02             //Chaos Castle 5
+166            20             30         025            082            02             //Chaos Castle 5
+167            20             30         029            076            02             //Chaos Castle 6
+166            20             30         033            076            02             //Chaos Castle 5
+167            20             30         035            079            02             //Chaos Castle 6
+166            20             30         031            080            02             //Chaos Castle 5
+167            20             30         041            079            02             //Chaos Castle 6
+166            20             30         038            076            02             //Chaos Castle 5
+167            20             30         036            081            02             //Chaos Castle 6
+166            20             30         039            082            02             //Chaos Castle 5
+167            20             30         041            086            02             //Chaos Castle 6
+166            20             30         042            094            02             //Chaos Castle 5
+167            20             30         035            092            02             //Chaos Castle 6
+166            20             30         034            090            02             //Chaos Castle 5
+167            20             30         038            101            02             //Chaos Castle 6
+166            20             30         030            105            02             //Chaos Castle 5
+167            20             30         026            102            02             //Chaos Castle 6
+166            20             30         028            100            02             //Chaos Castle 5
+167            20             30         038            106            02             //Chaos Castle 6
+166            20             30         035            102            02             //Chaos Castle 5
+167            20             30         042            102            02             //Chaos Castle 6
+166            20             30         043            096            02             //Chaos Castle 5
+167            20             30         030            088            02             //Chaos Castle 6
+166            20             30         025            091            02             //Chaos Castle 5
+167            20             30         029            091            02             //Chaos Castle 6
+166            20             30         030            098            02             //Chaos Castle 5
+167            20             30         041            093            02             //Chaos Castle 6
+166            20             30         041            089            02             //Chaos Castle 5
+167            20             30         043            091            02             //Chaos Castle 6
+166            20             30         039            095            02             //Chaos Castle 5
+167            20             30         032            101            02             //Chaos Castle 6
+166            20             30         029            103            02             //Chaos Castle 5
+167            20             30         033            105            02             //Chaos Castle 6
+166            20             30         025            097            02             //Chaos Castle 5
+167            20             30         024            094            02             //Chaos Castle 6
+166            20             30         027            088            02             //Chaos Castle 5
+167            20             30         032            094            02             //Chaos Castle 6
+166            20             30         032            089            02             //Chaos Castle 5
+167            20             30         036            092            02             //Chaos Castle 6
+166            20             30         037            089            02             //Chaos Castle 5
+167            20             30         040            091            02             //Chaos Castle 6
+166            20             30         038            099            02             //Chaos Castle 5
+167            20             30         040            101            02             //Chaos Castle 6
+166            20             30         043            081            02             //Chaos Castle 5
+167            20             30         036            076            02             //Chaos Castle 6
+166            20             30         042            075            02             //Chaos Castle 5
+167            20             30         026            075            02             //Chaos Castle 6
+166            20             30         024            080            02             //Chaos Castle 5
+167            20             30         030            082            02             //Chaos Castle 6
+166            20             30         024            089            02             //Chaos Castle 5
+167            20             30         024            086            02             //Chaos Castle 6
+166            20             30         024            101            02             //Chaos Castle 5
+167            20             30         037            104            02             //Chaos Castle 6
+166            20             30         041            096            02             //Chaos Castle 5
+167            20             30         039            087            02             //Chaos Castle 6
+166            20             30         041            076            02             //Chaos Castle 5
+167            20             30         038            084            02             //Chaos Castle 6
+166            20             30         038            096            02             //Chaos Castle 5
+167            20             30         030            095            02             //Chaos Castle 6
+166            20             30         032            078            02             //Chaos Castle 5
+167            20             30         029            086            02             //Chaos Castle 6
+166            20             30         027            104            02             //Chaos Castle 5
+167            20             30         040            104            02             //Chaos Castle 6
+166            20             30         044            102            02             //Chaos Castle 5
+167            20             30         043            098            02             //Chaos Castle 6
+166            20             30         039            093            02             //Chaos Castle 5
+167            20             30         041            084            02             //Chaos Castle 6
+end
+
+4
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+168            21             30         026            105            03             //Chaos Castle 7
+169            21             30         026            098            03             //Chaos Castle 8
+168            21             30         028            090            03             //Chaos Castle 7
+169            21             30         027            086            03             //Chaos Castle 8
+168            21             30         028            082            03             //Chaos Castle 7
+169            21             30         026            079            03             //Chaos Castle 8
+168            21             30         034            078            03             //Chaos Castle 7
+169            21             30         033            081            03             //Chaos Castle 8
+168            21             30         039            078            03             //Chaos Castle 7
+169            21             30         026            077            03             //Chaos Castle 8
+168            21             30         038            080            03             //Chaos Castle 7
+169            21             30         043            077            03             //Chaos Castle 8
+168            21             30         038            086            03             //Chaos Castle 7
+169            21             30         043            084            03             //Chaos Castle 8
+168            21             30         041            082            03             //Chaos Castle 7
+169            21             30         027            094            03             //Chaos Castle 8
+168            21             30         032            091            03             //Chaos Castle 7
+169            21             30         029            084            03             //Chaos Castle 8
+168            21             30         042            090            03             //Chaos Castle 7
+169            21             30         044            087            03             //Chaos Castle 8
+168            21             30         030            078            03             //Chaos Castle 7
+169            21             30         038            092            03             //Chaos Castle 8
+168            21             30         040            098            03             //Chaos Castle 7
+169            21             30         029            101            03             //Chaos Castle 8
+168            21             30         033            103            03             //Chaos Castle 7
+169            21             30         038            089            03             //Chaos Castle 8
+168            21             30         042            105            03             //Chaos Castle 7
+169            21             30         042            099            03             //Chaos Castle 8
+168            21             30         035            105            03             //Chaos Castle 7
+169            21             30         029            093            03             //Chaos Castle 8
+168            21             30         028            097            03             //Chaos Castle 7
+169            21             30         026            084            03             //Chaos Castle 8
+168            21             30         028            079            03             //Chaos Castle 7
+168            21             30         025            082            03             //Chaos Castle 7
+169            21             30         029            076            03             //Chaos Castle 8
+168            21             30         033            076            03             //Chaos Castle 7
+169            21             30         035            079            03             //Chaos Castle 8
+168            21             30         031            080            03             //Chaos Castle 7
+169            21             30         041            079            03             //Chaos Castle 8
+168            21             30         038            076            03             //Chaos Castle 7
+169            21             30         036            081            03             //Chaos Castle 8
+168            21             30         039            082            03             //Chaos Castle 7
+169            21             30         041            086            03             //Chaos Castle 8
+168            21             30         042            094            03             //Chaos Castle 7
+169            21             30         035            092            03             //Chaos Castle 8
+168            21             30         034            090            03             //Chaos Castle 7
+169            21             30         038            101            03             //Chaos Castle 8
+168            21             30         030            105            03             //Chaos Castle 7
+169            21             30         026            102            03             //Chaos Castle 8
+168            21             30         028            100            03             //Chaos Castle 7
+169            21             30         038            106            03             //Chaos Castle 8
+168            21             30         035            102            03             //Chaos Castle 7
+169            21             30         042            102            03             //Chaos Castle 8
+168            21             30         043            096            03             //Chaos Castle 7
+169            21             30         030            088            03             //Chaos Castle 8
+168            21             30         025            091            03             //Chaos Castle 7
+169            21             30         029            091            03             //Chaos Castle 8
+168            21             30         030            098            03             //Chaos Castle 7
+169            21             30         041            093            03             //Chaos Castle 8
+168            21             30         041            089            03             //Chaos Castle 7
+169            21             30         043            091            03             //Chaos Castle 8
+168            21             30         039            095            03             //Chaos Castle 7
+169            21             30         032            101            03             //Chaos Castle 8
+168            21             30         029            103            03             //Chaos Castle 7
+169            21             30         033            105            03             //Chaos Castle 8
+168            21             30         025            097            03             //Chaos Castle 7
+169            21             30         024            094            03             //Chaos Castle 8
+168            21             30         027            088            03             //Chaos Castle 7
+169            21             30         032            094            03             //Chaos Castle 8
+168            21             30         032            089            03             //Chaos Castle 7
+169            21             30         036            092            03             //Chaos Castle 8
+168            21             30         037            089            03             //Chaos Castle 7
+169            21             30         040            091            03             //Chaos Castle 8
+168            21             30         038            099            03             //Chaos Castle 7
+169            21             30         040            101            03             //Chaos Castle 8
+168            21             30         043            081            03             //Chaos Castle 7
+169            21             30         036            076            03             //Chaos Castle 8
+168            21             30         042            075            03             //Chaos Castle 7
+169            21             30         026            075            03             //Chaos Castle 8
+168            21             30         024            080            03             //Chaos Castle 7
+169            21             30         030            082            03             //Chaos Castle 8
+168            21             30         024            089            03             //Chaos Castle 7
+169            21             30         024            086            03             //Chaos Castle 8
+168            21             30         024            101            03             //Chaos Castle 7
+169            21             30         037            104            03             //Chaos Castle 8
+168            21             30         041            096            03             //Chaos Castle 7
+169            21             30         039            087            03             //Chaos Castle 8
+168            21             30         041            076            03             //Chaos Castle 7
+169            21             30         038            084            03             //Chaos Castle 8
+168            21             30         038            096            03             //Chaos Castle 7
+169            21             30         030            095            03             //Chaos Castle 8
+168            21             30         032            078            03             //Chaos Castle 7
+169            21             30         029            086            03             //Chaos Castle 8
+168            21             30         027            104            03             //Chaos Castle 7
+169            21             30         040            104            03             //Chaos Castle 8
+168            21             30         044            102            03             //Chaos Castle 7
+169            21             30         043            098            03             //Chaos Castle 8
+168            21             30         039            093            03             //Chaos Castle 7
+169            21             30         041            084            03             //Chaos Castle 8
+end
+
+4
+//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
+170            22             30         026            105            04             //Chaos Castle 9
+171            22             30         026            098            04             //Chaos Castle 10
+170            22             30         028            090            04             //Chaos Castle 9
+171            22             30         027            086            04             //Chaos Castle 10
+170            22             30         028            082            04             //Chaos Castle 9
+171            22             30         026            079            04             //Chaos Castle 10
+170            22             30         034            078            04             //Chaos Castle 9
+171            22             30         033            081            04             //Chaos Castle 10
+170            22             30         039            078            04             //Chaos Castle 9
+171            22             30         026            077            04             //Chaos Castle 10
+170            22             30         038            080            04             //Chaos Castle 9
+171            22             30         043            077            04             //Chaos Castle 10
+170            22             30         038            086            04             //Chaos Castle 9
+171            22             30         043            084            04             //Chaos Castle 10
+170            22             30         041            082            04             //Chaos Castle 9
+171            22             30         027            094            04             //Chaos Castle 10
+170            22             30         032            091            04             //Chaos Castle 9
+171            22             30         029            084            04             //Chaos Castle 10
+170            22             30         042            090            04             //Chaos Castle 9
+171            22             30         044            087            04             //Chaos Castle 10
+170            22             30         030            078            04             //Chaos Castle 9
+171            22             30         038            092            04             //Chaos Castle 10
+170            22             30         040            098            04             //Chaos Castle 9
+171            22             30         029            101            04             //Chaos Castle 10
+170            22             30         033            103            04             //Chaos Castle 9
+171            22             30         038            089            04             //Chaos Castle 10
+170            22             30         042            105            04             //Chaos Castle 9
+171            22             30         042            099            04             //Chaos Castle 10
+170            22             30         035            105            04             //Chaos Castle 9
+171            22             30         029            093            04             //Chaos Castle 10
+170            22             30         028            097            04             //Chaos Castle 9
+171            22             30         026            084            04             //Chaos Castle 10
+170            22             30         028            079            04             //Chaos Castle 9
+170            22             30         025            082            04             //Chaos Castle 9
+171            22             30         029            076            04             //Chaos Castle 10
 170            22             30         033            076            04             //Chaos Castle 9
 171            22             30         035            079            04             //Chaos Castle 10
 170            22             30         031            080            04             //Chaos Castle 9
