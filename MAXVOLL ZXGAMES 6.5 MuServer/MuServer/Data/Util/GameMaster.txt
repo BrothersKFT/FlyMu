@@ -1,5 +1,4 @@
 //Account         Name         Level
-"kojizu"	"KojiZUSUM"	32
-"kojizu"	"KojiZUELF"	32
-"kojizu4"   "KojiZUMGGM" 32
+"teszt1"    "CSICSKAVVA" 32
+"SonXeeZ"   "adminusz"  32
 end

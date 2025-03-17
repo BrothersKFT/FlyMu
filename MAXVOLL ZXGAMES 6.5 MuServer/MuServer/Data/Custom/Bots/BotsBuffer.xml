@@ -66,7 +66,7 @@
 -->
 
 <BotsBuffer>
-	<Bot Id="0" Enable="1" Class="2" PKLevel="1" Map="0" PosX="156" PosY="129" Dir="1" Name="SM_Helper" >
+	<Bot Id="0" Enable="0" Class="2" PKLevel="1" Map="0" PosX="156" PosY="129" Dir="1" Name="SM_Helper" >
 		<Equipment>
 			<Item Slot="0" ItemCat="5" ItemIndex="31" ItemLevel="15" />
 			<Item Slot="1" ItemCat="5" ItemIndex="31" ItemLevel="15" />
@@ -83,7 +83,7 @@
 			<Buff Index="4" Power1="500" Power2="0" Power3="0" Power4="0" Duration="3600" /> <!-- Buff -->
 		</BuffList>
 	</Bot>
-	<Bot Id="1" Enable="1" Class="18" PKLevel="1" Map="0" PosX="158" PosY="129" Dir="1" Name="BK_Helper" >
+	<Bot Id="1" Enable="0" Class="18" PKLevel="1" Map="0" PosX="158" PosY="129" Dir="1" Name="BK_Helper" >
 		<Equipment>
 			<Item Slot="0" ItemCat="0" ItemIndex="27" ItemLevel="15" />
 			<Item Slot="1" ItemCat="0" ItemIndex="27" ItemLevel="15" />
@@ -100,7 +100,7 @@
 			<Buff Index="8" Power1="250" Power2="0" Power3="0" Power4="0" Duration="3600" /> <!-- Buff -->
 		</BuffList>
 	</Bot>
-	<Bot Id="2" Enable="1" Class="34" PKLevel="1" Map="0" PosX="160" PosY="129" Dir="1" Name="ELF_Helper" >
+	<Bot Id="2" Enable="0" Class="34" PKLevel="1" Map="0" PosX="160" PosY="129" Dir="1" Name="ELF_Helper" >
 		<Equipment>
 			<Item Slot="0" ItemCat="4" ItemIndex="15" ItemLevel="1" />
 			<Item Slot="1" ItemCat="4" ItemIndex="23" ItemLevel="15" />
@@ -118,7 +118,7 @@
 			<Buff Index="2" Power1="150" Power2="0" Power3="0" Power4="0" Duration="3600" /> <!-- Buff -->
 		</BuffList>
 	</Bot>
-	<Bot Id="3" Enable="1" Class="50" PKLevel="1" Map="0" PosX="162" PosY="129" Dir="1" Name="MG_Helper" >
+	<Bot Id="3" Enable="0" Class="50" PKLevel="1" Map="0" PosX="162" PosY="129" Dir="1" Name="MG_Helper" >
 		<Equipment>
 			<Item Slot="0" ItemCat="5" ItemIndex="30" ItemLevel="15" />
 			<Item Slot="1" ItemCat="5" ItemIndex="30" ItemLevel="15" />
@@ -134,7 +134,7 @@
 			<Buff Index="9" Power1="250" Power2="0" Power3="0" Power4="0" Duration="3600" /> <!-- Buff -->
 		</BuffList>
 	</Bot>
-	<Bot Id="4" Enable="1" Class="66" PKLevel="1" Map="0" PosX="164" PosY="129" Dir="1" Name="DL_Helper" >
+	<Bot Id="4" Enable="0" Class="66" PKLevel="1" Map="0" PosX="164" PosY="129" Dir="1" Name="DL_Helper" >
 		<Equipment>
 			<Item Slot="0" ItemCat="2" ItemIndex="17" ItemLevel="15" />
 			<Item Slot="1" ItemCat="2" ItemIndex="17" ItemLevel="15" />
@@ -151,7 +151,7 @@
 			<Buff Index="5" Power1="250" Power2="0" Power3="0" Power4="0" Duration="3600" /> <!-- Buff -->
 		</BuffList>
 	</Bot>
-	<Bot Id="5" Enable="1" Class="82" PKLevel="1" Map="0" PosX="166" PosY="129" Dir="1" Name="SUM_Helper" >
+	<Bot Id="5" Enable="0" Class="82" PKLevel="1" Map="0" PosX="166" PosY="129" Dir="1" Name="SUM_Helper" >
 		<Equipment>
 			<Item Slot="0" ItemCat="5" ItemIndex="32" ItemLevel="15" />
 			<Item Slot="1" ItemCat="5" ItemIndex="32" ItemLevel="15" />
@@ -168,7 +168,7 @@
 			<Buff Index="71" Power1="250" Power2="0" Power3="0" Power4="0" Duration="3600" /> <!-- Buff -->
 		</BuffList>
 	</Bot>
-	<Bot Id="6" Enable="1" Class="98" PKLevel="1" Map="0" PosX="168" PosY="129" Dir="1" Name="RF_Helper" >
+	<Bot Id="6" Enable="0" Class="98" PKLevel="1" Map="0" PosX="168" PosY="129" Dir="1" Name="RF_Helper" >
 		<Equipment>
 			<Item Slot="0" ItemCat="0" ItemIndex="35" ItemLevel="15" />
 			<Item Slot="1" ItemCat="0" ItemIndex="35" ItemLevel="15" />

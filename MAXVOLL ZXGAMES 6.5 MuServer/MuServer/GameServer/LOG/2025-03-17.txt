@@ -36,3 +36,173 @@
 20:37:29 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
 20:37:30 [ServerInfo] Monster loaded successfully
 20:37:39 [ServerInfo] Monster loaded successfully
+20:42:30 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+20:42:30 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+20:47:31 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+20:47:31 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+20:48:03 [ServerInfo] CashShop loaded successfully
+20:48:03 [ServerInfo] ChaosMix loaded successfully
+20:48:03 [ServerInfo] Character loaded successfully
+20:48:03 [ServerInfo] Command loaded successfully
+20:48:03 [ServerInfo] Common loaded successfully
+20:48:03 [ServerInfo] Custom loaded successfully
+20:48:03 [ Crywolf ] State (0) -> NONE
+20:48:03 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+20:48:03 [ServerInfo] Event loaded successfully
+20:48:03 [ServerInfo] EventItemBag loaded successfully
+20:48:03 [AntiFlood] File Loaded Successfull!
+20:48:03 [ServerInfo] Hack loaded successfully
+20:48:03 [ServerInfo] Monster loaded successfully
+20:48:03 [ServerInfo] Move loaded successfully
+20:48:03 [ServerInfo] Quest loaded successfully
+20:48:03 [ServerInfo] Shop loaded successfully
+20:48:03 [ServerInfo] Skill loaded successfully
+20:48:03 [ServerInfo] Util loaded successfully
+20:48:03 [ReadBotInfo] BotSystem loaded successfully
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 152 Y: 57)
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 0 X: 152 Y: 57)
+20:52:32 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+20:52:32 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+20:56:10 [Obj][11001] AddClient (25.60.51.186)
+20:56:12 [Obj][11001] AddAccount (SonXeeZ)
+20:56:14 [Obj][11001] LogInCharacter (adminusz)
+20:56:51 [Obj][11001] LogOutCharacter (adminusz)
+20:56:51 [Obj][11001] LogOutCharacter ()
+20:56:51 [Obj][11001] DelAccount (SonXeeZ)
+20:56:51 [Obj][11001] DelClient (25.60.51.186)
+20:57:21 [Obj][11001] AddClient (25.60.51.186)
+20:57:23 [Obj][11001] AddAccount (SonXeeZ)
+20:57:25 [Obj][11001] LogInCharacter (adminusz)
+20:57:33 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+20:57:33 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+20:57:56 [Obj][11001] LogOutCharacter (adminusz)
+20:57:56 [Obj][11001] LogOutCharacter ()
+20:57:56 [Obj][11001] DelAccount (SonXeeZ)
+20:57:56 [Obj][11001] DelClient (25.60.51.186)
+20:58:29 [Obj][11001] AddClient (25.60.51.186)
+20:58:32 [Obj][11001] AddAccount (SonXeeZ)
+20:58:33 [Obj][11001] LogInCharacter (adminusz)
+21:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 130 Y: 166)
+21:00:00 [Invasion Manager] Index(8) Boss Position (Map: 56 X: 130 Y: 166)
+21:02:34 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:02:34 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:07:35 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:07:35 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:08:39 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+21:08:39 [Obj][11000] LogOutCharacter ()
+21:08:39 [Obj][11000] DelAccount (teszt1)
+21:08:39 [Obj][11000] DelClient (25.60.79.171)
+21:09:36 [Obj][11000] AddClient (25.60.79.171)
+21:09:38 [Obj][11000] AddAccount (teszt1)
+21:09:40 [Obj][11000] LogInCharacter (CSICSKAVVA)
+21:10:00 [CustomQuiz] Start
+21:12:36 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:12:36 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:13:00 [CustomQuiz] Finish
+21:16:14 [ServerInfo] CashShop loaded successfully
+21:16:14 [ServerInfo] ChaosMix loaded successfully
+21:16:14 [ServerInfo] Character loaded successfully
+21:16:14 [ServerInfo] Command loaded successfully
+21:16:14 [ServerInfo] Common loaded successfully
+21:16:14 [ServerInfo] Custom loaded successfully
+21:16:14 [ Crywolf ] State (0) -> NONE
+21:16:14 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+21:16:14 [ServerInfo] Event loaded successfully
+21:16:15 [ServerInfo] EventItemBag loaded successfully
+21:16:15 [AntiFlood] File Loaded Successfull!
+21:16:15 [ServerInfo] Hack loaded successfully
+21:16:15 [ServerInfo] Monster loaded successfully
+21:16:15 [ServerInfo] Move loaded successfully
+21:16:15 [ServerInfo] Quest loaded successfully
+21:16:15 [ServerInfo] Shop loaded successfully
+21:16:15 [ServerInfo] Skill loaded successfully
+21:16:15 [ServerInfo] Util loaded successfully
+21:16:15 [ReadBotInfo] BotSystem loaded successfully
+21:16:28 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+21:16:28 [Obj][11000] LogOutCharacter ()
+21:16:28 [Obj][11000] DelAccount (teszt1)
+21:16:28 [Obj][11000] DelClient (25.60.79.171)
+21:16:28 [Obj][11001] LogOutCharacter (adminusz)
+21:16:28 [Obj][11001] LogOutCharacter ()
+21:16:28 [Obj][11001] DelAccount (SonXeeZ)
+21:16:28 [Obj][11001] DelClient (25.60.51.186)
+21:18:00 [ServerInfo] CashShop loaded successfully
+21:18:00 [ServerInfo] ChaosMix loaded successfully
+21:18:00 [ServerInfo] Character loaded successfully
+21:18:00 [ServerInfo] Custom loaded successfully
+21:18:00 [ServerInfo] Command loaded successfully
+21:18:00 [ServerInfo] Common loaded successfully
+21:18:00 [ Crywolf ] State (0) -> NONE
+21:18:00 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+21:18:00 [ServerInfo] Event loaded successfully
+21:18:00 [ServerInfo] EventItemBag loaded successfully
+21:18:00 [AntiFlood] File Loaded Successfull!
+21:18:00 [ServerInfo] Hack loaded successfully
+21:18:00 [ServerInfo] Item loaded successfully
+21:18:00 [ServerInfo] Monster loaded successfully
+21:18:00 [ServerInfo] Move loaded successfully
+21:18:00 [ServerInfo] Quest loaded successfully
+21:18:00 [ServerInfo] Shop loaded successfully
+21:18:00 [ServerInfo] Skill loaded successfully
+21:18:00 [ServerInfo] Util loaded successfully
+21:18:00 [ReadBotInfo] BotSystem loaded successfully
+21:18:02 [Obj][11000] AddClient (25.60.79.171)
+21:18:02 [Obj][11001] AddClient (25.60.51.186)
+21:18:09 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+21:18:32 [Obj][11000] DelClient (25.60.79.171)
+21:18:32 [Obj][11001] DelClient (25.60.51.186)
+21:18:48 [Obj][11000] AddClient (25.60.79.171)
+21:18:50 [Obj][11000] AddAccount (teszt1)
+21:18:52 [Obj][11000] LogInCharacter (CSICSKAVVA)
+21:23:03 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+21:23:03 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+21:24:44 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+21:24:44 [Obj][11000] LogOutCharacter ()
+21:24:44 [Obj][11000] DelAccount (teszt1)
+21:24:44 [Obj][11000] DelClient (25.60.79.171)
+21:24:45 [Obj][11001] AddClient (25.60.79.171)
+21:24:48 [Obj][11001] AddAccount (teszt1)
+21:24:50 [Obj][11001] LogInCharacter (CSICSKAVVA)
+21:26:41 [Obj][11001] LogOutCharacter (CSICSKAVVA)
+21:26:41 [Obj][11001] LogOutCharacter ()
+21:27:14 [ServerInfo] CashShop loaded successfully
+21:27:14 [ServerInfo] ChaosMix loaded successfully
+21:27:14 [ServerInfo] Character loaded successfully
+21:27:14 [ServerInfo] Command loaded successfully
+21:27:15 [ServerInfo] Common loaded successfully
+21:27:15 [ServerInfo] Custom loaded successfully
+21:27:15 [ Crywolf ] State (0) -> NONE
+21:27:15 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+21:27:15 [ServerInfo] Event loaded successfully
+21:27:15 [ServerInfo] EventItemBag loaded successfully
+21:27:15 [AntiFlood] File Loaded Successfull!
+21:27:15 [ServerInfo] Hack loaded successfully
+21:27:15 [ServerInfo] Monster loaded successfully
+21:27:15 [ServerInfo] Move loaded successfully
+21:27:15 [ServerInfo] Quest loaded successfully
+21:27:15 [ServerInfo] Shop loaded successfully
+21:27:15 [ServerInfo] Skill loaded successfully
+21:27:15 [ServerInfo] Util loaded successfully
+21:27:15 [ReadBotInfo] BotSystem loaded successfully
+21:27:19 [Obj][11001] LogInCharacter (CSICSKAVVA)
+21:28:04 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+21:28:04 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+21:29:05 [Obj][11001] LogOutCharacter (CSICSKAVVA)
+21:29:05 [Obj][11001] LogOutCharacter ()
+21:29:05 [Obj][11001] DelAccount (teszt1)
+21:29:05 [Obj][11001] DelClient (25.60.79.171)
+21:30:23 [Obj][11000] AddClient (25.60.79.171)
+21:30:26 [Obj][11000] AddAccount (teszt1)
+21:30:27 [Obj][11000] LogInCharacter (CSICSKAVVA)
+21:33:05 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:33:05 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:34:42 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+21:34:42 [Obj][11000] LogOutCharacter ()
+21:34:42 [Obj][11000] DelAccount (teszt1)
+21:34:42 [Obj][11000] DelClient (25.60.79.171)
+21:34:57 [Obj][11001] AddClient (25.60.79.171)
+21:35:00 [Obj][11001] AddAccount (teszt1)
+21:35:01 [Obj][11001] LogInCharacter (CSICSKAVVA)
+21:36:01 [OnlineLoterry] Add Member (CSICSKAVVA)
+21:36:01 [OnlineLoterry] Winner (CSICSKAVVA)
+21:36:01 [teszt1][CSICSKAVVA] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
