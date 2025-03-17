@@ -206,3 +206,5 @@
 21:36:01 [OnlineLoterry] Add Member (CSICSKAVVA)
 21:36:01 [OnlineLoterry] Winner (CSICSKAVVA)
 21:36:01 [teszt1][CSICSKAVVA] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+21:38:07 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:38:07 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
