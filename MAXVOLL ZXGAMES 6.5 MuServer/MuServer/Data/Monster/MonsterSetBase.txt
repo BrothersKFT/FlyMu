@@ -171,6 +171,9 @@ end
 475            62             00         193            027            01             //Blitzen
 244            04             00         204            074            03             //Liam The Barmaid LOST 1
 244            08             00         197            058            02             //Liaman the Barmaid TARKAN 1
+244            07             00         24             020            01             //Liaman the Barmaid Atlans 1
+240            07             00         27             020            01             //Safety Guardian Atlans 1
+257            07             00         23             025            01             //Shadow Phantom Soldier
 end
 
 0
