@@ -32,10 +32,14 @@
 546            00             00         129            118            03             //Jeweler Raul
 566            00             00         139            140            01             //Party Search
 //450          00             00       114              132            03             //Cherry Blossom Spirit Not FInd Message 727!
-238            00             00         130            127            03             //Chaos Goblin
+238            00             00         130            125            03             //Chaos Goblin
 233            00             00         130            133            03             //Messenger of Archangel
+452            00             00         130            129            03             //Seed Master
+453            00             00         130            127            03             //Seed Researcher
+406            00             00         137            122            03             //Apostle Devin
 end
 
+//NPC Devias
 0
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
 229            02             00         198            047            02             //Marlon
@@ -61,6 +65,7 @@ end
 //601            02             00         198            017            03             //Grand Reset system
 end
 
+//NPC NORIA
 0
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
 237            03             00         171            105            03             //Charon
@@ -74,6 +79,7 @@ end
 257            03             00         166            085            02             //Shadow Phantom Soldier
 257            03             00         201            129            02             //Shadow Phantom Soldier
 544            03             00         167            100            02             //Gens Vanert Steward
+240            03             00         172            96             03             //Safety Guardian
 end
 
 0
@@ -134,12 +140,13 @@ end
 368            39             00         077            177            02             //Elpis
 end
 
+//ELBELAND NPC
 0
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
 256            51             00         037            241            01             //Lahap
 415            51             00         044            229            01             //Silvia
-416            51             00         039            226            02             //Rhea
-417            51             00         036            219            02             //Marce
+416            51             00         029            236            02             //Rhea
+417            51             00         037            218            02             //Marce
 257            51             00         043            191            03             //Shadow Phantom Soldier
 257            51             00         057            232            03             //Shadow Phantom Soldier
 257            51             00         073            220            01             //Shadow Phantom Soldier

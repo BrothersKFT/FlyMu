@@ -208,3 +208,111 @@
 21:36:01 [teszt1][CSICSKAVVA] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
 21:38:07 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
 21:38:07 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:40:18 [ServerInfo] Monster loaded successfully
+21:40:26 [ServerInfo] Monster loaded successfully
+21:41:08 [ServerInfo] Monster loaded successfully
+21:41:17 [ServerInfo] Monster loaded successfully
+21:41:27 [ServerInfo] Monster loaded successfully
+21:41:47 [ServerInfo] Monster loaded successfully
+21:42:07 [ServerInfo] Monster loaded successfully
+21:42:16 [ServerInfo] Monster loaded successfully
+21:42:39 [ServerInfo] Monster loaded successfully
+21:42:47 [ServerInfo] Monster loaded successfully
+21:42:58 [ServerInfo] Monster loaded successfully
+21:43:08 [ServerInfo] Monster loaded successfully
+21:43:09 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+21:43:09 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+21:48:10 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:48:10 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+21:50:09 [ServerInfo] Monster loaded successfully
+21:50:22 [Obj][11001] LogOutCharacter (CSICSKAVVA)
+21:50:22 [Obj][11001] LogOutCharacter ()
+21:50:22 [Obj][11001] DelAccount (teszt1)
+21:50:22 [Obj][11001] DelClient (25.60.79.171)
+21:50:29 [ServerInfo] CashShop loaded successfully
+21:50:29 [ServerInfo] ChaosMix loaded successfully
+21:50:29 [ServerInfo] Character loaded successfully
+21:50:29 [ServerInfo] Custom loaded successfully
+21:50:29 [ServerInfo] Command loaded successfully
+21:50:29 [ServerInfo] Common loaded successfully
+21:50:29 [ Crywolf ] State (0) -> NONE
+21:50:29 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+21:50:29 [ServerInfo] Event loaded successfully
+21:50:29 [ServerInfo] EventItemBag loaded successfully
+21:50:29 [AntiFlood] File Loaded Successfull!
+21:50:29 [ServerInfo] Hack loaded successfully
+21:50:29 [ServerInfo] Item loaded successfully
+21:50:29 [ServerInfo] Monster loaded successfully
+21:50:29 [ServerInfo] Move loaded successfully
+21:50:29 [ServerInfo] Quest loaded successfully
+21:50:29 [ServerInfo] Shop loaded successfully
+21:50:29 [ServerInfo] Skill loaded successfully
+21:50:29 [ServerInfo] Util loaded successfully
+21:50:29 [ReadBotInfo] BotSystem loaded successfully
+21:50:38 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+21:50:52 [Obj][11000] AddClient (25.60.79.171)
+21:51:02 [Obj][11000] AddAccount (teszt1)
+21:51:02 [Obj][11000] LogInCharacter (CSICSKAVVA)
+21:55:33 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+21:55:33 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+21:56:43 [ServerInfo] Monster loaded successfully
+21:57:12 [ServerInfo] Monster loaded successfully
+21:58:30 [ServerInfo] Monster loaded successfully
+21:58:48 [ServerInfo] Monster loaded successfully
+21:58:59 [ServerInfo] Monster loaded successfully
+21:59:25 [ServerInfo] Monster loaded successfully
+21:59:30 [ServerInfo] Monster loaded successfully
+22:00:11 [ServerInfo] Monster loaded successfully
+22:00:25 [ServerInfo] Monster loaded successfully
+22:00:34 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+22:00:34 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+22:00:36 [ServerInfo] Monster loaded successfully
+22:00:41 [ServerInfo] Monster loaded successfully
+22:00:46 [ServerInfo] Monster loaded successfully
+22:00:59 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+22:00:59 [Obj][11000] LogOutCharacter ()
+22:00:59 [Obj][11000] DelAccount (teszt1)
+22:00:59 [Obj][11000] DelClient (25.60.79.171)
+22:01:05 [Obj][11001] AddClient (25.60.79.171)
+22:01:05 [Obj][11001] AddAccount (teszt1)
+22:01:05 [Obj][11001] LogInCharacter (CSICSKAVVA)
+22:02:32 [Obj][11001] LogOutCharacter (CSICSKAVVA)
+22:02:32 [Obj][11001] LogOutCharacter ()
+22:02:32 [Obj][11001] DelAccount (teszt1)
+22:02:32 [Obj][11001] DelClient (25.60.79.171)
+22:04:49 [Obj][11000] AddClient (25.60.79.171)
+22:04:49 [Obj][11000] AddAccount (teszt1)
+22:04:49 [Obj][11000] LogInCharacter (CSICSKAVVA)
+22:05:12 [ServerInfo] Monster loaded successfully
+22:05:29 [ServerInfo] Monster loaded successfully
+22:05:32 [ServerInfo] Monster loaded successfully
+22:05:36 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+22:05:36 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+22:05:37 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+22:05:37 [Obj][11000] LogOutCharacter ()
+22:05:37 [Obj][11000] DelAccount (teszt1)
+22:05:37 [Obj][11000] DelClient (25.60.79.171)
+22:05:54 [Obj][11001] AddClient (25.60.79.171)
+22:05:57 [Obj][11001] AddAccount (teszt1)
+22:05:59 [Obj][11001] LogInCharacter (CSICSKAVVA)
+22:06:10 [Obj][11001] LogOutCharacter (CSICSKAVVA)
+22:06:10 [Obj][11001] LogOutCharacter ()
+22:06:10 [Obj][11001] DelAccount (teszt1)
+22:06:10 [Obj][11001] DelClient (25.60.79.171)
+22:06:21 [Obj][11000] AddClient (25.60.79.171)
+22:06:24 [Obj][11000] AddAccount (teszt1)
+22:06:25 [Obj][11000] LogInCharacter (CSICSKAVVA)
+22:08:09 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+22:08:09 [Obj][11000] LogOutCharacter ()
+22:08:14 [Obj][11000] LogInCharacter (fsaz12)
+22:10:00 [CustomQuiz] Start
+22:10:37 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+22:10:37 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+22:12:10 [CustomQuiz] Winner: fsaz12
+22:12:10 [teszt1][fsaz12] WZ_SetCoin(CustomQuiz) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+22:12:10 [CustomQuiz] Finish
+22:15:38 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+22:15:38 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+22:15:44 [Obj][11000] LogOutCharacter (fsaz12)
+22:15:44 [Obj][11000] LogOutCharacter ()
+22:15:46 [Obj][11000] LogInCharacter (CSICSKAVVA)
