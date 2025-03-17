@@ -169,6 +169,8 @@ end
 473            62             00         232            013            01             //Donner
 474            62             00         216            019            01             //Vixen
 475            62             00         193            027            01             //Blitzen
+244            04             00         204            074            03             //Liam The Barmaid LOST 1
+244            08             00         197            058            02             //Liaman the Barmaid TARKAN 1
 end
 
 0
