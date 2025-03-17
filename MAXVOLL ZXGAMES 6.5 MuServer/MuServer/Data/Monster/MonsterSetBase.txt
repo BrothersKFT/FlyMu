@@ -173,7 +173,11 @@ end
 244            08             00         197            058            02             //Liaman the Barmaid TARKAN 1
 244            07             00         24             020            01             //Liaman the Barmaid Atlans 1
 240            07             00         27             020            01             //Safety Guardian Atlans 1
-257            07             00         23             025            01             //Shadow Phantom Soldier
+257            07             00         23             025            01             //Shadow Phantom Soldier Atlans 1
+257            04             00         206            082            01             //Shadow Phantom Soldier Lost 1
+257            08             00         183            060            01             //Shadow Phantom Soldier Tarkan 1
+257            08             00         204            076            03             //Shadow Phantom Soldier Tarkan 1
+240            08             00         192            073            01             //Safety Guardian Tarkan 1
 end
 
 0

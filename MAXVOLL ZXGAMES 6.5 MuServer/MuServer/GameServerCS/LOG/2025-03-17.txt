@@ -103,3 +103,10 @@
 22:10:00 [CustomQuiz] Start
 22:13:00 [CustomQuiz] Finish
 22:36:01 [OnlineLoterry] No Winner
+22:38:48 [Obj][3500] AddClient (25.60.79.171)
+22:38:48 [Obj][3500] AddAccount (teszt1)
+22:38:48 [Obj][3500] LogInCharacter (CSICSKAVVA)
+22:39:18 [Obj][3500] LogOutCharacter (CSICSKAVVA)
+22:39:18 [Obj][3500] LogOutCharacter ()
+22:39:18 [Obj][3500] DelAccount (teszt1)
+22:39:18 [Obj][3500] DelClient (25.60.79.171)
