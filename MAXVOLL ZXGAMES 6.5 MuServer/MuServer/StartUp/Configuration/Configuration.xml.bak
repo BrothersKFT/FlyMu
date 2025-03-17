@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Processes>
-  <Process Run="True" Delay="1000" Path="C:\ZX_FILES_V6.1\ConnectServer\ConnectServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="C:\ZX_FILES_V6.1\DataServer\DataServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="C:\ZX_FILES_V6.1\JoinServer\JoinServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="C:\ZX_FILES_V6.1\GameServer\GameServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="E:\letöltések\6.5\MAXVOLL ZXGAMES 6.5 MuServer\MuServer\ConnectServer\ConnectServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="E:\letöltések\6.5\MAXVOLL ZXGAMES 6.5 MuServer\MuServer\JoinServer\JoinServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="E:\letöltések\6.5\MAXVOLL ZXGAMES 6.5 MuServer\MuServer\DataServer\DataServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="E:\letöltések\6.5\MAXVOLL ZXGAMES 6.5 MuServer\MuServer\GameServer\GameServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="E:\letöltések\6.5\MAXVOLL ZXGAMES 6.5 MuServer\MuServer\GameServerCS\GameServerCS.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="E:\letöltések\6.5\MAXVOLL ZXGAMES 6.5 MuServer\MuServer\[AH]InfiniteServer\InfiniteServer.exe" Parameters="" />
 </Processes>

@@ -5,15 +5,15 @@
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
 226            00             00         122            110            03             //Trainer
 //371          00             00         150            144            01             //Leo the Helper
-248            00             00         120            142            01             //Wandering Merchant 
+248            00             00         125            146            01             //Wandering Merchant 
 //230            00             00         063            130            03             //Wandering Merchant Alex
-250            00             00         128            145            01             //Wandering Merchant
+250            00             00         130            146            01             //Wandering Merchant
 //250            00             00         183            137            02             //Wandering Merchant
 253            00             00         127            086            02             //Potion Girl Amy
 251            00             00         116            141            03             //Hanzo the Blacksmith
 255            00             00         123            135            01             //Lumen the Barmaid
 244            02             00         216            048            03             //Liaman the Barmaid
-254            00             00         118            113            03             //Pasi the Mage
+254            00             00         118            112            03             //Pasi the Mage
 385            00             00         055            243            01             //Mirage
 249            00             00         056            244            01             //Guard
 249            00             20         173            125            03             //Guard
@@ -27,11 +27,13 @@
 257            00             00         132            165            03             //Shadow Phantom Soldier
 257            00             00         132            090            03             //Shadow Phantom Soldier
 257            00             00         170            129            01             //Shadow Phantom Soldier
-543            00             00         135            134            03             //Gens Duprian Steward
-544            00             00         135            133            03             //Gens Vanert Steward
+543            00             00         137            133            03             //Gens Duprian Steward
+544            00             00         137            132            03             //Gens Vanert Steward
 546            00             00         129            118            03             //Jeweler Raul
 566            00             00         139            140            01             //Party Search
-450            00             00         114            132            03             //Cherry Blossom Spirit
+//450          00             00       114              132            03             //Cherry Blossom Spirit Not FInd Message 727!
+238            00             00         130            127            03             //Chaos Goblin
+233            00             00         130            133            03             //Messenger of Archangel
 end
 
 0

@@ -328,7 +328,7 @@ void CServerInfo::ReadCustomInfo() // OK
 {
 	// ------------------------------------------------------------
 	// ADVANCE STATS
-	g_StatsAdvance.Load(); //Estatísticas de atributo
+	g_StatsAdvance.Load(); //Estatï¿½sticas de atributo
 	// ------------------------------------------------------------
 
 	this->ReadCustomInfo("GameServerInfo",".\\Data\\GameServerInfo - Custom.dat");
