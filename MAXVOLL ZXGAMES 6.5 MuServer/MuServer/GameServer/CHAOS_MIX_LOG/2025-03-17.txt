@@ -1,0 +1,1 @@
+23:02:56 [CustomMix][Success][teszt1][CSICSKAVVA] [6305] - (ChaosSuccessRate: 100, ChaosMoney: 103000)
