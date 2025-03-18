@@ -1,0 +1,61 @@
+18:43:27 [ServerInfo] CashShop loaded successfully
+18:43:27 [ServerInfo] ChaosMix loaded successfully
+18:43:27 [ServerInfo] Character loaded successfully
+18:43:27 [ServerInfo] Custom loaded successfully
+18:43:27 [ServerInfo] Command loaded successfully
+18:43:27 [ServerInfo] Common loaded successfully
+18:43:27 [ Crywolf ] State (0) -> NONE
+18:43:27 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+18:43:27 [ServerInfo] Event loaded successfully
+18:43:27 [ServerInfo] EventItemBag loaded successfully
+18:43:27 [AntiFlood] File Loaded Successfull!
+18:43:27 [ServerInfo] Hack loaded successfully
+18:43:27 [ServerInfo] Item loaded successfully
+18:43:27 [ServerInfo] Monster loaded successfully
+18:43:27 [ServerInfo] Move loaded successfully
+18:43:27 [ServerInfo] Quest loaded successfully
+18:43:27 [ServerInfo] Shop loaded successfully
+18:43:27 [ServerInfo] Skill loaded successfully
+18:43:27 [ServerInfo] Util loaded successfully
+18:43:27 [ReadBotInfo] BotSystem loaded successfully
+18:43:38 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+18:47:51 [Obj][11000] AddClient (25.60.79.171)
+18:47:54 [Obj][11000] AddAccount (teszt1)
+18:47:59 [Obj][11000] LogInCharacter (CSICSKAVVA)
+18:48:31 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+18:48:31 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 151 Y: 52)
+18:50:00 [Invasion Manager] Index(7) Boss Position (Map: 0 X: 151 Y: 52)
+18:53:32 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+18:53:32 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+18:58:33 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+18:58:33 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:03:34 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:03:34 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:08:35 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:08:35 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:10:00 [CustomQuiz] Start
+19:13:00 [CustomQuiz] Finish
+19:13:36 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+19:13:36 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+19:18:37 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:18:37 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:23:38 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:23:38 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:28:39 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+19:28:39 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+19:33:40 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:33:40 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:36:01 [OnlineLoterry] Add Member (CSICSKAVVA)
+19:36:01 [OnlineLoterry] Winner (CSICSKAVVA)
+19:36:01 [teszt1][CSICSKAVVA] WZ_SetCoin(Lottery) Val1: 10, Val2: 0, Val3: 0, ruud: 0
+19:38:41 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:38:41 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:43:42 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+19:43:42 [TeleporMarlon] - Mapa: 0 PosicionX: 0 PosicionY: 0
+19:48:43 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+19:48:43 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+19:53:44 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:53:44 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:58:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+19:58:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
