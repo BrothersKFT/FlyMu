@@ -1,2 +1,2 @@
-
-MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/LOG/2025-03-17.txt
+*.log
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/LOG/*.txt

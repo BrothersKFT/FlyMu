@@ -101,3 +101,4 @@
 20:05:28 [Obj][11001] LogInCharacter (adminusz)
 20:08:48 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
 20:08:48 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+20:10:00 [CustomQuiz] Start
