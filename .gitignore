@@ -1,2 +1,9 @@
 *.log
+**/LOG/*.txt
+**/LOG/*.log
+**/*.log.txt
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/**/LOG/
 MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/LOG/*.txt
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/JoinServer/LOG/*.txt
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/DataServer/LOG/*.txt
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/ConnectServer/LOG/*.txt
