@@ -59,3 +59,45 @@
 19:53:44 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
 19:58:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
 19:58:45 [TeleporMarlon] - Mapa: 2 PosicionX: 198 PosicionY: 47
+20:03:38 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+20:03:38 [Obj][11000] LogOutCharacter ()
+20:03:38 [Obj][11000] DelAccount (teszt1)
+20:03:38 [Obj][11000] DelClient (25.60.79.171)
+20:03:45 [ServerInfo] CashShop loaded successfully
+20:03:45 [ServerInfo] ChaosMix loaded successfully
+20:03:45 [ServerInfo] Character loaded successfully
+20:03:45 [ServerInfo] Custom loaded successfully
+20:03:45 [ServerInfo] Command loaded successfully
+20:03:45 [ServerInfo] Common loaded successfully
+20:03:45 [ Crywolf ] State (0) -> NONE
+20:03:45 [ Crywolf ] SetState - StateInfo : Occupation/0, State/0
+20:03:45 [ServerInfo] Event loaded successfully
+20:03:45 [ServerInfo] EventItemBag loaded successfully
+20:03:45 [AntiFlood] File Loaded Successfull!
+20:03:45 [ServerInfo] Hack loaded successfully
+20:03:45 [ServerInfo] Item loaded successfully
+20:03:45 [ServerInfo] Monster loaded successfully
+20:03:45 [ServerInfo] Move loaded successfully
+20:03:45 [ServerInfo] Quest loaded successfully
+20:03:45 [ServerInfo] Shop loaded successfully
+20:03:45 [ServerInfo] Skill loaded successfully
+20:03:45 [ServerInfo] Util loaded successfully
+20:03:45 [ReadBotInfo] BotSystem loaded successfully
+20:03:54 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+20:04:08 [Obj][11000] AddClient (25.60.79.171)
+20:04:18 [Obj][11000] AddAccount (teszt1)
+20:04:18 [Obj][11000] LogInCharacter (CSICSKAVVA)
+20:04:32 [Obj][11000] LogOutCharacter (CSICSKAVVA)
+20:04:32 [Obj][11000] LogOutCharacter ()
+20:04:32 [Obj][11000] DelAccount (teszt1)
+20:04:32 [Obj][11000] DelClient (25.60.79.171)
+20:04:50 [Obj][11000] AddClient (25.60.79.171)
+20:04:54 [Obj][11000] AddAccount (teszt1)
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 134 Y: 202)
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 134 Y: 202)
+20:05:00 [Obj][11000] LogInCharacter (CSICSKAVVA)
+20:05:14 [Obj][11001] AddClient (25.60.51.186)
+20:05:26 [Obj][11001] AddAccount (SonXeeZ)
+20:05:28 [Obj][11001] LogInCharacter (adminusz)
+20:08:48 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
+20:08:48 [TeleporMarlon] - Mapa: 0 PosicionX: 134 PosicionY: 132
