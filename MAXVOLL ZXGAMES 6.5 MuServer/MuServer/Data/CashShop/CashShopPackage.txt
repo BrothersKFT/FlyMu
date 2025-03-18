@@ -2,80 +2,43 @@
 //| Zythe CashShop Editor                                          |
 //| Credit: Zyth3/louis                          [skype:tec-facil] |
 //|================================================================|
-//CategoryID	PackageID	ItemGroup	ItemIndex	PurchaseType	Price	UseType	Gift	NumbeOfProductID	ProductID	Comment
-31	100	13	44	0	250	0	0	1	1000	// Seal of Wealth
-end
-31	102	13	63	0	100	0	0	1	1020	// Seal of Divinity
-end
-31	103	13	43	0	200	0	0	1	1030	// Seal of Ascension
-end
-35	101	13	76	0	200	0	0	1	1010	// Panda Ring
-end
-35	104	13	122	0	200	0	0	1	1040	// Skeleton Transformation Ring
-end
-35	105	13	80	0	250	0	0	1	1050	// Pet Panda
-end
-35	106	13	123	0	250	0	0	1	1060	// Pet Skeleton
-end
-35	112	13	64	0	100	0	0	1	1120	// Demon
-end
-35	113	13	65	0	100	0	0	1	1130	// Spirit of Guardian
-end
-37	107	13	46	0	100	1	0	1	1070	// Devil Square Ticket
-end
-37	108	13	46	0	900	1	0	1	1080	// Devil Square Ticket
-end
-37	109	13	47	0	100	1	0	1	1090	// Blood Castle Ticket
-end
-37	110	13	47	0	900	1	0	1	1100	// Blood Castle Ticket
-end
-37	111	13	48	0	900	1	0	1	1110	// Kalima Ticket
-end
-37	114	13	61	0	100	1	0	1	1140	// Illusion Temple Ticket
-end
-37	115	13	61	0	100	1	0	1	1150	// Illusion Temple Ticket
-end
-41	116	13	43	1	200	0	0	1	1160	// Seal of Ascension
-end
-41	117	13	44	1	250	0	0	1	1170	// Seal of Wealth
-end
-41	118	13	63	1	100	0	0	1	1180	// Seal of Divinity
-end
-42	119	13	76	1	200	0	0	1	1190	// Panda Ring
-end
-42	120	13	122	1	200	0	0	1	1200	// Skeleton Transformation Ring
-end
-42	121	13	80	1	250	0	0	1	1210	// Pet Panda
-end
-42	122	13	123	1	250	0	0	1	1220	// Pet Skeleton
-end
-42	123	13	64	1	100	0	0	1	1230	// Demon
-end
-42	124	13	65	1	100	0	0	1	1240	// Spirit of Guardian
-end
-43	125	13	46	1	100	1	0	1	1250	// Devil Square Ticket
-end
-43	126	13	46	1	900	1	0	1	1260	// Devil Square Ticket
-end
-43	127	13	47	1	100	1	0	1	1270	// Blood Castle Ticket
-end
-43	128	13	47	1	900	1	0	1	1280	// Blood Castle Ticket
-end
-43	129	13	48	1	900	1	0	1	1290	// Kalima Ticket
-end
-43	130	13	61	1	100	1	0	1	1300	// Illusion Temple Ticket
-end
-43	131	13	61	1	100	1	0	1	1310	// Illusion Temple Ticket
-end
-62	132	14	13	2	5	1	0	1	1320	// Jewel of Bless
-end
-62	133	14	14	2	5	1	0	1	1330	// Jewel of Soul
-end
-62	134	14	16	2	5	1	0	1	1340	// Jewel of Life
-end
-62	135	14	13	2	50	1	0	1	1350	// Jewel of Bless x10
-end
-62	136	14	14	2	50	1	0	1	1360	// Jewel of Soul x10
-end
-62	137	14	16	2	50	1	0	1	1370	// Jewel of Life x10
+//Cat	ID	Main	Item	Coin	Price	Bonus	PBase1	PBase2	PBase3	PBase4	PBase5	PBase6	PBase7	PBase8	PBase9	PBase10	PMain1	PMain2	PMain3	PMain4	PMain5	PMain6	PMain7	PMain8	PMain9	PMain10	Comment
+31	100	100	1	508	250	0	1000	0	0	0	0	0	0	0	0	0	1000	0	0	0	0	0	0	0	0	0	// Seal of Wealth
+31	102	102	1	508	100	0	1020	0	0	0	0	0	0	0	0	0	1020	0	0	0	0	0	0	0	0	0	// Seal of Divinity
+31	103	103	1	508	200	0	1030	0	0	0	0	0	0	0	0	0	1030	0	0	0	0	0	0	0	0	0	// Seal of Ascension
+35	101	101	1	508	200	0	1010	0	0	0	0	0	0	0	0	0	1010	0	0	0	0	0	0	0	0	0	// Panda Ring
+35	104	104	1	508	200	0	1040	0	0	0	0	0	0	0	0	0	1040	0	0	0	0	0	0	0	0	0	// Skeleton Transformation Ring
+35	105	105	1	508	250	0	1050	0	0	0	0	0	0	0	0	0	1050	0	0	0	0	0	0	0	0	0	// Pet Panda
+35	106	106	1	508	250	0	1060	0	0	0	0	0	0	0	0	0	1060	0	0	0	0	0	0	0	0	0	// Pet Skeleton
+35	112	112	1	508	100	0	1120	0	0	0	0	0	0	0	0	0	1120	0	0	0	0	0	0	0	0	0	// Demon
+35	113	113	1	508	100	0	1130	0	0	0	0	0	0	0	0	0	1130	0	0	0	0	0	0	0	0	0	// Spirit of Guardian
+37	107	107	1	508	100	0	1070	0	0	0	0	0	0	0	0	0	1070	0	0	0	0	0	0	0	0	0	// Devil Square Ticket
+37	108	108	1	508	900	0	1080	0	0	0	0	0	0	0	0	0	1080	0	0	0	0	0	0	0	0	0	// Devil Square Ticket
+37	109	109	1	508	100	0	1090	0	0	0	0	0	0	0	0	0	1090	0	0	0	0	0	0	0	0	0	// Blood Castle Ticket
+37	110	110	1	508	900	0	1100	0	0	0	0	0	0	0	0	0	1100	0	0	0	0	0	0	0	0	0	// Blood Castle Ticket
+37	111	111	1	508	900	0	1110	0	0	0	0	0	0	0	0	0	1110	0	0	0	0	0	0	0	0	0	// Kalima Ticket
+37	114	114	1	508	100	0	1140	0	0	0	0	0	0	0	0	0	1140	0	0	0	0	0	0	0	0	0	// Illusion Temple Ticket
+37	115	115	1	508	100	0	1150	0	0	0	0	0	0	0	0	0	1150	0	0	0	0	0	0	0	0	0	// Illusion Temple Ticket
+41	116	116	1	509	200	0	1160	0	0	0	0	0	0	0	0	0	1160	0	0	0	0	0	0	0	0	0	// Seal of Ascension
+41	117	117	1	509	250	0	1170	0	0	0	0	0	0	0	0	0	1170	0	0	0	0	0	0	0	0	0	// Seal of Wealth
+41	118	118	1	509	100	0	1180	0	0	0	0	0	0	0	0	0	1180	0	0	0	0	0	0	0	0	0	// Seal of Divinity
+42	119	119	1	509	200	0	1190	0	0	0	0	0	0	0	0	0	1190	0	0	0	0	0	0	0	0	0	// Panda Ring
+42	120	120	1	509	200	0	1200	0	0	0	0	0	0	0	0	0	1200	0	0	0	0	0	0	0	0	0	// Skeleton Transformation Ring
+42	121	121	1	509	250	0	1210	0	0	0	0	0	0	0	0	0	1210	0	0	0	0	0	0	0	0	0	// Pet Panda
+42	122	122	1	509	250	0	1220	0	0	0	0	0	0	0	0	0	1220	0	0	0	0	0	0	0	0	0	// Pet Skeleton
+42	123	123	1	509	100	0	1230	0	0	0	0	0	0	0	0	0	1230	0	0	0	0	0	0	0	0	0	// Demon
+42	124	124	1	509	100	0	1240	0	0	0	0	0	0	0	0	0	1240	0	0	0	0	0	0	0	0	0	// Spirit of Guardian
+43	125	125	1	509	100	0	1250	0	0	0	0	0	0	0	0	0	1250	0	0	0	0	0	0	0	0	0	// Devil Square Ticket
+43	126	126	1	509	900	0	1260	0	0	0	0	0	0	0	0	0	1260	0	0	0	0	0	0	0	0	0	// Devil Square Ticket
+43	127	127	1	509	100	0	1270	0	0	0	0	0	0	0	0	0	1270	0	0	0	0	0	0	0	0	0	// Blood Castle Ticket
+43	128	128	1	509	900	0	1280	0	0	0	0	0	0	0	0	0	1280	0	0	0	0	0	0	0	0	0	// Blood Castle Ticket
+43	129	129	1	509	900	0	1290	0	0	0	0	0	0	0	0	0	1290	0	0	0	0	0	0	0	0	0	// Kalima Ticket
+43	130	130	1	509	100	0	1300	0	0	0	0	0	0	0	0	0	1300	0	0	0	0	0	0	0	0	0	// Illusion Temple Ticket
+43	131	131	1	509	100	0	1310	0	0	0	0	0	0	0	0	0	1310	0	0	0	0	0	0	0	0	0	// Illusion Temple Ticket
+62	132	132	1	0	5	0	1320	0	0	0	0	0	0	0	0	0	1320	0	0	0	0	0	0	0	0	0	// Jewel of Bless
+62	133	133	1	0	5	0	1330	0	0	0	0	0	0	0	0	0	1330	0	0	0	0	0	0	0	0	0	// Jewel of Soul
+62	134	134	1	0	5	0	1340	0	0	0	0	0	0	0	0	0	1340	0	0	0	0	0	0	0	0	0	// Jewel of Life
+62	135	135	1	0	50	0	1350	0	0	0	0	0	0	0	0	0	1350	0	0	0	0	0	0	0	0	0	// Jewel of Bless x10
+62	136	136	1	0	50	0	1360	0	0	0	0	0	0	0	0	0	1360	0	0	0	0	0	0	0	0	0	// Jewel of Soul x10
+62	137	137	1	0	50	0	1370	0	0	0	0	0	0	0	0	0	1370	0	0	0	0	0	0	0	0	0	// Jewel of Life x10
 end
