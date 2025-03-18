@@ -2,92 +2,80 @@
 //| Zythe CashShop Editor                                          |
 //| Credit: Zyth3/louis                          [skype:tec-facil] |
 //|================================================================|
-//Cat	ID	Main	Item	Coin	Price	Bonus	PBase1	PBase2	PBase3	PBase4	PBase5	PBase6	PBase7	PBase8	PBase9	PBase10	PMain1	PMain2	PMain3	PMain4	PMain5	PMain6	PMain7	PMain8	PMain9	PMain10	Comment
-61	100	100	1	0	50	0	1000	0	0	0	0	0	0	0	0	0	1000	0	0	0	0	0	0	0	0	0	// Orb of Rageful Blow
-61	101	101	1	0	50	0	1010	0	0	0	0	0	0	0	0	0	1010	0	0	0	0	0	0	0	0	0	// Orb of Swell Life
-61	102	102	1	0	50	0	1020	0	0	0	0	0	0	0	0	0	1020	0	0	0	0	0	0	0	0	0	// Orb of Ice Arrow
-61	103	103	1	0	50	0	1030	0	0	0	0	0	0	0	0	0	1030	0	0	0	0	0	0	0	0	0	// Orb of Penetration
-61	104	104	1	0	50	0	1040	0	0	0	0	0	0	0	0	0	1040	0	0	0	0	0	0	0	0	0	// Orb of Fire Slash
-61	105	105	1	0	50	0	1050	0	0	0	0	0	0	0	0	0	1050	0	0	0	0	0	0	0	0	0	// Orb of Death Stab
-61	106	106	1	0	50	0	1060	0	0	0	0	0	0	0	0	0	1060	0	0	0	0	0	0	0	0	0	// Crystal of Destruction
-61	107	107	1	0	50	0	1070	0	0	0	0	0	0	0	0	0	1070	0	0	0	0	0	0	0	0	0	// Crystal of Multi-Shot
-61	108	108	1	0	50	0	1080	0	0	0	0	0	0	0	0	0	1080	0	0	0	0	0	0	0	0	0	// Crystal of Recovery
-61	109	109	1	0	50	0	1090	0	0	0	0	0	0	0	0	0	1090	0	0	0	0	0	0	0	0	0	// Crystal of Flame Strike
-62	139	139	1	0	200	0	1390	0	0	0	0	0	0	0	0	0	1390	0	0	0	0	0	0	0	0	0	// Small Cape of Lord
-62	140	140	1	0	200	0	1400	0	0	0	0	0	0	0	0	0	1400	0	0	0	0	0	0	0	0	0	// Small Wing of Curse
-62	141	141	1	0	200	0	1410	0	0	0	0	0	0	0	0	0	1410	0	0	0	0	0	0	0	0	0	// Small Wings of Elf
-62	142	142	1	0	200	0	1420	0	0	0	0	0	0	0	0	0	1420	0	0	0	0	0	0	0	0	0	// Small Wings of Heaven
-62	143	143	1	0	200	0	1430	0	0	0	0	0	0	0	0	0	1430	0	0	0	0	0	0	0	0	0	// Small Wings of Satan
-62	144	144	1	0	200	0	1440	0	0	0	0	0	0	0	0	0	1440	0	0	0	0	0	0	0	0	0	// Small Cloak of Warrior
-62	145	145	1	0	10	0	1450	0	0	0	0	0	0	0	0	0	1450	0	0	0	0	0	0	0	0	0	// Guardian Angel
-62	146	146	1	0	10	0	1460	0	0	0	0	0	0	0	0	0	1460	0	0	0	0	0	0	0	0	0	// Imp
-62	147	147	1	0	10	0	1470	0	0	0	0	0	0	0	0	0	1470	0	0	0	0	0	0	0	0	0	// Horn of Uniria
-62	148	148	1	0	50	0	1480	0	0	0	0	0	0	0	0	0	1480	0	0	0	0	0	0	0	0	0	// Horn of Dinorant
-62	149	149	1	0	150	0	1490	0	0	0	0	0	0	0	0	0	1490	0	0	0	0	0	0	0	0	0	// Dark Horse
-62	150	150	1	0	150	0	1500	0	0	0	0	0	0	0	0	0	1500	0	0	0	0	0	0	0	0	0	// Dark Raven
-62	151	151	1	0	100	0	1510	0	0	0	0	0	0	0	0	0	1510	0	0	0	0	0	0	0	0	0	// Devil Square Ticket
-62	152	152	1	0	100	0	1520	0	0	0	0	0	0	0	0	0	1520	0	0	0	0	0	0	0	0	0	// Blood Castle Ticket
-62	153	153	1	0	100	0	1530	0	0	0	0	0	0	0	0	0	1530	0	0	0	0	0	0	0	0	0	// Kalima Ticket
-62	154	154	1	0	150	0	1540	0	0	0	0	0	0	0	0	0	1540	0	0	0	0	0	0	0	0	0	// Demon
-62	155	155	1	0	150	0	1550	0	0	0	0	0	0	0	0	0	1550	0	0	0	0	0	0	0	0	0	// Spirit of Guardian
-62	156	156	1	0	150	0	1560	0	0	0	0	0	0	0	0	0	1560	0	0	0	0	0	0	0	0	0	// Pet Rudolf
-62	157	157	1	0	150	0	1570	0	0	0	0	0	0	0	0	0	1570	0	0	0	0	0	0	0	0	0	// Pet Rudolf
-62	158	158	1	0	150	0	1580	0	0	0	0	0	0	0	0	0	1580	0	0	0	0	0	0	0	0	0	// Snowman Transformation Ring
-62	159	159	1	0	150	0	1590	0	0	0	0	0	0	0	0	0	1590	0	0	0	0	0	0	0	0	0	// Panda Ring
-62	160	160	1	0	150	0	1600	0	0	0	0	0	0	0	0	0	1600	0	0	0	0	0	0	0	0	0	// Pet Panda
-62	161	161	1	0	150	0	1610	0	0	0	0	0	0	0	0	0	1610	0	0	0	0	0	0	0	0	0	// Pet Unicorn
-62	162	162	1	0	150	0	1620	0	0	0	0	0	0	0	0	0	1620	0	0	0	0	0	0	0	0	0	// Pet Skeleton
-62	163	163	1	0	150	0	1630	0	0	0	0	0	0	0	0	0	1630	0	0	0	0	0	0	0	0	0	// Skeleton Transformation Ring
-62	164	164	1	0	150	0	1640	0	0	0	0	0	0	0	0	0	1640	0	0	0	0	0	0	0	0	0	// Open Access Ticket to Varka
-62	165	165	1	0	150	0	1650	0	0	0	0	0	0	0	0	0	1650	0	0	0	0	0	0	0	0	0	// Open Access Ticket to Varka Ma
-62	166	166	1	0	150	0	1660	0	0	0	0	0	0	0	0	0	1660	0	0	0	0	0	0	0	0	0	// Open Access Ticket to Doppelga
-62	167	167	1	0	150	0	1670	0	0	0	0	0	0	0	0	0	1670	0	0	0	0	0	0	0	0	0	// Moonstone Pendant
-63	110	110	1	0	50	0	1100	0	0	0	0	0	0	0	0	0	1100	0	0	0	0	0	0	0	0	0	// Scroll of FireBurst
-63	111	111	1	0	50	0	1110	0	0	0	0	0	0	0	0	0	1110	0	0	0	0	0	0	0	0	0	// Scroll of Summon
-63	112	112	1	0	50	0	1120	0	0	0	0	0	0	0	0	0	1120	0	0	0	0	0	0	0	0	0	// Scroll of Critical Damage
-63	113	113	1	0	50	0	1130	0	0	0	0	0	0	0	0	0	1130	0	0	0	0	0	0	0	0	0	// Scroll of Electric Spark
-63	114	114	1	0	50	0	1140	0	0	0	0	0	0	0	0	0	1140	0	0	0	0	0	0	0	0	0	// Scroll of Fire Scream
-63	115	115	1	0	50	0	1150	0	0	0	0	0	0	0	0	0	1150	0	0	0	0	0	0	0	0	0	// Scroll of Hellfire
-63	116	116	1	0	50	0	1160	0	0	0	0	0	0	0	0	0	1160	0	0	0	0	0	0	0	0	0	// Scroll of Aqua Beam
-63	117	117	1	0	50	0	1170	0	0	0	0	0	0	0	0	0	1170	0	0	0	0	0	0	0	0	0	// Scroll of Cometfall
-63	118	118	1	0	50	0	1180	0	0	0	0	0	0	0	0	0	1180	0	0	0	0	0	0	0	0	0	// Scroll of Inferno
-63	119	119	1	0	50	0	1190	0	0	0	0	0	0	0	0	0	1190	0	0	0	0	0	0	0	0	0	// Scroll of Teleport Ally
-63	120	120	1	0	50	0	1200	0	0	0	0	0	0	0	0	0	1200	0	0	0	0	0	0	0	0	0	// Scroll of Soul Barrier
-63	121	121	1	0	50	0	1210	0	0	0	0	0	0	0	0	0	1210	0	0	0	0	0	0	0	0	0	// Scroll of Decay
-63	122	122	1	0	50	0	1220	0	0	0	0	0	0	0	0	0	1220	0	0	0	0	0	0	0	0	0	// Scroll of Ice Storm
-63	123	123	1	0	50	0	1230	0	0	0	0	0	0	0	0	0	1230	0	0	0	0	0	0	0	0	0	// Scroll of Nova
-63	124	124	1	0	50	0	1240	0	0	0	0	0	0	0	0	0	1240	0	0	0	0	0	0	0	0	0	// Lightning Shock Parchment
-63	125	125	1	0	50	0	1250	0	0	0	0	0	0	0	0	0	1250	0	0	0	0	0	0	0	0	0	// Damage Reflection Parchment
-63	126	126	1	0	50	0	1260	0	0	0	0	0	0	0	0	0	1260	0	0	0	0	0	0	0	0	0	// Sleep Parchment
-63	127	127	1	0	50	0	1270	0	0	0	0	0	0	0	0	0	1270	0	0	0	0	0	0	0	0	0	// Weakness Parchment
-63	128	128	1	0	50	0	1280	0	0	0	0	0	0	0	0	0	1280	0	0	0	0	0	0	0	0	0	// Innovation Parchment
-63	129	129	1	0	50	0	1290	0	0	0	0	0	0	0	0	0	1290	0	0	0	0	0	0	0	0	0	// Scroll of Wizardry Enhance
-63	130	130	1	0	50	0	1300	0	0	0	0	0	0	0	0	0	1300	0	0	0	0	0	0	0	0	0	// Scroll of Gigantic Storm
-63	131	131	1	0	50	0	1310	0	0	0	0	0	0	0	0	0	1310	0	0	0	0	0	0	0	0	0	// Chain Driver Parchment
-63	132	132	1	0	50	0	1320	0	0	0	0	0	0	0	0	0	1320	0	0	0	0	0	0	0	0	0	// Dark Side Parchment
-63	133	133	1	0	50	0	1330	0	0	0	0	0	0	0	0	0	1330	0	0	0	0	0	0	0	0	0	// Dragon Lore Parchment
-63	134	134	1	0	50	0	1340	0	0	0	0	0	0	0	0	0	1340	0	0	0	0	0	0	0	0	0	// Dragon Slayer Parchment
-63	135	135	1	0	50	0	1350	0	0	0	0	0	0	0	0	0	1350	0	0	0	0	0	0	0	0	0	// Red Armor Ignore Parchment
-63	136	136	1	0	50	0	1360	0	0	0	0	0	0	0	0	0	1360	0	0	0	0	0	0	0	0	0	// Fitness Parchment
-63	137	137	1	0	50	0	1370	0	0	0	0	0	0	0	0	0	1370	0	0	0	0	0	0	0	0	0	// Defense Rate Parchment
-63	138	138	1	0	50	0	1380	0	0	0	0	0	0	0	0	0	1380	0	0	0	0	0	0	0	0	0	// Summon of Scroll
-64	168	168	1	0	150	0	1680	0	0	0	0	0	0	0	0	0	1680	0	0	0	0	0	0	0	0	0	// Seal of Ascension
-64	169	169	1	0	150	0	1690	0	0	0	0	0	0	0	0	0	1690	0	0	0	0	0	0	0	0	0	// Seal of Wealth
-64	170	170	1	0	150	0	1700	0	0	0	0	0	0	0	0	0	1700	0	0	0	0	0	0	0	0	0	// Seal of Sustenance
-64	171	171	1	0	150	0	1710	0	0	0	0	0	0	0	0	0	1710	0	0	0	0	0	0	0	0	0	// Seal of Mobility
-64	172	172	1	0	150	0	1720	0	0	0	0	0	0	0	0	0	1720	0	0	0	0	0	0	0	0	0	// Seal of Healing
-64	173	173	1	0	150	0	1730	0	0	0	0	0	0	0	0	0	1730	0	0	0	0	0	0	0	0	0	// Seal of Divinity
-64	174	174	1	0	150	0	1740	0	0	0	0	0	0	0	0	0	1740	0	0	0	0	0	0	0	0	0	// Talisman of Guardian
-64	175	175	1	0	150	0	1750	0	0	0	0	0	0	0	0	0	1750	0	0	0	0	0	0	0	0	0	// Talisman of Item Protection
-64	176	176	1	0	150	0	1760	0	0	0	0	0	0	0	0	0	1760	0	0	0	0	0	0	0	0	0	// Master Seal of Ascension
-64	177	177	1	0	150	0	1770	0	0	0	0	0	0	0	0	0	1770	0	0	0	0	0	0	0	0	0	// Master Seal of Wealth
-64	178	178	1	0	150	0	1780	0	0	0	0	0	0	0	0	0	1780	0	0	0	0	0	0	0	0	0	// Party EXP Scroll
-64	179	179	1	0	150	0	1790	0	0	0	0	0	0	0	0	0	1790	0	0	0	0	0	0	0	0	0	// Max AG Boost Aura
-64	180	180	1	0	150	0	1800	0	0	0	0	0	0	0	0	0	1800	0	0	0	0	0	0	0	0	0	// Max SD Boost Aura
-64	181	181	1	0	150	0	1810	0	0	0	0	0	0	0	0	0	1810	0	0	0	0	0	0	0	0	0	// Hawk Figurine
-64	182	182	1	0	150	0	1820	0	0	0	0	0	0	0	0	0	1820	0	0	0	0	0	0	0	0	0	// Goat Figurine
-64	183	183	1	0	150	0	1830	0	0	0	0	0	0	0	0	0	1830	0	0	0	0	0	0	0	0	0	// Oak Charm
-64	184	184	1	0	150	0	1840	0	0	0	0	0	0	0	0	0	1840	0	0	0	0	0	0	0	0	0	// Maple Charm
-64	185	185	1	0	150	0	1850	0	0	0	0	0	0	0	0	0	1850	0	0	0	0	0	0	0	0	0	// Golden Oak Charm
-64	186	186	1	0	150	0	1860	0	0	0	0	0	0	0	0	0	1860	0	0	0	0	0	0	0	0	0	// Golden Maple Charm
+//CategoryID	PackageID	ItemGroup	ItemIndex	PurchaseType	Price	UseType	Gift	NumbeOfProductID	ProductID	Comment
+31	100	13	44	0	250	0	0	1	1000	// Seal of Wealth
+end
+31	102	13	63	0	100	0	0	1	1020	// Seal of Divinity
+end
+31	103	13	43	0	200	0	0	1	1030	// Seal of Ascension
+end
+35	101	13	76	0	200	0	0	1	1010	// Panda Ring
+end
+35	104	13	122	0	200	0	0	1	1040	// Skeleton Transformation Ring
+end
+35	105	13	80	0	250	0	0	1	1050	// Pet Panda
+end
+35	106	13	123	0	250	0	0	1	1060	// Pet Skeleton
+end
+35	112	13	64	0	100	0	0	1	1120	// Demon
+end
+35	113	13	65	0	100	0	0	1	1130	// Spirit of Guardian
+end
+37	107	13	46	0	100	1	0	1	1070	// Devil Square Ticket
+end
+37	108	13	46	0	900	1	0	1	1080	// Devil Square Ticket
+end
+37	109	13	47	0	100	1	0	1	1090	// Blood Castle Ticket
+end
+37	110	13	47	0	900	1	0	1	1100	// Blood Castle Ticket
+end
+37	111	13	48	0	900	1	0	1	1110	// Kalima Ticket
+end
+37	114	13	61	0	100	1	0	1	1140	// Illusion Temple Ticket
+end
+37	115	13	61	0	100	1	0	1	1150	// Illusion Temple Ticket
+end
+41	116	13	43	1	200	0	0	1	1160	// Seal of Ascension
+end
+41	117	13	44	1	250	0	0	1	1170	// Seal of Wealth
+end
+41	118	13	63	1	100	0	0	1	1180	// Seal of Divinity
+end
+42	119	13	76	1	200	0	0	1	1190	// Panda Ring
+end
+42	120	13	122	1	200	0	0	1	1200	// Skeleton Transformation Ring
+end
+42	121	13	80	1	250	0	0	1	1210	// Pet Panda
+end
+42	122	13	123	1	250	0	0	1	1220	// Pet Skeleton
+end
+42	123	13	64	1	100	0	0	1	1230	// Demon
+end
+42	124	13	65	1	100	0	0	1	1240	// Spirit of Guardian
+end
+43	125	13	46	1	100	1	0	1	1250	// Devil Square Ticket
+end
+43	126	13	46	1	900	1	0	1	1260	// Devil Square Ticket
+end
+43	127	13	47	1	100	1	0	1	1270	// Blood Castle Ticket
+end
+43	128	13	47	1	900	1	0	1	1280	// Blood Castle Ticket
+end
+43	129	13	48	1	900	1	0	1	1290	// Kalima Ticket
+end
+43	130	13	61	1	100	1	0	1	1300	// Illusion Temple Ticket
+end
+43	131	13	61	1	100	1	0	1	1310	// Illusion Temple Ticket
+end
+62	132	14	13	2	5	1	0	1	1320	// Jewel of Bless
+end
+62	133	14	14	2	5	1	0	1	1330	// Jewel of Soul
+end
+62	134	14	16	2	5	1	0	1	1340	// Jewel of Life
+end
+62	135	14	13	2	50	1	0	1	1350	// Jewel of Bless x10
+end
+62	136	14	14	2	50	1	0	1	1360	// Jewel of Soul x10
+end
+62	137	14	16	2	50	1	0	1	1370	// Jewel of Life x10
 end
