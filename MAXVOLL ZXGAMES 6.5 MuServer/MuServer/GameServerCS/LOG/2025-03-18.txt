@@ -87,3 +87,7 @@
 20:13:40 [CastleSiege] CCastleSiege::Init() - START
 20:13:40 [CastleSiege] CCastleSiege::Init() - CheckSync() == FALSE
 20:13:41 [ CRYWOLF ] SYNC Occupation: 0, State: 0
+20:36:01 [OnlineLoterry] No Winner
+21:10:00 [CustomQuiz] Start
+21:13:00 [CustomQuiz] Finish
+21:36:02 [OnlineLoterry] No Winner

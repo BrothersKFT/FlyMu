@@ -8,3 +8,8 @@
 20:03:48 [ServerList] GameServer online (FlyMu) (0)
 20:03:53 [ServerList] GameServer online (FlyMuCS) (19)
 20:03:55 [ServerList] JoinServer online
+20:13:27 [SocketManager] Server started at port [44405]
+20:13:27 [ServerList] ServerList loaded successfully
+20:13:36 [ServerList] GameServer online (FlyMu) (0)
+20:13:40 [ServerList] GameServer online (FlyMuCS) (19)
+20:13:42 [ServerList] JoinServer online
