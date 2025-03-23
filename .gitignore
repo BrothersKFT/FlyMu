@@ -13,3 +13,7 @@ MAXVOLL ZXGAMES 6.5 MuServer/MuServer/ConnectServer/LOG/*.txt
 MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/ANTIFLOOD_LOG/
 
 MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/CHAOS_MIX_LOG/
+
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/CASH_SHOP_LOG/
+
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/HACK_LOG/
