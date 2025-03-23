@@ -42,9 +42,9 @@ WriteChaosMixLog = 0
 ;==================================================
 ; AntiFlood Settings
 ;==================================================
-MaxIpConnection = 10
+MaxIpConnection = 6
 BannedDuration = 60000
-MaxHwidConnection = 5
+MaxHwidConnection = 2
 
 ;==================================================
 ; Hack Settings
@@ -75,8 +75,7 @@ SpeedHackSkillDebug = 1
 ;==================================================
 ; Common Settings
 ;==================================================
-MaxItemOption = 7
-MaxIpConnection = 2
+MaxItemOption = 5
 PersonalCodeCheck = 0
 SetItemAcceptHarmonySwitch = 1
 
@@ -96,10 +95,11 @@ UserHealthBarSwitch = 1
 ;==================================================
 NonPK = 0
 LevelInicioPK = 5
+PKLimitCount = 4
 PKLimitFree = 0
 PKDownTime1 = 3600
-PKDownTime2 = 3600
-SelfDefenseTime = 60000  //time in secund
+PKDownTime2 = 7200
+SelfDefenseTime = 60
 
 ;==================================================
 ; Trade Settings
@@ -114,35 +114,35 @@ PersonalShopSwitch = 1
 ;==================================================
 ; Duel Settings
 ;==================================================
-DuelSwitch = 0
+DuelSwitch = 1
 DuelScore = 10
 DuelArenaAnnounceSwitch = 0
-DuelArenaDisableRestoreHP = 0
-DuelArenaDisableRestoreSD = 0
+DuelArenaDisableRestoreHP = 1
+DuelArenaDisableRestoreSD = 1
 
 ;==================================================
 ; Guild Settings
 ;==================================================
 GuildCreateSwitch = 1	
 GuildDeleteSwitch = 1
-GuildCreateMinLevel = 100
-GuildInsertMaxUser1 = 40
+GuildCreateMinLevel = 10
+GuildInsertMaxUser1 = 80
 GuildInsertMaxUser2 = 80
-GuildAllianceMinUser = 1
-GuildAllianceMaxCount = 5
+GuildAllianceMinUser = 3
+GuildAllianceMaxCount = 3
 GuildOwnerDestroyLimit = 1
 
 ;==================================================
 ; Elf Buffer Settings
 ;==================================================
-ElfBufferMaxLevel_AL0 = 220
-ElfBufferMaxLevel_AL1 = 220
-ElfBufferMaxLevel_AL2 = 220
-ElfBufferMaxLevel_AL3 = 220
-ElfBufferMaxReset_AL0 = 10000
-ElfBufferMaxReset_AL1 = 10000
-ElfBufferMaxReset_AL2 = 10000
-ElfBufferMaxReset_AL3 = 10000
+ElfBufferMaxLevel_AL0 = 400
+ElfBufferMaxLevel_AL1 = 400
+ElfBufferMaxLevel_AL2 = 400
+ElfBufferMaxLevel_AL3 = 400
+ElfBufferMaxReset_AL0 = 5
+ElfBufferMaxReset_AL1 = 5
+ElfBufferMaxReset_AL2 = 5
+ElfBufferMaxReset_AL3 = 5
 ElfBufferDamageConstA = 50
 ElfBufferDamageConstB = 5
 ElfBufferDefenseConstA = 45
@@ -151,63 +151,63 @@ ElfBufferDefenseConstB = 3
 ;==================================================
 ; Experience Settings
 ;==================================================
-AddExperienceRate_AL0 = 50
-AddExperienceRate_AL1 = 55
-AddExperienceRate_AL2 = 60
-AddExperienceRate_AL3 = 65
-AddMasterExperienceRate_AL0 = 150
-AddMasterExperienceRate_AL1 = 160
-AddMasterExperienceRate_AL2 = 170
-AddMasterExperienceRate_AL3 = 180
+AddExperienceRate_AL0 = 100
+AddExperienceRate_AL1 = 110
+AddExperienceRate_AL2 = 120
+AddExperienceRate_AL3 = 130
+AddMasterExperienceRate_AL0 = 10
+AddMasterExperienceRate_AL1 = 15
+AddMasterExperienceRate_AL2 = 20
+AddMasterExperienceRate_AL3 = 25
 MinMasterExperienceMonsterLevel_AL0 = 115
 MinMasterExperienceMonsterLevel_AL1 = 115
 MinMasterExperienceMonsterLevel_AL2 = 115
 MinMasterExperienceMonsterLevel_AL3 = 115
-AddEventExperienceRate_AL0 = 0
-AddEventExperienceRate_AL1 = 0
-AddEventExperienceRate_AL2 = 0
-AddEventExperienceRate_AL3 = 0
-AddQuestExperienceRate_AL0 = 0
-AddQuestExperienceRate_AL1 = 0
-AddQuestExperienceRate_AL2 = 0
-AddQuestExperienceRate_AL3 = 0
-OffAttackExperienceRate_AL0 = 0
-OffAttackExperienceRate_AL1 = 0
-OffAttackExperienceRate_AL2 = 0
-OffAttackExperienceRate_AL3 = 0
-AutoResetExperienceRate_AL0 = 0
-AutoResetExperienceRate_AL1 = 0
-AutoResetExperienceRate_AL2 = 0
-AutoResetExperienceRate_AL3 = 0
+AddEventExperienceRate_AL0 = 1
+AddEventExperienceRate_AL1 = 1
+AddEventExperienceRate_AL2 = 1
+AddEventExperienceRate_AL3 = 1
+AddQuestExperienceRate_AL0 = 1
+AddQuestExperienceRate_AL1 = 1
+AddQuestExperienceRate_AL2 = 1
+AddQuestExperienceRate_AL3 = 1
+OffAttackExperienceRate_AL0 = 50
+OffAttackExperienceRate_AL1 = 60
+OffAttackExperienceRate_AL2 = 70
+OffAttackExperienceRate_AL3 = 80
+AutoResetExperienceRate_AL0 = 100
+AutoResetExperienceRate_AL1 = 110
+AutoResetExperienceRate_AL2 = 120
+AutoResetExperienceRate_AL3 = 130
 
 ;==================================================
 ; Item Drop Settings
 ;==================================================
 ItemDropTime = 20
 ItemDropPickUpTime = 10
-ItemDropRate_AL0 = 30
-ItemDropRate_AL1 = 30
+ItemDropRate_AL0 = 20
+ItemDropRate_AL1 = 25
 ItemDropRate_AL2 = 30
-ItemDropRate_AL3 = 45
+ItemDropRate_AL3 = 40
 
 ;==================================================
 ; Money Drop Settings
 ;==================================================
 MoneyDropTime = 20
-MoneyAmountDropRate_AL0 = 70
-MoneyAmountDropRate_AL1 = 70
-MoneyAmountDropRate_AL2 = 70
-MoneyAmountDropRate_AL3 = 90
+MoneyAmountDropRate_AL0 = 10
+MoneyAmountDropRate_AL1 = 15
+MoneyAmountDropRate_AL2 = 20
+MoneyAmountDropRate_AL3 = 30
 
 ;==================================================
 ; Advanced Money Drop Settings
 ; If > 0 enable the system
 ; Money Drop = (MoneyValue*MonterLevel) + % ItemBonus
 ;==================================================
-MoneyValue_AL0 = 1000
-MoneyValue_AL1 = 1000
-MoneyValue_AL2 = 1000
-MoneyValue_AL3 = 1000
+MoneyValue_AL0 = 100
+MoneyValue_AL1 = 120
+MoneyValue_AL2 = 150
+MoneyValue_AL3 = 170
 
 ;==================================================
 ; Item Durability Settings
@@ -236,14 +236,38 @@ TradeItemBlockLucky = 1
 MaxLevelUp = 1
 MaxLevelUpEvent = 1
 MaxLevelUpQuest = 1
-MaxStatPoint_AL0 = 32767
-MaxStatPoint_AL1 = 32767
-MaxStatPoint_AL2 = 32767
-MaxStatPoint_AL3 = 32767
-MaxStatPointCMD_AL0 = 32767
-MaxStatPointCMD_AL1 = 32767
-MaxStatPointCMD_AL2 = 32767
-MaxStatPointCMD_AL3 = 32767
+DW_MaxStatPoint_STR = 32000
+DW_MaxStatPoint_AGI = 32000
+DW_MaxStatPoint_VIT = 32000
+DW_MaxStatPoint_ENE = 32000
+DK_MaxStatPoint_STR = 32000
+DK_MaxStatPoint_AGI = 32000
+DK_MaxStatPoint_VIT = 32000
+DK_MaxStatPoint_ENE = 32000
+ELF_MaxStatPoint_STR = 32000
+ELF_MaxStatPoint_AGI = 32000
+ELF_MaxStatPoint_VIT = 32000
+ELF_MaxStatPoint_ENE = 32000
+MG_MaxStatPoint_STR = 32000
+MG_MaxStatPoint_AGI = 32000
+MG_MaxStatPoint_VIT = 32000
+MG_MaxStatPoint_ENE = 32000
+DL_MaxStatPoint_STR = 32000
+DL_MaxStatPoint_AGI = 32000
+DL_MaxStatPoint_VIT = 32000
+DL_MaxStatPoint_ENE = 32000
+SU_MaxStatPoint_STR = 32000
+SU_MaxStatPoint_AGI = 32000
+SU_MaxStatPoint_VIT = 32000
+SU_MaxStatPoint_ENE = 32000
+RF_MaxStatPoint_STR = 32000
+RF_MaxStatPoint_AGI = 32000
+RF_MaxStatPoint_VIT = 32000
+RF_MaxStatPoint_ENE = 32000
+MaxStatPointCMD_AL0 = 32000
+MaxStatPointCMD_AL1 = 32000
+MaxStatPointCMD_AL2 = 32000
+MaxStatPointCMD_AL3 = 32000
 DWLevelUpPoint = 5
 DKLevelUpPoint = 5
 FELevelUpPoint = 5
@@ -324,7 +348,7 @@ ShieldGaugeAttackComboMiss = 0
 ;==================================================
 MasterSkillTree = 1
 MasterSkillTreePoint = 1
-MasterSkillTreeMaxLevel = 600
+MasterSkillTreeMaxLevel = 1000
 
 ;==================================================
 ; LevelPlus configuration // Max LevelPlus = 1000.
@@ -332,8 +356,8 @@ MasterSkillTreeMaxLevel = 600
 ; Formula: level max 400 + level plus 1000 = 1400 lvl.
 ; DownGrade: Activar si usaras una config stilo downgrade.
 ;==================================================
-Max_LevelPlus = 600
-DownGrade = 0
+Max_LevelPlus = 1000
+DownGrade = 1
 
 ;==================================================
 ; Gens System Settings
@@ -385,16 +409,17 @@ CashShopGoblinPointValue_AL3 = 1
 ;==================================================
 PartyReconnectTime = 300
 PartyGeneralExperience1 = 100
-PartyGeneralExperience2 = 80
-PartyGeneralExperience3 = 75
-PartyGeneralExperience4 = 65
-PartyGeneralExperience5 = 60
+PartyGeneralExperience2 = 200
+PartyGeneralExperience3 = 300
+PartyGeneralExperience4 = 400
+PartyGeneralExperience5 = 500
 PartySpecialExperience1 = 100
-PartySpecialExperience2 = 80
-PartySpecialExperience3 = 75
-PartySpecialExperience4 = 65
-PartySpecialExperience5 = 60
+PartySpecialExperience2 = 200
+PartySpecialExperience3 = 300
+PartySpecialExperience4 = 400
+PartySpecialExperience5 = 500
 PartyDisablePK = 1
+PartyMaxMembers = 5
 
 ;==================================================
 ; Potion Settings
@@ -481,11 +506,11 @@ FruitSubPointSuccessRate_AL3 = -1
 ; HP Bonus System
 ; Aumenta a vida do personagem de acordo com a quantidade de master reset
 ;==================================================
-HpBonus_AL0 = 1
-HpBonus_AL1 = 1
-HpBonus_AL2 = 1
-HpBonus_AL3 = 1
-HpBonus_MAX = 1
+HpBonus_AL0 = 100
+HpBonus_AL1 = 100
+HpBonus_AL2 = 100
+HpBonus_AL3 = 100
+HpBonus_MAX = 10000
 
 ;==================================================
 ; Die System
@@ -496,7 +521,7 @@ DieMonsterSwitch = 0
 
 ;==================================================
 ; Online User System
-; Exibe mensagem de conex�o Gm/Player.
+; Exibe mensagem de conexão Gm/Player.
 ;==================================================
 OnlineGmSwitch = 1
 OnlineUserSwitch = 0
@@ -504,13 +529,13 @@ OnlineUserSwitch = 0
 ;==================================================
 ; Disable exp message (Premium)
 ; Desabilita a mensagem de experiencia ganha ao matar um mob.
-; S� � exibida quando sobe de level.
+; São exibidas quando sobe de level.
 ;==================================================
 DisableExpMessage = 0
 
 ;==================================================
 ; Remover Recuo (Premium)
-; Remove o recuo/empurr�o das skills
+; Remove o recuo/empurrão das skills
 ;==================================================
 DisableLightningEffect  = 1
 DisableCycloneEffect  = 1
@@ -521,7 +546,7 @@ DisableUpperCutEffect  = 1
 
 ;==================================================
 ; Disable Wings Class Mix
-; Desabilita cria��o de asas para classes
+; Desabilita criação de asas para classes
 ;==================================================
 DisableWingMixDL = 0
 DisableWingMixSU = 0
@@ -570,4 +595,4 @@ EnableComboToAllSwitch = 1
 ;==================================================
 ; Socket + Joh
 ;==================================================
-SocketItemAcceptHarmonySwitch = 0
+SocketItemAcceptHarmonySwitch = 1
