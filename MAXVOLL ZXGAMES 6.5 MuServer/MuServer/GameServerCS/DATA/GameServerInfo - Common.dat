@@ -408,16 +408,16 @@ CashShopGoblinPointValue_AL3 = 1
 ; Party Settings
 ;==================================================
 PartyReconnectTime = 300
-PartyGeneralExperience1 = 0
-PartyGeneralExperience2 = 0
-PartyGeneralExperience3 = 0
-PartyGeneralExperience4 = 0
-PartyGeneralExperience5 = 0
-PartySpecialExperience1 = 0
-PartySpecialExperience2 = 0
-PartySpecialExperience3 = 0
-PartySpecialExperience4 = 0
-PartySpecialExperience5 = 0
+PartyGeneralExperience1 = 1
+PartyGeneralExperience2 = 1
+PartyGeneralExperience3 = 1
+PartyGeneralExperience4 = 1
+PartyGeneralExperience5 = 1
+PartySpecialExperience1 = 1
+PartySpecialExperience2 = 1
+PartySpecialExperience3 = 1
+PartySpecialExperience4 = 1
+PartySpecialExperience5 = 1
 PartyDisablePK = 1
 PartyMaxMembers = 5
 
