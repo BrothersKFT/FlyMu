@@ -1,4 +1,4 @@
 //Account         Name         Level
-"teszt1"    "CSICSKAVVA" 32
+"HunStarr"    "fasz"    32
 "SonXeeZ"   "adminusz"  32
 end
