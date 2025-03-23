@@ -424,16 +424,16 @@ CashShopGoblinPointValue_AL3 = 1
 ; Funtion DifferenceLevel
 ;==================================================
 PartyReconnectTime = 300
-PartyGeneralExperience1 = 0
-PartyGeneralExperience2 = 0
-PartyGeneralExperience3 = 0
-PartyGeneralExperience4 = 0
-PartyGeneralExperience5 = 0
-PartySpecialExperience1 = 0
-PartySpecialExperience2 = 0
-PartySpecialExperience3 = 0
-PartySpecialExperience4 = 0
-PartySpecialExperience5 = 0
+PartyGeneralExperience1 = 100
+PartyGeneralExperience2 = 100
+PartyGeneralExperience3 = 100
+PartyGeneralExperience4 = 100
+PartyGeneralExperience5 = 100
+PartySpecialExperience1 = 100
+PartySpecialExperience2 = 100
+PartySpecialExperience3 = 100
+PartySpecialExperience4 = 100
+PartySpecialExperience5 = 100
 PartyMaxMembers = 5
 PartyDisablePK = 1
 RestrictRequest = 1
