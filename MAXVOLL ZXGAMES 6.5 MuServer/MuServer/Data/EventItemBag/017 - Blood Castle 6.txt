@@ -6,13 +6,20 @@
 //Archivo: 017 - Blood Castle 6
 /////////////////////////////////////////////////////////////////////////////
 0
-//EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
-"Blood Castle 6"	1000	100	10	0	0	0
+//EventName	        DropZen	        ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
+"Blood Castle 6"	20000000             80	            1	            0	            0	            1
 end
 
 1
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	NameItem
-14	13	0	0	0	0	0	0
+14	54	0	0	0	0	0	0 // rare item ticket
+14	92	0	0	0	0	0	0 // rare item ticket
+
+12	        30	        0	        0	      0	      0	      1	        0         // Bless bundled jewel
+12	        31	        0	        0	      0	      0	      1	        0         // Soul  bundled jewel
+12	        136	        0	        0	      0	      0	      1	        0         // Life  bundled jewel
+12	        137	        0	        0	      0	      0	      1	        0         // Creation  bundled jewel
+12	        141	        0	        0	      0	      0	      1	        0         // Chaos  bundled jewel
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
