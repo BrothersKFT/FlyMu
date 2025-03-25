@@ -7,7 +7,7 @@
 /////////////////////////////////////////////////////////////////////////////
 0
 //EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
-"Box of Luck"	1000000		1001		1					0				0				1
+"Box of Luck"	1		1001		1					0				0				1
 end
 
 1
@@ -15,6 +15,7 @@ end
 14	13	0	0	0	0	0	0
 14	14	0	0	0	0	0	0
 14	16	0	0	0	0	0	0
+14	15  0	0	0	0	0	0
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
