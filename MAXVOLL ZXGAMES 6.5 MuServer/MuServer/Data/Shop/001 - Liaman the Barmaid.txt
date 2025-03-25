@@ -8,13 +8,13 @@
 //Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Acc	JoH	Oex	Sck[1]	Sck[2]	Sck[3]	Sck[4]	Sck[5]	Info
 /////////////////////////////////////////////////////////////////////////////
 //
-14	1	0	255	0	0	0	0	0	0	0	0	0	//Small Healing Potion
-14	2	0	255	0	0	0	0	0	0	0	0	0	//Medium Healing Potion
-14	3	0	255	0	0	0	0	0	0	0	0	0	//Large Healing Potion
-14	4	0	255	0	0	0	0	0	0	0	0	0	//Small Mana Potion
-14	5	0	255	0	0	0	0	0	0	0	0	0	//Medium Mana Potion
-14	6	0	255	0	0	0	0	0	0	0	0	0	//Large Mana Potion
-14	8	0	20	0	0	0	0	0	0	0	0	0	//Antidote
-14	9	0	0	0	0	0	0	0	0	0	0	0	//Ale
-13	29	0	0	0	0	0	0	0	0	0	0	0	//Armor of Guardman
+14	1	0	255	0	0	0	0	0	0	0	0	0	0	0	0	//Small Healing Potion
+14	2	0	255	0	0	0	0	0	0	0	0	0	0	0	0	//Medium Healing Potion
+14	3	0	255	0	0	0	0	0	0	0	0	0	0	0	0	//Large Healing Potion
+14	4	0	255	0	0	0	0	0	0	0	0	0	0	0	0	//Small Mana Potion
+14	5	0	255	0	0	0	0	0	0	0	0	0	0	0	0	//Medium Mana Potion
+14	6	0	255	0	0	0	0	0	0	0	0	0	0	0	0	//Large Mana Potion
+14	8	0	20	0	0	0	0	0	0	0	0	0	0	0	0	//Antidote
+14	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	//Ale
+13	29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	//Armor of Guardman
 end
