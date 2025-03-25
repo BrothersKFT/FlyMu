@@ -29,7 +29,6 @@
 11	3	4	0	0	1	2	0	0	0	0	255	255	255	255	255	//Legendary Boots
 11	7	4	0	0	1	2	0	0	0	0	255	255	255	255	255	//Sphinx Boots
 15	5	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Scroll of Teleport
-15	4	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Scroll of Flame
 15	2	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Scroll of Lighting
 15	8	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Scroll of Evil Spirit
 15	7	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Scroll of Twister
