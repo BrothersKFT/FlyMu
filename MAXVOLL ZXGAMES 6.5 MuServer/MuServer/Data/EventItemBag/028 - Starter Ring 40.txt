@@ -8,7 +8,7 @@
 0
 //EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
 "Starter Ring 40"	0	    100     	1	0	0	0
-"Starter Ring 40"	500000	0     	    0	0	0	0
+"Starter Ring 40 - 2"	500000	0     	    0	0	0	0
 end
 
 1
