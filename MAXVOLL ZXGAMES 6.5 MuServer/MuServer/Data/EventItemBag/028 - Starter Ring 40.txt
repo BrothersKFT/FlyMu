@@ -13,7 +13,7 @@ end
 1
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	NameItem
 13	0	0	0	0	0	0	0
-14	0	0	0	0	0	0	0
+13	1	0	0	0	0	0	0
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
