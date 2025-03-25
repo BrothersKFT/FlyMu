@@ -30,9 +30,9 @@
 11	5	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Leather Boots
 0	3	3	100	1	1	2	0	0   0   0   0   0   0   0   0   //Katana
 0	5	3	100	1	1	2	0	0   0   0   0   0   0   0   0   //Blade
-13	67	3	0	0	1	0	0	0   0   0   0   0   0   0   0   //Pet Rudolph
-12	7	3	0	0	1	0	0	0   0   0   0   0   0   0   0   //Orb of Twisting Slash
-15	32	3	0	0	1	0	0	0   0   0   0   0   0   0   0   //Dragon Roar Parchment
+13	67	0	0	0	1	0	0	0   0   0   0   0   0   0   0   //Pet Rudolph
+12	7	0	0	0	1	0	0	0   0   0   0   0   0   0   0   //Orb of Twisting Slash
+15	32	0	0	0	1	0	0	0   0   0   0   0   0   0   0   //Dragon Roar Parchment
 0	32	0	100	0	1	0	0	0   0   0   0   0   0   0   0   //Sacred Glove
 2	8	0	100	0	1	0	0	0   0   0   0   0   0   0   0   //Battle Scepter
 end
