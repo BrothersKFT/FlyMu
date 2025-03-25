@@ -51,8 +51,8 @@
 6722      0       0       *         *         *         *         *         *         *         0          *           466            *                 *                 0          //Invitation to Santa Village
 7179      1       0       *         *         *         *         *         *         *         0          *           *              12                69                0          //Star of Christmas
 7179      3       0       *         *         *         *         *         *         *         0          *           *              12                69                0          //Heart of Love
-7179      5       0       *         *         *         *         *         *         *         0          3           *              12                49                100          //Silver Medal Devias 3
-7179      5       0       *         *         *         *         *         *         *         0          4           *              12                49                100          //Silver Medal Lost Tower 1
+7179      5       0       *         *         *         *         *         *         *         0          3           *              12                49                1000          //Silver Medal Devias 3
+7179      5       0       *         *         *         *         *         *         *         0          4           *              12                49                1000          //Silver Medal Lost Tower 1
 7179      6       0       *         *         *         *         *         *         *         0          *           *              50                69                0          //Gold Medal
 7179      7       0       *         *         *         *         *         *         *         0          *           *              50                69                0          //Box of Heaven
 7179      13      0       *         *         *         *         *         *         *         0          *           *              50                69                0          //Blue Heart
