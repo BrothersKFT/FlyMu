@@ -13,9 +13,41 @@ end
 1
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	NameItem
 14	248	0	1	0	0	0	0
-14	248	0	1	0	0	0	0
+14	246	0	1	0	0	0	0
 14	245	0	1	0	0	0	0
 14	244	0	1	0	0	0	0
+14	249	0	1	0	0	0	0
+14	252	0	1	0	0	0	0
+7	21	0	0	0	0	0	1	//Great Dragon Helm
+7	24	0	0	0	0	0	1	//Red Spirit Helm
+7	28	0	0	0	0	0	1	//Dark Master Helm
+7	43	0	0	0	0	0	1	//Aura Helm
+8	21	0	0	0	0	0	1	//Great Dragon Armor
+8	24	0	0	0	0	0	1	//Red Spirit Armor
+8	28	0	0	0	0	0	1	//Dark Master Armor
+8	43	0	0	0	0	0	1	//Aura Armor
+9	21	0	0	0	0	0	1	//Great Dragon Pants
+9	24	0	0	0	0	0	1	//Red Spirit Pants
+9	28	0	0	0	0	0	1	//Dark Master Pants
+9	43	0	0	0	0	0	1	//Aura Pants
+10	21	0	0	0	0	0	1	//Great Dragon Gloves
+10	24	0	0	0	0	0	1	//Red Spirit Gloves
+10	28	0	0	0	0	0	1	//Dark Master Gloves
+10	43	0	0	0	0	0	1	//Aura Gloves
+11	21	0	0	0	0	0	1	//Great Dragon Boots
+11	24	0	0	0	0	0	1	//Red Spirit Boots
+11	28	0	0	0	0	0	1	//Dark Master Boots
+11	43	0	0	0	0	0	1	//Aura Boots
+0	20	0	0	1	0	0	1	//Knight Blade
+0	25	0	0	1	0	0	1	//Sword Dancer
+2	12	0	0	1	0	0	1	//Great Lord Scepter
+4	17	0	0	1	0	0	1	//Celestial Bow
+4	19	0	0	1	0	0	1	//Great Reign Crossbow
+4	20	0	0	1	0	0	1	//Arrow Viper Bow
+4	22	0	0	1	0	0	1	//Albatross Bow
+5	13	0	0	1	0	0	1	//Platina Wing Staff
+5	18	0	0	1	0	0	1	//Black Rose Staff
+6	13	0	0	1	0	0	1	//Chaos Dragon Shield
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
