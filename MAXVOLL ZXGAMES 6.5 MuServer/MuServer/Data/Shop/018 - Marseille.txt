@@ -10,5 +10,4 @@
 //
 15	20	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Drain Life Parchment
 15	19	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Chain Light Parchment
-15	23	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Berserker Parchment
 end
