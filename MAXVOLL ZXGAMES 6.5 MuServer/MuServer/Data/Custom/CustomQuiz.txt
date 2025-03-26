@@ -16,9 +16,9 @@ end
 // Questions
 //=================================================================================================================
 //  ID  	->  Question ID
-//  WC 		->  Premiação em WCoinC
-//  WP      	->  Premiação em WCoinP
-//  GP      	->  Premiação em Goblin Point
+//  WC 		->  Premiaï¿½ï¿½o em WCoinC
+//  WP      	->  Premiaï¿½ï¿½o em WCoinP
+//  GP      	->  Premiaï¿½ï¿½o em Goblin Point
 //  Question   	->  Pergunta
 //  Answer   	->  Resposta
 //=================================================================================================================
@@ -28,15 +28,32 @@ end
 //       #ID     #WC     #WP	 #GP         #Question				      		        #Answer		 
 //=================================================================================================================
 2
-	  0      10       0       0	     "(30+12X5)+10"					"100"	
-	  1      10       0       0	     "10+2x2?"							"14"
-	  2      10       0       0	     "2X+2X"					"4X"
-	  3      10       0       0	     "PI?"			"3.1415"
-	  4      10       0       0	     "999+999"	"1998"
-	  5      10       0       0	     "315x5"			"1575"
-	  6      10       0       0	     "Qual o nick exato do ADM do jogo?"			"TesteADM"
-	  7      10       0       0	     "Qual o nome exato do servidor?"				"Seu Servidor"
-	  8      10       0       0	     "Quando um jogador é novato, qual nome lhe damos?"		"Noob"
-	  9      10       0       0	     "Quantos estados tem o Brasil?"				"26"
-	  10     10       0       0	     "Em que continente fica localizada a Itália?"		"Continente Europeu"
+	  0      0       10       5	     "What is the main stat for Dark Wizard class?" "Energy"
+	  1      0       10       5	     "Which snowy map requires level 15 to enter?" "Devias"
+	  2      0       10       5	     "What is the result of 12 x 12?" "144"
+	  3      0       10       5	     "What is the capital city of Brazil?" "Brasilia"
+	  4      0       10       5	     "What is the name of the main starting town for Dark Wizard?" "Lorencia"
+	  5      0       10       5	     "In which map can you find the Hydra monster?" "Atlans"
+	  6      0       10       5	     "What is the primary stat for Dark Knight class?" "Strength"
+	  7      0       10       5	     "Which character class primarily uses staff weapon?" "Wizard"
+	  8      0       10       5	     "What is the main weapon for Summoner class?" "Stick"
+	  9      0       10       5	     "What is the main mount used by the Dark Lord class?" "Horse"
+	  10     0       10       5	     "What is the maximum level that can be reached in the game?" "400"
+	  11     0       10       5	     "What is the result of 1000 - 369?" "631"
+	  12     0       10       5	     "What is the result of 1000 - 763?" "237"
+	  13     0       10       5	     "What is the result of 355 + 350?" "705"
+	  14     0       10       5	     "What is the result of 1000 - 999?" "1"
+	  15     0       10       5	     "What is the name of the main starting town for Dark Knight?" "Lorencia"
+	  16     0       10       5	     "What is the name of the main starting town for Elf?" "Noria"
+	  17     0       10       5	     "What is the result of 411 x 3 ?" "1233"
+	  18     0       10       5	     "What is the result of (50+7x5) x 2?" "170"
+	  19     0       10       5	     "What is the result of 2x2x4?" "16"
+	  20     0       10       5	     "What is the result of 5x5x5?" "125"
+	  21     0       10       5	     "What is the result of 1000 - 817?" "183"
+	  22     0       10       5	     "Which one is the best muonline server?" "Flymu"
+	  23     0       10       5	     "What is the capital of Hungary?" "Budapest"
+	  24     0       10       5	     "What is the capital of France?" "Paris"
+	  25     0       10       5	     "What is the capital of Italy?" "Rome"
+	  26     0       10       5	     "What is the capital of Spain?" "Madrid"
+	  27     0       10       5	     "What is the capital of Russia?" "Moscow"
 end
