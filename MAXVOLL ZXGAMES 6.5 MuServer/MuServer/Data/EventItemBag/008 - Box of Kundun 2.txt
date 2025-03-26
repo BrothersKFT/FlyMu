@@ -54,8 +54,6 @@ end
 	11		 9			0			0		  0	 	 0		  0			1	//Plate Boots
 	11		 3			0			0		  0	 	 0		  0			1	//Legendary Boots
 	11		 13			0			0		  0	 	 0		  0			1	//Spirit Boots
-	11		 49			0			0		  0	 	 0		  0			1	//Seraphim Boots
-	11		 50			0			0		  0	 	 0		  0			1	//Faith Boots
 	7		 1			0			0		  0	 	 1		  0			1	//Dragon Helm
 	7		 7			0			0		  0	 	 1		  0			1	//Sphinx Helm
 	7		 9			0			0		  0	 	 1		  0			1	//Plate Helm
@@ -98,8 +96,6 @@ end
 	11		 9			0			0		  0	 	 1		  0			1	//Plate Boots
 	11		 3			0			0		  0	 	 1		  0			1	//Legendary Boots
 	11		 13			0			0		  0	 	 1		  0			1	//Spirit Boots
-	11		 49			0			0		  0	 	 1		  0			1	//Seraphim Boots
-	11		 50			0			0		  0	 	 1		  0			1	//Faith Boots
 	7		 1			0			0		  0	 	 0		  0			2	//Dragon Helm
 	7		 7			0			0		  0	 	 0		  0			2	//Sphinx Helm
 	7		 9			0			0		  0	 	 0		  0			2	//Plate Helm
@@ -142,8 +138,6 @@ end
 	11		 9			0			0		  0	 	 0		  0			2	//Plate Boots
 	11		 3			0			0		  0	 	 0		  0			2	//Legendary Boots
 	11		 13			0			0		  0	 	 0		  0			2	//Spirit Boots
-	11		 49			0			0		  0	 	 0		  0			2	//Seraphim Boots
-	11		 50			0			0		  0	 	 0		  0			2	//Faith Boots
 	7		 1			0			0		  0	 	 1		  0			2	//Dragon Helm
 	7		 7			0			0		  0	 	 1		  0			2	//Sphinx Helm
 	7		 9			0			0		  0	 	 1		  0			2	//Plate Helm
@@ -230,8 +224,6 @@ end
 	11		 9			0			0		  0	 	 0		  0			3	//Plate Boots
 	11		 3			0			0		  0	 	 0		  0			3	//Legendary Boots
 	11		 13			0			0		  0	 	 0		  0			3	//Spirit Boots
-	11		 49			0			0		  0	 	 0		  0			3	//Seraphim Boots
-	11		 50			0			0		  0	 	 0		  0			3	//Faith Boots
 	7		 1			0			0		  0	 	 1		  0			3	//Dragon Helm
 	7		 7			0			0		  0	 	 1		  0			3	//Sphinx Helm
 	7		 9			0			0		  0	 	 1		  0			3	//Plate Helm
@@ -274,8 +266,6 @@ end
 	11		 9			0			0		  0	 	 1		  0			3	//Plate Boots
 	11		 3			0			0		  0	 	 1		  0			3	//Legendary Boots
 	11		 13			0			0		  0	 	 1		  0			3	//Spirit Boots
-	11		 49			0			0		  0	 	 1		  0			3	//Seraphim Boots
-	11		 50			0			0		  0	 	 1		  0			3	//Faith Boots
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
