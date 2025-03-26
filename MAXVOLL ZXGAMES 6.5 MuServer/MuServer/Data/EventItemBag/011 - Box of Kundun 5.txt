@@ -7,7 +7,7 @@
 /////////////////////////////////////////////////////////////////////////////
 0
 //EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
-"Box of Kundun 5"	1	100	1	0	0	1
+"Box of Kundun 5"	1	100	10	0	0	1
 end
 
 1
