@@ -180,8 +180,6 @@ end
 	11		 9			0			0		  0	 	 1		  0			2	//Plate Boots
 	11		 3			0			0		  0	 	 1		  0			2	//Legendary Boots
 	11		 13			0			0		  0	 	 1		  0			2	//Spirit Boots
-	11		 49			0			0		  0	 	 1		  0			2	//Seraphim Boots
-	11		 50			0			0		  0	 	 0		  0			3	//Faith Boots
 	7		 1			0			0		  0	 	 0		  0			3	//Dragon Helm
 	7		 7			0			0		  0	 	 0		  0			3	//Sphinx Helm
 	7		 9			0			0		  0	 	 0		  0			3	//Plate Helm
