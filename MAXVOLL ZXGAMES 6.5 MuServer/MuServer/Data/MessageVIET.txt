@@ -194,7 +194,7 @@
 249       "Nivel de cuenta: Bronce (%s)"
 250       "Nivel de cuenta: Plata (%s)"
 251       "Nivel de cuenta: Oro (%s)"
-256       "Bienvenido %s a MU ZXGAMES"
+256       "Bienvenido %s a FlyMu"
 257       "Debes tener al menos el nivel 40 para usar el anillo"
 258       "Debes tener al menos el nivel 80 para usar el anillo"
 259       "No puedes moverte a este mapa en este momento"

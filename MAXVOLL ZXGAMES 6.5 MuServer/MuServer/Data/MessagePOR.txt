@@ -362,7 +362,7 @@
 511       "[Rey del Mu] ¡Termina en %d minuto (s)!"
 512       ""
 513       "Limpiar el inventario con éxito!"
-514       "Bienvenidos a MU ZXGAMES"
+514       "Bienvenidos a FlyMu"
 515       "%s matados %s"
 516       "%s matados %s"
 517       ""
