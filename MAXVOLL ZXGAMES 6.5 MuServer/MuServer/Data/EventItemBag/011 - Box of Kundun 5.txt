@@ -258,18 +258,18 @@ end
 	10		 73			0			0		  0		  0		  1			3		//RF 380 SET PHONEIX
 	11		 73			0			0		  0		  0		  1			3		//RF 380 SET PHONEIX
 	0		 35			0			0		  1		  0		  1			3		//RF 380 PHONEIX SWORD
-	13		 8			0			0		  0		  0		  3			//Ring of Ice
-	13		 9			0			0		  0		  0		  3			//Ring of Poison
-	13		 21			0			0		  0		  0		  3			//Ring of Fire
-	13		 22			0			0		  0		  0		  3			//Ring of Earth
-	13		 23			0			0		  0		  0		  3			//Ring of Wind
-	13		 24			0			0		  0		  0		  3			//Ring of Magic
-	13		 12			0			0		  0		  0		  3			//Pendant of Lighting
-	13		 13			0			0		  0		  0		  3			//Pendant of Fire
-	13		 25			0			0		  0		  0		  3			//Pendant of Ice
-	13		 26			0			0		  0		  0		  3			//Pendant of Wind
-	13		 27			0			0		  0		  0		  3			//Pendant of Water
-	13		 28			0			0		  0		  0		  3			//Pendant of Ability
+	13		 8			0			0		  0		  0		  0			3			//Ring of Ice
+	13		 9			0			0		  0		  0		  0			3			//Ring of Poison
+	13		 21			0			0		  0		  0		  0			3			//Ring of Fire
+	13		 22			0			0		  0		  0		  0			3			//Ring of Earth
+	13		 23			0			0		  0		  0		  0			3			//Ring of Wind
+	13		 24			0			0		  0		  0		  0			3			//Ring of Magic
+	13		 12			0			0		  0		  0		  0			3			//Pendant of Lighting
+	13		 13			0			0		  0		  0		  0			3			//Pendant of Fire
+	13		 25			0			0		  0		  0		  0			3			//Pendant of Ice
+	13		 26			0			0		  0		  0		  0			3			//Pendant of Wind
+	13		 27			0			0		  0		  0		  0			3			//Pendant of Water
+	13		 28			0			0		  0		  0		  0			3			//Pendant of Ability
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
