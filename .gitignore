@@ -17,3 +17,9 @@ MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/CHAOS_MIX_LOG/
 MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/CASH_SHOP_LOG/
 
 MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServer/HACK_LOG/
+
+*.obj
+
+szerver source/MAIN_ULTIMO/Main/Release/
+
+*.opensdf

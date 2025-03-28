@@ -15,9 +15,9 @@
 #define GAMESERVER_TYPE2 0
 
 #if(GAMESERVER_TYPE2 == 0)
-#define GAMESERVER_CLIENT "[MU ZXGAMES]"
+#define GAMESERVER_CLIENT "[FlyMu]"
 #else
-#define GAMESERVER_CLIENT "[MU ZXGAMES]"
+#define GAMESERVER_CLIENT "[FlyMu]"
 #endif
 
 #define UPDATE_GAMING 15

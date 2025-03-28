@@ -278,7 +278,7 @@ typedef struct	//648? 848!!
 	/*+76*/		float	Unknown76;
 	/*+80*/		float	Unknown80;
 	BYTE gap06[8];
-	/*+92*/		DWORD	Time; //Tempo de duração ?
+	/*+92*/		DWORD	Time; //Tempo de duraï¿½ï¿½o ?
 	/*+96*/		float	Scale;
 	/*+100*/	float	Unknown100;
 	/*+104*/	float	Unknown104;

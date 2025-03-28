@@ -37,13 +37,12 @@ DWORD SetRange(const DWORD dwAddress, const USHORT wCount, const BYTE btValue);
 char* GetRewardTextByType(int type);
 void GetFormat(char* str, char oldval, char newval);
 char* ParseReducedValue(DWORD Num);
+void ChangeAddress(DWORD Addr, DWORD AddrNew);
 
 extern DWORD FrameValue;
 extern DWORD MainTickCount;
 extern BYTE NewAddressData1[240];
 extern BYTE NewAddressData2[240];
 extern BYTE NewAddressData3[6000];
-
-
 
 void MsgBox(char* message,...);

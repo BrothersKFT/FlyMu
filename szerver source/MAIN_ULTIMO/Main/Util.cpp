@@ -6,6 +6,19 @@ BYTE NewAddressData1[240];
 BYTE NewAddressData2[240];
 BYTE NewAddressData3[6000];
 
+void ChangeAddress(DWORD Addr, DWORD AddrNew)
+{
+	DWORD OldProtect;
+	VirtualProtect((LPVOID)Addr, 4, PAGE_EXECUTE_READWRITE, &OldProtect);
+
+	__asm {
+		MOV EAX, Addr;
+		MOV EDX, AddrNew;
+		MOV DWORD PTR DS:[EAX], EDX;
+	}
+	VirtualProtect((LPVOID)Addr, 4, OldProtect, &OldProtect);
+}
+
 //--
 void SetJmp(DWORD offset,DWORD size,LPVOID function)
 {

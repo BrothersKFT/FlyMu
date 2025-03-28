@@ -3763,7 +3763,7 @@ void Interface::SwitchCamera()
 	}
 	else
 	{
-		gInterface.DrawMessage(1, "Camera3D [OFF]");
+		gInterface.DrawMessage(1, "Camera3D [OFF] Haha buzigeci :)");
 	}
 }
 //-- CameraInit
@@ -4303,12 +4303,12 @@ void Interface::DrawPartySettingsWindow()
 	{
 		this->DrawButton(ePARTYSETTINGS_SYSTEM_ACTIVE, ButtonX + 110, this->Data[ePARTYSETTINGS_MAIN].Y + 30, 0, 15);
 	}
-	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSETTINGS_MAIN].Y + 40); // Делитель большой
+	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSETTINGS_MAIN].Y + 40); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	/////////////////////////////////////////ACTIVE SYSTEM END/////////////////////////////////////////
 
 	/////////////////////////////////////////////MAX LEVEL/////////////////////////////////////////////
 	this->DrawFormat(eWhite, StartX + 40, this->Data[ePARTYSETTINGS_MAIN].Y + 60, 200, 1, "Max Level");
-	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSETTINGS_MAIN].Y + 67); // Делитель большой
+	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSETTINGS_MAIN].Y + 67); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 	this->DrawToolTip(StartX + 174, this->Data[ePARTYSETTINGS_MAIN].Y + 62, "%d", gPartySearchSettings.m_Level);
 
@@ -4368,8 +4368,8 @@ void Interface::DrawPartySettingsWindow()
 		this->DrawButton(ePARTYSETTINGS_ONLY_GUILD, ButtonX + 110, this->Data[ePARTYSETTINGS_MAIN].Y + 83, 0, 30);
 	}
 
-	pDrawGUI(0x7B5E, StartX + 30, this->Data[ePARTYSETTINGS_MAIN].Y + 100, 82.0, 2.0); // Делитель мелкий 1
-	pDrawGUI(0x7B5E, StartX + 30 + 82, this->Data[ePARTYSETTINGS_MAIN].Y + 100, 82.0, 2.0); // Делитель мелкий 2
+	pDrawGUI(0x7B5E, StartX + 30, this->Data[ePARTYSETTINGS_MAIN].Y + 100, 82.0, 2.0); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1
+	pDrawGUI(0x7B5E, StartX + 30 + 82, this->Data[ePARTYSETTINGS_MAIN].Y + 100, 82.0, 2.0); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 2
 
 	this->DrawFormat(eWhite, StartX + 40, this->Data[ePARTYSETTINGS_MAIN].Y + 109, 200, 1, "Only One Class");
 
@@ -4389,7 +4389,7 @@ void Interface::DrawPartySettingsWindow()
 		this->DrawButton(ePARTYSETTINGS_ONE_CLASS, ButtonX + 110, this->Data[ePARTYSETTINGS_MAIN].Y + 105, 0, 30);
 	}
 
-	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSETTINGS_MAIN].Y + 115);// 94 // Делитель большой
+	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSETTINGS_MAIN].Y + 115);// 94 // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	/////////////////////////////////////////////GUILD END/////////////////////////////////////////////
 	char szCharNames[7][32] =
 	{
@@ -4459,11 +4459,11 @@ void Interface::DrawPartySettingsWindow()
 			this->DrawButton(ObjectIDs[i], ButtonX + 110, this->Data[ePARTYSETTINGS_MAIN].Y + 131 + (i * 22), 0, 30);
 		}
 
-		pDrawGUI(0x7B5E, StartX + 30, this->Data[ePARTYSETTINGS_MAIN].Y + 148 + (i * 22), 82.0, 2.0); // Делитель мелкий 1
-		pDrawGUI(0x7B5E, StartX + 30 + 82, this->Data[ePARTYSETTINGS_MAIN].Y + 148 + (i * 22), 82.0, 2.0); // Делитель мелкий 2
+		pDrawGUI(0x7B5E, StartX + 30, this->Data[ePARTYSETTINGS_MAIN].Y + 148 + (i * 22), 82.0, 2.0); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 1
+		pDrawGUI(0x7B5E, StartX + 30 + 82, this->Data[ePARTYSETTINGS_MAIN].Y + 148 + (i * 22), 82.0, 2.0); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ 2
 	}
 
-	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSETTINGS_MAIN].Y + 290); // Делитель большой
+	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSETTINGS_MAIN].Y + 290); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 	//if (gPartySearchSettings.m_SystemActive)
 	//{
@@ -4784,7 +4784,7 @@ void Interface::DrawPartySearchWindow()
 	}
 
 	// ----
-	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSEARCH_MAIN].Y + 40); // Делитель большой
+	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSEARCH_MAIN].Y + 40); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	// ----
 	this->DrawFormat(eWhite, StartX + 5, this->Data[ePARTYSEARCH_MAIN].Y + 56, 50, 3, "Player");
 	// ----
@@ -4798,7 +4798,7 @@ void Interface::DrawPartySearchWindow()
 	// ----
 	this->DrawFormat(eWhite, StartX + 170, this->Data[ePARTYSEARCH_MAIN].Y + 56, 50, 3, "Join");
 	// ----
-	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSEARCH_MAIN].Y + 60); // Делитель большой
+	this->DrawGUI(ePARTYSETTINGS_DIV, StartX, this->Data[ePARTYSEARCH_MAIN].Y + 60); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	// ----
 	if (gPartySearch.CountPages>1)
 	{

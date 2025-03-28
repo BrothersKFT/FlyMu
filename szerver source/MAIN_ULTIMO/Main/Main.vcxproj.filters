@@ -687,6 +687,12 @@
     <ClInclude Include="NoShadow.h">
       <Filter>Source Files\Main\Item\Effect\CEffect</Filter>
     </ClInclude>
+    <ClInclude Include="IncreaseEffects.h">
+      <Filter>Source Files\Fix</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -1060,6 +1066,9 @@
     </ClCompile>
     <ClCompile Include="NoShadow.cpp">
       <Filter>Source Files\Main\Item\Effect\CEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreaseEffects.cpp">
+      <Filter>Source Files\Fix</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
