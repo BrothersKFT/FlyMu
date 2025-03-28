@@ -7,7 +7,7 @@
 /////////////////////////////////////////////////////////////////////////////
 0
 //EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
-"Box of Kundun 4"	  1000	100			10				0				0				1
+"Box of Kundun 4"	  1000	100			1				0				0				1
 end
 
 1
@@ -376,7 +376,6 @@ end
 	11		 43			0			0		 0		 1		  0		   3			//Aura Boots
 	11		 61			0			0		 0		 1		  0		   3			//Hades Boots
 	11		 37			0			0		 0		 1		  0		   3			//Valiant Boots
-	
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
