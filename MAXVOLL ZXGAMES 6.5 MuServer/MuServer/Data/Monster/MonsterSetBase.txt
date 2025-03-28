@@ -71,7 +71,6 @@ end
 237            03             00         171            105            03             //Charon
 242            03             00         173            125            01             //Elf Lala
 243            03             00         195            124            02             //Eo the Craftsman
-240            03             00         169            87             02             //Safety Guardian
 238            03             00         180            103            01             //Chaos Goblin
 257            03             00         167            118            01             //Shadow Phantom Soldier
 450            03             00         179            126            01             //Cherry Blossom Spirit
