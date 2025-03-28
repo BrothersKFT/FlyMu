@@ -15,6 +15,8 @@ end
 	0		13		 0			 0			1		0		 0		 1		//Double Blade
 	0		14		 0			 0			1		0		 0		 1		//Lightning Sword
 	0		16		 0			 0			1		0		 0		 1		//Sword of Destruction
+	0		32		 0			 0			1		0		 0		 1		//Sacred Gloves
+	0		33		 0			 0			1		0		 0		 1		//Holy Storm Claw
 	2		9		 0			 0			1		0		 0		 1		//Master Scepter
 	2		10		 0			 0			1		0		 0		 1		//Great Scepter
 	2		11		 0			 0			1		0		 0		 1		//Lord Scepter
@@ -109,6 +111,8 @@ end
 	0		13		 0			 0			1		1		 0		 1		//Double Blade
 	0		14		 0			 0			1		1		 0		 1		//Lightning Sword
 	0		16		 0			 0			1		1		 0		 1		//Sword of Destruction
+	0		32		 0			 0			1		1		 0		 1		//Sacred Gloves
+	0		33		 0			 0			1		1		 0		 1		//Holy Storm Claw
 	2		9		 0			 0			1		1		 0		 1		//Master Scepter
 	2		10		 0			 0			1		1		 0		 1		//Great Scepter
 	2		11		 0			 0			1		1		 0		 1		//Lord Scepter
@@ -203,6 +207,8 @@ end
 	0		13		 0			 0			1		1		 0		 2		//Double Blade
 	0		14		 0			 0			1		1		 0		 2		//Lightning Sword
 	0		16		 0			 0			1		1		 0		 2		//Sword of Destruction
+	0		32		 0			 0			1		1		 0		 2		//Sacred Gloves
+	0		33		 0			 0			1		1		 0		 2		//Holy Storm Claw
 	2		9		 0			 0			1		1		 0		 2		//Master Scepter
 	2		10		 0			 0			1		1		 0		 2		//Great Scepter
 	2		11		 0			 0			1		1		 0		 2		//Lord Scepter
@@ -297,6 +303,8 @@ end
 	0		13		 0			 0			1		0		 0		 2		//Double Blade
 	0		14		 0			 0			1		0		 0		 2		//Lightning Sword
 	0		16		 0			 0			1		0		 0		 2		//Sword of Destruction
+	0		32		 0			 0			1		0		 0		 2		//Sacred Gloves
+	0		33		 0			 0			1		0		 0		 2		//Holy Storm Claw
 	2		9		 0			 0			1		0		 0		 2		//Master Scepter
 	2		10		 0			 0			1		0		 0		 2		//Great Scepter
 	2		11		 0			 0			1		0		 0		 2		//Lord Scepter
@@ -391,6 +399,8 @@ end
 	0		13		 0			 0			1		0		 0		 3		//Double Blade
 	0		14		 0			 0			1		0		 0		 3		//Lightning Sword
 	0		16		 0			 0			1		0		 0		 3		//Sword of Destruction
+	0		32		 0			 0			1		0		 0		 3		//Sacred Gloves
+	0		33		 0			 0			1		0		 0		 3		//Holy Storm Claw
 	2		9		 0			 0			1		0		 0		 3		//Master Scepter
 	2		10		 0			 0			1		0		 0		 3		//Great Scepter
 	2		11		 0			 0			1		0		 0		 3		//Lord Scepter
@@ -485,6 +495,8 @@ end
 	0		13		 0			 0			1		1		 0		 3		//Double Blade
 	0		14		 0			 0			1		1		 0		 3		//Lightning Sword
 	0		16		 0			 0			1		1		 0		 3		//Sword of Destruction
+	0		32		 0			 0			1		1		 1		 3		//Sacred Gloves
+	0		33		 0			 0			1		0		 1		 3		//Holy Storm Claw
 	2		9		 0			 0			1		1		 0		 3		//Master Scepter
 	2		10		 0			 0			1		1		 0		 3		//Great Scepter
 	2		11		 0			 0			1		1		 0		 3		//Lord Scepter
