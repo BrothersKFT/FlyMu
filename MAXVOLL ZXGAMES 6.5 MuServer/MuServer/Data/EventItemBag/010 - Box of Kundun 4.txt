@@ -30,14 +30,14 @@ end
 	7		 24			0			0		 0		 0		  0		   1			//Red Spirit Helm
 	7		 28			0			0		 0		 0		  0		   1			//Dark Master Helm
 	7		 38			0			0		 0		 0		  0		   1			//Glorious Helm
-	7		 43			0			0		 0		 0		  0		   1			//Aura Helm
+	7		 42			0			0		 0		 0		  0		   1			//Aura Helm
 	7		 61			0			0		 0		 0		  0		   1			//Hades Helm
 	8		 21			0			0		 0		 0		  0		   1			//Great Dragon Armor
 	8		 22			0			0		 0		 0		  0		   1			//Dark Soul Armor
 	8		 24			0			0		 0		 0		  0		   1			//Red Spirit Armor
 	8		 28			0			0		 0		 0		  0		   1			//Dark Master Armor
 	8		 38			0			0		 0		 0		  0		   1			//Glorious Armor
-	8		 43			0			0		 0		 0		  0		   1			//Aura Armor
+	8		 42			0			0		 0		 0		  0		   1			//Aura Armor
 	8		 61			0			0		 0		 0		  0		   1			//Hades Armor
 	8		 37			0			0		 0		 0		  0		   1			//Valiant Armor
 	9		 21			0			0		 0		 0		  0		   1			//Great Dragon Pants
@@ -45,7 +45,7 @@ end
 	9		 24			0			0		 0		 0		  0		   1			//Red Spirit Pants
 	9		 28			0			0		 0		 0		  0		   1			//Dark Master Pants
 	9		 38			0			0		 0		 0		  0		   1			//Glorious Pants
-	9		 43			0			0		 0		 0		  0		   1			//Aura Pants
+	9		 42			0			0		 0		 0		  0		   1			//Aura Pants
 	9		 61			0			0		 0		 0		  0		   1			//Hades Pants
 	9		 37			0			0		 0		 0		  0		   1			//Valiant Pants
 	10		 21			0			0		 0		 0		  0		   1			//Great Dragon Gloves
@@ -53,7 +53,7 @@ end
 	10		 24			0			0		 0		 0		  0		   1			//Red Spirit Gloves
 	10		 28			0			0		 0		 0		  0		   1			//Dark Master Gloves
 	10		 38			0			0		 0		 0		  0		   1			//Glorious Gloves
-	10		 43			0			0		 0		 0		  0		   1			//Aura Gloves
+	10		 42			0			0		 0		 0		  0		   1			//Aura Gloves
 	10		 61			0			0		 0		 0		  0		   1			//Hades Gloves
 	10		 37			0			0		 0		 0		  0		   1			//Valiant Gloves
 	11		 21			0			0		 0		 0		  0		   1			//Great Dragon Boots
@@ -61,7 +61,7 @@ end
 	11		 24			0			0		 0		 0		  0		   1			//Red Spirit Boots
 	11		 28			0			0		 0		 0		  0		   1			//Dark Master Boots
 	11		 38			0			0		 0		 0		  0		   1			//Glorious Boots
-	11		 43			0			0		 0		 0		  0		   1			//Aura Boots
+	11		 42			0			0		 0		 0		  0		   1			//Aura Boots
 	11		 61			0			0		 0		 0		  0		   1			//Hades Boots
 	11		 37			0			0		 0		 0		  0		   1			//Valiant Boots
 	0		 25			0			0		 0		 1		  0		   1			//Sword Dancer
@@ -82,14 +82,14 @@ end
 	7		 24			0			0		 0		 1		  0		   1			//Red Spirit Helm
 	7		 28			0			0		 0		 1		  0		   1			//Dark Master Helm
 	7		 38			0			0		 0		 1		  0		   1			//Glorious Helm
-	7		 43			0			0		 0		 1		  0		   1			//Aura Helm
+	7		 42			0			0		 0		 1		  0		   1			//Aura Helm
 	7		 61			0			0		 0		 1		  0		   1			//Hades Helm
 	8		 21			0			0		 0		 1		  0		   1			//Great Dragon Armor
 	8		 22			0			0		 0		 1		  0		   1			//Dark Soul Armor
 	8		 24			0			0		 0		 1		  0		   1			//Red Spirit Armor
 	8		 28			0			0		 0		 1		  0		   1			//Dark Master Armor
 	8		 38			0			0		 0		 1		  0		   1			//Glorious Armor
-	8		 43			0			0		 0		 1		  0		   1			//Aura Armor
+	8		 42			0			0		 0		 1		  0		   1			//Aura Armor
 	8		 61			0			0		 0		 1		  0		   1			//Hades Armor
 	8		 37			0			0		 0		 1		  0		   1			//Valiant Armor
 	9		 21			0			0		 0		 1		  0		   1			//Great Dragon Pants
@@ -97,7 +97,7 @@ end
 	9		 24			0			0		 0		 1		  0		   1			//Red Spirit Pants
 	9		 28			0			0		 0		 1		  0		   1			//Dark Master Pants
 	9		 38			0			0		 0		 1		  0		   1			//Glorious Pants
-	9		 43			0			0		 0		 1		  0		   1			//Aura Pants
+	9		 42			0			0		 0		 1		  0		   1			//Aura Pants
 	9		 61			0			0		 0		 1		  0		   1			//Hades Pants
 	9		 37			0			0		 0		 1		  0		   1			//Valiant Pants
 	10		 21			0			0		 0		 1		  0		   1			//Great Dragon Gloves
@@ -105,7 +105,7 @@ end
 	10		 24			0			0		 0		 1		  0		   1			//Red Spirit Gloves
 	10		 28			0			0		 0		 1		  0		   1			//Dark Master Gloves
 	10		 38			0			0		 0		 1		  0		   1			//Glorious Gloves
-	10		 43			0			0		 0		 1		  0		   1			//Aura Gloves
+	10		 42			0			0		 0		 1		  0		   1			//Aura Gloves
 	10		 61			0			0		 0		 1		  0		   1			//Hades Gloves
 	10		 37			0			0		 0		 1		  0		   1			//Valiant Gloves
 	11		 21			0			0		 0		 1		  0		   1			//Great Dragon Boots
@@ -113,7 +113,7 @@ end
 	11		 24			0			0		 0		 1		  0		   1			//Red Spirit Boots
 	11		 28			0			0		 0		 1		  0		   1			//Dark Master Boots
 	11		 38			0			0		 0		 1		  0		   1			//Glorious Boots
-	11		 43			0			0		 0		 1		  0		   1			//Aura Boots
+	11		 42			0			0		 0		 1		  0		   1			//Aura Boots
 	11		 61			0			0		 0		 1		  0		   1			//Hades Boots
 	11		 37			0			0		 0		 1		  0		   1			//Valiant Boots
 	0		 25			0			0		 1		 1		  0		   2			//Sword Dancer
@@ -134,14 +134,14 @@ end
 	7		 24			0			0		 1		 1		  0		   2			//Red Spirit Helm
 	7		 28			0			0		 1		 1		  0		   2			//Dark Master Helm
 	7		 38			0			0		 1		 1		  0		   2			//Glorious Helm
-	7		 43			0			0		 1		 1		  0		   2			//Aura Helm
+	7		 42			0			0		 1		 1		  0		   2			//Aura Helm
 	7		 61			0			0		 1		 1		  0		   2			//Hades Helm
 	8		 21			0			0		 1		 1		  0		   2			//Great Dragon Armor
 	8		 22			0			0		 1		 1		  0		   2			//Dark Soul Armor
 	8		 24			0			0		 1		 1		  0		   2			//Red Spirit Armor
 	8		 28			0			0		 1		 1		  0		   2			//Dark Master Armor
 	8		 38			0			0		 1		 1		  0		   2			//Glorious Armor
-	8		 43			0			0		 1		 1		  0		   2			//Aura Armor
+	8		 42			0			0		 1		 1		  0		   2			//Aura Armor
 	8		 61			0			0		 1		 1		  0		   2			//Hades Armor
 	8		 37			0			0		 1		 1		  0		   2			//Valiant Armor
 	9		 21			0			0		 1		 1		  0		   2			//Great Dragon Pants
@@ -149,7 +149,7 @@ end
 	9		 24			0			0		 1		 1		  0		   2			//Red Spirit Pants
 	9		 28			0			0		 1		 1		  0		   2			//Dark Master Pants
 	9		 38			0			0		 1		 1		  0		   2			//Glorious Pants
-	9		 43			0			0		 1		 1		  0		   2			//Aura Pants
+	9		 42			0			0		 1		 1		  0		   2			//Aura Pants
 	9		 61			0			0		 1		 1		  0		   2			//Hades Pants
 	9		 37			0			0		 1		 1		  0		   2			//Valiant Pants
 	10		 21			0			0		 1		 1		  0		   2			//Great Dragon Gloves
@@ -157,7 +157,7 @@ end
 	10		 24			0			0		 1		 1		  0		   2			//Red Spirit Gloves
 	10		 28			0			0		 1		 1		  0		   2			//Dark Master Gloves
 	10		 38			0			0		 1		 1		  0		   2			//Glorious Gloves
-	10		 43			0			0		 1		 1		  0		   2			//Aura Gloves
+	10		 42			0			0		 1		 1		  0		   2			//Aura Gloves
 	10		 61			0			0		 1		 1		  0		   2			//Hades Gloves
 	10		 37			0			0		 1		 1		  0		   2			//Valiant Gloves
 	11		 21			0			0		 1		 1		  0		   2			//Great Dragon Boots
@@ -165,7 +165,7 @@ end
 	11		 24			0			0		 1		 1		  0		   2			//Red Spirit Boots
 	11		 28			0			0		 1		 1		  0		   2			//Dark Master Boots
 	11		 38			0			0		 1		 1		  0		   2			//Glorious Boots
-	11		 43			0			0		 1		 1		  0		   2			//Aura Boots
+	11		 42			0			0		 1		 1		  0		   2			//Aura Boots
 	11		 61			0			0		 1		 1		  0		   2			//Hades Boots
 	11		 37			0			0		 1		 1		  0		   2			//Valiant Boots
 	0		 25			0			0		 0		 0		  0		   2			//Sword Dancer
@@ -186,14 +186,14 @@ end
 	7		 24			0			0		 0		 0		  0		   2			//Red Spirit Helm
 	7		 28			0			0		 0		 0		  0		   2			//Dark Master Helm
 	7		 38			0			0		 0		 0		  0		   2			//Glorious Helm
-	7		 43			0			0		 0		 0		  0		   2			//Aura Helm
+	7		 42			0			0		 0		 0		  0		   2			//Aura Helm
 	7		 61			0			0		 0		 0		  0		   2			//Hades Helm
 	8		 21			0			0		 0		 0		  0		   2			//Great Dragon Armor
 	8		 22			0			0		 0		 0		  0		   2			//Dark Soul Armor
 	8		 24			0			0		 0		 0		  0		   2			//Red Spirit Armor
 	8		 28			0			0		 0		 0		  0		   2			//Dark Master Armor
 	8		 38			0			0		 0		 0		  0		   2			//Glorious Armor
-	8		 43			0			0		 0		 0		  0		   2			//Aura Armor
+	8		 42			0			0		 0		 0		  0		   2			//Aura Armor
 	8		 61			0			0		 0		 0		  0		   2			//Hades Armor
 	8		 37			0			0		 0		 0		  0		   2			//Valiant Armor
 	9		 21			0			0		 0		 0		  0		   2			//Great Dragon Pants
@@ -201,7 +201,7 @@ end
 	9		 24			0			0		 0		 0		  0		   2			//Red Spirit Pants
 	9		 28			0			0		 0		 0		  0		   2			//Dark Master Pants
 	9		 38			0			0		 0		 0		  0		   2			//Glorious Pants
-	9		 43			0			0		 0		 0		  0		   2			//Aura Pants
+	9		 42			0			0		 0		 0		  0		   2			//Aura Pants
 	9		 61			0			0		 0		 0		  0		   2			//Hades Pants
 	9		 37			0			0		 0		 0		  0		   2			//Valiant Pants
 	10		 21			0			0		 0		 0		  0		   2			//Great Dragon Gloves
@@ -209,7 +209,7 @@ end
 	10		 24			0			0		 0		 0		  0		   2			//Red Spirit Gloves
 	10		 28			0			0		 0		 0		  0		   2			//Dark Master Gloves
 	10		 38			0			0		 0		 0		  0		   2			//Glorious Gloves
-	10		 43			0			0		 0		 0		  0		   2			//Aura Gloves
+	10		 42			0			0		 0		 0		  0		   2			//Aura Gloves
 	10		 61			0			0		 0		 0		  0		   2			//Hades Gloves
 	10		 37			0			0		 0		 0		  0		   2			//Valiant Gloves
 	11		 21			0			0		 0		 0		  0		   2			//Great Dragon Boots
@@ -217,7 +217,7 @@ end
 	11		 24			0			0		 0		 0		  0		   2			//Red Spirit Boots
 	11		 28			0			0		 0		 0		  0		   2			//Dark Master Boots
 	11		 38			0			0		 0		 0		  0		   2			//Glorious Boots
-	11		 43			0			0		 0		 0		  0		   2			//Aura Boots
+	11		 42			0			0		 0		 0		  0		   2			//Aura Boots
 	11		 61			0			0		 0		 0		  0		   2			//Hades Boots
 	11		 37			0			0		 0		 0		  0		   2			//Valiant Boots
 	0		 25			0			0		 0		 1		  0		   2			//Sword Dancer
@@ -238,14 +238,14 @@ end
 	7		 24			0			0		 0		 1		  0		   2			//Red Spirit Helm
 	7		 28			0			0		 0		 1		  0		   2			//Dark Master Helm
 	7		 38			0			0		 0		 1		  0		   2			//Glorious Helm
-	7		 43			0			0		 0		 1		  0		   2			//Aura Helm
+	7		 42			0			0		 0		 1		  0		   2			//Aura Helm
 	7		 61			0			0		 0		 1		  0		   2			//Hades Helm
 	8		 21			0			0		 0		 1		  0		   2			//Great Dragon Armor
 	8		 22			0			0		 0		 1		  0		   2			//Dark Soul Armor
 	8		 24			0			0		 0		 1		  0		   2			//Red Spirit Armor
 	8		 28			0			0		 0		 1		  0		   2			//Dark Master Armor
 	8		 38			0			0		 0		 1		  0		   2			//Glorious Armor
-	8		 43			0			0		 0		 1		  0		   2			//Aura Armor
+	8		 42			0			0		 0		 1		  0		   2			//Aura Armor
 	8		 61			0			0		 0		 1		  0		   2			//Hades Armor
 	8		 37			0			0		 0		 1		  0		   2			//Valiant Armor
 	9		 21			0			0		 0		 1		  0		   2			//Great Dragon Pants
@@ -253,7 +253,7 @@ end
 	9		 24			0			0		 0		 1		  0		   2			//Red Spirit Pants
 	9		 28			0			0		 0		 1		  0		   2			//Dark Master Pants
 	9		 38			0			0		 0		 1		  0		   2			//Glorious Pants
-	9		 43			0			0		 0		 1		  0		   2			//Aura Pants
+	9		 42			0			0		 0		 1		  0		   2			//Aura Pants
 	9		 61			0			0		 0		 1		  0		   2			//Hades Pants
 	9		 37			0			0		 0		 1		  0		   2			//Valiant Pants
 	10		 21			0			0		 0		 1		  0		   2			//Great Dragon Gloves
@@ -261,7 +261,7 @@ end
 	10		 24			0			0		 0		 1		  0		   2			//Red Spirit Gloves
 	10		 28			0			0		 0		 1		  0		   2			//Dark Master Gloves
 	10		 38			0			0		 0		 1		  0		   2			//Glorious Gloves
-	10		 43			0			0		 0		 1		  0		   2			//Aura Gloves
+	10		 42			0			0		 0		 1		  0		   2			//Aura Gloves
 	10		 61			0			0		 0		 1		  0		   2			//Hades Gloves
 	10		 37			0			0		 0		 1		  0		   2			//Valiant Gloves
 	11		 21			0			0		 0		 1		  0		   2			//Great Dragon Boots
@@ -269,7 +269,7 @@ end
 	11		 24			0			0		 0		 1		  0		   2			//Red Spirit Boots
 	11		 28			0			0		 0		 1		  0		   2			//Dark Master Boots
 	11		 38			0			0		 0		 1		  0		   2			//Glorious Boots
-	11		 43			0			0		 0		 1		  0		   2			//Aura Boots
+	11		 42			0			0		 0		 1		  0		   2			//Aura Boots
 	11		 61			0			0		 0		 1		  0		   2			//Hades Boots
 	11		 37			0			0		 0		 1		  0		   2			//Valiant Boots
 	0		 25			0			0		 0		 1		  1		   3			//Sword Dancer
@@ -290,14 +290,14 @@ end
 	7		 24			0			0		 0		 1		  1		   3			//Red Spirit Helm
 	7		 28			0			0		 0		 1		  1		   3			//Dark Master Helm
 	7		 38			0			0		 0		 1		  1		   3			//Glorious Helm
-	7		 43			0			0		 0		 1		  1		   3			//Aura Helm
+	7		 42			0			0		 0		 1		  1		   3			//Aura Helm
 	7		 61			0			0		 0		 1		  1		   3			//Hades Helm
 	8		 21			0			0		 0		 1		  1		   3			//Great Dragon Armor
 	8		 22			0			0		 0		 1		  1		   3			//Dark Soul Armor
 	8		 24			0			0		 0		 1		  1		   3			//Red Spirit Armor
 	8		 28			0			0		 0		 1		  1		   3			//Dark Master Armor
 	8		 38			0			0		 0		 1		  1		   3			//Glorious Armor
-	8		 43			0			0		 0		 1		  1		   3			//Aura Armor
+	8		 42			0			0		 0		 1		  1		   3			//Aura Armor
 	8		 61			0			0		 0		 1		  1		   3			//Hades Armor
 	8		 37			0			0		 0		 1		  1		   3			//Valiant Armor
 	9		 21			0			0		 0		 1		  1		   3			//Great Dragon Pants
@@ -305,7 +305,7 @@ end
 	9		 24			0			0		 0		 1		  1		   3			//Red Spirit Pants
 	9		 28			0			0		 0		 1		  1		   3			//Dark Master Pants
 	9		 38			0			0		 0		 1		  1		   3			//Glorious Pants
-	9		 43			0			0		 0		 1		  1		   3			//Aura Pants
+	9		 42			0			0		 0		 1		  1		   3			//Aura Pants
 	9		 61			0			0		 0		 1		  1		   3			//Hades Pants
 	9		 37			0			0		 0		 1		  1		   3			//Valiant Pants
 	10		 21			0			0		 0		 1		  1		   3			//Great Dragon Gloves
@@ -313,7 +313,7 @@ end
 	10		 24			0			0		 0		 1		  1		   3			//Red Spirit Gloves
 	10		 28			0			0		 0		 1		  1		   3			//Dark Master Gloves
 	10		 38			0			0		 0		 1		  1		   3			//Glorious Gloves
-	10		 43			0			0		 0		 1		  1		   3			//Aura Gloves
+	10		 42			0			0		 0		 1		  1		   3			//Aura Gloves
 	10		 61			0			0		 0		 1		  1		   3			//Hades Gloves
 	10		 37			0			0		 0		 1		  1		   3			//Valiant Gloves
 	11		 21			0			0		 0		 1		  1		   3			//Great Dragon Boots
@@ -321,7 +321,7 @@ end
 	11		 24			0			0		 0		 1		  1		   3			//Red Spirit Boots
 	11		 28			0			0		 0		 1		  1		   3			//Dark Master Boots
 	11		 38			0			0		 0		 1		  1		   3			//Glorious Boots
-	11		 43			0			0		 0		 1		  1		   3			//Aura Boots
+	11		 42			0			0		 0		 1		  1		   3			//Aura Boots
 	11		 61			0			0		 0		 1		  1		   3			//Hades Boots
 	11		 37			0			0		 0		 1		  1		   3			//Valiant Boots
 	0		 25			0			0		 0		 1		  0		   3			//Sword Dancer
@@ -342,14 +342,14 @@ end
 	7		 24			0			0		 0		 1		  0		   3			//Red Spirit Helm
 	7		 28			0			0		 0		 1		  0		   3			//Dark Master Helm
 	7		 38			0			0		 0		 1		  0		   3			//Glorious Helm
-	7		 43			0			0		 0		 1		  0		   3			//Aura Helm
+	7		 42			0			0		 0		 1		  0		   3			//Aura Helm
 	7		 61			0			0		 0		 1		  0		   3			//Hades Helm
 	8		 21			0			0		 0		 1		  0		   3			//Great Dragon Armor
 	8		 22			0			0		 0		 1		  0		   3			//Dark Soul Armor
 	8		 24			0			0		 0		 1		  0		   3			//Red Spirit Armor
 	8		 28			0			0		 0		 1		  0		   3			//Dark Master Armor
 	8		 38			0			0		 0		 1		  0		   3			//Glorious Armor
-	8		 43			0			0		 0		 1		  0		   3			//Aura Armor
+	8		 42			0			0		 0		 1		  0		   3			//Aura Armor
 	8		 61			0			0		 0		 1		  0		   3			//Hades Armor
 	8		 37			0			0		 0		 1		  0		   3			//Valiant Armor
 	9		 21			0			0		 0		 1		  0		   3			//Great Dragon Pants
@@ -357,7 +357,7 @@ end
 	9		 24			0			0		 0		 1		  0		   3			//Red Spirit Pants
 	9		 28			0			0		 0		 1		  0		   3			//Dark Master Pants
 	9		 38			0			0		 0		 1		  0		   3			//Glorious Pants
-	9		 43			0			0		 0		 1		  0		   3			//Aura Pants
+	9		 42			0			0		 0		 1		  0		   3			//Aura Pants
 	9		 61			0			0		 0		 1		  0		   3			//Hades Pants
 	9		 37			0			0		 0		 1		  0		   3			//Valiant Pants
 	10		 21			0			0		 0		 1		  0		   3			//Great Dragon Gloves
@@ -365,7 +365,7 @@ end
 	10		 24			0			0		 0		 1		  0		   3			//Red Spirit Gloves
 	10		 28			0			0		 0		 1		  0		   3			//Dark Master Gloves
 	10		 38			0			0		 0		 1		  0		   3			//Glorious Gloves
-	10		 43			0			0		 0		 1		  0		   3			//Aura Gloves
+	10		 42			0			0		 0		 1		  0		   3			//Aura Gloves
 	10		 61			0			0		 0		 1		  0		   3			//Hades Gloves
 	10		 37			0			0		 0		 1		  0		   3			//Valiant Gloves
 	11		 21			0			0		 0		 1		  0		   3			//Great Dragon Boots
@@ -373,7 +373,7 @@ end
 	11		 24			0			0		 0		 1		  0		   3			//Red Spirit Boots
 	11		 28			0			0		 0		 1		  0		   3			//Dark Master Boots
 	11		 38			0			0		 0		 1		  0		   3			//Glorious Boots
-	11		 43			0			0		 0		 1		  0		   3			//Aura Boots
+	11		 42			0			0		 0		 1		  0		   3			//Aura Boots
 	11		 61			0			0		 0		 1		  0		   3			//Hades Boots
 	11		 37			0			0		 0		 1		  0		   3			//Valiant Boots
 end

@@ -7,215 +7,270 @@
 /////////////////////////////////////////////////////////////////////////////
 0
 //EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
-"Box of Kundun 5"	1	100	10	0	0	1
+"Box of Kundun 5"	1	100				10				0				0				1
 end
 
 1
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	NameItem
-0	19	0	0	1	1	0	2
-0	60	0	0	1	1	0	2
-2	13	0	0	1	1	0	2
-4	18	0	0	1	1	0	2
-5	36	0	0	1	1	0	2
-5	10	0	0	0	1	0	2
-13	8	0	0	0	1	0	2
-13	9	0	0	0	1	0	2
-13	12	0	0	0	1	0	2
-13	13	0	0	0	1	0	2
-13	21	0	0	0	1	0	2
-13	22	0	0	0	1	0	2
-13	23	0	0	0	1	0	2
-13	24	0	0	0	1	0	2
-13	25	0	0	0	1	0	2
-13	26	0	0	0	1	0	2
-13	27	0	0	0	1	0	2
-13	28	0	0	0	1	0	2
-7	73	0	0	0	1	0	2
-8	73	0	0	0	1	0	2
-9	73	0	0	0	1	0	2
-11	73	0	0	0	1	0	2
-7	43	0	0	0	1	0	2
-8	43	0	0	0	1	0	2
-9	43	0	0	0	1	0	2
-10	43	0	0	0	1	0	2
-11	43	0	0	0	1	0	2
-7	31	0	0	0	1	0	2
-8	31	0	0	0	1	0	2
-9	31	0	0	0	1	0	2
-10	31	0	0	0	1	0	2
-11	31	0	0	0	1	0	2
-7	29	0	0	0	1	0	2
-8	29	0	0	0	1	0	2
-9	29	0	0	0	1	0	2
-10	29	0	0	0	1	0	2
-11	29	0	0	0	1	0	2
-7	30	0	0	0	1	0	2
-8	30	0	0	0	1	0	2
-9	30	0	0	0	1	0	2
-10	30	0	0	0	1	0	2
-11	30	0	0	0	1	0	2
-7	33	0	0	0	1	0	2
-8	33	0	0	0	1	0	2
-9	33	0	0	0	1	0	2
-10	33	0	0	0	1	0	2
-11	33	0	0	0	1	0	2
-8	32	0	0	0	1	0	2
-9	32	0	0	0	1	0	2
-10	32	0	0	0	1	0	2
-11	32	0	0	0	1	0	2
-0	19	0	0	1	1	0	3
-0	60	0	0	1	1	0	3
-2	13	0	0	1	1	0	3
-4	18	0	0	1	1	0	3
-5	36	0	0	1	1	0	3
-5	10	0	0	0	1	0	3
-13	8	0	0	0	1	0	3
-13	9	0	0	0	1	0	3
-13	12	0	0	0	1	0	3
-13	13	0	0	0	1	0	3
-13	21	0	0	0	1	0	3
-13	22	0	0	0	1	0	3
-13	23	0	0	0	1	0	3
-13	24	0	0	0	1	0	3
-13	25	0	0	0	1	0	3
-13	26	0	0	0	1	0	3
-13	27	0	0	0	1	0	3
-13	28	0	0	0	1	0	3
-7	73	0	0	0	1	0	3
-8	73	0	0	0	1	0	3
-9	73	0	0	0	1	0	3
-11	73	0	0	0	1	0	3
-7	43	0	0	0	1	0	3
-8	43	0	0	0	1	0	3
-9	43	0	0	0	1	0	3
-10	43	0	0	0	1	0	3
-11	43	0	0	0	1	0	3
-7	31	0	0	0	1	0	3
-8	31	0	0	0	1	0	3
-9	31	0	0	0	1	0	3
-10	31	0	0	0	1	0	3
-11	31	0	0	0	1	0	3
-7	29	0	0	0	1	0	3
-8	29	0	0	0	1	0	3
-9	29	0	0	0	1	0	3
-10	29	0	0	0	1	0	3
-11	29	0	0	0	1	0	3
-7	30	0	0	0	1	0	3
-8	30	0	0	0	1	0	3
-9	30	0	0	0	1	0	3
-10	30	0	0	0	1	0	3
-11	30	0	0	0	1	0	3
-7	33	0	0	0	1	0	3
-8	33	0	0	0	1	0	3
-9	33	0	0	0	1	0	3
-10	33	0	0	0	1	0	3
-11	33	0	0	0	1	0	3
-8	32	0	0	0	1	0	3
-9	32	0	0	0	1	0	3
-10	32	0	0	0	1	0	3
-11	32	0	0	0	0	0	3
-0	19	0	0	1	0	0	2
-0	60	0	0	1	0	0	2
-2	13	0	0	1	0	0	2
-4	18	0	0	1	0	0	2
-5	36	0	0	1	0	0	2
-5	10	0	0	0	0	0	2
-13	8	0	0	0	0	0	2
-13	9	0	0	0	0	0	2
-13	12	0	0	0	0	0	2
-13	13	0	0	0	0	0	2
-13	21	0	0	0	0	0	2
-13	22	0	0	0	0	0	2
-13	23	0	0	0	0	0	2
-13	24	0	0	0	0	0	2
-13	25	0	0	0	0	0	2
-13	26	0	0	0	0	0	2
-13	27	0	0	0	0	0	2
-13	28	0	0	0	0	0	2
-7	73	0	0	0	0	0	2
-8	73	0	0	0	0	0	2
-9	73	0	0	0	0	0	2
-11	73	0	0	0	0	0	2
-7	43	0	0	0	0	0	2
-8	43	0	0	0	0	0	2
-9	43	0	0	0	0	0	2
-10	43	0	0	0	0	0	2
-11	43	0	0	0	0	0	2
-7	31	0	0	0	0	0	2
-8	31	0	0	0	0	0	2
-9	31	0	0	0	0	0	2
-10	31	0	0	0	0	0	2
-11	31	0	0	0	0	0	2
-7	29	0	0	0	0	0	2
-8	29	0	0	0	0	0	2
-9	29	0	0	0	0	0	2
-10	29	0	0	0	0	0	2
-11	29	0	0	0	0	0	2
-7	30	0	0	0	0	0	2
-8	30	0	0	0	0	0	2
-9	30	0	0	0	0	0	2
-10	30	0	0	0	0	0	2
-11	30	0	0	0	0	0	2
-7	33	0	0	0	0	0	2
-8	33	0	0	0	0	0	2
-9	33	0	0	0	0	0	2
-10	33	0	0	0	0	0	2
-11	33	0	0	0	0	0	2
-8	32	0	0	0	0	0	2
-9	32	0	0	0	0	0	2
-10	32	0	0	0	0	0	2
-11	32	0	0	0	0	0	2
-0	19	0	0	1	0	0	3
-0	60	0	0	1	0	0	3
-2	13	0	0	1	0	0	3
-4	18	0	0	1	0	0	3
-5	36	0	0	1	0	0	3
-5	10	0	0	0	0	0	3
-13	8	0	0	0	0	0	3
-13	9	0	0	0	0	0	3
-13	12	0	0	0	0	0	3
-13	13	0	0	0	0	0	3
-13	21	0	0	0	0	0	3
-13	22	0	0	0	0	0	3
-13	23	0	0	0	0	0	3
-13	24	0	0	0	0	0	3
-13	25	0	0	0	0	0	3
-13	26	0	0	0	0	0	3
-13	27	0	0	0	0	0	3
-13	28	0	0	0	0	0	3
-7	73	0	0	0	0	0	3
-8	73	0	0	0	0	0	3
-9	73	0	0	0	0	0	3
-11	73	0	0	0	0	0	3
-7	43	0	0	0	0	0	3
-8	43	0	0	0	0	0	3
-9	43	0	0	0	0	0	3
-10	43	0	0	0	0	0	3
-11	43	0	0	0	0	0	3
-7	31	0	0	0	0	0	3
-8	31	0	0	0	0	0	3
-9	31	0	0	0	0	0	3
-10	31	0	0	0	0	0	3
-11	31	0	0	0	0	0	3
-7	29	0	0	0	0	0	3
-8	29	0	0	0	0	0	3
-9	29	0	0	0	0	0	3
-10	29	0	0	0	0	0	3
-11	29	0	0	0	0	0	3
-7	30	0	0	0	0	0	3
-8	30	0	0	0	0	0	3
-9	30	0	0	0	0	0	3
-10	30	0	0	0	0	0	3
-11	30	0	0	0	0	0	3
-7	33	0	0	0	0	0	3
-8	33	0	0	0	0	0	3
-9	33	0	0	0	0	0	3
-10	33	0	0	0	0	0	3
-11	33	0	0	0	0	0	3
-8	32	0	0	0	0	0	3
-9	32	0	0	0	0	0	3
-10	32	0	0	0	0	0	3
-11	32	0	0	0	0	0	3
+	7		 30			0			0		  1		  0		  0			1		//Venom Mist Helm
+	8		 30			0			0		  1		  0		  0			1		//Venom Mist Armor
+	9		 30			0			0		  1		  0		  0			1		//Venom Mist Pants
+	10		 30			0			0		  1		  0		  0			1		//Venom Mist GLoves
+	11		 30			0			0		  1		  0		  0			1		//Venom Mist Boots
+	5		 12			0			0		  1		  0		  0			1		//Grand Viper Staff
+	0		 22			0			0		  1		  0		  0			1		//Bone Blade
+	7		 29			0			0		  1		  0		  0			1		//Dragon Knight Helm
+	8		 29			0			0		  1		  0		  0			1		//Dragon Knight Armor
+	9		 29			0			0		  1		  0		  0			1		//Dragon Knight Pants
+	10		 29			0			0		  1		  0		  0			1		//Dragon Knight Gloves
+	11		 29			0			0		  1		  0		  0			1		//Dragon Knight Boots
+	4		 21			0			0		  1		  0		  0			1		//Sylph Wind Bow
+	7		 31			0			0		  1		  0		  0			1		//Sylpid Ray Helm
+	8		 31			0			0		  1		  0		  0			1		//Sylpid Ray Armor
+	9		 31			0			0		  1		  0		  0			1		//Sylpid Ray Pants
+	10		 31			0			0		  1		  0		  0			1		//Sylpid Ray Gloves
+	11		 31			0			0		  1		  0		  0			1		//Sylpid Ray Boots
+	0		 23			0			0		  1		  0		  0			1		//Explosion Blade
+	8		 32			0			0		  1		  0		  0			1		//Volcano Armor
+	9		 32			0			0		  1		  0		  0			1		//Volcano Pants
+	10		 32			0			0		  1		  0		  0			1		//Volcano Gloves
+	11		 32			0			0		  1		  0		  0			1		//Volcano Boots
+	2		 14			0			0		  1		  0		  0			1		//Solay Scepter
+	7		 33			0			0		  1		  0		  0			1		//Sunlight Helm
+	8		 33			0			0		  1		  0		  0			1		//Sunlight Armor
+	9		 33			0			0		  1		  0		  0			1		//Sunlight Pants
+	10		 33			0			0		  1		  0		  0			1		//Sunlight Gloves
+	11		 33			0			0		  1		  0		  0			1		//Sunlight Boots
+	5		 19			0			0		  1		  0		  0			1		//Aura Staff
+	7		 43			0			0		  1		  0		  0			1		//Aura Helm
+	8		 43			0			0		  1		  0		  0			1		//Aura Armor
+	9		 43			0			0		  1		  0		  0			1		//Aura Pants
+	10		 43			0			0		  1		  0		  0			1		//Aura Gloves
+	11		 43			0			0		  1		  0		  0			1		//Aura Boots
+	7		 73			0			0		  1		  0		  0			1		//RF 380 SET PHONEIX
+	8		 73			0			0		  1		  0		  0			1		//RF 380 SET PHONEIX
+	9		 73			0			0		  1		  0		  0			1		//RF 380 SET PHONEIX
+	10		 73			0			0		  1		  0		  0			1		//RF 380 SET PHONEIX
+	11		 73			0			0		  1		  0		  0			1		//RF 380 SET PHONEIX
+	0		 35			0			0		  1		  0		  0			1		//RF 380 PHONEIX SWORD
+	7		 30			0			0		  1		  0		  1			1		//Venom Mist Helm
+	8		 30			0			0		  1		  0		  1			1		//Venom Mist Armor
+	9		 30			0			0		  1		  0		  1			1		//Venom Mist Pants
+	10		 30			0			0		  1		  0		  1			1		//Venom Mist GLoves
+	11		 30			0			0		  1		  0		  1			1		//Venom Mist Boots
+	5		 12			0			0		  1		  0		  1			1		//Grand Viper Staff
+	0		 22			0			0		  1		  0		  1			1		//Bone Blade
+	7		 29			0			0		  1		  0		  1			1		//Dragon Knight Helm
+	8		 29			0			0		  1		  0		  1			1		//Dragon Knight Armor
+	9		 29			0			0		  1		  0		  1			1		//Dragon Knight Pants
+	10		 29			0			0		  1		  0		  1			1		//Dragon Knight Gloves
+	11		 29			0			0		  1		  0		  1			1		//Dragon Knight Boots
+	4		 21			0			0		  1		  0		  1			1		//Sylph Wind Bow
+	7		 31			0			0		  1		  0		  1			1		//Sylpid Ray Helm
+	8		 31			0			0		  1		  0		  1			1		//Sylpid Ray Armor
+	9		 31			0			0		  1		  0		  1			1		//Sylpid Ray Pants
+	10		 31			0			0		  1		  0		  1			1		//Sylpid Ray Gloves
+	11		 31			0			0		  1		  0		  1			1		//Sylpid Ray Boots
+	0		 23			0			0		  1		  0		  1			1		//Explosion Blade
+	8		 32			0			0		  1		  0		  1			1		//Volcano Armor
+	9		 32			0			0		  1		  0		  1			1		//Volcano Pants
+	10		 32			0			0		  1		  0		  1			1		//Volcano Gloves
+	11		 32			0			0		  1		  0		  1			1		//Volcano Boots
+	2		 14			0			0		  1		  0		  1			1		//Solay Scepter
+	7		 33			0			0		  1		  0		  1			1		//Sunlight Helm
+	8		 33			0			0		  1		  0		  1			1		//Sunlight Armor
+	9		 33			0			0		  1		  0		  1			1		//Sunlight Pants
+	10		 33			0			0		  1		  0		  1			1		//Sunlight Gloves
+	11		 33			0			0		  1		  0		  1			1		//Sunlight Boots
+	5		 19			0			0		  1		  0		  1			1		//Aura Staff
+	7		 43			0			0		  1		  0		  1			1		//Aura Helm
+	8		 43			0			0		  1		  0		  1			1		//Aura Armor
+	9		 43			0			0		  1		  0		  1			1		//Aura Pants
+	10		 43			0			0		  1		  0		  1			1		//Aura Gloves
+	11		 43			0			0		  1		  0		  1			1		//Aura Boots
+	7		 73			0			0		  1		  0		  1			1		//RF 380 SET PHONEIX
+	8		 73			0			0		  1		  0		  1			1		//RF 380 SET PHONEIX
+	9		 73			0			0		  1		  0		  1			1		//RF 380 SET PHONEIX
+	10		 73			0			0		  1		  0		  1			1		//RF 380 SET PHONEIX
+	11		 73			0			0		  1		  0		  1			1		//RF 380 SET PHONEIX
+	0		 35			0			0		  1		  0		  1			1		//RF 380 PHONEIX SWORD
+	7		 30			0			0		  1		  0		  0			2		//Venom Mist Helm
+	8		 30			0			0		  1		  0		  0			2		//Venom Mist Armor
+	9		 30			0			0		  1		  0		  0			2		//Venom Mist Pants
+	10		 30			0			0		  1		  0		  0			2		//Venom Mist GLoves
+	11		 30			0			0		  1		  0		  0			2		//Venom Mist Boots
+	5		 12			0			0		  1		  0		  0			2		//Grand Viper Staff
+	0		 22			0			0		  1		  0		  0			2		//Bone Blade
+	7		 29			0			0		  1		  0		  0			2		//Dragon Knight Helm
+	8		 29			0			0		  1		  0		  0			2		//Dragon Knight Armor
+	9		 29			0			0		  1		  0		  0			2		//Dragon Knight Pants
+	10		 29			0			0		  1		  0		  0			2		//Dragon Knight Gloves
+	11		 29			0			0		  1		  0		  0			2		//Dragon Knight Boots
+	4		 21			0			0		  1		  0		  0			2		//Sylph Wind Bow
+	7		 31			0			0		  1		  0		  0			2		//Sylpid Ray Helm
+	8		 31			0			0		  1		  0		  0			2		//Sylpid Ray Armor
+	9		 31			0			0		  1		  0		  0			2		//Sylpid Ray Pants
+	10		 31			0			0		  1		  0		  0			2		//Sylpid Ray Gloves
+	11		 31			0			0		  1		  0		  0			2		//Sylpid Ray Boots
+	0		 23			0			0		  1		  0		  0			2		//Explosion Blade
+	8		 32			0			0		  1		  0		  0			2		//Volcano Armor
+	9		 32			0			0		  1		  0		  0			2		//Volcano Pants
+	10		 32			0			0		  1		  0		  0			2		//Volcano Gloves
+	11		 32			0			0		  1		  0		  0			2		//Volcano Boots
+	2		 14			0			0		  1		  0		  0			2		//Solay Scepter
+	7		 33			0			0		  1		  0		  0			2		//Sunlight Helm
+	8		 33			0			0		  1		  0		  0			2		//Sunlight Armor
+	9		 33			0			0		  1		  0		  0			2		//Sunlight Pants
+	10		 33			0			0		  1		  0		  0			2		//Sunlight Gloves
+	11		 33			0			0		  1		  0		  0			2		//Sunlight Boots
+	5		 19			0			0		  1		  0		  0			2		//Aura Staff
+	7		 43			0			0		  1		  0		  0			2		//Aura Helm
+	8		 43			0			0		  1		  0		  0			2		//Aura Armor
+	9		 43			0			0		  1		  0		  0			2		//Aura Pants
+	10		 43			0			0		  1		  0		  0			2		//Aura Gloves
+	11		 43			0			0		  1		  0		  0			2		//Aura Boots
+	7		 73			0			0		  1		  0		  0			2		//RF 380 SET PHONEIX
+	8		 73			0			0		  1		  0		  0			2		//RF 380 SET PHONEIX
+	9		 73			0			0		  1		  0		  0			2		//RF 380 SET PHONEIX
+	10		 73			0			0		  1		  0		  0			2		//RF 380 SET PHONEIX
+	11		 73			0			0		  1		  0		  0			2		//RF 380 SET PHONEIX
+	0		 35			0			0		  1		  0		  0			2		//RF 380 PHONEIX SWORD
+	7		 30			0			0		  1		  0		  1			2		//Venom Mist Helm
+	8		 30			0			0		  1		  0		  1			2		//Venom Mist Armor
+	9		 30			0			0		  1		  0		  1			2		//Venom Mist Pants
+	10		 30			0			0		  1		  0		  1			2		//Venom Mist GLoves
+	11		 30			0			0		  1		  0		  1			2		//Venom Mist Boots
+	5		 12			0			0		  1		  0		  1			2		//Grand Viper Staff
+	0		 22			0			0		  1		  0		  1			2		//Bone Blade
+	7		 29			0			0		  1		  0		  1			2		//Dragon Knight Helm
+	8		 29			0			0		  1		  0		  1			2		//Dragon Knight Armor
+	9		 29			0			0		  1		  0		  1			2		//Dragon Knight Pants
+	10		 29			0			0		  1		  0		  1			2		//Dragon Knight Gloves
+	11		 29			0			0		  1		  0		  1			2		//Dragon Knight Boots
+	4		 21			0			0		  1		  0		  1			2		//Sylph Wind Bow
+	7		 31			0			0		  1		  0		  1			2		//Sylpid Ray Helm
+	8		 31			0			0		  1		  0		  1			2		//Sylpid Ray Armor
+	9		 31			0			0		  1		  0		  1			2		//Sylpid Ray Pants
+	10		 31			0			0		  1		  0		  1			2		//Sylpid Ray Gloves
+	11		 31			0			0		  1		  0		  1			2		//Sylpid Ray Boots
+	0		 23			0			0		  1		  0		  1			2		//Explosion Blade
+	8		 32			0			0		  1		  0		  1			2		//Volcano Armor
+	9		 32			0			0		  1		  0		  1			2		//Volcano Pants
+	10		 32			0			0		  1		  0		  1			2		//Volcano Gloves
+	11		 32			0			0		  1		  0		  1			2		//Volcano Boots
+	2		 14			0			0		  1		  0		  1			2		//Solay Scepter
+	7		 33			0			0		  1		  0		  1			2		//Sunlight Helm
+	8		 33			0			0		  1		  0		  1			2		//Sunlight Armor
+	9		 33			0			0		  1		  0		  1			2		//Sunlight Pants
+	10		 33			0			0		  1		  0		  1			2		//Sunlight Gloves
+	11		 33			0			0		  1		  0		  1			2		//Sunlight Boots
+	5		 19			0			0		  1		  0		  1			2		//Aura Staff
+	7		 43			0			0		  1		  0		  1			2		//Aura Helm
+	8		 43			0			0		  1		  0		  1			2		//Aura Armor
+	9		 43			0			0		  1		  0		  1			2		//Aura Pants
+	10		 43			0			0		  1		  0		  1			2		//Aura Gloves
+	11		 43			0			0		  1		  0		  1			2		//Aura Boots
+	7		 73			0			0		  1		  0		  1			2		//RF 380 SET PHONEIX
+	8		 73			0			0		  1		  0		  1			2		//RF 380 SET PHONEIX
+	9		 73			0			0		  1		  0		  1			2		//RF 380 SET PHONEIX
+	10		 73			0			0		  1		  0		  1			2		//RF 380 SET PHONEIX
+	11		 73			0			0		  1		  0		  1			2		//RF 380 SET PHONEIX
+	0		 35			0			0		  1		  0		  1			2		//RF 380 PHONEIX SWORD
+	7		 30			0			0		  1		  0		  0			3		//Venom Mist Helm
+	8		 30			0			0		  1		  0		  0			3		//Venom Mist Armor
+	9		 30			0			0		  1		  0		  0			3		//Venom Mist Pants
+	10		 30			0			0		  1		  0		  0			3		//Venom Mist GLoves
+	11		 30			0			0		  1		  0		  0			3		//Venom Mist Boots
+	5		 12			0			0		  1		  0		  0			3		//Grand Viper Staff
+	0		 22			0			0		  1		  0		  0			3		//Bone Blade
+	7		 29			0			0		  1		  0		  0			3		//Dragon Knight Helm
+	8		 29			0			0		  1		  0		  0			3		//Dragon Knight Armor
+	9		 29			0			0		  1		  0		  0			3		//Dragon Knight Pants
+	10		 29			0			0		  1		  0		  0			3		//Dragon Knight Gloves
+	11		 29			0			0		  1		  0		  0			3		//Dragon Knight Boots
+	4		 21			0			0		  1		  0		  0			3		//Sylph Wind Bow
+	7		 31			0			0		  1		  0		  0			3		//Sylpid Ray Helm
+	8		 31			0			0		  1		  0		  0			3		//Sylpid Ray Armor
+	9		 31			0			0		  1		  0		  0			3		//Sylpid Ray Pants
+	10		 31			0			0		  1		  0		  0			3		//Sylpid Ray Gloves
+	11		 31			0			0		  1		  0		  0			3		//Sylpid Ray Boots
+	0		 23			0			0		  1		  0		  0			3		//Explosion Blade
+	8		 32			0			0		  1		  0		  0			3		//Volcano Armor
+	9		 32			0			0		  1		  0		  0			3		//Volcano Pants
+	10		 32			0			0		  1		  0		  0			3		//Volcano Gloves
+	11		 32			0			0		  1		  0		  0			3		//Volcano Boots
+	2		 14			0			0		  1		  0		  0			3		//Solay Scepter
+	7		 33			0			0		  1		  0		  0			3		//Sunlight Helm
+	8		 33			0			0		  1		  0		  0			3		//Sunlight Armor
+	9		 33			0			0		  1		  0		  0			3		//Sunlight Pants
+	10		 33			0			0		  1		  0		  0			3		//Sunlight Gloves
+	11		 33			0			0		  1		  0		  0			3		//Sunlight Boots
+	5		 19			0			0		  1		  0		  0			3		//Aura Staff
+	7		 43			0			0		  1		  0		  0			3		//Aura Helm
+	8		 43			0			0		  1		  0		  0			3		//Aura Armor
+	9		 43			0			0		  1		  0		  0			3		//Aura Pants
+	10		 43			0			0		  1		  0		  0			3		//Aura Gloves
+	11		 43			0			0		  1		  0		  0			3		//Aura Boots
+	7		 73			0			0		  1		  0		  0			3		//RF 380 SET PHONEIX
+	8		 73			0			0		  1		  0		  0			3		//RF 380 SET PHONEIX
+	9		 73			0			0		  1		  0		  0			3		//RF 380 SET PHONEIX
+	10		 73			0			0		  1		  0		  0			3		//RF 380 SET PHONEIX
+	11		 73			0			0		  1		  0		  0			3		//RF 380 SET PHONEIX
+	0		 35			0			0		  1		  0		  0			3		//RF 380 PHONEIX SWORD
+	7		 30			0			0		  1		  0		  1			3		//Venom Mist Helm
+	8		 30			0			0		  1		  0		  1			3		//Venom Mist Armor
+	9		 30			0			0		  1		  0		  1			3		//Venom Mist Pants
+	10		 30			0			0		  1		  0		  1			3		//Venom Mist GLoves
+	11		 30			0			0		  1		  0		  1			3		//Venom Mist Boots
+	5		 12			0			0		  1		  0		  1			3		//Grand Viper Staff
+	0		 22			0			0		  1		  0		  1			3		//Bone Blade
+	7		 29			0			0		  1		  0		  1			3		//Dragon Knight Helm
+	8		 29			0			0		  1		  0		  1			3		//Dragon Knight Armor
+	9		 29			0			0		  1		  0		  1			3		//Dragon Knight Pants
+	10		 29			0			0		  1		  0		  1			3		//Dragon Knight Gloves
+	11		 29			0			0		  1		  0		  1			3		//Dragon Knight Boots
+	4		 21			0			0		  1		  0		  1			3		//Sylph Wind Bow
+	7		 31			0			0		  1		  0		  1			3		//Sylpid Ray Helm
+	8		 31			0			0		  1		  0		  1			3		//Sylpid Ray Armor
+	9		 31			0			0		  1		  0		  1			3		//Sylpid Ray Pants
+	10		 31			0			0		  1		  0		  1			3		//Sylpid Ray Gloves
+	11		 31			0			0		  1		  0		  1			3		//Sylpid Ray Boots
+	0		 23			0			0		  1		  0		  1			3		//Explosion Blade
+	8		 32			0			0		  1		  0		  1			3		//Volcano Armor
+	9		 32			0			0		  1		  0		  1			3		//Volcano Pants
+	10		 32			0			0		  1		  0		  1			3		//Volcano Gloves
+	11		 32			0			0		  1		  0		  1			3		//Volcano Boots
+	2		 14			0			0		  1		  0		  1			3		//Solay Scepter
+	7		 33			0			0		  1		  0		  1			3		//Sunlight Helm
+	8		 33			0			0		  1		  0		  1			3		//Sunlight Armor
+	9		 33			0			0		  1		  0		  1			3		//Sunlight Pants
+	10		 33			0			0		  1		  0		  1			3		//Sunlight Gloves
+	11		 33			0			0		  1		  0		  1			3		//Sunlight Boots
+	5		 19			0			0		  1		  0		  1			3		//Aura Staff
+	7		 43			0			0		  1		  0		  1			3		//Aura Helm
+	8		 43			0			0		  1		  0		  1			3		//Aura Armor
+	9		 43			0			0		  1		  0		  1			3		//Aura Pants
+	10		 43			0			0		  1		  0		  1			3		//Aura Gloves
+	11		 43			0			0		  1		  0		  1			3		//Aura Boots
+	7		 73			0			0		  1		  0		  1			3		//RF 380 SET PHONEIX
+	8		 73			0			0		  1		  0		  1			3		//RF 380 SET PHONEIX
+	9		 73			0			0		  1		  0		  1			3		//RF 380 SET PHONEIX
+	10		 73			0			0		  1		  0		  1			3		//RF 380 SET PHONEIX
+	11		 73			0			0		  1		  0		  1			3		//RF 380 SET PHONEIX
+	0		 35			0			0		  1		  0		  1			3		//RF 380 PHONEIX SWORD
+	13		 8			0			0		  0		  0		  0			3		//Ring of Ice
+	13		 9			0			0		  0		  0		  0			3		//Ring of Poison
+	13		 20			3			0		  0		  0		  0			3		//Ring of Honor
+	13		 21			0			0		  0		  0		  0			3		//Ring of Fire
+	13		 22			0			0		  0		  0		  0			3		//Ring of Earth
+	13		 23			0			0		  0		  0		  0			3		//Ring of Wind
+	13		 24			0			0		  0		  0		  0			3		//Ring of Magic
+	13		 12			0			0		  0		  0		  0			3		//Pendant of Lighting
+	13		 13			0			0		  0		  0		  0			3		//Pendant of Fire
+	13		 25			0			0		  0		  0		  0			3		//Pendant of Ice
+	13		 26			0			0		  0		  0		  0			3		//Pendant of Wind
+	13		 27			0			0		  0		  0		  0			3		//Pendant of Water
+	13		 28			0			0		  0		  0		  0			3		//Pendant of Ability
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem

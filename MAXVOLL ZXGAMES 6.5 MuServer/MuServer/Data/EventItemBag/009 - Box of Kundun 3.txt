@@ -41,7 +41,6 @@ end
 	7		35		 0			 0			0		0		 0		 1		//Eclipse Helm
 	7		36		 0			 0			0		0		 0		 1		//Iris Helm
 	7		41		 0			 0			0		0		 0		 1		//Ancient helm
-	7		42		 0			 0			0		0		 0		 1		//Black Rose Helm
 	8		14		 0			 0			0		0		 0		 1		//Guardian Armor
 	8		16		 0			 0			0		0		 0		 1		//Black Dragon Armor
 	8		18		 0			 0			0		0		 0		 1		//Grand Soul Armor
@@ -53,7 +52,6 @@ end
 	8		35		 0			 0			0		0		 0		 1		//Eclipse Armor
 	8		36		 0			 0			0		0		 0		 1		//Iris Armor
 	8		41		 0			 0			0		0		 0		 1		//Ancient Armor
-	8		42		 0			 0			0		0		 0		 1		//Black Rose Armor
 	8		15		 0			 0			0		0		 0		 1		//Storm Crow Armor
 	8		20		 0			 0			0		0		 0		 1		//Thunder Hawk Armor
 	7		59		 0			 0			0		0		 0		 1		//Seraphim Helm
@@ -73,7 +71,6 @@ end
 	9		35		 0			 0			0		0		 0		 1		//Eclipse Pants
 	9		36		 0			 0			0		0		 0		 1		//Iris Pants
 	9		41		 0			 0			0		0		 0		 1		//Ancient Pants
-	9		42		 0			 0			0		0		 0		 1		//Black Rose Pants
 	9		59		 0			 0			0		0		 0		 1		//Seraphim Pants
 	9		60		 0			 0			0		0		 0		 1		//Paewang Pants
 	10		14		 0			 0			0		0		 0		 1		//Guardian Gloves
@@ -89,7 +86,6 @@ end
 	10		35		 0			 0			0		0		 0		 1		//Eclipse Gloves
 	10		36		 0			 0			0		0		 0		 1		//Iris Gloves
 	10		41		 0			 0			0		0		 0		 1		//Ancient Gloves
-	10		42		 0			 0			0		0		 0		 1		//Black Rose Gloves
 	10		59		 0			 0			0		0		 0		 1		//Seraphim Gloves
 	10		60		 0			 0			0		0		 0		 1		//Paewang Gloves
 	11		14		 0			 0			0		0		 0		 1		//Guardian Boots
@@ -104,7 +100,6 @@ end
 	11		35		 0			 0			0		0		 0		 1		//Eclipse Boots
 	11		36		 0			 0			0		0		 0		 1		//Iris Boots
 	11		41		 0			 0			0		0		 0		 1		//Ancient Boots
-	11		42		 0			 0			0		0		 0		 1		//Black Rose Boots
 	11		20		 0			 0			0		0		 0		 1		//Thunder hawk Boots
 	11		59		 0			 0			0		0		 0		 1		//Seraphim Boots
 	11		60		 0			 0			0		0		 0		 1		//Paewang Boots
@@ -137,7 +132,6 @@ end
 	7		35		 0			 0			0		1		 0		 1		//Eclipse Helm
 	7		36		 0			 0			0		1		 0		 1		//Iris Helm
 	7		41		 0			 0			0		1		 0		 1		//Ancient helm
-	7		42		 0			 0			0		1		 0		 1		//Black Rose Helm
 	8		14		 0			 0			0		1		 0		 1		//Guardian Armor
 	8		16		 0			 0			0		1		 0		 1		//Black Dragon Armor
 	8		18		 0			 0			0		1		 0		 1		//Grand Soul Armor
@@ -149,7 +143,6 @@ end
 	8		35		 0			 0			0		1		 0		 1		//Eclipse Armor
 	8		36		 0			 0			0		1		 0		 1		//Iris Armor
 	8		41		 0			 0			0		1		 0		 1		//Ancient Armor
-	8		42		 0			 0			0		1		 0		 1		//Black Rose Armor
 	8		15		 0			 0			0		1		 0		 1		//Storm Crow Armor
 	8		20		 0			 0			0		1		 0		 1		//Thunder Hawk Armor
 	7		59		 0			 0			0		1		 0		 1		//Seraphim Helm
@@ -169,7 +162,6 @@ end
 	9		35		 0			 0			0		1		 0		 1		//Eclipse Pants
 	9		36		 0			 0			0		1		 0		 1		//Iris Pants
 	9		41		 0			 0			0		1		 0		 1		//Ancient Pants
-	9		42		 0			 0			0		1		 0		 1		//Black Rose Pants
 	9		59		 0			 0			0		1		 0		 1		//Seraphim Pants
 	9		60		 0			 0			0		1		 0		 1		//Paewang Pants
 	10		14		 0			 0			0		1		 0		 1		//Guardian Gloves
@@ -185,7 +177,6 @@ end
 	10		35		 0			 0			0		1		 0		 1		//Eclipse Gloves
 	10		36		 0			 0			0		1		 0		 1		//Iris Gloves
 	10		41		 0			 0			0		1		 0		 1		//Ancient Gloves
-	10		42		 0			 0			0		1		 0		 1		//Black Rose Gloves
 	10		59		 0			 0			0		1		 0		 1		//Seraphim Gloves
 	10		60		 0			 0			0		1		 0		 1		//Paewang Gloves
 	11		14		 0			 0			0		1		 0		 1		//Guardian Boots
@@ -200,7 +191,6 @@ end
 	11		35		 0			 0			0		1		 0		 1		//Eclipse Boots
 	11		36		 0			 0			0		1		 0		 1		//Iris Boots
 	11		41		 0			 0			0		1		 0		 1		//Ancient Boots
-	11		42		 0			 0			0		1		 0		 1		//Black Rose Boots
 	11		20		 0			 0			0		1		 0		 1		//Thunder hawk Boots
 	11		59		 0			 0			0		1		 0		 1		//Seraphim Boots
 	11		60		 0			 0			0		1		 0		 1		//Paewang Boots
@@ -233,7 +223,6 @@ end
 	7		35		 0			 0			0		1		 0		 2		//Eclipse Helm
 	7		36		 0			 0			0		1		 0		 2		//Iris Helm
 	7		41		 0			 0			0		1		 0		 2		//Ancient helm
-	7		42		 0			 0			0		1		 0		 2		//Black Rose Helm
 	8		14		 0			 0			0		1		 0		 2		//Guardian Armor
 	8		16		 0			 0			0		1		 0		 2		//Black Dragon Armor
 	8		18		 0			 0			0		1		 0		 2		//Grand Soul Armor
@@ -245,7 +234,6 @@ end
 	8		35		 0			 0			0		1		 0		 2		//Eclipse Armor
 	8		36		 0			 0			0		1		 0		 2		//Iris Armor
 	8		41		 0			 0			0		1		 0		 2		//Ancient Armor
-	8		42		 0			 0			0		1		 0		 2		//Black Rose Armor
 	8		15		 0			 0			0		1		 0		 2		//Storm Crow Armor
 	8		20		 0			 0			0		1		 0		 2		//Thunder Hawk Armor
 	7		59		 0			 0			0		1		 0		 2		//Seraphim Helm
@@ -265,7 +253,6 @@ end
 	9		35		 0			 0			0		1		 0		 2		//Eclipse Pants
 	9		36		 0			 0			0		1		 0		 2		//Iris Pants
 	9		41		 0			 0			0		1		 0		 2		//Ancient Pants
-	9		42		 0			 0			0		1		 0		 2		//Black Rose Pants
 	9		59		 0			 0			0		1		 0		 2		//Seraphim Pants
 	9		60		 0			 0			0		1		 0		 2		//Paewang Pants
 	10		14		 0			 0			0		1		 0		 2		//Guardian Gloves
@@ -281,7 +268,6 @@ end
 	10		35		 0			 0			0		1		 0		 2		//Eclipse Gloves
 	10		36		 0			 0			0		1		 0		 2		//Iris Gloves
 	10		41		 0			 0			0		1		 0		 2		//Ancient Gloves
-	10		42		 0			 0			0		1		 0		 2		//Black Rose Gloves
 	10		59		 0			 0			0		1		 0		 2		//Seraphim Gloves
 	10		60		 0			 0			0		1		 0		 2		//Paewang Gloves
 	11		14		 0			 0			0		1		 0		 2		//Guardian Boots
@@ -296,7 +282,6 @@ end
 	11		35		 0			 0			0		1		 0		 2		//Eclipse Boots
 	11		36		 0			 0			0		1		 0		 2		//Iris Boots
 	11		41		 0			 0			0		1		 0		 2		//Ancient Boots
-	11		42		 0			 0			0		1		 0		 2		//Black Rose Boots
 	11		20		 0			 0			0		1		 0		 2		//Thunder hawk Boots
 	11		59		 0			 0			0		1		 0		 2		//Seraphim Boots
 	11		60		 0			 0			0		0		 0		 2		//Paewang Boots
@@ -329,7 +314,6 @@ end
 	7		35		 0			 0			0		0		 0		 2		//Eclipse Helm
 	7		36		 0			 0			0		0		 0		 2		//Iris Helm
 	7		41		 0			 0			0		0		 0		 2		//Ancient helm
-	7		42		 0			 0			0		0		 0		 2		//Black Rose Helm
 	8		14		 0			 0			0		0		 0		 2		//Guardian Armor
 	8		16		 0			 0			0		0		 0		 2		//Black Dragon Armor
 	8		18		 0			 0			0		0		 0		 2		//Grand Soul Armor
@@ -341,7 +325,6 @@ end
 	8		35		 0			 0			0		0		 0		 2		//Eclipse Armor
 	8		36		 0			 0			0		0		 0		 2		//Iris Armor
 	8		41		 0			 0			0		0		 0		 2		//Ancient Armor
-	8		42		 0			 0			0		0		 0		 2		//Black Rose Armor
 	8		15		 0			 0			0		0		 0		 2		//Storm Crow Armor
 	8		20		 0			 0			0		0		 0		 2		//Thunder Hawk Armor
 	7		59		 0			 0			0		0		 0		 2		//Seraphim Helm
@@ -361,7 +344,6 @@ end
 	9		35		 0			 0			0		0		 0		 2		//Eclipse Pants
 	9		36		 0			 0			0		0		 0		 2		//Iris Pants
 	9		41		 0			 0			0		0		 0		 2		//Ancient Pants
-	9		42		 0			 0			0		0		 0		 2		//Black Rose Pants
 	9		59		 0			 0			0		0		 0		 2		//Seraphim Pants
 	9		60		 0			 0			0		0		 0		 2		//Paewang Pants
 	10		14		 0			 0			0		0		 0		 2		//Guardian Gloves
@@ -377,7 +359,6 @@ end
 	10		35		 0			 0			0		0		 0		 2		//Eclipse Gloves
 	10		36		 0			 0			0		0		 0		 2		//Iris Gloves
 	10		41		 0			 0			0		0		 0		 2		//Ancient Gloves
-	10		42		 0			 0			0		0		 0		 2		//Black Rose Gloves
 	10		59		 0			 0			0		0		 0		 2		//Seraphim Gloves
 	10		60		 0			 0			0		0		 0		 2		//Paewang Gloves
 	11		14		 0			 0			0		0		 0		 2		//Guardian Boots
@@ -392,7 +373,6 @@ end
 	11		35		 0			 0			0		0		 0		 2		//Eclipse Boots
 	11		36		 0			 0			0		0		 0		 2		//Iris Boots
 	11		41		 0			 0			0		0		 0		 2		//Ancient Boots
-	11		42		 0			 0			0		0		 0		 2		//Black Rose Boots
 	11		20		 0			 0			0		0		 0		 2		//Thunder hawk Boots
 	11		59		 0			 0			0		0		 0		 2		//Seraphim Boots
 	11		60		 0			 0			0		0		 0		 2		//Paewang Boots
@@ -425,7 +405,6 @@ end
 	7		35		 0			 0			0		0		 0		 3		//Eclipse Helm
 	7		36		 0			 0			0		0		 0		 3		//Iris Helm
 	7		41		 0			 0			0		0		 0		 3		//Ancient helm
-	7		42		 0			 0			0		0		 0		 3		//Black Rose Helm
 	8		14		 0			 0			0		0		 0		 3		//Guardian Armor
 	8		16		 0			 0			0		0		 0		 3		//Black Dragon Armor
 	8		18		 0			 0			0		0		 0		 3		//Grand Soul Armor
@@ -437,7 +416,6 @@ end
 	8		35		 0			 0			0		0		 0		 3		//Eclipse Armor
 	8		36		 0			 0			0		0		 0		 3		//Iris Armor
 	8		41		 0			 0			0		0		 0		 3		//Ancient Armor
-	8		42		 0			 0			0		0		 0		 3		//Black Rose Armor
 	8		15		 0			 0			0		0		 0		 3		//Storm Crow Armor
 	8		20		 0			 0			0		0		 0		 3		//Thunder Hawk Armor
 	7		59		 0			 0			0		0		 0		 3		//Seraphim Helm
@@ -457,7 +435,6 @@ end
 	9		35		 0			 0			0		0		 0		 3		//Eclipse Pants
 	9		36		 0			 0			0		0		 0		 3		//Iris Pants
 	9		41		 0			 0			0		0		 0		 3		//Ancient Pants
-	9		42		 0			 0			0		0		 0		 3		//Black Rose Pants
 	9		59		 0			 0			0		0		 0		 3		//Seraphim Pants
 	9		60		 0			 0			0		0		 0		 3		//Paewang Pants
 	10		14		 0			 0			0		0		 0		 3		//Guardian Gloves
@@ -473,7 +450,6 @@ end
 	10		35		 0			 0			0		0		 0		 3		//Eclipse Gloves
 	10		36		 0			 0			0		0		 0		 3		//Iris Gloves
 	10		41		 0			 0			0		0		 0		 3		//Ancient Gloves
-	10		42		 0			 0			0		0		 0		 3		//Black Rose Gloves
 	10		59		 0			 0			0		0		 0		 3		//Seraphim Gloves
 	10		60		 0			 0			0		0		 0		 3		//Paewang Gloves
 	11		14		 0			 0			0		0		 0		 3		//Guardian Boots
@@ -488,7 +464,6 @@ end
 	11		35		 0			 0			0		0		 0		 3		//Eclipse Boots
 	11		36		 0			 0			0		0		 0		 3		//Iris Boots
 	11		41		 0			 0			0		0		 0		 3		//Ancient Boots
-	11		42		 0			 0			0		0		 0		 3		//Black Rose Boots
 	11		20		 0			 0			0		0		 0		 3		//Thunder hawk Boots
 	11		59		 0			 0			0		0		 0		 3		//Seraphim Boots
 	11		60		 0			 0			0		0		 0		 3		//Paewang Boots
@@ -521,7 +496,6 @@ end
 	7		35		 0			 0			0		1		 0		 3		//Eclipse Helm
 	7		36		 0			 0			0		1		 0		 3		//Iris Helm
 	7		41		 0			 0			0		1		 0		 3		//Ancient helm
-	7		42		 0			 0			0		1		 0		 3		//Black Rose Helm
 	8		14		 0			 0			0		1		 0		 3		//Guardian Armor
 	8		16		 0			 0			0		1		 0		 3		//Black Dragon Armor
 	8		18		 0			 0			0		1		 0		 3		//Grand Soul Armor
@@ -533,7 +507,6 @@ end
 	8		35		 0			 0			0		1		 0		 3		//Eclipse Armor
 	8		36		 0			 0			0		1		 0		 3		//Iris Armor
 	8		41		 0			 0			0		1		 0		 3		//Ancient Armor
-	8		42		 0			 0			0		1		 0		 3		//Black Rose Armor
 	8		15		 0			 0			0		1		 0		 3		//Storm Crow Armor
 	8		20		 0			 0			0		1		 0		 3		//Thunder Hawk Armor
 	7		59		 0			 0			0		1		 0		 3		//Seraphim Helm
@@ -553,7 +526,6 @@ end
 	9		35		 0			 0			0		1		 0		 3		//Eclipse Pants
 	9		36		 0			 0			0		1		 0		 3		//Iris Pants
 	9		41		 0			 0			0		1		 0		 3		//Ancient Pants
-	9		42		 0			 0			0		1		 0		 3		//Black Rose Pants
 	9		59		 0			 0			0		1		 0		 3		//Seraphim Pants
 	9		60		 0			 0			0		1		 0		 3		//Paewang Pants
 	10		14		 0			 0			0		1		 0		 3		//Guardian Gloves
@@ -569,7 +541,6 @@ end
 	10		35		 0			 0			0		1		 0		 3		//Eclipse Gloves
 	10		36		 0			 0			0		1		 0		 3		//Iris Gloves
 	10		41		 0			 0			0		1		 0		 3		//Ancient Gloves
-	10		42		 0			 0			0		1		 0		 3		//Black Rose Gloves
 	10		59		 0			 0			0		1		 0		 3		//Seraphim Gloves
 	10		60		 0			 0			0		1		 0		 3		//Paewang Gloves
 	11		14		 0			 0			0		1		 0		 3		//Guardian Boots
@@ -584,7 +555,6 @@ end
 	11		35		 0			 0			0		1		 0		 3		//Eclipse Boots
 	11		36		 0			 0			0		1		 0		 3		//Iris Boots
 	11		41		 0			 0			0		1		 0		 3		//Ancient Boots
-	11		42		 0			 0			0		1		 0		 3		//Black Rose Boots
 	11		20		 0			 0			0		1		 0		 3		//Thunder hawk Boots
 	11		59		 0			 0			0		1		 0		 3		//Seraphim Boots
 	11		60		 0			 0			0		1		 0		 3		//Paewang Boots
