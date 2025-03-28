@@ -117,6 +117,8 @@ __declspec(naked) void FixAttackSpeed()
 		}
 	}
 
+	
+
 	// --------------------------------------------	
 	// -> Elf
 
@@ -202,6 +204,23 @@ __declspec(naked) void FixAttackSpeed()
 				MAG_SPEED = 3276;
 			}
 		}
+		if(gObjUser.MagickAttack == 56 ||
+			gObjUser.MagickAttack == 490 ||
+			gObjUser.MagickAttack == 505 ||
+			gObjUser.MagickAttack == 506 ||
+			gObjUser.MagickAttack == 507 ||
+			gObjUser.MagickAttack == 508 ||
+			gObjUser.MagickAttack == 509)
+		{
+			if(STR_SPEED > 1600)
+			{
+				STR_SPEED = 10;
+			}
+			if(MAG_SPEED > 1600)
+			{
+				MAG_SPEED = 10;
+			}
+		}	
 	}
 
 	// --------------------------------------------	
