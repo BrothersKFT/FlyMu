@@ -122,7 +122,6 @@
     <ClInclude Include="GetBarChat.h" />
     <ClInclude Include="GLFont.h" />
     <ClInclude Include="GrandResetSystem.h" />
-    <ClInclude Include="IncreaseEffects.h" />
     <ClInclude Include="InfoLog.h" />
     <ClInclude Include="CustomItem.h" />
     <ClInclude Include="Inter3.h" />
@@ -173,7 +172,6 @@
     <ClInclude Include="mu_object_item_data.h" />
     <ClInclude Include="NoShadow.h" />
     <ClInclude Include="Object.h" />
-    <ClInclude Include="ObjectInfo.h" />
     <ClInclude Include="Offset.h" />
     <ClInclude Include="OffTrade.h" />
     <ClInclude Include="OptionBox.h" />
@@ -264,7 +262,6 @@
     <ClCompile Include="GetBarChat.cpp" />
     <ClCompile Include="GLFont.cpp" />
     <ClCompile Include="GrandResetSystem.cpp" />
-    <ClCompile Include="IncreaseEffects.cpp" />
     <ClCompile Include="InfoLog.cpp" />
     <ClCompile Include="CustomItem.cpp" />
     <ClCompile Include="Inter3.cpp" />

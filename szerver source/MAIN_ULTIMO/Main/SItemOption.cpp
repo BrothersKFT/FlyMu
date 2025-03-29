@@ -415,7 +415,14 @@ void CSItemOption::RenderColor(int ColorTexto)
 			glColor3f(1.0, 0.80000001f, 0.1);
 			break;
 		case TEXT_GREN:
-			glColor3f(0.1, 1.0, 0.5f);
+			if (gObjUser.PostItemLV >= 7 && gObjUser.PostItemExc > 0)
+			{
+				glColor3f(1.0f, 0.2f, 0.1f);
+			}
+			else
+			{
+				glColor3f(0.1, 1.0, 0.5f);
+			}
 			break;
 		case TEXT_PINK:
 			glColor3f(1.0, 0.1, 1.0);

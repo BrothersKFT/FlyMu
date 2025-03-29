@@ -45,7 +45,13 @@ double sub_4E7B95(float a1)
 
 void CreateItemEffect(int lpModel, int ItemID, vec3_t Light, float Alpha, int ItemLevel, int NewOption, int a10, int a11, int RenderType)
 {
-	pSetItemEffect(lpModel, ItemID, Light, Alpha, ItemLevel, NewOption, a10, a11, RenderType);
+    // Ha excellent item, akkor piros szín
+    if(NewOption > 0)
+    {
+        Vector(0.88f, 0.0f, 0.0f, Light);  // RGB: 225, 0, 0
+    }
+
+    pSetItemEffect(lpModel, ItemID, Light, Alpha, ItemLevel, NewOption, a10, a11, RenderType);
 
 	LPVOID Model = pGetModel(pModelThis(), ItemID);
 	vec3_t p;
