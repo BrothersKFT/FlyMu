@@ -54,7 +54,10 @@
 7179      5       0       *         *         *         *         *         *         *         0          3           *              12                49                1000          //Silver Medal Devias 3
 7179      5       0       *         *         *         *         *         *         *         0          4           *              12                49                1000          //Silver Medal Lost Tower 1
 7179      6       0       *         *         *         *         *         *         *         0          *           *              50                69                0          //Gold Medal
-7179      7       0       *         *         *         *         *         *         *         0          *           *              50                69                0          //Box of Heaven
+7179      7       0       *         *         *         *         *         *         *         0          0           *              1                 150               1000      //Box of Heaven (Lorencia)
+7179      7       0       *         *         *         *         *         *         *         0          1           *              1                 150               1000      //Box of Heaven (Noria)
+7179      7       0       *         *         *         *         *         *         *         0          2           *              1                 150               1000      //Box of Heaven (Devias)
+7179      7       0       *         *         *         *         *         *         *         0          3           *              1                 150               1000      //Box of Heaven (Elbeland 1)
 7179      13      0       *         *         *         *         *         *         *         0          *           *              50                69                0          //Blue Heart
 7181      0       0       *         *         *         *         *         *         *         0          *           *              25                150               50       //Jewel of Bless
 7182      0       0       *         *         *         *         *         *         *         0          *           *              25                150               50       //Jewel of Soul
