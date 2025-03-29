@@ -1,56 +1,189 @@
 0
 //EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
-"Gold Medal"		 1000	   100		  1		  0		    0		   3
+"Gold Medal"		 1000	   100		  10		  0		    0		   3
 end
 
 1
 //Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
-	0		14		8			11			1		1		0	0
-	1		8		8			11			1		1		0	0
-	2		9		8			11			1		1		0	0
-	3		9		8			11			1		1		0	0
-	4		5		8			11			1		1		0	0
-	5		5		8			11			0		1		0	0
-	6		6		8			11			1		1		0	0
-	6		14		8			11			1		1		0	0
-	7		14		8			11			0		1		0	0
-	8		14		8			11			0		1		0	0
-	9		14		8			11			0		1		0	0
-	10		14		8			11			0		1		0	0
-	11		14		8			11			0		1		0	0
-	7		1		8			11			0		1		0	0
-	8		1		8			11			0		1		0	0
-	9		1		8			11			0		1		0	0
-	10		1		8			11			0		1		0	0
-	11		1		8			11			0		1		0	0
-	11		3		8			11			0		1		0	0
-	10		3		8			11			0		1		0	0
-	9		3		8			11			0		1		0	0
-	8		3		8			11			0		1		0	0
-	7		3		8			11			0		1		0	0
-	7		25		8			11			0		1		0	0
-	8		25		8			11			0		1		0	0
-	9		25		8			11			0		1		0	0
-	10		25		8			11			0		1		0	0
-	11		25		8			11			0		1		0	0
-	7		59		8			11			0		1		0	0
-	8		59		8			11			0		1		0	0
-	9		59		8			11			0		1		0	0
-	11		59		8			11			0		1		0	0
-	7		40		8			11			0		1		0	0
-	8		40		8			11			0		1		0	0
-	9		40		8			11			0		1		0	0
-	10		40		8			11			0		1		0	0
-	11		40		8			11			0		1		0	0
-	5		15		8			11			1		1		0	0
-	5		21		8			11			1		1		0	0
-	5		22		8			11			1		1		0	0
-	5		23		8			11			1		1		0	0
-	0		13		8			11			1		1		0	0	//Double Blade
-	0		14		8			11			1		1		0	0	//Lightning Sword
-	0		15		8			11			1		1		0	0	//Giant Sword
-	2		8		8			11			1		1		0	0	//Battle Scepter
-	2		5		8			11			1		1		0	0	//Crystal Sword
-	4		5		8			11			1		1		0	0	//Silver Bow
-	4		14		8			11			1		1		0	0	//Aquagold Crossbow
+	7		 1			8			11		  0	 	 1		  0			0	//Dragon Helm
+	7		 7			8			11		  0	 	 1		  0			0	//Sphinx Helm
+	7		 9			8			11		  0	 	 1		  0			0	//Plate Helm
+	7		 13			8			11		  0	 	 1		  0			0	//Spirit Helm
+	7		 3			8			11		  0	 	 1		  0			0	//Legendary Helm
+	7		 39			8			11		  0	 	 1		  0			0	//Mistery Helm
+	7		 40			8			11		  0	 	 1		  0			0	//Red Wing Helm
+	6		 4			8			11		  0	 	 1		  0			0	//Buckler
+	6		 5			8			11		  0	 	 1		  0			0	//Dragon Slayer Shield
+	6		 6			8			11		  0	 	 1		  0			0	//Skull Shield
+	6		 7			8			11		  0	 	 1		  0			0	//Spike Shield
+	6		 8			8			11		  0	 	 1		  0			0	//Tower Shield
+	6		 9			8			11		  0	 	 1		  0			0	//Plate Shield
+	6		 10			8			11		  0	 	 1		  0			0	//Large Round Shield
+	6		 11			8			11		  0	 	 1		  0			0	//Serpent Shield
+	6		 12			8			11		  0	 	 1		  0			0	//Bronze Shield
+	8		 1			8			11		  0	 	 1		  0			0	//Dragon Armor
+	8		 7			8			11		  0	 	 1		  0			0	//Sphinx Armor
+	8		 9			8			11		  0	 	 1		  0			0	//Plate Armor
+	8		 13			8			11		  0	 	 1		  0			0	//Spirit Armor
+	8		 3			8			11		  0	 	 1		  0			0	//Legendary Armor
+	8		 39			8			11		  0	 	 1		  0			0	//Mistery Armor
+	8		 40			8			11		  0	 	 1		  0			0	//Red Wing Armor
+	9		 1			8			11		  0	 	 1		  0			0	//Dragon Pants
+	9		 3			8			11		  0	 	 1		  0			0	//Legendary Pants
+	9		 7			8			11		  0	 	 1		  0			0	//Sphinx Pants
+	9		 9			8			11		  0	 	 1		  0			0	//Plate Pants
+	9		 13			8			11		  0	 	 1		  0			0	//Spirit Pants
+	9		 39			8			11		  0	 	 1		  0			0	//Mistery Pants
+	9		 40			8			11		  0	 	 1		  0			0	//Red Wing Pants
+	10		 1			8			11		  0	 	 1		  0			0	//Dragon Gloves
+	10		 3			8			11		  0	 	 1		  0			0	//Legendary Gloves
+	10		 7			8			11		  0	 	 1		  0			0	//Sphinx Gloves
+	10		 9			8			11		  0	 	 1		  0			0	//Plate Gloves
+	10		 13			8			11		  0	 	 1		  0			0	//Spirit Gloves
+	10		 39			8			11		  0	 	 1		  0			0	//Mistery Gloves
+	10		 40			8			11		  0	 	 1		  0			0	//Red Wing Gloves
+	11		 1			8			11		  0	 	 1		  0			0	//Dragon Boots
+	11		 7			8			11		  0	 	 1		  0			0	//Sphinx Boots
+	11		 9			8			11		  0	 	 1		  0			0	//Plate Boots
+	11		 3			8			11		  0	 	 1		  0			0	//Legendary Boots
+	11		 13			8			11		  0	 	 1		  0			0	//Spirit Boots
+	0		 13			8			11		  0		 1		  0			0	//Double Blade
+	0		 14			8			11		  0		 1		  0			0	//Lightning Sword
+	0		 15			8			11		  0		 1		  0			0	//Giant Sword
+	2		 8			8			11		  0		 1		  0			0	//Battle Scepter
+	2		 5			8			11		  0		 1		  0			0	//Crystal Sword
+	4		 5			8			11		  0		 1		  0			0	//Silver Bow
+	4		 14			8			11		  0		 1		  0			0	//Aquagold Crossbow
+	7		 1			8			11		  0	 	 0		  1			0	//Dragon Helm
+	7		 7			8			11		  0	 	 0		  1			0	//Sphinx Helm
+	7		 9			8			11		  0	 	 0		  1			0	//Plate Helm
+	7		 13			8			11		  0	 	 0		  1			0	//Spirit Helm
+	7		 3			8			11		  0	 	 0		  1			0	//Legendary Helm
+	7		 39			8			11		  0	 	 0		  1			0	//Mistery Helm
+	7		 40			8			11		  0	 	 0		  1			0	//Red Wing Helm
+	6		 4			8			11		  0	 	 0		  1			0	//Buckler
+	6		 5			8			11		  0	 	 0		  1			0	//Dragon Slayer Shield
+	6		 6			8			11		  0	 	 0		  1			0	//Skull Shield
+	6		 7			8			11		  0	 	 0		  1			0	//Spike Shield
+	6		 8			8			11		  0	 	 0		  1			0	//Tower Shield
+	6		 9			8			11		  0	 	 0		  1			0	//Plate Shield
+	6		 10			8			11		  0	 	 0		  1			0	//Large Round Shield
+	6		 11			8			11		  0	 	 0		  1			0	//Serpent Shield
+	6		 12			8			11		  0	 	 0		  1			0	//Bronze Shield
+	8		 1			8			11		  0	 	 0		  1			0	//Dragon Armor
+	8		 7			8			11		  0	 	 0		  1			0	//Sphinx Armor
+	8		 9			8			11		  0	 	 0		  1			0	//Plate Armor
+	8		 13			8			11		  0	 	 0		  1			0	//Spirit Armor
+	8		 3			8			11		  0	 	 0		  1			0	//Legendary Armor
+	8		 39			8			11		  0	 	 0		  1			0	//Mistery Armor
+	8		 40			8			11		  0	 	 0		  1			0	//Red Wing Armor
+	9		 1			8			11		  0	 	 0		  1			0	//Dragon Pants
+	9		 3			8			11		  0	 	 0		  1			0	//Legendary Pants
+	9		 7			8			11		  0	 	 0		  1			0	//Sphinx Pants
+	9		 9			8			11		  0	 	 0		  1			0	//Plate Pants
+	9		 13			8			11		  0	 	 0		  1			0	//Spirit Pants
+	9		 39			8			11		  0	 	 0		  1			0	//Mistery Pants
+	9		 40			8			11		  0	 	 0		  1			0	//Red Wing Pants
+	10		 1			8			11		  0	 	 0		  1			0	//Dragon Gloves
+	10		 3			8			11		  0	 	 0		  1			0	//Legendary Gloves
+	10		 7			8			11		  0	 	 0		  1			0	//Sphinx Gloves
+	10		 9			8			11		  0	 	 0		  1			0	//Plate Gloves
+	10		 13			8			11		  0	 	 0		  1			0	//Spirit Gloves
+	10		 39			8			11		  0	 	 0		  1			0	//Mistery Gloves
+	10		 40			8			11		  0	 	 0		  1			0	//Red Wing Gloves
+	11		 1			8			11		  0	 	 0		  1			0	//Dragon Boots
+	11		 7			8			11		  0	 	 0		  1			0	//Sphinx Boots
+	11		 9			8			11		  0	 	 0		  1			0	//Plate Boots
+	11		 3			8			11		  0	 	 0		  1			0	//Legendary Boots
+	11		 13			8			11		  0	 	 0		  1			0	//Spirit Boots
+	0		 13			8			11		  1		 1		  0			0	//Double Blade
+	0		 14			8			11		  1		 1		  0			0	//Lightning Sword
+	0		 15			8			11		  1		 1		  0			0	//Giant Sword
+	2		 8			8			11		  1		 1		  0			0	//Battle Scepter
+	2		 5			8			11		  1		 1		  0			0	//Crystal Sword
+	4		 5			8			11		  1		 1		  0			0	//Silver Bow
+	7		 1			8			11		  0	 	 1		  1			0	//Dragon Helm
+	7		 7			8			11		  0	 	 1		  1			0	//Sphinx Helm
+	7		 9			8			11		  0	 	 1		  1			0	//Plate Helm
+	7		 13			8			11		  0	 	 1		  1			0	//Spirit Helm
+	7		 3			8			11		  0	 	 1		  1			0	//Legendary Helm
+	7		 39			8			11		  0	 	 1		  1			0	//Mistery Helm
+	7		 40			8			11		  0	 	 1		  1			0	//Red Wing Helm
+	6		 4			8			11		  0	 	 1		  1			0	//Buckler
+	6		 5			8			11		  0	 	 1		  1			0	//Dragon Slayer Shield
+	6		 6			8			11		  0	 	 1		  1			0	//Skull Shield
+	6		 7			8			11		  0	 	 1		  1			0	//Spike Shield
+	6		 8			8			11		  0	 	 1		  1			0	//Tower Shield
+	6		 9			8			11		  0	 	 1		  1			0	//Plate Shield
+	6		 10			8			11		  0	 	 1		  1			0	//Large Round Shield
+	6		 11			8			11		  0	 	 1		  1			0	//Serpent Shield
+	6		 12			8			11		  0	 	 1		  1			0	//Bronze Shield
+	8		 1			8			11		  0	 	 1		  1			0	//Dragon Armor
+	8		 7			8			11		  0	 	 1		  1			0	//Sphinx Armor
+	8		 9			8			11		  0	 	 1		  1			0	//Plate Armor
+	8		 13			8			11		  0	 	 1		  1			0	//Spirit Armor
+	8		 3			8			11		  0	 	 1		  1			0	//Legendary Armor
+	8		 39			8			11		  0	 	 1		  1			0	//Mistery Armor
+	8		 40			8			11		  0	 	 1		  1			0	//Red Wing Armor
+	9		 1			8			11		  0	 	 1		  1			0	//Dragon Pants
+	9		 3			8			11		  0	 	 1		  1			0	//Legendary Pants
+	9		 7			8			11		  0	 	 1		  1			0	//Sphinx Pants
+	9		 9			8			11		  0	 	 1		  1			0	//Plate Pants
+	9		 13			8			11		  0	 	 1		  1			0	//Spirit Pants
+	9		 39			8			11		  0	 	 1		  1			0	//Mistery Pants
+	9		 40			8			11		  0	 	 1		  1			0	//Red Wing Pants
+	10		 1			8			11		  0	 	 1		  1			0	//Dragon Gloves
+	10		 3			8			11		  0	 	 1		  1			0	//Legendary Gloves
+	10		 7			8			11		  0	 	 1		  1			0	//Sphinx Gloves
+	10		 9			8			11		  0	 	 1		  1			0	//Plate Gloves
+	10		 13			8			11		  0	 	 1		  1			0	//Spirit Gloves
+	10		 39			8			11		  0	 	 1		  1			0	//Mistery Gloves
+	10		 40			8			11		  0	 	 1		  1			0	//Red Wing Gloves
+	11		 1			8			11		  0	 	 1		  1			0	//Dragon Boots
+	11		 7			8			11		  0	 	 1		  1			0	//Sphinx Boots
+	11		 9			8			11		  0	 	 1		  1			0	//Plate Boots
+	11		 3			8			11		  0	 	 1		  1			0	//Legendary Boots
+	11		 13			8			11		  0	 	 1		  1			0	//Spirit Boots
+	7		 1			8			11		  0	 	 1		  2			0	//Dragon Helm
+	7		 7			8			11		  0	 	 1		  2			0	//Sphinx Helm
+	7		 9			8			11		  0	 	 1		  2			0	//Plate Helm
+	7		 13			8			11		  0	 	 1		  2			0	//Spirit Helm
+	7		 3			8			11		  0	 	 1		  2			0	//Legendary Helm
+	7		 39			8			11		  0	 	 1		  2			0	//Mistery Helm
+	7		 40			8			11		  0	 	 1		  2			0	//Red Wing Helm
+	6		 4			8			11		  0	 	 1		  2			0	//Buckler
+	6		 5			8			11		  0	 	 1		  2			0	//Dragon Slayer Shield
+	6		 6			8			11		  0	 	 1		  2			0	//Skull Shield
+	6		 7			8			11		  0	 	 1		  2			0	//Spike Shield
+	6		 8			8			11		  0	 	 1		  2			0	//Tower Shield
+	6		 9			8			11		  0	 	 1		  2			0	//Plate Shield
+	6		 10			8			11		  0	 	 1		  2			0	//Large Round Shield
+	6		 11			8			11		  0	 	 1		  2			0	//Serpent Shield
+	6		 12			8			11		  0	 	 1		  2			0	//Bronze Shield
+	8		 1			8			11		  0	 	 1		  2			0	//Dragon Armor
+	8		 7			8			11		  0	 	 1		  2			0	//Sphinx Armor
+	8		 9			8			11		  0	 	 1		  2			0	//Plate Armor
+	8		 13			8			11		  0	 	 1		  2			0	//Spirit Armor
+	8		 3			8			11		  0	 	 1		  2			0	//Legendary Armor
+	8		 39			8			11		  0	 	 1		  2			0	//Mistery Armor
+	8		 40			8			11		  0	 	 1		  2			0	//Red Wing Armor
+	9		 1			8			11		  0	 	 1		  2			0	//Dragon Pants
+	9		 3			8			11		  0	 	 1		  2			0	//Legendary Pants
+	9		 7			8			11		  0	 	 1		  2			0	//Sphinx Pants
+	9		 9			8			11		  0	 	 1		  2			0	//Plate Pants
+	9		 13			8			11		  0	 	 1		  2			0	//Spirit Pants
+	9		 39			8			11		  0	 	 1		  2			0	//Mistery Pants
+	9		 40			8			11		  0	 	 1		  2			0	//Red Wing Pants
+	10		 1			8			11		  0	 	 1		  2			0	//Dragon Gloves
+	10		 3			8			11		  0	 	 1		  2			0	//Legendary Gloves
+	10		 7			8			11		  0	 	 1		  2			0	//Sphinx Gloves
+	10		 9			8			11		  0	 	 1		  2			0	//Plate Gloves
+	10		 13			8			11		  0	 	 1		  2			0	//Spirit Gloves
+	10		 39			8			11		  0	 	 1		  2			0	//Mistery Gloves
+	10		 40			8			11		  0	 	 1		  2			0	//Red Wing Gloves
+	11		 1			8			11		  0	 	 1		  2			0	//Dragon Boots
+	11		 7			8			11		  0	 	 1		  2			0	//Sphinx Boots
+	11		 9			8			11		  0	 	 1		  2			0	//Plate Boots
+	11		 3			8			11		  0	 	 1		  2			0	//Legendary Boots
+	11		 13			8			11		  0	 	 1		  2			0	//Spirit Boots
 end
