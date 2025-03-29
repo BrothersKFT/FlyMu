@@ -195,7 +195,7 @@ ItemDropPickUpTime = 10
 ItemDropRate_AL0 = 20
 ItemDropRate_AL1 = 25
 ItemDropRate_AL2 = 30
-ItemDropRate_AL3 = 40
+ItemDropRate_AL3 = 35
 
 ;==================================================
 ; Money Drop Settings
@@ -429,11 +429,11 @@ PartyGeneralExperience2 = 100
 PartyGeneralExperience3 = 100
 PartyGeneralExperience4 = 100
 PartyGeneralExperience5 = 100
-PartySpecialExperience1 = 1
-PartySpecialExperience2 = 1
-PartySpecialExperience3 = 1
-PartySpecialExperience4 = 1
-PartySpecialExperience5 = 1
+PartySpecialExperience1 = 100
+PartySpecialExperience2 = 100
+PartySpecialExperience3 = 100
+PartySpecialExperience4 = 100
+PartySpecialExperience5 = 100
 PartyMaxMembers = 5
 PartyDisablePK = 1
 RestrictRequest = 1
