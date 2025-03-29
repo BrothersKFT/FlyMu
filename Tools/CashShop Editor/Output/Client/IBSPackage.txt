@@ -13,7 +13,7 @@
 37@4@110@Blood Castle Ticket@170@900@Allows 10 free entrances into the Blood Castle mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1100|@6703@2@1@1100|@0@508@669
 37@5@111@Kalima Ticket@170@900@Allows 10 entrances into the Kalima 7 map.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1110|@6704@2@1@1110|@0@508@669
 37@6@114@Illusion Temple Ticket@170@100@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1140|@6717@2@1@1140|@0@508@669
-37@7@115@Illusion Temple Ticket@170@100@Allows 10 free entrances into the Illusion Temple mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1150|@6717@2@1@1150|@0@508@669
+37@7@115@Illusion Temple Ticket@170@900@Allows 10 free entrances into the Illusion Temple mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1150|@6717@2@1@1150|@0@508@669
 41@1@116@Seal of Ascension@170@200@+100% XP boost.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1160|@6699@3@3@1160|1161|1162|@0@509@669
 41@2@117@Seal of Wealth@170@250@+100% EXP   #+150% Drop Rate@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1170|@6700@3@3@1170|1171|1172|@0@509@669
 41@3@118@Seal of Divinity@170@100@+150% Drop Rate  #Auto Mana Regeneration +5%  #  #- Seal of Healing cannot be used at the same time  it will over-ride this seal.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1180|@6719@3@3@1180|1181|1182|@0@509@669
@@ -29,10 +29,17 @@
 43@4@128@Blood Castle Ticket@170@900@Allows 10 free entrances into the Blood Castle mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1280|@6703@3@1@1280|@0@509@669
 43@5@129@Kalima Ticket@170@900@Allows 10 entrances into the Kalima 7 map.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1290|@6704@3@1@1290|@0@509@669
 43@6@130@Illusion Temple Ticket@170@100@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1300|@6717@3@1@1300|@0@509@669
-43@7@131@Illusion Temple Ticket@170@100@Allows 10 free entrances into the Illusion Temple mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1310|@6717@3@1@1310|@0@509@669
+43@7@131@Illusion Temple Ticket@170@900@Allows 10 free entrances into the Illusion Temple mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1310|@6717@3@1@1310|@0@509@669
+61@1@141@Devil Square Ticket@170@200@Allows free entrance into the Devil Square mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1410|@6702@5@1@1410|@1@0@669
+61@2@142@Blood Castle Ticket@170@200@Allows free entrance into theBlood Castle mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1420|@6703@5@1@1420|@1@0@669
+61@3@143@Kalima Ticket@170@200@Allows free entrance into the Kalima 7 map.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1430|@6704@5@1@1430|@1@0@669
+61@4@144@Illusion Temple Ticket@170@200@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1440|@6717@5@1@1440|@1@0@669
 62@1@132@Jewel of Bless@170@5@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1320|@7181@5@1@1320|@1@0@669
 62@2@133@Jewel of Soul@170@5@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1330|@7182@5@1@1330|@1@0@669
 62@3@134@Jewel of Life@170@5@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1340|@7184@5@1@1340|@1@0@669
 62@4@135@Jewel of Bless x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1350|@7181@5@1@1350|@1@0@669
 62@5@136@Jewel of Soul x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1360|@7182@5@1@1360|@1@0@669
 62@6@137@Jewel of Life x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1370|@7184@5@1@1370|@1@0@669
+62@7@138@Seal of Ascension 1H@170@200@+100% XP boost for 1 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1380|@6699@5@3@1380|1381|1382|@1@0@669
+62@8@139@Seal of Ascension 6H@170@750@+100% XP boost for 6 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1390|@6699@5@3@1390|1391|1392|@1@0@669
+62@9@140@Seal of Ascension 12H@170@1400@+100% XP boost for 12 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1400|@6699@5@3@1400|1401|1402|@1@0@669
