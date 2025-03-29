@@ -7,7 +7,7 @@
 /////////////////////////////////////////////////////////////////////////////
 0
 //EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
-"Box of Luck"	1000000		40		1					0				0				0
+"Box of Luck"	1000000		40		1					0				0				1
 end
 
 1
