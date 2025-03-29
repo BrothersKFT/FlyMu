@@ -40,6 +40,6 @@
 62@4@135@Jewel of Bless x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1350|@7181@5@1@1350|@1@0@669
 62@5@136@Jewel of Soul x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1360|@7182@5@1@1360|@1@0@669
 62@6@137@Jewel of Life x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1370|@7184@5@1@1370|@1@0@669
-62@7@138@Seal of Ascension 1H@170@200@+100% XP boost for 1 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1380|@6699@5@3@1380|1381|1382|@1@0@669
-62@8@139@Seal of Ascension 6H@170@750@+100% XP boost for 6 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1390|@6699@5@3@1390|1391|1392|@1@0@669
-62@9@140@Seal of Ascension 12H@170@1400@+100% XP boost for 12 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1400|@6699@5@3@1400|1401|1402|@1@0@669
+62@7@138@Seal of Ascension 1H@170@200@+100% XP boost for 1 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1380|@6699@5@1@1380|@1@0@669
+62@8@139@Seal of Ascension 6H@170@750@+100% XP boost for 6 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1390|@6699@5@1@1390|@1@0@669
+62@9@140@Seal of Ascension 12H@170@1400@+100% XP boost for 12 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1400|@6699@5@1@1400|@1@0@669
