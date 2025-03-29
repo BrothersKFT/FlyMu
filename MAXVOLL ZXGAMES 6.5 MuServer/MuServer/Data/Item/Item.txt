@@ -1309,7 +1309,7 @@ end
 8        *      0       1       1        1            0            1          "Antidote"                           10      10
 9        *      0       1       2        1            0            1          "Ale"                                30      15
 10       *      0       1       2        1            0            1          "Town Portal Scroll"                 30      30
-11       *      0       1       1        1            0            0          "Box of Luck"                        0       0
+11       *      0       1       1        1            0            0          "Box of Luck"                        0       20
 12       *      0       1       1        1            0            0          "Heart"                              0       0
 13       *      0       1       1        1            0            0          "Jewel of Bless"                     150     25
 14       *      0       1       1        1            0            0          "Jewel of Soul"                      150     30
