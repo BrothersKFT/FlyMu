@@ -27,5 +27,8 @@
 //-- Turquoise1		=	24 (0 245 255)
 //====================================================================
 //--Item	Name			Color	Index1	Color1	Index2	Color2	Index3	Color3	Index4	Color4	Index5	Color5	Index6	Color6	Index7	Color7	Index8	Color8	Index9	Color9	Index10	Color10	Index11	Color11	Index12	Color12	Index13	Color13	Index14	Color14	Index15	Color15
-
+1		"Opcion [Sword]"	19	1	9	2	8	3	11	4	1	5	3	6	10	7	10	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+2		"Opcion [Sword]"	7	1	9	2	8	3	11	4	1	5	3	6	10	7	10	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+22		"Opcion [Sword]"	7	1	9	2	8	3	11	4	1	5	3	6	10	7	10	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+28		"Opcion [Sword]"	7	1	9	2	8	3	11	4	1	5	3	6	10	7	10	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
 end

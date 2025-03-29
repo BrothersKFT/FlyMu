@@ -132,6 +132,15 @@ __declspec(naked) void FixAttackSpeed()
             STR_SPEED = 1368;
         }
     }
+	// Meteorit sebesség korlátozás
+    if (gObjUser.MagickAttack == 266 ||   // Meteorit
+        gObjUser.MagickAttack == 561)     // Meteorit (Master)
+    {
+        if (STR_SPEED > 1368)
+        {
+            STR_SPEED = 1368;
+        }
+    }
 
     
 
