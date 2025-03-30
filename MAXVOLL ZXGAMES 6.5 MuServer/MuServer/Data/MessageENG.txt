@@ -382,10 +382,11 @@
 531       "%s Removed% d Zen"
 532       "%s Removed% d PCPoint (s)"
 533       "%s Buff Applied!"
-537     "[System] Thank you for playing, you received %d WC"
-538     "[System] Thank you for playing, you received %d WCP"
-539     "[System] Thank you for playing, you received %d GP"
-540     "[System] Thank you for playing, you received %d Ruud"
+537       "[System] Thank you for playing, you received %d WC"
+538       "[System] Thank you for playing, you received %d WCP"
+539       "[System] Thank you for playing, you received %d GP"
+540       "[System] Thank you for playing, you received %d Ruud"
+544       "%s answered [%s]"
 602       "You can't marry yourself 0.0!"
 603       "You just married %s!"
 604       "You're already married!"
@@ -645,8 +646,8 @@
 861       "Party restricted by %d level of difference"
 880       "[VIP] : %s"
 897       "[%s] Left %d minute(s) for start the event"
-898       "Midnight event: EXP INCREASED from X50 to X70"
-899       "Midnight event end: exp decreased to normal (x50)"
+898       "Midnight event: EXP INCREASED from X100 to X120"
+899       "Midnight event end: exp decreased to normal (X100)"
 
 //=====================================================================================================
 // MENSAJES BOSS - BLOOB CASTLE - ARMADO POR MASTER FOX 22/02/2022
