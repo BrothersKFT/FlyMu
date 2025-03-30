@@ -79,6 +79,7 @@ end
 257            03             00         201            129            02             //Shadow Phantom Soldier
 544            03             00         167            100            02             //Gens Vanert Steward
 240            03             00         172            96             03             //Safety Guardian
+546            00             00         183            103            01             //Jeweler Raul
 end
 
 0
