@@ -95,5 +95,5 @@
 7278      0       0       *         *         *         *         *         *         *         0          *           *              60                150               1000       //Sign of Dimensions
 7289      0       0       *         *         *         *         *         *         *         0          *           *              25                150               0       //Sealed Golden Box
 7290      0       0       *         *         *         *         *         *         *         0          *           *              25                150               0       //Sealed Silver Box
-7179      7       0       *         *         *         *         *         *         *         0          2           *              20                30                1000       //box of luck
+7179      7       0       *         *         *         *         *         *         *         0          2           *              36                36                1000       //box of luck
 end
