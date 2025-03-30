@@ -415,7 +415,9 @@ void CChaosBox::PlusItemLevelMix(LPOBJ lpObj,int type) // OK
 		{
 			ElementalChaosAmulet++;
 		}
-		else if(lpObj->ChaosBox[n].m_Level == (9+type))
+		else if((type >= 0 && type <= 3 && lpObj->ChaosBox[n].m_Level == (9+type)) || // +10 to +13
+            (type == 4 && lpObj->ChaosBox[n].m_Level == 13) ||                     // +13 to +14
+            (type == 5 && lpObj->ChaosBox[n].m_Level == 14))
 		{
 			ItemCount++;
 			ItemSlot = n;
@@ -2526,7 +2528,7 @@ void CChaosBox::CustomItemMix(LPOBJ lpObj, int HeadCode) // OK
 		
 		int ItemMixGroupCount = CustomMix->m_CountItem - gCustomMix.GetCountItemBagMix(HeadCode);
 
-		//-- primera comprobación de item bag no cambiantes
+		//-- primera comprobaciï¿½n de item bag no cambiantes
 		for(int slot = 0; slot < CHAOS_BOX_SIZE; slot++)
 		{
 			if(lpObj->ChaosBox[slot].IsItem() == 0)
@@ -2539,7 +2541,7 @@ void CChaosBox::CustomItemMix(LPOBJ lpObj, int HeadCode) // OK
 				ItemBagMixCount++;
 			}
 		}
-		//validación de item por grupos existentes
+		//validaciï¿½n de item por grupos existentes
 		for(int Group = 0 ; Group < CustomMix->m_CountGroup ; Group++)
 		{
 			itemMixCount = 0;
@@ -2551,7 +2553,7 @@ void CChaosBox::CustomItemMix(LPOBJ lpObj, int HeadCode) // OK
 					continue;
 				}
 
-				if(gCustomMix.istItemMix(CustomMix->m_Index, Group, lpObj->ChaosBox[slot]))	// validación si existe el item
+				if(gCustomMix.istItemMix(CustomMix->m_Index, Group, lpObj->ChaosBox[slot]))	// validaciï¿½n si existe el item
 				{
 					itemMixCount++;
 				}
@@ -2564,7 +2566,7 @@ void CChaosBox::CustomItemMix(LPOBJ lpObj, int HeadCode) // OK
 			}
 		}
 	
-		if((itemMixCount + ItemBagMixCount) != CustomMix->m_CountItem) // falló la combinación
+		if((itemMixCount + ItemBagMixCount) != CustomMix->m_CountItem) // fallï¿½ la combinaciï¿½n
 		{
 			this->GCChaosMixSend(lpObj->Index, 7, 0);
 			return;
