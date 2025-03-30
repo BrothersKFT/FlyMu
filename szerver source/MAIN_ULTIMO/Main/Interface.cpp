@@ -1381,6 +1381,31 @@ void Interface::Work()
 		{
 			gCustomEventTime.OpenWindow();
 		}
+		if (GetKeyState('J') & 0x4000) 
+		{
+			if((GetTickCount()-gInterface.Data[eJEWELBANK_MAIN].EventTick) > 300)
+			{
+				if (gJewelsBank.Active != true)
+				{
+					gJewelsBank.Active = true;
+					gInterface.Data[eJEWELBANK_MAIN].OnShow = true;
+					if (gProtect.m_MainInfo.CustomInterfaceType != 3 && gProtect.m_MainInfo.CustomInterfaceType != 4)
+					{
+						pSetCursorFocus = false;
+					}
+				}
+				else
+				{
+					gJewelsBank.Active = false;
+					gInterface.Data[eJEWELBANK_MAIN].OnShow = false;
+					if (gProtect.m_MainInfo.CustomInterfaceType != 3 && gProtect.m_MainInfo.CustomInterfaceType != 4)
+					{
+						pSetCursorFocus = false;
+					}
+				}
+				gInterface.Data[eJEWELBANK_MAIN].EventTick = GetTickCount();
+			}
+		}
 //--------
 /*		if (GetKeyState('Y') & 0x4000)
 		{
@@ -5226,7 +5251,6 @@ void Interface::DrawLuckyWheel()
 	DrawItemIMG(190, 214, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[11].ItemType, gLuckyWheel.m_LuckyWheelInfo[11].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[11].Level), gLuckyWheel.m_LuckyWheelInfo[11].Exc, 0, 0);
 
 	//this->DrawFormat(eWhite, 270, 165, 50.0f, 1.0f, "You Wind!");
-
 	if (this->LuckyWheelNumber >= 0)
 	{
 		DrawItemIMG(297, 160, 50, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[this->LuckyWheelNumber].ItemType, gLuckyWheel.m_LuckyWheelInfo[this->LuckyWheelNumber].ItemIndex), gLuckyWheel.m_LuckyWheelInfo[this->LuckyWheelNumber].Level, gLuckyWheel.m_LuckyWheelInfo[this->LuckyWheelNumber].Exc, 0, 0);
@@ -5370,3 +5394,4 @@ void Interface::EventLuckyWheel_Main(DWORD Event)
 		StartRoll = 1;
 	}
 }
+

@@ -253,6 +253,28 @@ LRESULT Controller::Keyboard(int Code, WPARAM wParam, LPARAM lParam)
 			gCustomEventTime.OpenWindow();
 		}
 		break;
+		case 0x4A: // J key
+		{
+			if (gJewelsBank.Active != true)
+			{
+				gJewelsBank.Active = true;
+				gInterface.Data[eJEWELBANK_MAIN].OnShow = true;
+				if (gProtect.m_MainInfo.CustomInterfaceType != 3 || gProtect.m_MainInfo.CustomInterfaceType != 4)
+				{
+					pSetCursorFocus = false;
+				}
+			}
+			else
+			{
+				gJewelsBank.Active = false;
+				gInterface.Data[eJEWELBANK_MAIN].OnShow = false;
+				if (gProtect.m_MainInfo.CustomInterfaceType != 3 || gProtect.m_MainInfo.CustomInterfaceType != 4)
+				{
+					pSetCursorFocus = false;
+				}
+			}
+		}
+		break;
 		case VK_ESCAPE:
 		{
 
