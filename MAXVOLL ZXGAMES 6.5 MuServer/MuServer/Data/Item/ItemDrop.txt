@@ -4,7 +4,7 @@
 6824      1       0       *         *         *         *         *         *         *         0          *           *              119               150               50        //Lesser Spirit Stone
 6825      1       0       *         *         *         *         *         *         *         0          *           *              119               150               50        //Medium Spirit Stone
 6657      0       0       *         *         *         *         *         *         *         0          *           *              12                20                1000       //Satan
-6159      0       0       *         *         *         *         *         *         *         0          *           *              12                150               50         //Jewel of Chaos
+6159      0       0       *         *         *         *         *         *         *         0          *           *              12                150               100         //Jewel of Chaos
 6176      0       0       *         *         *         *         *         *         *         0          *           *              12                49                0          //Box of Red Ribbon
 6177      0       0       *         *         *         *         *         *         *         0          *           *              50                69                0          //Box of Green Ribbon
 6178      0       0       *         *         *         *         *         *         *         0          *           *              70                97                0          //Box of Blue Ribbon
