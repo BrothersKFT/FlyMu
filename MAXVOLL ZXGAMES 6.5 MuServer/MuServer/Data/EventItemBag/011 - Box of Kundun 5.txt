@@ -7,15 +7,11 @@
 /////////////////////////////////////////////////////////////////////////////
 0
 //EventName	DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
-"Box of Kundun 5"	1	100				1				0				1				1
+"Box of Kundun 5"	0	100				1				0				0				1
 end
 
 1
 //Section	Type	MinLevel	MaxLevel	Skill	 Luck	    Option	 	 Excellent	NameItem
-
-	// -------------------------------------- Armor ---------------------------------------------------
-	// ------------------------- DK,SM,ELF,SUM,MG,DL,RF - 7 sets --------------------------------------
-
 	7		 30			0			6		  13	  13		  20			21		//Venom Mist Helm
 	8		 30			0			6		  13	  13		  20			21		//Venom Mist Armor
 	9		 30			0			6		  13	  13		  20			21		//Venom Mist Pants
@@ -50,13 +46,12 @@ end
 	9		 43			0			6		  13	  13		  20			21		//Aura Pants
 	10		 43			0			6		  13	  13		  20			21		//Aura Gloves
 	11		 43			0			6		  13	  13		  20			21		//Aura Boots
+
 	7		 73			0			6		  13	  13		  20			21		//RF 380 SET PHONEIX
 	8		 73			0			6		  13	  13		  20			21		//RF 380 SET PHONEIX
 	9		 73			0			6		  13	  13		  20			21		//RF 380 SET PHONEIX
 	11		 73			0			6		  13	  13		  20			21		//RF 380 SET PHONEIX
 
-
-	// -------------------------------------- WEAPONS --------------------------------------
 	5		 12			0			6		  13	  13		  20			21		//Grand Viper Staff
 	0		 22			0			6		  13	  13		  20			21		//Bone Blade
 	4		 21			0			6		  13	  13		  20			21		//Sylph Wind Bow
@@ -64,8 +59,8 @@ end
 	2		 14			0			6		  13	  13		  20			21		//Solay Scepter
 	5		 19			0			6		  13	  13		  20			21		//Aura Staff
 	0		 35			0			6		  13	  13		  20			21		//RF 380 PHONEIX SWORD
-
 end
+
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
 end
