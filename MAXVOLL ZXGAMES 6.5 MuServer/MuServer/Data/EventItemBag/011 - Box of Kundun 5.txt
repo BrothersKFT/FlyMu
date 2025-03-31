@@ -27,24 +27,24 @@ end
 	9		 29			0			6		  13	  13		  20			21		//Dragon Knight Pants
 	10		 29			0			6		  13	  13		  20			21		//Dragon Knight Gloves
 	11		 29			0			6		  13	  13		  20			21		//Dragon Knight Boots
-	2
+	
 	7		 31			0			6		  13	  13		  20			21		//Sylpid Ray Helm
 	8		 31			0			6		  13	  13		  20			21		//Sylpid Ray Armor
 	9		 31			0			6		  13	  13		  20			21		//Sylpid Ray Pants
 	10		 31			0			6		  13	  13		  20			21		//Sylpid Ray Gloves
 	11		 31			0			6		  13	  13		  20			21		//Sylpid Ray Boots
-	2
+	
 	8		 32			0			6		  13	  13		  20			21		//Volcano Armor
 	9		 32			0			6		  13	  13		  20			21		//Volcano Pants
 	10		 32			0			6		  13	  13		  20			21		//Volcano Gloves
 	11		 32			0			6		  13	  13		  20			21		//Volcano Boots
-	2
+	
 	7		 33			0			6		  13	  13		  20			21		//Sunlight Helm
 	8		 33			0			6		  13	  13		  20			21		//Sunlight Armor
 	9		 33			0			6		  13	  13		  20			21		//Sunlight Pants
 	10		 33			0			6		  13	  13		  20			21		//Sunlight Gloves
 	11		 33			0			6		  13	  13		  20			21		//Sunlight Boots
-	2
+	
 	7		 43			0			6		  13	  13		  20			21		//Aura Helm
 	8		 43			0			6		  13	  13		  20			21		//Aura Armor
 	9		 43			0			6		  13	  13		  20			21		//Aura Pants
