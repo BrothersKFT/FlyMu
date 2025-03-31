@@ -54,7 +54,7 @@ end
 1
 //Index   Rate0   Rate1   Comment
 0         4000    6000    //Skill Option (Common)
-1         8000    2000    //Skill Option (Exc)
+1         0       10000    //Skill Option (Exc)
 2         0       10000   //Skill Option (Set)
 3         7500    2500    //Skill Option (ChaosItemMix)
 9         9500    500     //Skill Option (MossMerchant)
