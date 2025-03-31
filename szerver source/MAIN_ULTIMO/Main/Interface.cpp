@@ -1385,6 +1385,14 @@ void Interface::Work()
 		{
 			if((GetTickCount()-gInterface.Data[eJEWELBANK_MAIN].EventTick) > 300)
 			{
+				if (gInterface.CheckWindow(ObjWindow::CreateGuild) || 
+        			gInterface.CheckWindow(ObjWindow::ChatWindow) || 
+        			gInterface.CheckWindow(ObjWindow::NPC_Dialog) ||
+        			gInterface.CheckWindow(ObjWindow::CashShop))
+    			{
+    			    return;
+    			}
+
 				if (gJewelsBank.Active != true)
 				{
 					gJewelsBank.Active = true;
