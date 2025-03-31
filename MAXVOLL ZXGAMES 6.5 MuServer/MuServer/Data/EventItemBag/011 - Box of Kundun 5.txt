@@ -12,7 +12,7 @@ end
 
 1
 //Section	Type	MinLevel	MaxLevel	Skill	 Luck	    Option	 	 Excellent	NameItem
-	7		 30			0			6		  13	  13		  20			21		//Venom Mist Helm
+	7		 30			0			6		  1	  1		  1			1		//Venom Mist Helm
 end
 
 2
