@@ -1,7 +1,7 @@
 0
 //Index   Rate0   Rate1   Rate2   Rate3   Rate4   Rate5   Rate6   Rate7   Rate8   Rate9   Rate10   Rate11   Rate12   Rate13   Rate14   Rate15   Comment
-0         0         0       0       0       0       0       0       0       0       0       10000  0        0        0        0        0        //Level Option (Common)
-1         10000   0       0       0       0       0       0       0       0       0       0        0        0        0        0        0        //Level Option (Exc)
+0         6500    1500    1000    500     225     200     50      25      0       0       0        0        0        0        0        0        //Level Option (Common)
+1         9900    50      30      15      5       0       0       0       0       0       0        0        0        0        0        0        //Level Option (Exc)
 2         10000   0       0       0       0       0       0       0       0       0       0        0        0        0        0        0        //Level Option (Set)
 3         2000    2000    2000    2000    2000    0       0       0       0       0       0        0        0        0        0        0        //Level Option (ChaosItemMix)
 9         2500    2000    1500    1500    1000    500     500     500     0       0       0        0        0        0        0        0        //Level Option (MossMerchant)
@@ -53,8 +53,8 @@ end
 
 1
 //Index   Rate0   Rate1   Comment
-0         600     9400     //Skill Option (Common)
-1         0       10000   //Skill Option (Exc)
+0         4000    6000    //Skill Option (Common)
+1         8000    2000    //Skill Option (Exc)
 2         0       10000   //Skill Option (Set)
 3         7500    2500    //Skill Option (ChaosItemMix)
 9         9500    500     //Skill Option (MossMerchant)
@@ -67,7 +67,7 @@ end
 2
 //Index   Rate0   Rate1   Comment
 0         9000    1000     //Luck Option (Common)
-1         5000    5000     //Luck Option (Exc)
+1         9000    1000     //Luck Option (Exc)
 2         5000    5000     //Luck Option (Set)
 3         8000    2000    //Luck Option (ChaosItemMix)
 4         8000    2000    //Luck Option (Wing2Mix)
@@ -84,8 +84,8 @@ end
 
 3
 //Index   Rate0   Rate1   Rate2   Rate3   Rate4   Rate5   Rate6   Rate7   Comment
-0         900     200     200     200     50      50      50      50       //JoL Option (Common)
-1         10000   0       0       0       0       0       0       0       //JoL Option (Exc)
+0         7000    2000    900     100     0       0       0       0       //JoL Option (Common)
+1         9900    80      20      0       0       0       0       0       //JoL Option (Exc)
 2         10000   0       0       0       0       0       0       0       //JoL Option (Set)
 3         7900    1200    600     300     0       0       0       0       //JoL Option (ChaosItemMix)
 4         7900    1200    600     300     0       0       0       0       //JoL Option (Wing2Mix)
@@ -120,7 +120,7 @@ end
 4
 //Index   Rate0   Rate1   Rate2   Rate3   Rate4   Rate5   Rate6   Comment
 0         10000   0       0       0       0       0       0       //Exc Option (Common)
-1         0       7500    2500    0       0       0       0       //Exc Option (Exc)
+1         0       9000    1000    0       0       0       0       //Exc Option (Exc)
 2         10000   0       0       0       0       0       0       //Exc Option (Set)
 3         7000    2400    600     0       0       0       0       //Exc Option (DinorantMix)
 4         8000    2000    0       0       0       0       0       //Exc Option (Wing2Mix)
