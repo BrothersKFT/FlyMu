@@ -27,8 +27,8 @@
 26        18      *           "Crywolf State 6"                    0      0      0      *       *        *        *        * 
 27        19      *           "Crywolf State 7"                    0      0      0      *       *        *        *        * 
 28        20      *           "Game Master"                        0      1      0      *       *        *        *        * 
-29        60      6699        "Seal of Ascension"                  1      2      0      1800    100      *        *        * 
-30        61      6700        "Seal of Wealth"                     1      2      0      1800    100      120      *        * 
+29        60      6699        "Seal of Ascension"                  1      2      0      1800    50       *        *        * 
+30        61      6700        "Seal of Wealth"                     1      2      0      1800    50       50       *        * 
 31        62      6701        "Seal of Sustenance"                 1      2      0      1800    *        *        *        * 
 32        22      *           "Order of Speed"                     0      0      0      *       *        *        *        * 
 33        22      *           "Order of Sublimation"               0      0      0      *       *        *        *        * 
@@ -39,7 +39,7 @@
 38        23      7217        "Halloween 4"                        1      1      0      1800    500      *        *        * 
 39        23      7218        "Halloween 5"                        1      1      0      1800    500      *        *        * 
 40        60      6699        "Seal of Ascension"                  1      2      0      1800    50       *        *        * 
-41        61      6700        "Seal of Wealth"                     1      2      0      1800    100      50       *        * 
+41        61      6700        "Seal of Wealth"                     1      2      0      1800    50       50       *        * 
 42        65      6701        "Seal of Sustenance"                 1      2      0      1800    *        *        *        * 
 43        57      6715        "Seal of Movement"                   1      2      0      1800    *        *        *        * 
 44        67      7240        "Scroll of Quick"                    1      2      0      1800    15       *        *        * 
@@ -86,7 +86,7 @@
 85        48      *           "Red Storm"                          0      0      1      *       *        *        *        * 
 86        49      *           "Frozen Stab"                        0      0      1      *       *        *        *        * 
 87        13      6718        "Seal of Life"                       1      2      0      1800    50       5        *        * 
-88        13      6719        "Seal of Mana"                       1      2      0      1800    50       5        *        * 
+88        13      6719        "Seal of Divinity"                   1      2      0      1800    *        50       *        * 
 89        73      7265        "Scroll of Battle"                   1      2      0      1800    20       *        *        * 
 90        74      7266        "Scroll of Strength"                 1      2      0      1800    20       *        *        * 
 91        23      *           "Christmas 1"                        1      1      0      1800    *        *        *        * 
@@ -159,7 +159,7 @@
 190       115     6833        "Talisman of Ascension 1"            1      1      0      1800    50       *        *        *
 191       115     6834        "Talisman of Ascension 2"            1      1      0      1800    100      *        *        *
 192       115     6835        "Talisman of Ascension 3"            1      1      0      1800    200      *        *        *
-193       60      6836        "Seal of Ascension"                  1      2      0      1800    100      *        *        *
+193       60      6836        "Seal of Ascension"                  1      2      0      1800    50       *        *        *
 194       60      6837        "Master Seal of Ascension"           1      2      0      1800    100      *        *        *
 195       116     7392        "Blessing of Light"                  1      1      0      1800    200      *        *        *
 196       68      7393        "Master Scroll of Defense"           1      2      0      1800    120      *        *        *

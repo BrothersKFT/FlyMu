@@ -1,6 +1,8 @@
-31@1@103@Seal of Ascension@170@200@+100% XP boost.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1030|@6699@2@3@1030|1031|1032|@0@508@669
-31@2@100@Seal of Wealth@170@250@+100% EXP  #+150% Drop Rate@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1000|@6700@2@3@1000|1001|1002|@0@508@669
-31@4@102@Seal of Divinity@170@100@+150% Drop Rate #Auto Mana Regeneration +5% # #- Seal of Healing cannot be used at the same time  it will over-ride this seal.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1020|@6719@2@3@1020|1021|1022|@0@508@669
+31@1@103@Seal of Ascension@170@200@+50% XP boost. # #Can be used simultaneously with Seal of Wealth@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1030|@6699@2@3@1030|1031|1032|@0@508@669
+31@2@100@Seal of Wealth@170@250@+50% EXP   #+50% Drop Rate # #Can be used simultaneously with Seal of Ascension.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1000|@6700@2@3@1000|1001|1002|@0@508@669
+31@3@102@Seal of Divinity@170@200@+50% Drop Rate    #Auto Mana Regeneration +5%    #    #@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1020|@6719@2@3@1020|1021|1022|@0@508@669
+31@4@145@Talisman of Chaos Assembly@170@100@Prevents disappearance of all equipment items when +10 to +15 reinforcement combination fails.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1450|@7264@2@3@1450|1451|1452|@0@508@669
+31@5@148@Talisman of Luck@170@100@Increase the combination rate by 1%, but only up to the maximum rate.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1480|@7221@2@3@1480|1481|1482|@0@508@669
 35@1@101@Panda Ring@170@200@Transforms you into a Panda. #Increases Zen by 50% #Attack/Wizardry/Curse +30 # #Unable to equip while wearing a different transformation ring #@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1010|@6732@2@3@1010|1011|1012|@0@508@669
 35@2@104@Skeleton Transformation Ring@170@200@Transforms you into a Skeleton #ATK / WIZ / Curse Power +40 # #Unable to equip while wearing a different transformation ring #@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1040|@6778@2@3@1040|1041|1042|@0@508@669
 35@3@105@Pet Panda@170@250@+50% EXP  #Increase defense +50  #Auto collects zen  # #+50% EXP Bonus when equipped with any premium transformation ring@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1050|@6736@2@3@1050|1051|1052|@0@508@669
@@ -14,9 +16,10 @@
 37@5@111@Kalima Ticket@170@900@Allows 10 entrances into the Kalima 7 map.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1110|@6704@2@1@1110|@0@508@669
 37@6@114@Illusion Temple Ticket@170@100@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1140|@6717@2@1@1140|@0@508@669
 37@7@115@Illusion Temple Ticket@170@900@Allows 10 free entrances into the Illusion Temple mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1150|@6717@2@1@1150|@0@508@669
-41@1@116@Seal of Ascension@170@200@+100% XP boost.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1160|@6699@3@3@1160|1161|1162|@0@509@669
-41@2@117@Seal of Wealth@170@250@+100% EXP   #+150% Drop Rate@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1170|@6700@3@3@1170|1171|1172|@0@509@669
-41@3@118@Seal of Divinity@170@100@+150% Drop Rate  #Auto Mana Regeneration +5%  #  #- Seal of Healing cannot be used at the same time  it will over-ride this seal.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1180|@6719@3@3@1180|1181|1182|@0@509@669
+41@1@116@Seal of Ascension@170@200@+50% XP boost.  #  #Can be used simultaneously with Seal of Wealth@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1160|@6699@3@3@1160|1161|1162|@0@509@669
+41@2@117@Seal of Wealth@170@250@+50% EXP     #+50% Drop Rate   #   #Can be used simultaneously with Seal of Ascension.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1170|@6700@3@3@1170|1171|1172|@0@509@669
+41@3@118@Seal of Divinity@170@200@+50% Drop Rate      #Auto Mana Regeneration +5%      #      #@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1180|@6719@3@3@1180|1181|1182|@0@509@669
+41@5@147@Talisman of Luck@170@100@Increase the combination rate by 1%, but only up to the maximum rate.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1470|@7221@3@3@1470|1471|1472|@0@509@669
 42@1@119@Panda Ring@170@200@Transforms you into a Panda.  #Increases Zen by 50%  #Attack/Wizardry/Curse +30  #  #Unable to equip while wearing a different transformation ring  #@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1190|@6732@3@3@1190|1191|1192|@0@509@669
 42@2@120@Skeleton Transformation Ring@170@200@Transforms you into a Skeleton  #ATK / WIZ / Curse Power +40  #  #Unable to equip while wearing a different transformation ring  #@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1200|@6778@3@3@1200|1201|1202|@0@509@669
 42@3@121@Pet Panda@170@250@+50% EXP   #Increase defense +50   #Auto collects zen   #  #+50% EXP Bonus when equipped with any premium transformation ring@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1210|@6736@3@3@1210|1211|1212|@0@509@669
@@ -34,12 +37,12 @@
 61@2@142@Blood Castle Ticket@170@200@Allows free entrance into theBlood Castle mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1420|@6703@5@1@1420|@1@0@669
 61@3@143@Kalima Ticket@170@200@Allows free entrance into the Kalima 7 map.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1430|@6704@5@1@1430|@1@0@669
 61@4@144@Illusion Temple Ticket@170@200@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1440|@6717@5@1@1440|@1@0@669
-62@1@132@Jewel of Bless@170@5@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1320|@7181@5@1@1320|@1@0@669
-62@2@133@Jewel of Soul@170@5@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1330|@7182@5@1@1330|@1@0@669
-62@3@134@Jewel of Life@170@5@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1340|@7184@5@1@1340|@1@0@669
-62@4@135@Jewel of Bless x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1350|@7181@5@1@1350|@1@0@669
-62@5@136@Jewel of Soul x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1360|@7182@5@1@1360|@1@0@669
-62@6@137@Jewel of Life x10@170@50@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1370|@7184@5@1@1370|@1@0@669
+62@1@132@Jewel of Bless@170@10@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1320|@7181@5@1@1320|@1@0@669
+62@2@133@Jewel of Soul@170@10@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1330|@7182@5@1@1330|@1@0@669
+62@3@134@Jewel of Life@170@10@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1340|@7184@5@1@1340|@1@0@669
+62@4@135@Jewel of Bless x10@170@100@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1350|@7181@5@1@1350|@1@0@669
+62@5@136@Jewel of Soul x10@170@100@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1360|@7182@5@1@1360|@1@0@669
+62@6@137@Jewel of Life x10@170@100@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1370|@7184@5@1@1370|@1@0@669
 62@7@138@Seal of Ascension 1H@170@200@+100% XP boost for 1 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1380|@6699@5@1@1380|@1@0@669
 62@8@139@Seal of Ascension 6H@170@750@+100% XP boost for 6 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1390|@6699@5@1@1390|@1@0@669
 62@9@140@Seal of Ascension 12H@170@1400@+100% XP boost for 12 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1400|@6699@5@1@1400|@1@0@669
