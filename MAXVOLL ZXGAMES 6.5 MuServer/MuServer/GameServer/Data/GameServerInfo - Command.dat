@@ -158,13 +158,13 @@ CommandMasterResetLimit_AL2 = 10000
 CommandMasterResetLimit_AL3 = 10000
 
 ; Maximum master resets per day 
-CommandMasterResetLimitDay_AL0 = 1000
+CommandMasterResetLimitDay_AL0 = 1
 CommandMasterResetLimitDay_AL1 = 1
 CommandMasterResetLimitDay_AL2 = 1
 CommandMasterResetLimitDay_AL3 = 1
 
 ; Maximum master resets per week 
-CommandMasterResetLimitWek_AL0 = 1000
+CommandMasterResetLimitWek_AL0 = 7
 CommandMasterResetLimitWek_AL1 = 7
 CommandMasterResetLimitWek_AL2 = 7
 CommandMasterResetLimitWek_AL3 = 7
@@ -209,8 +209,8 @@ CommandMasterResetRemoveReset_AL3 = 0
 ;==================================================
 ; Marry Command Settings
 ;==================================================
-CommandMarryLevel = 1
-CommandMarryCost = 10
+CommandMarryLevel = 150
+CommandMarryCost = 10000000
 CommandMarryNoticeDelay = 60
 CommandMarryMinTime = 604800
 CommandMarryOnlyGM = 0
@@ -256,17 +256,17 @@ CommandRenameDelay_AL0 = 60
 CommandRenameDelay_AL1 = 60
 CommandRenameDelay_AL2 = 60
 CommandRenameDelay_AL3 = 60
-CommandRenameNeedTicket = 0
+CommandRenameNeedTicket = 1
 
 ;==================================================
 ; Gift Command Settings (/presente) 
 ; Dropa um item da EventItemBag Gift!
 ;==================================================
-CommandGiftLimit = 5
+CommandGiftLimit = 0
 
 ;==================================================
 ; Command Help (/ajuda)
 ; Recommended Max 5 monsters
 ;==================================================
 CommandHelpMonsterIndex = 151
-CommandHelpMonsterAmount = 3
+CommandHelpMonsterAmount = 0
