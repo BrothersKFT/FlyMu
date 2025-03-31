@@ -67,7 +67,7 @@ end
 2
 //Index   Rate0   Rate1   Comment
 0         9000    1000     //Luck Option (Common)
-1         9000    1000     //Luck Option (Exc)
+1         0    10000     //Luck Option (Exc)
 2         5000    5000     //Luck Option (Set)
 3         8000    2000    //Luck Option (ChaosItemMix)
 4         8000    2000    //Luck Option (Wing2Mix)
