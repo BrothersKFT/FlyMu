@@ -47,6 +47,6 @@ end
 9         4       495            10000      //Golden Stone Golem
 9         5       496            10000      //Golden Crust
 
-10     0     80       10000      //Golden Lizard King
-10     1     81       1000000      //Golden Vepar
+10        0       80             10000      //Golden Lizard King
+10        1       81             10000      //Golden Vepar
 end

@@ -646,8 +646,8 @@
 861       "Party restricted by %d level of difference"
 880       "[VIP] : %s"
 897       "[%s] Left %d minute(s) for start the event"
-898       "Midnight event: EXP INCREASED from X100 to X120"
-899       "Midnight event end: exp decreased to normal (X100)"
+898       "[Happy Hour]: EXPERIENCE INCREASED from X100 to X120!"
+899       "[Happy Hour]: Ended - experience decreased to normal (X100)."
 
 //=====================================================================================================
 // MENSAJES BOSS - BLOOB CASTLE - ARMADO POR MASTER FOX 22/02/2022
