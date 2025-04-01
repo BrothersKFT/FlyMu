@@ -386,7 +386,7 @@
 538       "[System] Thank you for playing, you received %d WCP"
 539       "[System] Thank you for playing, you received %d GP"
 540       "[System] Thank you for playing, you received %d Ruud"
-543       "[Wheel of Fortune]: Congratulations for your prize! (30sec cooldown until next spin)"
+543       "[Wheel of Fortune]: Congratulations for your prize! (30sec cooldown until next roll)"
 544       "%s answered [%s]"
 602       "You can't marry yourself 0.0!"
 603       "You just married %s!"

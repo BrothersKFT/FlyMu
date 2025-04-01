@@ -385,7 +385,7 @@
 540       "[LUCKYWHEEL] You need %d WcoinC"
 541       "[LUCKYWHEEL] You need %d WcoinP"
 542       "[LUCKYWHEEL] You need %d GobliCoins"
-543       "[Wheel of Fortune]: Congratulations for your prize! (30sec cooldown until next spin)"
+543       "[Wheel of Fortune]: Congratulations for your prize! (30sec cooldown until next roll)"
 544       "%s answered [%s]"
 602       "No puedes casarte contigo mismo 0.0!"
 603       "Acabas de casarte con %s!"
