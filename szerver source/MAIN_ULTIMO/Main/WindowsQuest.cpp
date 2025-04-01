@@ -660,7 +660,7 @@ int ExWinQuestSystem::Button(DWORD Event)
 
 	if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_FINISH, true))
 	{
-		this->CG_Ac�eptQuest();
+		this->CG_AcceptQuest();
 
 		return true;
 	}
@@ -754,7 +754,7 @@ void ExWinQuestSystem::GC_RecvMain(GC_MainPacket* aRecv)
 }
 //// ----------------------------------------------------------------------------------------------
 //
-void ExWinQuestSystem::CG_Ac�eptQuest()
+void ExWinQuestSystem::CG_AcceptQuest()
 {
 	CG_Accept_Done pReq = { 0 };
 	pReq.h.set(0xFD, 0x0D, sizeof(pReq));

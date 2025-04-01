@@ -181,7 +181,7 @@ public:
 	void DrawOpenWQ();
 	int Button(DWORD Event);
 	void GC_RecvMain(GC_MainPacket* aRecv);
-	void CG_AcñeptQuest();
+	void CG_AcceptQuest();
 	void GC_MiniInfoRecv(GC_ExWinMiniInfo* aRecv);
 	void GC_MiniInfoRecvEx(GC_ExWinMiniInfoEx* aRecv);
 	void GC_Start(GC_ExWinStart* aRecv);
