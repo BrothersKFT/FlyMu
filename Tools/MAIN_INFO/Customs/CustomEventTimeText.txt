@@ -7,7 +7,7 @@
 	4	"Online lottery:"
 	5	"Custom Quiz:"
 	6	"Custom Bonus:"
-	7	"Moss Merchante"
+	7	"Moss Merchant"
 	8	"Custom Drop:"
 	9	"King of Mu:"
 	10	"TvT Event:"
