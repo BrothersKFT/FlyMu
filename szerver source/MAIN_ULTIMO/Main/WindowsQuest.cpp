@@ -113,7 +113,7 @@ void ExWinQuestSystem::Draw()
 
 	gCentral.PrintDropBox(StartX, StartY, MainWidth, MainHeight, 0, 0);
 
-	gInterface.DrawFormat(eGold, (int)StartX + 10, (int)StartY + 10, 210, 3,"Windows Quest");
+	gInterface.DrawFormat(eGold, (int)StartX + 10, (int)StartY + 10, 210, 3,"Quest Panel");
 
 	gInterface.DrawGUI(OBJECT_WIN_QUEST_CLOSE, StartX + MainWidth - gInterface.Data[OBJECT_WIN_QUEST_CLOSE].Width, ContentY);
 	// ----
@@ -418,7 +418,7 @@ void ExWinQuestSystem::Draw()
 
 	if (this->ewdata[a].Start)
 	{
-		gInterface.DrawFormat(eWhite, StartX + (MainWidth / 2) - (70 / 2), StartY + MainHeight - 25, 59, 3, "Done");
+		gInterface.DrawFormat(eWhite, StartX + (MainWidth / 2) - (70 / 2), StartY + MainHeight - 25, 59, 3, "Finish");
 	}
 	else
 	{
@@ -630,7 +630,7 @@ void ExWinQuestSystem::DrawOpenWQ()
 	  if (gInterface.IsWorkZone(OPEN_QUEST))
 	  {
 
-		  gInterface.DrawToolTip(560, 210, "WINDOWS QUEST");
+		  gInterface.DrawToolTip(560, 210, "Quest Panel");
 		  // ----
 		  if (gInterface.Data[OPEN_QUEST].OnClick)
 		  {
@@ -660,7 +660,7 @@ int ExWinQuestSystem::Button(DWORD Event)
 
 	if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_FINISH, true))
 	{
-		this->CG_AcñeptQuest();
+		this->CG_Acï¿½eptQuest();
 
 		return true;
 	}
@@ -754,7 +754,7 @@ void ExWinQuestSystem::GC_RecvMain(GC_MainPacket* aRecv)
 }
 //// ----------------------------------------------------------------------------------------------
 //
-void ExWinQuestSystem::CG_AcñeptQuest()
+void ExWinQuestSystem::CG_Acï¿½eptQuest()
 {
 	CG_Accept_Done pReq = { 0 };
 	pReq.h.set(0xFD, 0x0D, sizeof(pReq));
