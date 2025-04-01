@@ -13,7 +13,7 @@ end
 1
 //Section	Type	MinLevel	 MaxLevel	Skill	 Luck	    Option	 	 Excellent	NameItem
 
-	// ------------------------- DK,SM,ELF,SUM,MG,DL,RF - 7 sets --------------------------------------
+	// ------------------------- DK,SM,ELF,SUM,MG,DL,RF - 7 sets --------------------------------------[1-3] Exc Opts
 
 	7		 30			0			6		  0	  	  0		  	  0				1		//Venom Mist Helm
 	8		 30			0			6		  0	  	  0		  	  0				1		//Venom Mist Armor
