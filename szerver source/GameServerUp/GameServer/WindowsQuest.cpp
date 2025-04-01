@@ -644,6 +644,12 @@ bool ExWinQuestSystem::MonsterKill(int aIndexMonster, int aIndexUser)
 							{
 								lpUser->ExWQuestCount[a][m]++;
 								this->GC_MiniInfoEx(aIndexUser, a, m);
+								
+								// Ha minden küldetés feltétel teljesült, frissítsük a quest ablakot
+								if (this->CheckMission(aIndexUser, a))
+								{
+									this->GC_MainInfo(aIndexUser, true);
+								}
 							}
 							else if (this->ewdata[a][n].MissionID[m] == -1)	
 							{
