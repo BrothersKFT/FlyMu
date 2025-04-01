@@ -5127,7 +5127,7 @@ void Interface::DrawLuckyWheel()
 
 	gCentral.PrintDropBox(StartX, StartY, MainWidth, MainHeight, 0, 0);
 
-	this->DrawFormat(eGold, (int)StartX + 50, (int)StartY + 10, 210, 3, "LuckyWheel");
+	this->DrawFormat(eGold, (int)StartX + 50, (int)StartY + 10, 210, 3, "FlyMu - Wheel of Fortune");
 	// ---
 	//	pDrawGUI(0x7A5A, 145, 55, 312, 292); //1
 	//
@@ -5242,21 +5242,21 @@ void Interface::DrawLuckyWheel()
 		glColor3f(1.0, 1.0, 1.0);
 	}
 
-	DrawItemIMG(190, 100, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[0].ItemType, gLuckyWheel.m_LuckyWheelInfo[0].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[0].Level), gLuckyWheel.m_LuckyWheelInfo[0].Exc, 0, 0);
-	DrawItemIMG(260, 100, 65, 47, ITEM(gLuckyWheel.m_LuckyWheelInfo[1].ItemType, gLuckyWheel.m_LuckyWheelInfo[1].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[1].Level), gLuckyWheel.m_LuckyWheelInfo[1].Exc, 0, 0);
-	DrawItemIMG(330, 100, 65, 47, ITEM(gLuckyWheel.m_LuckyWheelInfo[2].ItemType, gLuckyWheel.m_LuckyWheelInfo[2].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[2].Level), gLuckyWheel.m_LuckyWheelInfo[2].Exc, 0, 0);
-	DrawItemIMG(400, 100, 65, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[3].ItemType, gLuckyWheel.m_LuckyWheelInfo[3].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[3].Level), gLuckyWheel.m_LuckyWheelInfo[3].Exc, 0, 0);
+	DrawItemIMG(180, 90, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[0].ItemType, gLuckyWheel.m_LuckyWheelInfo[0].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[0].Level), gLuckyWheel.m_LuckyWheelInfo[0].Exc, 0, 0);
+	DrawItemIMG(252, 90, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[1].ItemType, gLuckyWheel.m_LuckyWheelInfo[1].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[1].Level), gLuckyWheel.m_LuckyWheelInfo[1].Exc, 0, 0);
+	DrawItemIMG(320, 90, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[2].ItemType, gLuckyWheel.m_LuckyWheelInfo[2].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[2].Level), gLuckyWheel.m_LuckyWheelInfo[2].Exc, 0, 0);
+	DrawItemIMG(394, 90, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[3].ItemType, gLuckyWheel.m_LuckyWheelInfo[3].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[3].Level), gLuckyWheel.m_LuckyWheelInfo[3].Exc, 0, 0);
 
-	DrawItemIMG(400, 157, 65, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[4].ItemType, gLuckyWheel.m_LuckyWheelInfo[4].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[4].Level), gLuckyWheel.m_LuckyWheelInfo[4].Exc, 0, 0);
-	DrawItemIMG(400, 214, 63, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[5].ItemType, gLuckyWheel.m_LuckyWheelInfo[5].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[5].Level), gLuckyWheel.m_LuckyWheelInfo[5].Exc, 0, 0);
+	DrawItemIMG(394, 145, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[4].ItemType, gLuckyWheel.m_LuckyWheelInfo[4].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[4].Level), gLuckyWheel.m_LuckyWheelInfo[4].Exc, 0, 0);
+	DrawItemIMG(394, 205, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[5].ItemType, gLuckyWheel.m_LuckyWheelInfo[5].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[5].Level), gLuckyWheel.m_LuckyWheelInfo[5].Exc, 0, 0);
 
-	DrawItemIMG(400, 271, 70, 45, ITEM(gLuckyWheel.m_LuckyWheelInfo[6].ItemType, gLuckyWheel.m_LuckyWheelInfo[6].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[6].Level), gLuckyWheel.m_LuckyWheelInfo[6].Exc, 0, 0);
-	DrawItemIMG(330, 271, 70, 45, ITEM(gLuckyWheel.m_LuckyWheelInfo[7].ItemType, gLuckyWheel.m_LuckyWheelInfo[7].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[7].Level), gLuckyWheel.m_LuckyWheelInfo[7].Exc, 0, 0);
-	DrawItemIMG(260, 271, 70, 45, ITEM(gLuckyWheel.m_LuckyWheelInfo[8].ItemType, gLuckyWheel.m_LuckyWheelInfo[8].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[8].Level), gLuckyWheel.m_LuckyWheelInfo[8].Exc, 0, 0);
-	DrawItemIMG(190, 271, 70, 45, ITEM(gLuckyWheel.m_LuckyWheelInfo[9].ItemType, gLuckyWheel.m_LuckyWheelInfo[9].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[9].Level), gLuckyWheel.m_LuckyWheelInfo[9].Exc, 0, 0);
+	DrawItemIMG(394, 260, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[6].ItemType, gLuckyWheel.m_LuckyWheelInfo[6].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[6].Level), gLuckyWheel.m_LuckyWheelInfo[6].Exc, 0, 0);
+	DrawItemIMG(320, 260, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[7].ItemType, gLuckyWheel.m_LuckyWheelInfo[7].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[7].Level), gLuckyWheel.m_LuckyWheelInfo[7].Exc, 0, 0);
+	DrawItemIMG(252, 260, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[8].ItemType, gLuckyWheel.m_LuckyWheelInfo[8].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[8].Level), gLuckyWheel.m_LuckyWheelInfo[8].Exc, 0, 0);
+	DrawItemIMG(180, 260, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[9].ItemType, gLuckyWheel.m_LuckyWheelInfo[9].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[9].Level), gLuckyWheel.m_LuckyWheelInfo[9].Exc, 0, 0);
 
-	DrawItemIMG(190, 157, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[10].ItemType, gLuckyWheel.m_LuckyWheelInfo[10].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[10].Level), gLuckyWheel.m_LuckyWheelInfo[10].Exc, 0, 0);
-	DrawItemIMG(190, 214, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[11].ItemType, gLuckyWheel.m_LuckyWheelInfo[11].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[11].Level), gLuckyWheel.m_LuckyWheelInfo[11].Exc, 0, 0);
+	DrawItemIMG(180, 145, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[10].ItemType, gLuckyWheel.m_LuckyWheelInfo[10].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[10].Level), gLuckyWheel.m_LuckyWheelInfo[10].Exc, 0, 0);
+	DrawItemIMG(180, 205, 70, 50, ITEM(gLuckyWheel.m_LuckyWheelInfo[11].ItemType, gLuckyWheel.m_LuckyWheelInfo[11].ItemIndex), SET_ITEMOPT_LEVEL(gLuckyWheel.m_LuckyWheelInfo[11].Level), gLuckyWheel.m_LuckyWheelInfo[11].Exc, 0, 0);
 
 	//this->DrawFormat(eWhite, 270, 165, 50.0f, 1.0f, "You Wind!");
 	if (this->LuckyWheelNumber >= 0)
@@ -5294,7 +5294,7 @@ void Interface::DrawLuckyWheel()
 	gInterface.DrawFormat(eGold, 370, 220, 40, 1, "%d", gLuckyWheel.CostGoblin);
 
 	DrawGUI(eLuckyWheelStart, 265, 230);
-	this->DrawFormat(eWhite, 305, 240, 50.0f, 1.0f, "START");
+	this->DrawFormat(eWhite, 311, 240, 50.0f, 1.0f, "ROLL");
 
 	if (IsWorkZone(eLuckyWheelStart))
 	{
@@ -5331,10 +5331,10 @@ void Interface::EventLuckyWheelWindow_Close(DWORD Event)
 		// ----
 		this->Data[eLuckyWheel_CLOSE].OnClick = false;
 		// ----
-		if (Delay < 30000)
-		{
-			return;
-		}
+		//if (Delay < 30000)
+		//{
+		//	return;
+		//}
 		// ----
 		this->Data[eLuckyWheel_CLOSE].EventTick = GetTickCount();
 		pSetCursorFocus = false;
