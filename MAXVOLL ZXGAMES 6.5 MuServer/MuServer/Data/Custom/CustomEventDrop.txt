@@ -1,18 +1,18 @@
 0
 //Index   Year   Month   Day   DoW   Hour   Minute   Second
-0         *      *       *     *     11     40        0
-0         *      *       *     *     15     40        0
-0         *      *       *     *     17     40        0
-0         *      *       *     *     23     40        0
-1         *      *       *     *     10     40        0
-1         *      *       *     *     16     40        0
-1         *      *       *     *     20     40        0
+0         *      *       *     *     11     40        00
+0         *      *       *     *     15     40        00
+0         *      *       *     *     17     40        00
+0         *      *       *     *     23     40        00
+1         *      *       *     *     10     40        00
+1         *      *       *     *     16     40        00
+1         *      *       *     *     20     40        00
 end
 
 1
 //Index   Name                                 DropMap   DropX   DropY   DropRange   AlarmTime   EventTime
-0         "Drop Event - Lorencia [Jewels]"                  	0         145     135     5           5           3
-1         "Drop Event - Devias [BOK+1 - BOK+2]"                 2         208     40      5           5           3
+0         "Drop Event - Lorencia"               0         145     135     5           5           3
+1         "Drop Event - Devias"                 2         208     40      5           5           3
 end
 
 2
