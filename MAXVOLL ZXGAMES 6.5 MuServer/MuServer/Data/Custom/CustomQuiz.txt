@@ -8,7 +8,7 @@ end
 
 1
 //Index   Name                       AlarmTime   EventTime
-0         "MATH"                        3           3
+0         "FlyQuiz"                        3           3
 end
 
 
@@ -56,4 +56,5 @@ end
 	  25     0       10       5	     "What is the capital of Italy?" "Rome"
 	  26     0       10       5	     "What is the capital of Spain?" "Madrid"
 	  27     0       10       5	     "What is the capital of Russia?" "Moscow"
+	  28     0       10       5	     "Which jewel is used to upgrade items to +6?" "Bless"
 end
