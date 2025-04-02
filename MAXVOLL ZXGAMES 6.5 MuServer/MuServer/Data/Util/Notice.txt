@@ -1,4 +1,8 @@
 //Message	Type   Count   Opacity   Delay   Red   Green   Blue   Speed   RepeatTime
-"WMU"	0      0       0         0       0     0       0      0       120
-"For get zen, just farm or do quests"	0      0       0         0       0     0       0      0       120
+"Hope you have a good time on FlyMu!"	      0      0       0         0       0     0       0      0         240
+"Complete quests in the Quest Panel to get rewards!"	      0      0       0         0       0     0       0      0         120
+"Good luck on your adventures!"	      0      0       0         0       0     0       0      0         210
+"If you have any questions, join our Discord server and make a ticket!"	      0      0       0         0       0     0       0      0         60
+"Thank you for playing FlyMu!"	      0      0       0         0       0     0       0      0         150
+"You can find informations about the server on our website or Discord!"	      0      0       0         0       0     0       0      0         80
 end
