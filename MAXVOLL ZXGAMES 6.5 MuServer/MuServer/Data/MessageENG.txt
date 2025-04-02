@@ -150,7 +150,7 @@
 191       "�The invasion of Balrog has begun in losttower!"
 192       "Skeleton King invasion has begun!"
 193       "Invasion of Red Dragon started!"
-194       "Invasion of Dourados started!"
+194       "Invasion of Golden Monsters started!"
 195       "Invasion of White Wizard started!"
 196       "New Year invasion has begun!"
 197       "Invasion of rabbits started!"
