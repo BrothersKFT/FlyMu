@@ -43,8 +43,8 @@
 		<info index="30" count="25" rewardType="2" rewardValue="200" Name="Kill Statue BC"/> <!-- KillStatueBC -->
 		<info index="31" count="50" rewardType="2" rewardValue="400" Name="Complete BC"/> <!-- CompleteBC -->
 		<info index="32" count="1" rewardType="2" rewardValue="2000" Name="Grand Reset up"/> <!-- GrandResetUp -->
-		<info index="33" count="1" rewardType="2" rewardValue="0" Name="BlueRabbitKiller"/> <!-- BlueRabbitKiller régi name "BlueRabbitKiller" -->
-		<info index="34" count="1" rewardType="2" rewardValue="0" Name="HappyPouchesKiller"/> <!-- HappyPouchesKiller régi name "HappyPouchesKiller" -->
+		<info index="33" count="1" rewardType="2" rewardValue="1" Name="BlueRabbitKiller"/> <!-- BlueRabbitKiller régi name "BlueRabbitKiller" -->
+		<info index="34" count="1" rewardType="2" rewardValue="1" Name="HappyPouchesKiller"/> <!-- HappyPouchesKiller régi name "HappyPouchesKiller" -->
 		<info index="35" count="100" rewardType="2" rewardValue="100" Name="Pheonix Kill"/> <!-- PheonixKill -->
 		<info index="36" count="5000" rewardType="2" rewardValue="100" Name="Kanturu Monster Kill"/> <!-- KanturuMonsterKill -->
 		<info index="37" count="5" rewardType="2" rewardValue="100" Name="Move player from Switch"/> <!-- MovePlayerFromSwitch -->
@@ -57,8 +57,8 @@
 		<info index="44" count="5000" rewardType="2" rewardValue="200" Name="Buy Donate Shop Item"/> <!-- BuyDonateShopItem -->
 		<info index="45" count="5" rewardType="2" rewardValue="100" Name="Guild War Win"/> <!-- GuildWarWin -->
 		<info index="46" count="400" rewardType="2" rewardValue="100" Name="PartyNoobLevelUp"/> <!-- PartyNoobLevelUp -->
-		<info index="47" count="1" rewardType="2" rewardValue="0" Name="Kill  Gnome"/> <!-- PickUpRena régi name:Kill  Gnome -->
-		<info index="48" count="1" rewardType="2" rewardValue="0" Name="Kill Muff"/> <!-- PickUpLuckyCoins régi name "Kill Muff"-->
+		<info index="47" count="1" rewardType="2" rewardValue="1" Name="Kill  Gnome"/> <!-- PickUpRena régi name:Kill  Gnome -->
+		<info index="48" count="1" rewardType="2" rewardValue="1" Name="Kill Muff"/> <!-- PickUpLuckyCoins régi name "Kill Muff"-->
 		<info index="49" count="240" rewardType="2" rewardValue="100" Name="Offline Attack Time"/> <!-- OfflineAttackTime -->
 		
 	</mission>
