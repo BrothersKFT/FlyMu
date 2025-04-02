@@ -22,45 +22,15 @@
 0         *      *       *     *      18     30        0
 0         *      *       *     *      20     30        0
 0         *      *       *     *      22     30        0
-// Noria lottery (páratlan órák)
-1         *      *       *     *      01     30        0
-1         *      *       *     *      03     30        0
-1         *      *       *     *      05     30        0
-1         *      *       *     *      07     30        0
-1         *      *       *     *      09     30        0
-1         *      *       *     *      11     30        0
-1         *      *       *     *      13     30        0
-1         *      *       *     *      15     30        0
-1         *      *       *     *      17     30        0
-1         *      *       *     *      19     30        0
-1         *      *       *     *      21     30        0
-1         *      *       *     *      23     30        0
-// Devias lottery (egész órák)
-2         *      *       *     *      00     0         0
-2         *      *       *     *      02     0         0
-2         *      *       *     *      04     0         0
-2         *      *       *     *      06     0         0
-2         *      *       *     *      08     0         0
-2         *      *       *     *      10     0         0
-2         *      *       *     *      12     0         0
-2         *      *       *     *      14     0         0
-2         *      *       *     *      16     0         0
-2         *      *       *     *      18     0         0
-2         *      *       *     *      20     0         0
-2         *      *       *     *      22     0         0
 end
 
 1
 //Index   Name                                 DropMap      AlarmTime
-0         "Online Lottery - Lorencia"              0            5            
-1         "Online Lottery - Noria"                 3            5
-2         "Online Lottery - Devias"                1            5
+0         "Online Lottery - Lorencia"              0            5   
 end
 
 //Reward 
 2
 //Index   	WC	WP	GP 
-0		     0	10	0		
-1            0  10  0
-2            0  10  0
+0		     0	10	0
 end
