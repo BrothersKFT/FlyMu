@@ -82,7 +82,7 @@ SpeedHackSkillDebug = 1
 ;==================================================
 ; Common Settings
 ;==================================================
-MaxItemOption = 5
+MaxItemOption = 4
 PersonalCodeCheck = 0
 SetItemAcceptHarmonySwitch = 1
 
@@ -190,7 +190,7 @@ AutoResetExperienceRate_AL3 = 130
 ;==================================================
 ; Item Drop Settings
 ;==================================================
-ItemDropTime = 30
+ItemDropTime = 20
 ItemDropPickUpTime = 10
 ItemDropRate_AL0 = 20
 ItemDropRate_AL1 = 25
@@ -200,7 +200,7 @@ ItemDropRate_AL3 = 35
 ;==================================================
 ; Money Drop Settings
 ;==================================================
-MoneyDropTime = 30
+MoneyDropTime = 15
 MoneyAmountDropRate_AL0 = 10
 MoneyAmountDropRate_AL1 = 15
 MoneyAmountDropRate_AL2 = 20
