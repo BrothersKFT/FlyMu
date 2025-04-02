@@ -100,4 +100,5 @@
 7179      6       0       *         *         *         *         *         *         *         0          7           *              *                *                5000       //box of luck gold Atlans
 7179      6       0       *         *         *         *         *         *         *         0          4           *              *                *                5000       //box of luck gold Lost Tower
 7179      6       0       *         *         *         *         *         *         *         0          8           *              *                *                5000       //box of luck gold Tarkan
+7183      0       0       *         *         *         *         *         *         *         0          38          *              *                *                5000       //Zen drop Relics
 end
