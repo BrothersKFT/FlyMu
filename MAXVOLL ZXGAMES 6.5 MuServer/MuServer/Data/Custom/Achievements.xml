@@ -43,8 +43,8 @@
 		<info index="30" count="25" rewardType="2" rewardValue="200" Name="Kill Statue BC"/> <!-- KillStatueBC -->
 		<info index="31" count="50" rewardType="2" rewardValue="400" Name="Complete BC"/> <!-- CompleteBC -->
 		<info index="32" count="1" rewardType="2" rewardValue="2000" Name="Grand Reset up"/> <!-- GrandResetUp -->
-		<info index="33" count="0" rewardType="2" rewardValue="0" Name="-"/> <!-- BlueRabbitKiller régi name "BlueRabbitKiller" -->
-		<info index="34" count="0" rewardType="2" rewardValue="0" Name="-"/> <!-- HappyPouchesKiller régi name "HappyPouchesKiller" -->
+		<info index="33" count="0" rewardType="2" rewardValue="0" Name="BlueRabbitKiller"/> <!-- BlueRabbitKiller régi name "BlueRabbitKiller" -->
+		<info index="34" count="0" rewardType="2" rewardValue="0" Name="HappyPouchesKiller"/> <!-- HappyPouchesKiller régi name "HappyPouchesKiller" -->
 		<info index="35" count="100" rewardType="2" rewardValue="100" Name="Pheonix Kill"/> <!-- PheonixKill -->
 		<info index="36" count="5000" rewardType="2" rewardValue="100" Name="Kanturu Monster Kill"/> <!-- KanturuMonsterKill -->
 		<info index="37" count="5" rewardType="2" rewardValue="100" Name="Move player from Switch"/> <!-- MovePlayerFromSwitch -->
@@ -56,23 +56,23 @@
 		<info index="43" count="1" rewardType="2" rewardValue="200" Name="Kill Erohim"/> <!-- KillErohim -->
 		<info index="44" count="5000" rewardType="2" rewardValue="200" Name="Buy Donate Shop Item"/> <!-- BuyDonateShopItem -->
 		<info index="45" count="5" rewardType="2" rewardValue="100" Name="Guild War Win"/> <!-- GuildWarWin -->
-		<info index="46" count="0" rewardType="2" rewardValue="0" Name="-"/> <!-- PartyNoobLevelUp old name "Party noob level up"-->
-		<info index="47" count="0" rewardType="2" rewardValue="0" Name="-"/> <!-- PickUpRena régi name:Kill  Gnome -->
-		<info index="48" count="0" rewardType="2" rewardValue="0" Name="-"/> <!-- PickUpLuckyCoins régi name "Kill Muff"-->
+		<info index="46" count="400" rewardType="2" rewardValue="100" Name="PartyNoobLevelUp"/> <!-- PartyNoobLevelUp -->
+		<info index="47" count="0" rewardType="2" rewardValue="0" Name="Kill  Gnome"/> <!-- PickUpRena régi name:Kill  Gnome -->
+		<info index="48" count="0" rewardType="2" rewardValue="0" Name="Kill Muff"/> <!-- PickUpLuckyCoins régi name "Kill Muff"-->
 		<info index="49" count="240" rewardType="2" rewardValue="100" Name="Offline Attack Time"/> <!-- OfflineAttackTime -->
 		
 	</mission>
 	<power>
-		<damageMax>0</damageMax>
-		<defenseMax>0</defenseMax>
-		<lifeMax>0</lifeMax>
-		<excellentDamageMax>0</excellentDamageMax>
-		<criticalDamageMax>0</criticalDamageMax>
+		<damageMax>5000</damageMax>
+		<defenseMax>5000</defenseMax>
+		<lifeMax>10000</lifeMax>
+		<excellentDamageMax>25</excellentDamageMax>
+		<criticalDamageMax>25</criticalDamageMax>
 		
-		<divDamage>0</divDamage>
-		<divDefense>0</divDefense>
-		<divLife>0</divLife>
-		<divExcellentPercent>0</divExcellentPercent>
-		<divCriticalPercent>0</divCriticalPercent>
+		<divDamage>100</divDamage>
+		<divDefense>100</divDefense>
+		<divLife>200</divLife>
+		<divExcellentPercent>50</divExcellentPercent>
+		<divCriticalPercent>50</divCriticalPercent>
 	</power>
 </achievements>
