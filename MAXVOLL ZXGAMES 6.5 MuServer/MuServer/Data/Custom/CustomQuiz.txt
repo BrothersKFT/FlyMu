@@ -50,7 +50,7 @@ end
 	  19     0       10       5	     "What is the result of 2x2x4?" "16"
 	  20     0       10       5	     "What is the result of 5x5x5?" "125"
 	  21     0       10       5	     "What is the result of 1000 - 817?" "183"
-	  22     0       10       5	     "Which one is the best muonline server?" "FlyMu"
+	  22     0       10       5	     "Which jewel is used to upgrade items to +9?" "Soul"
 	  23     0       10       5	     "What is the capital of Hungary?" "Budapest"
 	  24     0       10       5	     "What is the capital of France?" "Paris"
 	  25     0       10       5	     "What is the capital of Italy?" "Rome"
