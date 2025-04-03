@@ -1466,7 +1466,7 @@ end
 502            51             30         010            010            240          240          -1             30            0          //Golden Rabbit
 502            00             30         010            010            240          240          -1             30            1          //Golden Rabbit
 502            01             30         010            010            240          240          -1             30            2          //Golden Rabbit
-502            02             30         035            035            25           25           -1             5             3          //Golden Rabbit
+502            02             30         35            35            25           25           -1             5             0          //Golden Rabbit
 502            03             30         010            010            240          240          -1             30            4          //Golden Rabbit
 502            04             30         010            010            240          240          -1             30            5          //Golden Rabbit
 502            07             30         010            010            240          240          -1             30            6          //Golden Rabbit
