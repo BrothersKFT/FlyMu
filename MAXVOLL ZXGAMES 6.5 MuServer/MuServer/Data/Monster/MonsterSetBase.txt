@@ -1445,10 +1445,10 @@ end
 053            02             30         010            010            240          240          -1             05            0          //Golden Titan
 054            02             30         010            010            240          240          -1             05            0          //Golden Soldier
 078            03             30         010            010            240          240          -1             05            0          //Golden Goblin
-079            00             30         180            127            180          127          -1             01            1          //Golden Derkon
-079            02             30         036            026            036          026          -1             01            2          //Golden Derkon
-079            03             30         150            107            150          107          -1             01            3          //Golden Derkon
-079            51             30         090            045            090          045          -1             01            4          //Golden Derkon
+079            00             30         180            127            180          127          -1             01            0          //Golden Derkon
+079            02             30         036            026            036          026          -1             01            0          //Golden Derkon
+079            03             30         150            107            150          107          -1             01            0          //Golden Derkon
+079            51             30         090            045            090          045          -1             01            0          //Golden Derkon
 080            07             30         010            010            240          240          -1             03            0          //Golden Lizard King
 081            07             30         010            010            240          240          -1             05            0          //Golden Vepar
 082            08             30         010            010            240          240          -1             03            0          //Golden Tantalos
