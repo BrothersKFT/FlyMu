@@ -1463,8 +1463,6 @@ end
 500            56             30         010            010            240          240          -1             03            0          //Golden Napin
 501            37             30         010            010            240          240          -1             01            0          //Great Golden Dragon
 501            57             30         010            010            240          240          -1             01            1          //Great Golden Dragon
-502            02             30         36             26             36           26           -1             05            0          //Golden Rabbit devias
-502            03             30         150            107            150          107          -1             05            0          //Golden Rabbit noria
 
 
 end
