@@ -1463,17 +1463,17 @@ end
 500            56             30         010            010            240          240          -1             03            0          //Golden Napin
 501            37             30         010            010            240          240          -1             01            0          //Great Golden Dragon
 501            57             30         010            010            240          240          -1             01            1          //Great Golden Dragon
-502            51             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            00             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            01             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            02             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            03             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            04             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            07             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            08             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            10             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            37             30         010            010            240          240          -1             05            0          //Golden Rabbit
-502            38             30         010            010            240          240          -1             05            0          //Golden Rabbit
+502            51             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            00             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            01             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            02             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            03             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            04             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            07             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            08             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            10             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            37             30         010            010            240          240          -1             30            0          //Golden Rabbit
+502            38             30         010            010            240          240          -1             30            0          //Golden Rabbit
 end
 
 3
