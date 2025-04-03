@@ -1445,15 +1445,15 @@ end
 053            02             30         010            010            240          240          -1             05            0          //Golden Titan
 054            02             30         010            010            240          240          -1             05            0          //Golden Soldier
 078            03             30         010            010            240          240          -1             05            0          //Golden Goblin
-079            00             30         010            010            240          240          -1             01            1          //Golden Derkon
-079            02             30         010            010            240          240          -1             01            2          //Golden Derkon
-079            03             30         010            010            240          240          -1             01            3          //Golden Derkon
-079            51             30         010            010            240          240          -1             01            4          //Golden Derkon
+079            00             30         010            010            240          240          -1             01            0          //Golden Derkon
+079            02             30         010            010            240          240          -1             01            0          //Golden Derkon
+079            03             30         010            010            240          240          -1             01            0          //Golden Derkon
+079            51             30         010            010            240          240          -1             01            0          //Golden Derkon
 080            07             30         010            010            240          240          -1             03            0          //Golden Lizard King
 081            07             30         010            010            240          240          -1             05            0          //Golden Vepar
 082            08             30         010            010            240          240          -1             03            0          //Golden Tantalos
 083            08             30         010            010            240          240          -1             05            0          //Golden Wheel
-493            01             30         002            052            043          125          -1             03            0          //Golden Dark Knight
+493            01             30         010            010            240          240          -1             03            0          //Golden Dark Knight
 494            04             30         010            010            240          240          -1             03            0          //Golden Devil
 495            33             30         010            010            240          240          -1             03            0          //Golden Stone Golem
 496            10             30         010            010            240          240          -1             03            0          //Golden Crust
@@ -1463,8 +1463,15 @@ end
 500            56             30         010            010            240          240          -1             03            0          //Golden Napin
 501            37             30         010            010            240          240          -1             01            0          //Great Golden Dragon
 501            57             30         010            010            240          240          -1             01            1          //Great Golden Dragon
-502            02             30         36             26             36           26           -1             05            0          //Golden Rabbit devias
-502            03             30         150            107            150          107          -1             05            0          //Golden Rabbit noria
+502            00             30         36             010            240          240          -1             20            0          //Golden Rabbit Lorencia
+502            01             30         150            010            240          240          -1             20            0          //Golden Rabbit Dungeon
+502            02             30         150            010            240          240          -1             20            0          //Golden Rabbit Devias
+502            03             30         150            010            240          240          -1             20            0          //Golden Rabbit Noria
+502            04             30         150            010            240          240          -1             20            0          //Golden Rabbit Lost Tower
+502            07             30         150            010            240          240          -1             20            0          //Golden Rabbit Atlans
+502            08             30         150            010            240          240          -1             20            0          //Golden Rabbit Tarkan
+502            37             30         150            010            240          240          -1             20            0          //Golden Rabbit Kantru1
+502            38             30         150            010            240          240          -1             20            0          //Golden Rabbit Kantru2
 end
 
 3
