@@ -1434,9 +1434,9 @@ end
 
 3
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
-042            00             30         010            010            240          240          -1             01            0          //Red Dragon
-042            02             30         010            010            240          240          -1             01            0          //Red Dragon
-042            03             30         010            010            240          240          -1             01            0          //Red Dragon
+042            00             30         180            127            180          127          -1             01            0          //Red Dragon
+042            02             30         036            026            036          026          -1             01            0          //Red Dragon
+042            03             30         150            107            150          107          -1             01            0          //Red Dragon
 end
 
 3
