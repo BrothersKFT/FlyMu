@@ -181,6 +181,8 @@ void CInvasionManager::Load(char* path) // OK
 
 					info.Value = lpMemScript->GetAsNumber();
 
+					info.Random = lpMemScript->GetAsNumber();
+
 					this->m_InvasionInfo[index].RespawnInfo[info.Group].push_back(info);
 				}
 				else if(section == 3)
@@ -343,26 +345,55 @@ void CInvasionManager::SetState_EMPTY(INVASION_INFO* lpInfo) // OK
 	this->CheckSync(lpInfo);
 }
 
-void CInvasionManager::SetState_START(INVASION_INFO* lpInfo) // OK
+void CInvasionManager::SetState_START(INVASION_INFO* lpInfo)
 {
 	for(int n=0;n < MAX_INVASION_RESPAWN_GROUP;n++)
 	{
 		if(lpInfo->RespawnInfo[n].empty() == 0)
 		{
-			INVASION_RESPWAN_INFO* lpRespawnInfo = &lpInfo->RespawnInfo[n][(GetLargeRand()%lpInfo->RespawnInfo[n].size())];
+			std::vector<INVASION_RESPWAN_INFO*> randomSpawns;
+			std::vector<INVASION_RESPWAN_INFO*> fixedSpawns;
 
-			for(std::vector<INVASION_MONSTER_INFO>::iterator it=lpInfo->MonsterInfo.begin();it != lpInfo->MonsterInfo.end();it++)
+			for(size_t i=0; i < lpInfo->RespawnInfo[n].size(); i++)
 			{
-				if(it->Group == lpRespawnInfo->Group)
+				INVASION_RESPWAN_INFO* lpRespawnInfo = &lpInfo->RespawnInfo[n][i];
+				if(lpRespawnInfo->Random == 1)
 				{
-					this->SetMonster(lpInfo,lpRespawnInfo,&(*it));
+					randomSpawns.push_back(lpRespawnInfo);
+				}
+				else
+				{
+					fixedSpawns.push_back(lpRespawnInfo);
+				}
+			}
+
+			if(!randomSpawns.empty())
+			{
+				INVASION_RESPWAN_INFO* lpRespawnInfo = randomSpawns[GetLargeRand()%randomSpawns.size()];
+				for(std::vector<INVASION_MONSTER_INFO>::iterator it=lpInfo->MonsterInfo.begin();it != lpInfo->MonsterInfo.end();it++)
+				{
+					if(it->Group == lpRespawnInfo->Group)
+					{
+						this->SetMonster(lpInfo,lpRespawnInfo,&(*it));
+					}
+				}
+			}
+
+			for(size_t i=0; i < fixedSpawns.size(); i++)
+			{
+				INVASION_RESPWAN_INFO* lpRespawnInfo = fixedSpawns[i];
+				for(std::vector<INVASION_MONSTER_INFO>::iterator it=lpInfo->MonsterInfo.begin();it != lpInfo->MonsterInfo.end();it++)
+				{
+					if(it->Group == lpRespawnInfo->Group)
+					{
+						this->SetMonster(lpInfo,lpRespawnInfo,&(*it));
+					}
 				}
 			}
 		}
 	}
 
 	lpInfo->RemainTime = lpInfo->InvasionTime;
-
 	lpInfo->TargetTime = (int)(time(0)+lpInfo->RemainTime);
 }
 
@@ -581,7 +612,7 @@ void CInvasionManager::SetMonster(INVASION_INFO* lpInfo,INVASION_RESPWAN_INFO* l
 
 		}
 
-		//Dragones setear variables al iniciar una invasión
+		//Dragones setear variables al iniciar una invasiÃ³n
 		if (gServerInfo.m_FlyingDragonsSwitch==1){
 			if (lpInfo->Index==1){
 				gDragonMaps.AddFlyingDragons(lpObj->Map, lpInfo->InvasionTime, 1);

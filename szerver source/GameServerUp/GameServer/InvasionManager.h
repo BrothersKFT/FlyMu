@@ -33,6 +33,7 @@ struct INVASION_RESPWAN_INFO
 	int Group;
 	int Map;
 	int Value;
+	int Random;
 };
 
 struct INVASION_MONSTER_INFO
