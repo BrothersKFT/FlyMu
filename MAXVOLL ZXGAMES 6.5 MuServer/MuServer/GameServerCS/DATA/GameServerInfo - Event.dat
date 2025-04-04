@@ -177,10 +177,10 @@ EventKillAllAutoReward3Rank3 = 30
 ;==================================================
 ; Event Team vs Team
 ;==================================================
-EventTvtSwitch = 0
+EventTvtSwitch = 1
 EventTvtNpc = 380
 EventTvtNpcMap = 0
 EventTvtNpcX = 130
 EventTvtNpcY = 121
-EventTvtMinUsers = 2
+EventTvtMinUsers = 4
 EventTvtMaxUsers = 20
