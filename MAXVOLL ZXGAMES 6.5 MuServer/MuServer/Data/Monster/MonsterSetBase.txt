@@ -62,7 +62,7 @@ end
 566            02             00         204            061            01             //Mercenary Guild Manager Tercia
 478            02             00         191            017            03             //Delgado
 379            02             00         032            031            03             //Natasha the Firecracker Merchan
-601            02             00         130            121            03             //Reset system
+//601            02             00         130            121            03             //Reset system
 //601            02             00         198            017            03             //Grand Reset system
 end
 
