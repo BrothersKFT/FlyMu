@@ -1463,15 +1463,17 @@ end
 500            56             30         010            010            240          240          -1             03            0          //Golden Napin
 501            37             30         010            010            240          240          -1             01            0          //Great Golden Dragon
 501            57             30         010            010            240          240          -1             01            1          //Great Golden Dragon
-502            00             30         36             010            240          240          -1             20            0          //Golden Rabbit Lorencia
-502            01             30         150            010            240          240          -1             20            0          //Golden Rabbit Dungeon
-502            02             30         150            010            240          240          -1             20            0          //Golden Rabbit Devias
-502            03             30         150            010            240          240          -1             20            0          //Golden Rabbit Noria
-502            04             30         150            010            240          240          -1             20            0          //Golden Rabbit Lost Tower
-502            07             30         150            010            240          240          -1             20            0          //Golden Rabbit Atlans
-502            08             30         150            010            240          240          -1             20            0          //Golden Rabbit Tarkan
-502            37             30         150            010            240          240          -1             20            0          //Golden Rabbit Kantru1
-502            38             30         150            010            240          240          -1             20            0          //Golden Rabbit Kantru2
+502            00             30         36             010            240          240          -1             01            0          //Golden Rabbit Lorencia
+502            01             30         150            010            240          240          -1             01            0          //Golden Rabbit Dungeon
+502            02             30         150            010            240          240          -1             01            0          //Golden Rabbit Devias
+502            03             30         150            010            240          240          -1             01            0          //Golden Rabbit Noria
+502            04             30         150            010            240          240          -1             01            0          //Golden Rabbit Lost Tower
+502            07             30         150            010            240          240          -1             01            0          //Golden Rabbit Atlans
+502            08             30         150            010            240          240          -1             01            0          //Golden Rabbit Tarkan
+502            37             30         150            010            240          240          -1             01            0          //Golden Rabbit Kantru1
+502            38             30         150            010            240          240          -1             01            0          //Golden Rabbit Kantru2
+502            33             30         150            010            240          240          -1             01            0          //Golden Rabbit Aida
+502            51             30         150            010            240          240          -1             01            0          //Golden Rabbit Elbeland
 end
 
 3
