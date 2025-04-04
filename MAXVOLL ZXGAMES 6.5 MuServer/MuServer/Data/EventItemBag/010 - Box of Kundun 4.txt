@@ -376,6 +376,370 @@ end
 	11		 42			0			0		 0		 1		  0		   3			//Aura Boots
 	11		 61			0			0		 0		 1		  0		   3			//Hades Boots
 	11		 37			0			0		 0		 1		  0		   3			//Valiant Boots
+	0		 25			0			0		 0		 0		  1		   1			//Sword Dancer
+	0		 20			0			0		 0		 0		  1		   1			//Knight Blade
+	0		 24			0			0		 0		 0		  1		   1			//DayBreak
+	0		 34			0			0		 0		 0		  1		   1			//Death Reign Blade
+	2		 12			0			0		 0		 0		  1		   1			//Great Lord Scepter
+	2		 15			0			0		 0		 0		  1		   1			//Shining Scepter
+	4		 19			0			0		 0		 0		  1		   1			//Great Reign Crossbow
+	4		 20			0			0		 0		 0		  1		   1			//Arrow Viper Bow
+	4		 22			0			0		 0		 0		  1		   1			//Albatross Bow
+	5		 11			0			0		 0		 0		  1		   1			//Kundun Staff
+	5		 13			0			0		 0		 0		  1		   1			//Platina Wing Staff
+	5		 18			0			0		 0		 0		  1		   1			//Black Rose Staff
+	6		 15			0			0		 0		 0		  1		   1			//Grand Soul Shield
+	7		 21			0			0		 0		 0		  1		   1			//Great Dragon Helm
+	7		 22			0			0		 0		 0		  1		   1			//Dark Soul Helm
+	7		 24			0			0		 0		 0		  1		   1			//Red Spirit Helm
+	7		 28			0			0		 0		 0		  1		   1			//Dark Master Helm
+	7		 38			0			0		 0		 0		  1		   1			//Glorious Helm
+	7		 42			0			0		 0		 0		  1		   1			//Aura Helm
+	7		 61			0			0		 0		 0		  1		   1			//Hades Helm
+	8		 21			0			0		 0		 0		  1		   1			//Great Dragon Armor
+	8		 22			0			0		 0		 0		  1		   1			//Dark Soul Armor
+	8		 24			0			0		 0		 0		  1		   1			//Red Spirit Armor
+	8		 28			0			0		 0		 0		  1		   1			//Dark Master Armor
+	8		 38			0			0		 0		 0		  1		   1			//Glorious Armor
+	8		 42			0			0		 0		 0		  1		   1			//Aura Armor
+	8		 61			0			0		 0		 0		  1		   1			//Hades Armor
+	8		 37			0			0		 0		 0		  1		   1			//Valiant Armor
+	9		 21			0			0		 0		 0		  1		   1			//Great Dragon Pants
+	9		 22			0			0		 0		 0		  1		   1			//Dark Soul Pants
+	9		 24			0			0		 0		 0		  1		   1			//Red Spirit Pants
+	9		 28			0			0		 0		 0		  1		   1			//Dark Master Pants
+	9		 38			0			0		 0		 0		  1		   1			//Glorious Pants
+	9		 42			0			0		 0		 0		  1		   1			//Aura Pants
+	9		 61			0			0		 0		 0		  1		   1			//Hades Pants
+	9		 37			0			0		 0		 0		  1		   1			//Valiant Pants
+	10		 21			0			0		 0		 0		  1		   1			//Great Dragon Gloves
+	10		 22			0			0		 0		 0		  1		   1			//Dark Soul Gloves
+	10		 24			0			0		 0		 0		  1		   1			//Red Spirit Gloves
+	10		 28			0			0		 0		 0		  1		   1			//Dark Master Gloves
+	10		 38			0			0		 0		 0		  1		   1			//Glorious Gloves
+	10		 42			0			0		 0		 0		  1		   1			//Aura Gloves
+	10		 61			0			0		 0		 0		  1		   1			//Hades Gloves
+	10		 37			0			0		 0		 0		  1		   1			//Valiant Gloves
+	11		 21			0			0		 0		 0		  1		   1			//Great Dragon Boots
+	11		 22			0			0		 0		 0		  1		   1			//Dark Soul Boots
+	11		 24			0			0		 0		 0		  1		   1			//Red Spirit Boots
+	11		 28			0			0		 0		 0		  1		   1			//Dark Master Boots
+	11		 38			0			0		 0		 0		  1		   1			//Glorious Boots
+	11		 42			0			0		 0		 0		  1		   1			//Aura Boots
+	11		 61			0			0		 0		 0		  1		   1			//Hades Boots
+	11		 37			0			0		 0		 0		  1		   1			//Valiant Boots
+	0		 25			0			0		 0		 1		  1		   1			//Sword Dancer
+	0		 20			0			0		 0		 1		  1		   1			//Knight Blade
+	0		 24			0			0		 0		 1		  1		   1			//DayBreak
+	0		 34			0			0		 0		 1		  1		   1			//Death Reign Blade
+	2		 12			0			0		 0		 1		  1		   1			//Great Lord Scepter
+	2		 15			0			0		 0		 1		  1		   1			//Shining Scepter
+	4		 19			0			0		 0		 1		  1		   1			//Great Reign Crossbow
+	4		 20			0			0		 0		 1		  1		   1			//Arrow Viper Bow
+	4		 22			0			0		 0		 1		  1		   1			//Albatross Bow
+	5		 11			0			0		 0		 1		  1		   1			//Kundun Staff
+	5		 13			0			0		 0		 1		  1		   1			//Platina Wing Staff
+	5		 18			0			0		 0		 1		  1		   1			//Black Rose Staff
+	6		 15			0			0		 0		 1		  1		   1			//Grand Soul Shield
+	7		 21			0			0		 0		 1		  1		   1			//Great Dragon Helm
+	7		 22			0			0		 0		 1		  1		   1			//Dark Soul Helm
+	7		 24			0			0		 0		 1		  1		   1			//Red Spirit Helm
+	7		 28			0			0		 0		 1		  1		   1			//Dark Master Helm
+	7		 38			0			0		 0		 1		  1		   1			//Glorious Helm
+	7		 42			0			0		 0		 1		  1		   1			//Aura Helm
+	7		 61			0			0		 0		 1		  1		   1			//Hades Helm
+	8		 21			0			0		 0		 1		  1		   1			//Great Dragon Armor
+	8		 22			0			0		 0		 1		  1		   1			//Dark Soul Armor
+	8		 24			0			0		 0		 1		  1		   1			//Red Spirit Armor
+	8		 28			0			0		 0		 1		  1		   1			//Dark Master Armor
+	8		 38			0			0		 0		 1		  1		   1			//Glorious Armor
+	8		 42			0			0		 0		 1		  1		   1			//Aura Armor
+	8		 61			0			0		 0		 1		  1		   1			//Hades Armor
+	8		 37			0			0		 0		 1		  1		   1			//Valiant Armor
+	9		 21			0			0		 0		 1		  1		   1			//Great Dragon Pants
+	9		 22			0			0		 0		 1		  1		   1			//Dark Soul Pants
+	9		 24			0			0		 0		 1		  1		   1			//Red Spirit Pants
+	9		 28			0			0		 0		 1		  1		   1			//Dark Master Pants
+	9		 38			0			0		 0		 1		  1		   1			//Glorious Pants
+	9		 42			0			0		 0		 1		  1		   1			//Aura Pants
+	9		 61			0			0		 0		 1		  1		   1			//Hades Pants
+	9		 37			0			0		 0		 1		  1		   1			//Valiant Pants
+	10		 21			0			0		 0		 1		  1		   1			//Great Dragon Gloves
+	10		 22			0			0		 0		 1		  1		   1			//Dark Soul Gloves
+	10		 24			0			0		 0		 1		  1		   1			//Red Spirit Gloves
+	10		 28			0			0		 0		 1		  1		   1			//Dark Master Gloves
+	10		 38			0			0		 0		 1		  1		   1			//Glorious Gloves
+	10		 42			0			0		 0		 1		  1		   1			//Aura Gloves
+	10		 61			0			0		 0		 1		  1		   1			//Hades Gloves
+	10		 37			0			0		 0		 1		  1		   1			//Valiant Gloves
+	11		 21			0			0		 0		 1		  1		   1			//Great Dragon Boots
+	11		 22			0			0		 0		 1		  1		   1			//Dark Soul Boots
+	11		 24			0			0		 0		 1		  1		   1			//Red Spirit Boots
+	11		 28			0			0		 0		 1		  1		   1			//Dark Master Boots
+	11		 38			0			0		 0		 1		  1		   1			//Glorious Boots
+	11		 42			0			0		 0		 1		  1		   1			//Aura Boots
+	11		 61			0			0		 0		 1		  1		   1			//Hades Boots
+	11		 37			0			0		 0		 1		  1		   1			//Valiant Boots
+	0		 25			0			0		 1		 1		  1		   2			//Sword Dancer
+	0		 20			0			0		 1		 1		  1		   2			//Knight Blade
+	0		 24			0			0		 1		 1		  1		   2			//DayBreak
+	0		 34			0			0		 1		 1		  1		   2			//Death Reign Blade
+	2		 12			0			0		 1		 1		  1		   2			//Great Lord Scepter
+	2		 15			0			0		 1		 1		  1		   2			//Shining Scepter
+	4		 19			0			0		 1		 1		  1		   2			//Great Reign Crossbow
+	4		 20			0			0		 1		 1		  1		   2			//Arrow Viper Bow
+	4		 22			0			0		 1		 1		  1		   2			//Albatross Bow
+	5		 11			0			0		 1		 1		  1		   2			//Kundun Staff
+	5		 13			0			0		 1		 1		  1		   2			//Platina Wing Staff
+	5		 18			0			0		 1		 1		  1		   2			//Black Rose Staff
+	6		 15			0			0		 1		 1		  1		   2			//Grand Soul Shield
+	7		 21			0			0		 1		 1		  1		   2			//Great Dragon Helm
+	7		 22			0			0		 1		 1		  1		   2			//Dark Soul Helm
+	7		 24			0			0		 1		 1		  1		   2			//Red Spirit Helm
+	7		 28			0			0		 1		 1		  1		   2			//Dark Master Helm
+	7		 38			0			0		 1		 1		  1		   2			//Glorious Helm
+	7		 42			0			0		 1		 1		  1		   2			//Aura Helm
+	7		 61			0			0		 1		 1		  1		   2			//Hades Helm
+	8		 21			0			0		 1		 1		  1		   2			//Great Dragon Armor
+	8		 22			0			0		 1		 1		  1		   2			//Dark Soul Armor
+	8		 24			0			0		 1		 1		  1		   2			//Red Spirit Armor
+	8		 28			0			0		 1		 1		  1		   2			//Dark Master Armor
+	8		 38			0			0		 1		 1		  1		   2			//Glorious Armor
+	8		 42			0			0		 1		 1		  1		   2			//Aura Armor
+	8		 61			0			0		 1		 1		  1		   2			//Hades Armor
+	8		 37			0			0		 1		 1		  1		   2			//Valiant Armor
+	9		 21			0			0		 1		 1		  1		   2			//Great Dragon Pants
+	9		 22			0			0		 1		 1		  1		   2			//Dark Soul Pants
+	9		 24			0			0		 1		 1		  1		   2			//Red Spirit Pants
+	9		 28			0			0		 1		 1		  1		   2			//Dark Master Pants
+	9		 38			0			0		 1		 1		  1		   2			//Glorious Pants
+	9		 42			0			0		 1		 1		  1		   2			//Aura Pants
+	9		 61			0			0		 1		 1		  1		   2			//Hades Pants
+	9		 37			0			0		 1		 1		  1		   2			//Valiant Pants
+	10		 21			0			0		 1		 1		  1		   2			//Great Dragon Gloves
+	10		 22			0			0		 1		 1		  1		   2			//Dark Soul Gloves
+	10		 24			0			0		 1		 1		  1		   2			//Red Spirit Gloves
+	10		 28			0			0		 1		 1		  1		   2			//Dark Master Gloves
+	10		 38			0			0		 1		 1		  1		   2			//Glorious Gloves
+	10		 42			0			0		 1		 1		  1		   2			//Aura Gloves
+	10		 61			0			0		 1		 1		  1		   2			//Hades Gloves
+	10		 37			0			0		 1		 1		  1		   2			//Valiant Gloves
+	11		 21			0			0		 1		 1		  1		   2			//Great Dragon Boots
+	11		 22			0			0		 1		 1		  1		   2			//Dark Soul Boots
+	11		 24			0			0		 1		 1		  1		   2			//Red Spirit Boots
+	11		 28			0			0		 1		 1		  1		   2			//Dark Master Boots
+	11		 38			0			0		 1		 1		  1		   2			//Glorious Boots
+	11		 42			0			0		 1		 1		  1		   2			//Aura Boots
+	11		 61			0			0		 1		 1		  1		   2			//Hades Boots
+	11		 37			0			0		 1		 1		  1		   2			//Valiant Boots
+	0		 25			0			0		 0		 0		  1		   2			//Sword Dancer
+	0		 20			0			0		 0		 0		  1		   2			//Knight Blade
+	0		 24			0			0		 0		 0		  1		   2			//DayBreak
+	0		 34			0			0		 0		 0		  1		   2			//Death Reign Blade
+	2		 12			0			0		 0		 0		  1		   2			//Great Lord Scepter
+	2		 15			0			0		 0		 0		  1		   2			//Shining Scepter
+	4		 19			0			0		 0		 0		  1		   2			//Great Reign Crossbow
+	4		 20			0			0		 0		 0		  1		   2			//Arrow Viper Bow
+	4		 22			0			0		 0		 0		  1		   2			//Albatross Bow
+	5		 11			0			0		 0		 0		  1		   2			//Kundun Staff
+	5		 13			0			0		 0		 0		  1		   2			//Platina Wing Staff
+	5		 18			0			0		 0		 0		  1		   2			//Black Rose Staff
+	6		 15			0			0		 0		 0		  1		   2			//Grand Soul Shield
+	7		 21			0			0		 0		 0		  1		   2			//Great Dragon Helm
+	7		 22			0			0		 0		 0		  1		   2			//Dark Soul Helm
+	7		 24			0			0		 0		 0		  1		   2			//Red Spirit Helm
+	7		 28			0			0		 0		 0		  1		   2			//Dark Master Helm
+	7		 38			0			0		 0		 0		  1		   2			//Glorious Helm
+	7		 42			0			0		 0		 0		  1		   2			//Aura Helm
+	7		 61			0			0		 0		 0		  1		   2			//Hades Helm
+	8		 21			0			0		 0		 0		  1		   2			//Great Dragon Armor
+	8		 22			0			0		 0		 0		  1		   2			//Dark Soul Armor
+	8		 24			0			0		 0		 0		  1		   2			//Red Spirit Armor
+	8		 28			0			0		 0		 0		  1		   2			//Dark Master Armor
+	8		 38			0			0		 0		 0		  1		   2			//Glorious Armor
+	8		 42			0			0		 0		 0		  1		   2			//Aura Armor
+	8		 61			0			0		 0		 0		  1		   2			//Hades Armor
+	8		 37			0			0		 0		 0		  1		   2			//Valiant Armor
+	9		 21			0			0		 0		 0		  1		   2			//Great Dragon Pants
+	9		 22			0			0		 0		 0		  1		   2			//Dark Soul Pants
+	9		 24			0			0		 0		 0		  1		   2			//Red Spirit Pants
+	9		 28			0			0		 0		 0		  1		   2			//Dark Master Pants
+	9		 38			0			0		 0		 0		  1		   2			//Glorious Pants
+	9		 42			0			0		 0		 0		  1		   2			//Aura Pants
+	9		 61			0			0		 0		 0		  1		   2			//Hades Pants
+	9		 37			0			0		 0		 0		  1		   2			//Valiant Pants
+	10		 21			0			0		 0		 0		  1		   2			//Great Dragon Gloves
+	10		 22			0			0		 0		 0		  1		   2			//Dark Soul Gloves
+	10		 24			0			0		 0		 0		  1		   2			//Red Spirit Gloves
+	10		 28			0			0		 0		 0		  1		   2			//Dark Master Gloves
+	10		 38			0			0		 0		 0		  1		   2			//Glorious Gloves
+	10		 42			0			0		 0		 0		  1		   2			//Aura Gloves
+	10		 61			0			0		 0		 0		  1		   2			//Hades Gloves
+	10		 37			0			0		 0		 0		  1		   2			//Valiant Gloves
+	11		 21			0			0		 0		 0		  1		   2			//Great Dragon Boots
+	11		 22			0			0		 0		 0		  1		   2			//Dark Soul Boots
+	11		 24			0			0		 0		 0		  1		   2			//Red Spirit Boots
+	11		 28			0			0		 0		 0		  1		   2			//Dark Master Boots
+	11		 38			0			0		 0		 0		  1		   2			//Glorious Boots
+	11		 42			0			0		 0		 0		  1		   2			//Aura Boots
+	11		 61			0			0		 0		 0		  1		   2			//Hades Boots
+	11		 37			0			0		 0		 0		  1		   2			//Valiant Boots
+	0		 25			0			0		 0		 1		  1		   2			//Sword Dancer
+	0		 20			0			0		 0		 1		  1		   2			//Knight Blade
+	0		 24			0			0		 0		 1		  1		   2			//DayBreak
+	0		 34			0			0		 0		 1		  1		   2			//Death Reign Blade
+	2		 12			0			0		 0		 1		  1		   2			//Great Lord Scepter
+	2		 15			0			0		 0		 1		  1		   2			//Shining Scepter
+	4		 19			0			0		 0		 1		  1		   2			//Great Reign Crossbow
+	4		 20			0			0		 0		 1		  1		   2			//Arrow Viper Bow
+	4		 22			0			0		 0		 1		  1		   2			//Albatross Bow
+	5		 11			0			0		 0		 1		  1		   2			//Kundun Staff
+	5		 13			0			0		 0		 1		  1		   2			//Platina Wing Staff
+	5		 18			0			0		 0		 1		  1		   2			//Black Rose Staff
+	6		 15			0			0		 0		 1		  1		   2			//Grand Soul Shield
+	7		 21			0			0		 0		 1		  1		   2			//Great Dragon Helm
+	7		 22			0			0		 0		 1		  1		   2			//Dark Soul Helm
+	7		 24			0			0		 0		 1		  1		   2			//Red Spirit Helm
+	7		 28			0			0		 0		 1		  1		   2			//Dark Master Helm
+	7		 38			0			0		 0		 1		  1		   2			//Glorious Helm
+	7		 42			0			0		 0		 1		  1		   2			//Aura Helm
+	7		 61			0			0		 0		 1		  1		   2			//Hades Helm
+	8		 21			0			0		 0		 1		  1		   2			//Great Dragon Armor
+	8		 22			0			0		 0		 1		  1		   2			//Dark Soul Armor
+	8		 24			0			0		 0		 1		  1		   2			//Red Spirit Armor
+	8		 28			0			0		 0		 1		  1		   2			//Dark Master Armor
+	8		 38			0			0		 0		 1		  1		   2			//Glorious Armor
+	8		 42			0			0		 0		 1		  1		   2			//Aura Armor
+	8		 61			0			0		 0		 1		  1		   2			//Hades Armor
+	8		 37			0			0		 0		 1		  1		   2			//Valiant Armor
+	9		 21			0			0		 0		 1		  1		   2			//Great Dragon Pants
+	9		 22			0			0		 0		 1		  1		   2			//Dark Soul Pants
+	9		 24			0			0		 0		 1		  1		   2			//Red Spirit Pants
+	9		 28			0			0		 0		 1		  1		   2			//Dark Master Pants
+	9		 38			0			0		 0		 1		  1		   2			//Glorious Pants
+	9		 42			0			0		 0		 1		  1		   2			//Aura Pants
+	9		 61			0			0		 0		 1		  1		   2			//Hades Pants
+	9		 37			0			0		 0		 1		  1		   2			//Valiant Pants
+	10		 21			0			0		 0		 1		  1		   2			//Great Dragon Gloves
+	10		 22			0			0		 0		 1		  1		   2			//Dark Soul Gloves
+	10		 24			0			0		 0		 1		  1		   2			//Red Spirit Gloves
+	10		 28			0			0		 0		 1		  1		   2			//Dark Master Gloves
+	10		 38			0			0		 0		 1		  1		   2			//Glorious Gloves
+	10		 42			0			0		 0		 1		  1		   2			//Aura Gloves
+	10		 61			0			0		 0		 1		  1		   2			//Hades Gloves
+	10		 37			0			0		 0		 1		  1		   2			//Valiant Gloves
+	11		 21			0			0		 0		 1		  1		   2			//Great Dragon Boots
+	11		 22			0			0		 0		 1		  1		   2			//Dark Soul Boots
+	11		 24			0			0		 0		 1		  1		   2			//Red Spirit Boots
+	11		 28			0			0		 0		 1		  1		   2			//Dark Master Boots
+	11		 38			0			0		 0		 1		  1		   2			//Glorious Boots
+	11		 42			0			0		 0		 1		  1		   2			//Aura Boots
+	11		 61			0			0		 0		 1		  1		   2			//Hades Boots
+	11		 37			0			0		 0		 1		  1		   2			//Valiant Boots
+	0		 25			0			0		 0		 1		  1		   3			//Sword Dancer
+	0		 20			0			0		 0		 1		  1		   3			//Knight Blade
+	0		 24			0			0		 0		 1		  1		   3			//DayBreak
+	0		 34			0			0		 0		 1		  1		   3			//Death Reign Blade
+	2		 12			0			0		 0		 1		  1		   3			//Great Lord Scepter
+	2		 15			0			0		 0		 1		  1		   3			//Shining Scepter
+	4		 19			0			0		 0		 1		  1		   3			//Great Reign Crossbow
+	4		 20			0			0		 0		 1		  1		   3			//Arrow Viper Bow
+	4		 22			0			0		 0		 1		  1		   3			//Albatross Bow
+	5		 11			0			0		 0		 1		  1		   3			//Kundun Staff
+	5		 13			0			0		 0		 1		  1		   3			//Platina Wing Staff
+	5		 18			0			0		 0		 1		  1		   3			//Black Rose Staff
+	6		 15			0			0		 0		 1		  1		   3			//Grand Soul Shield
+	7		 21			0			0		 0		 1		  1		   3			//Great Dragon Helm
+	7		 22			0			0		 0		 1		  1		   3			//Dark Soul Helm
+	7		 24			0			0		 0		 1		  1		   3			//Red Spirit Helm
+	7		 28			0			0		 0		 1		  1		   3			//Dark Master Helm
+	7		 38			0			0		 0		 1		  1		   3			//Glorious Helm
+	7		 42			0			0		 0		 1		  1		   3			//Aura Helm
+	7		 61			0			0		 0		 1		  1		   3			//Hades Helm
+	8		 21			0			0		 0		 1		  1		   3			//Great Dragon Armor
+	8		 22			0			0		 0		 1		  1		   3			//Dark Soul Armor
+	8		 24			0			0		 0		 1		  1		   3			//Red Spirit Armor
+	8		 28			0			0		 0		 1		  1		   3			//Dark Master Armor
+	8		 38			0			0		 0		 1		  1		   3			//Glorious Armor
+	8		 42			0			0		 0		 1		  1		   3			//Aura Armor
+	8		 61			0			0		 0		 1		  1		   3			//Hades Armor
+	8		 37			0			0		 0		 1		  1		   3			//Valiant Armor
+	9		 21			0			0		 0		 1		  1		   3			//Great Dragon Pants
+	9		 22			0			0		 0		 1		  1		   3			//Dark Soul Pants
+	9		 24			0			0		 0		 1		  1		   3			//Red Spirit Pants
+	9		 28			0			0		 0		 1		  1		   3			//Dark Master Pants
+	9		 38			0			0		 0		 1		  1		   3			//Glorious Pants
+	9		 42			0			0		 0		 1		  1		   3			//Aura Pants
+	9		 61			0			0		 0		 1		  1		   3			//Hades Pants
+	9		 37			0			0		 0		 1		  1		   3			//Valiant Pants
+	10		 21			0			0		 0		 1		  1		   3			//Great Dragon Gloves
+	10		 22			0			0		 0		 1		  1		   3			//Dark Soul Gloves
+	10		 24			0			0		 0		 1		  1		   3			//Red Spirit Gloves
+	10		 28			0			0		 0		 1		  1		   3			//Dark Master Gloves
+	10		 38			0			0		 0		 1		  1		   3			//Glorious Gloves
+	10		 42			0			0		 0		 1		  1		   3			//Aura Gloves
+	10		 61			0			0		 0		 1		  1		   3			//Hades Gloves
+	10		 37			0			0		 0		 1		  1		   3			//Valiant Gloves
+	11		 21			0			0		 0		 1		  1		   3			//Great Dragon Boots
+	11		 22			0			0		 0		 1		  1		   3			//Dark Soul Boots
+	11		 24			0			0		 0		 1		  1		   3			//Red Spirit Boots
+	11		 28			0			0		 0		 1		  1		   3			//Dark Master Boots
+	11		 38			0			0		 0		 1		  1		   3			//Glorious Boots
+	11		 42			0			0		 0		 1		  1		   3			//Aura Boots
+	11		 61			0			0		 0		 1		  1		   3			//Hades Boots
+	11		 37			0			0		 0		 1		  1		   3			//Valiant Boots
+	0		 25			0			0		 0		 1		  1		   3			//Sword Dancer
+	0		 20			0			0		 0		 1		  1		   3			//Knight Blade
+	0		 24			0			0		 0		 1		  1		   3			//DayBreak
+	0		 34			0			0		 0		 1		  1		   3			//Death Reign Blade
+	2		 12			0			0		 0		 1		  1		   3			//Great Lord Scepter
+	2		 15			0			0		 0		 1		  1		   3			//Shining Scepter
+	4		 19			0			0		 0		 1		  1		   3			//Great Reign Crossbow
+	4		 20			0			0		 0		 1		  1		   3			//Arrow Viper Bow
+	4		 22			0			0		 0		 1		  1		   3			//Albatross Bow
+	5		 11			0			0		 0		 1		  1		   3			//Kundun Staff
+	5		 13			0			0		 0		 1		  1		   3			//Platina Wing Staff
+	5		 18			0			0		 0		 1		  1		   3			//Black Rose Staff
+	6		 15			0			0		 0		 1		  1		   3			//Grand Soul Shield
+	7		 21			0			0		 0		 1		  1		   3			//Great Dragon Helm
+	7		 22			0			0		 0		 1		  1		   3			//Dark Soul Helm
+	7		 24			0			0		 0		 1		  1		   3			//Red Spirit Helm
+	7		 28			0			0		 0		 1		  1		   3			//Dark Master Helm
+	7		 38			0			0		 0		 1		  1		   3			//Glorious Helm
+	7		 42			0			0		 0		 1		  1		   3			//Aura Helm
+	7		 61			0			0		 0		 1		  1		   3			//Hades Helm
+	8		 21			0			0		 0		 1		  1		   3			//Great Dragon Armor
+	8		 22			0			0		 0		 1		  1		   3			//Dark Soul Armor
+	8		 24			0			0		 0		 1		  1		   3			//Red Spirit Armor
+	8		 28			0			0		 0		 1		  1		   3			//Dark Master Armor
+	8		 38			0			0		 0		 1		  1		   3			//Glorious Armor
+	8		 42			0			0		 0		 1		  1		   3			//Aura Armor
+	8		 61			0			0		 0		 1		  1		   3			//Hades Armor
+	8		 37			0			0		 0		 1		  1		   3			//Valiant Armor
+	9		 21			0			0		 0		 1		  1		   3			//Great Dragon Pants
+	9		 22			0			0		 0		 1		  1		   3			//Dark Soul Pants
+	9		 24			0			0		 0		 1		  1		   3			//Red Spirit Pants
+	9		 28			0			0		 0		 1		  1		   3			//Dark Master Pants
+	9		 38			0			0		 0		 1		  1		   3			//Glorious Pants
+	9		 42			0			0		 0		 1		  1		   3			//Aura Pants
+	9		 61			0			0		 0		 1		  1		   3			//Hades Pants
+	9		 37			0			0		 0		 1		  1		   3			//Valiant Pants
+	10		 21			0			0		 0		 1		  1		   3			//Great Dragon Gloves
+	10		 22			0			0		 0		 1		  1		   3			//Dark Soul Gloves
+	10		 24			0			0		 0		 1		  1		   3			//Red Spirit Gloves
+	10		 28			0			0		 0		 1		  1		   3			//Dark Master Gloves
+	10		 38			0			0		 0		 1		  1		   3			//Glorious Gloves
+	10		 42			0			0		 0		 1		  1		   3			//Aura Gloves
+	10		 61			0			0		 0		 1		  1		   3			//Hades Gloves
+	10		 37			0			0		 0		 1		  1		   3			//Valiant Gloves
+	11		 21			0			0		 0		 1		  1		   3			//Great Dragon Boots
+	11		 22			0			0		 0		 1		  1		   3			//Dark Soul Boots
+	11		 24			0			0		 0		 1		  1		   3			//Red Spirit Boots
+	11		 28			0			0		 0		 1		  1		   3			//Dark Master Boots
+	11		 38			0			0		 0		 1		  1		   3			//Glorious Boots
+	11		 42			0			0		 0		 1		  1		   3			//Aura Boots
+	11		 61			0			0		 0		 1		  1		   3			//Hades Boots
+	11		 37			0			0		 0		 1		  1		   3			//Valiant Boots
 end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
