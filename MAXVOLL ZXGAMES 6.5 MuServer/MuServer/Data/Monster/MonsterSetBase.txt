@@ -37,7 +37,7 @@
 452            00             00         130            129            03             //Seed Master
 453            00             00         130            127            03             //Seed Researcher
 406            00             00         137            122            03             //Apostle Devin
-380            00             00         141            140            01             //TVT Event NPC
+380            00             00         141            143            03             //TVT Event NPC
 end
 
 //NPC Devias
