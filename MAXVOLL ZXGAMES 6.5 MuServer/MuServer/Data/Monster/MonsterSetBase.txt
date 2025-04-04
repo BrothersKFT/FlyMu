@@ -63,7 +63,7 @@ end
 478            02             00         191            017            03             //Delgado
 379            02             00         032            031            03             //Natasha the Firecracker Merchan
 //601            02             00         130            121            03             //Reset system
-//601            02             00         198            017            03             //Grand Reset system
+601            00             00         130            120            03             //Grand Reset system
 end
 
 //NPC NORIA
