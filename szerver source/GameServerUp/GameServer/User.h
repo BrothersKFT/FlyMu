@@ -1091,6 +1091,9 @@ struct OBJECTSTRUCT
 	short m_OfflineCoordX;
 	short m_OfflineCoordY;
 	DWORD m_OfflineTimeResetMove;
+
+	DWORD LastLuckyWheelRollTime; // Lucky Wheel cooldownhoz
+
 #if (WINDOWSQUEST == 1)
 	BYTE ExWQuestStart[3];
 	WORD ExWQuestNum[3];

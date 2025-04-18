@@ -15,6 +15,9 @@
 #include "Notice.h"
 #include "Message.h"
 #include "ServerInfo.h"
+
+#define LUCKYWHEEL_COOLDOWN 30000 // 30 másodperc (ms)
+
 CLuckyWheel gLuckyWheel;
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
@@ -142,6 +145,23 @@ void CLuckyWheel::SetInfo(LUCKYWHEEL_INFO info) // OK
 
 void CLuckyWheel::Start(LPOBJ lpUser)
 {
+	DWORD currentTime = GetTickCount(); // Aktuális idő
+
+	// Ellenőrizzük, hogy eltelt-e elég idő az utolsó pörgetés óta
+	if (lpUser->LastLuckyWheelRollTime != 0 && (currentTime - lpUser->LastLuckyWheelRollTime) < LUCKYWHEEL_COOLDOWN)
+	{
+		// Még nem telt le a cooldown
+		DWORD remainingTimeMs = LUCKYWHEEL_COOLDOWN - (currentTime - lpUser->LastLuckyWheelRollTime);
+		int remainingSeconds = (remainingTimeMs / 1000) + 1; // Másodpercre kerekítve felfelé
+
+		// Üzenet küldése a játékosnak (dinamikusan)
+		char szMsg[128];
+		wsprintf(szMsg, "You must wait %d seconds to roll again.", remainingSeconds);
+		gNotice.GCNoticeSend(lpUser->Index, 1, 0, 0, 0, 0, 0, szMsg);
+
+		return; // Kilépünk a függvényből, nem engedjük pörgetni
+	}
+
 	if (WcoinLucky > 0)
 	{
 		if (lpUser->Coin1 < WcoinLucky)
@@ -177,6 +197,8 @@ void CLuckyWheel::Start(LPOBJ lpUser)
 	GDCreateItemSend(lpUser->Index,0xEB,0,0,GET_ITEM(m_LuckyWheelInfo[number].ItemType,m_LuckyWheelInfo[number].ItemIndex),m_LuckyWheelInfo[number].Level,0,m_LuckyWheelInfo[number].Skill,m_LuckyWheelInfo[number].Luck,m_LuckyWheelInfo[number].Option,-1,m_LuckyWheelInfo[number].Exc,0,0,0,0,0xFF,0);
 	gNotice.GCNoticeSend(lpUser->Index, 1, 0, 0, 0, 0, 0, gMessage.GetMessage(543));
 	
+	lpUser->LastLuckyWheelRollTime = currentTime; // Elmentjük az aktuális időt, mint az utolsó pörgetés idejét
+
 	ITEM_WIN_SEND pMsg;
 	pMsg.header.set(0xFB,0x23,sizeof(pMsg));
 	pMsg.number = number;
