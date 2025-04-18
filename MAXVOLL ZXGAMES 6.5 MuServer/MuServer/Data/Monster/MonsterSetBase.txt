@@ -44,7 +44,7 @@ end
 0
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
 229            02             00         198            047            02             //Marlon
-236            02             00         226            066            01             //Golden Archer
+//236            02             00         226            066            01             //Golden Archer
 233            02             00         209            030            01             //Messenger of Archangel
 233            02             00         219            009            03             //Messenger of Archangel
 235            02             00         183            032            03             //Sebina the Priest
