@@ -507,7 +507,7 @@
 718       "[King of MU] Awards ceremony !!!!"
 719       "[King of MU] The Guild %s won the event!"
 720       "[King of MU] Owner time: %d minute (s)!"
-721       "[King of MU] All members of the Online Guild have won:"
+721       "[King of MU] All online members of the winning Guild receive:"
 722       "[King of MU] 100 WCoinP !!!"
 723       "[King of MU] Characters who won the most:"
 724       "[King of MU] #%d : %s (Guild: %s)!"
