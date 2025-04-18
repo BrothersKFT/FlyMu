@@ -3797,7 +3797,7 @@ void Interface::SwitchCamera()
 	}
 	else
 	{
-		gInterface.DrawMessage(1, "Camera3D [OFF] Haha buzigeci :)");
+		gInterface.DrawMessage(1, "Camera3D [OFF]");
 	}
 }
 //-- CameraInit
