@@ -645,6 +645,7 @@
 859       "You cannot access this room! Exiting in %d second (s)"
 860       "[QUEST] Congratulations, you have completed this mission!"
 861       "Party restricted by %d level of difference"
+863       "Grand Reset successfully completed! You have been rewarded!"
 880       "[VIP] : %s"
 897       "[%s] Left %d minute(s) for start the event"
 898       "[Happy Hour]: EXPERIENCE INCREASED from X100 to X120!"
