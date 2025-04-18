@@ -175,7 +175,7 @@ void CLuckyWheel::Start(LPOBJ lpUser)
 	srand(time((NULL)));
 	int number = rand() % 12;
 	GDCreateItemSend(lpUser->Index,0xEB,0,0,GET_ITEM(m_LuckyWheelInfo[number].ItemType,m_LuckyWheelInfo[number].ItemIndex),m_LuckyWheelInfo[number].Level,0,m_LuckyWheelInfo[number].Skill,m_LuckyWheelInfo[number].Luck,m_LuckyWheelInfo[number].Option,-1,m_LuckyWheelInfo[number].Exc,0,0,0,0,0xFF,0);
-	gNotice.GCNoticeSendToAll(0,0,0,0,0,0,gMessage.GetMessage(543),lpUser->Name);
+	gNotice.GCNoticeSend(lpUser->Index, 1, 0, 0, 0, 0, 0, gMessage.GetMessage(543));
 	
 	ITEM_WIN_SEND pMsg;
 	pMsg.header.set(0xFB,0x23,sizeof(pMsg));
