@@ -50,7 +50,7 @@
 	25       "/re"				1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//re |on| |off| |auto|		- Resquest system
 	26       "/hide"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//hidden			- hidden gm
 	27       "/claim"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//rei				- Seize throne in king of mu event
-	28	     "/ci"			    1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//limparinv			- Clear inventory
+	28	     "/clearinv"			    1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//limparinv			- Clear inventory
 	29       "/setvip"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//setvip <account> <type> <days>- Add vip to a account
 	30 	 "/marry"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//marry to <player>		- Marry to a player
 	31 	 "/abrirbau"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//abrirbau			- Open warehouse
