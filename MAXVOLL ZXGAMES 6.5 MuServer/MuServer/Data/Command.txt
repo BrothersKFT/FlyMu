@@ -65,9 +65,9 @@
 	40 	 "/info"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0 	//info <player>			- Character status 
 	41	 "/abrirevento"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//abrirevento			- Open event
 	42	 "/join"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//participar			- Join in event
-	43	 "/pegapega"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//pegapega			- Start Run and Catch event
+	43	 "/flycatch"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//pegapega			- Start Run and Catch event
 	44	 "/go"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//queroir			- Go to Run and Catch event
-	45	 "/escesc"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//escesc			- Start Hide and Seek event
+	45	 "/starthideandseek"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//escesc			- Start Hide and Seek event
 	46       "/makeset"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//makeset <item> <level> <skill> <luck> <option> <exe> <set> <socket>
 	47       "/drop"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//drop <Group> <item> <level> <skill> <luck> <option> <exe> <set> <socket>
 	48       "/quest"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//quest				- Quest Command
