@@ -42,6 +42,7 @@
 #include "MuHelper.h"
 #include "ResetSystemPanel.h"
 #include "GrandResetSystem.h"
+#include "Item.h" // Új include
 
 Interface gInterface;
 
@@ -5106,7 +5107,7 @@ void Interface::EventPartySearchWindow_All(DWORD Event)
 	}
 }
 
-//=========================================================== LUCKYWHELL
+//=========================================================== LUCKYWHEEL
 
 void Interface::DrawLuckyWheel()
 {
@@ -5147,6 +5148,77 @@ void Interface::DrawLuckyWheel()
 	pDrawGUI(0x9326, 180, 157, 70, 57); //11
 	pDrawGUI(0x9326, 180, 214, 70, 57); //12
 
+	// Tooltip implementation
+	int positions[12][2] = {
+	    {180, 90}, {252, 90}, {320, 90}, {394, 90},
+	    {394, 145}, {394, 205},
+	    {394, 260}, {320, 260}, {252, 260}, {180, 260},
+	    {180, 145}, {180, 205}
+	};
+	
+	for(int i = 0; i < 12; i++) {
+	    if(this->IsWorkZone2(positions[i][0], positions[i][1], positions[i][0] + 70, positions[i][1] + 50)) {
+	        // Fix tooltip position: left side of the Lucky Wheel window, vertically centered
+	        int tX = StartX - 160; // 160 = tooltip width (150) + small gap (10)
+	        int tY = StartY + (MainHeight / 2) - 35; // 35 = tooltip height (70) / 2
+
+	        pSetBlend(true);
+	        glColor4f(0.0, 0.0, 0.0, 0.8);
+	        pDrawBarForm(tX, tY, 150, 70, 0.0f, 0); // A magasságot később dinamikussá tehetjük
+	        pGLSwitchBlend();
+	        glColor3f(1.0, 1.0, 1.0);
+
+	        ItemBmdStruct* item = pGetItemBmdStruct(ITEM(gLuckyWheel.m_LuckyWheelInfo[i].ItemType, gLuckyWheel.m_LuckyWheelInfo[i].ItemIndex));
+			if(item) {
+			    char szItemName[100] = { 0 };
+                int itemLevel = gLuckyWheel.m_LuckyWheelInfo[i].Level;
+                int itemType = gLuckyWheel.m_LuckyWheelInfo[i].ItemType;
+                int itemIndex = gLuckyWheel.m_LuckyWheelInfo[i].ItemIndex;
+
+                // Speciális névgenerálás
+                // Kundun Boxok
+                if (itemType == 14 && itemIndex == 11 && itemLevel >= 8 && itemLevel <= 12) {
+                    wsprintf(szItemName, "Box of Kundun +%d", itemLevel - 7);
+                }
+                // Alapértelmezett névgenerálás
+                else {
+                    wsprintf(szItemName, "%s", item->Name);
+                }
+
+                // Név kirajzolása
+			    this->DrawFormat(eGold, tX, tY + 10, 150, 3, szItemName);
+
+                // Extra szöveg hozzáadása
+                char szExtraText[100] = { 0 };
+                bool hasExtraText = false;
+                float extraTextY = tY + 25; // Kezdő pozíció az extra szövegnek
+
+                // Prioritás: Jewel -> Mount -> Drop
+                // Jewelek és Jewel Bundle-ök
+                if ( (itemType == 14 && (itemIndex == 13 || itemIndex == 14 || itemIndex == 16 || itemIndex == 22 || itemIndex == 31 || itemIndex == 41 || itemIndex == 42 || itemIndex == 43 || itemIndex == 44)) || // Single Jewels
+                     (itemType == 12 && (itemIndex == 15 || itemIndex == 30 || itemIndex == 31 || itemIndex == 136 || itemIndex == 137 || itemIndex == 138 || itemIndex == 139 || itemIndex == 140 || itemIndex == 141 || itemIndex == 142)) ) // Chaos + Bundled Jewels
+                {
+                    strcpy(szExtraText, "Crafting ingredient.");
+                    hasExtraText = true;
+                }
+                 // Mountok (Javított szöveggel)
+                else if (itemType == 13 && (itemIndex == 69 || itemIndex == 226 || itemIndex == 37 || itemIndex == 38 || itemIndex == 39 || itemIndex == 80 || itemIndex == 81 || itemIndex == 82 || itemIndex == 64 || itemIndex == 68 || itemIndex == 71 || itemIndex == 123 || itemIndex == 227 || itemIndex == 228 || itemIndex == 229)) {
+                    strcpy(szExtraText, "Rideable mount."); // Javítva: Rideable
+                    hasExtraText = true;
+                }
+                // Földre dobható reward itemek
+                else if (itemType == 14 && (itemIndex == 11 || itemIndex == 49 || itemIndex == 50 || itemIndex == 51)) {
+                    strcpy(szExtraText, "Drop on the floor to get reward.");
+                    hasExtraText = true;
+                }
+
+                // Extra szöveg kirajzolása, ha van
+                if (hasExtraText) {
+                    this->DrawFormat(eWhite, tX, extraTextY, 150, 3, szExtraText);
+                }
+			} // End if(item)
+	    } // End if(IsWorkZone2)
+	}
 	if (this->LuckyWheelNumber >= 0)
 	{
 		pSetBlend(true);
