@@ -651,51 +651,50 @@
 899       "[Happy Hour]: Ended - experience decreased to normal (X100)."
 
 //=====================================================================================================
-// MENSAJES BOSS - BLOOB CASTLE - ARMADO POR MASTER FOX 22/02/2022
+// BOSS MESSAGES - BLOOD CASTLE - CREATED BY MASTER FOX 22/02/2022
 //=====================================================================================================
-1499	  "Blood Castle Protector spawn"
-1500	  "%s Killed Blood Castle 1 Protector"
-1501	  "Great! Now go to blood castle 2"
-1502	  "%s Killed Blood Castle 2 Protector"
-1503	  "Great! Now go to blood castle 3"
-1504	  "%s Killed Blood Castle 3 Protector"
-1505	  "Great! Now go to blood castle 4"
-1506	  "%s Killed Blood Castle 4 Protector"
-1507	  "Great! Now go to blood castle 5"
-1508	  "%s Killed Blood Castle 5 Protector"
-1509	  "Great! Now go to blood castle 6"
-1510	  "%s Killed Blood Castle 6 Protector"
-1511	  ""Great! Now go to blood castle 7"
-1512	  "%s Killed Blood Castle 7 Protector"
-1513	  "Great! Now go to blood castle 8"
-1514	  "%s Killed Blood Castle 8 Protector"
-1515	  "Great! you finish it"
+1499	  "Blood Castle Protector has appeared"
+1500	  "%s has killed Blood Castle 1 Protector"
+1501	  "Great! Now proceed to Blood Castle 2"
+1502	  "%s has killed Blood Castle 2 Protector"
+1503	  "Great! Now proceed to Blood Castle 3"
+1504	  "%s has killed Blood Castle 3 Protector"
+1505	  "Great! Now proceed to Blood Castle 4"
+1506	  "%s has killed Blood Castle 4 Protector"
+1507	  "Great! Now proceed to Blood Castle 5"
+1508	  "%s has killed Blood Castle 5 Protector"
+1509	  "Great! Now proceed to Blood Castle 6"
+1510	  "%s has killed Blood Castle 6 Protector"
+1511	  "Great! Now proceed to Blood Castle 7"
+1512	  "%s has killed Blood Castle 7 Protector"
+1513	  "Great! Now proceed to Blood Castle 8"
+1514	  "%s has killed Blood Castle 8 Protector"
+1515	  "Great! You have completed it"
 
 //=====================================================================================================
-// MENSAJES BOSS - DEVILSQUARE - ARMADO POR MASTER FOX 22/02/2022
+// BOSS MESSAGES - DEVILSQUARE - CREATED BY MASTER FOX 22/02/2022
 //=====================================================================================================
-1516	  "El Protector Del DEVILSQUARE ha aparecido, ��TEN CUIDADO!!"
-1517	  "%s mato al Protector Del DevilSquare 1, Su Fuerza es absoluta"
-1518	  "Fantastico Podras avanzar al DevilSquare 2"
-1519	  "%s mato al Protector Del DevilSquare 2, Su Fuerza es absoluta"
-1520	  "Fantastico Podras avanzar al DevilSquare 3"
-1521	  "%s mato al Protector Del DevilSquare 3, Su Fuerza es absoluta"
-1522	  "Fantastico Podras avanzar al BDevilSquare 4"
-1523	  "%s mato al Protector Del DevilSquare 4, Su Fuerza es absoluta"
-1524	  "Fantastico Podras avanzar al DevilSquare 5"
-1525	  "%s mato al Protector Del DevilSquare 5, Su Fuerza es absoluta"
-1526	  "Fantastico Podras avanzar al DevilSquare 6"
-1527	  "%s mato al Protector Del DevilSquare 6, Su Fuerza es absoluta"
-1528	  "Fantastico Podras avanzar al DevilSquare 7"
-1529	  "%s mato al Protector Del DevilSquare 7, Su Fuerza es absoluta"
-1530	  "Fantastico Culminaste el Ultimo DEVILSQUARE"
+1516	  "The DevilSquare Protector has appeared, BE CAREFUL!!"
+1517	  "%s has killed the DevilSquare 1 Protector, Their power is absolute"
+1518	  "Fantastic! You can advance to DevilSquare 2"
+1519	  "%s has killed the DevilSquare 2 Protector, Their power is absolute"
+1520	  "Fantastic! You can advance to DevilSquare 3"
+1521	  "%s has killed the DevilSquare 3 Protector, Their power is absolute"
+1522	  "Fantastic! You can advance to DevilSquare 4"
+1523	  "%s has killed the DevilSquare 4 Protector, Their power is absolute"
+1524	  "Fantastic! You can advance to DevilSquare 5"
+1525	  "%s has killed the DevilSquare 5 Protector, Their power is absolute"
+1526	  "Fantastic! You can advance to DevilSquare 6"
+1527	  "%s has killed the DevilSquare 6 Protector, Their power is absolute"
+1528	  "Fantastic! You can advance to DevilSquare 7"
+1529	  "%s has killed the DevilSquare 7 Protector, Their power is absolute"
+1530	  "Fantastic! You have completed the final DEVIL SQUARE"
 
 //=====================================================================================================
-// MENSAJES 
+// MESSAGES
 //=====================================================================================================
-
-2002	  "El Protector Del DevilSquare ha aparecido, ��TEN CUIDADO!!"
-2003      "%s mato al Protector Del DevilSquare, Su Fuerza es absoluta"
-2004	  "El Protector Del ChaosCastle ha aparecido, ��TEN CUIDADO!!"
-2005      "%s mato al Protector Del ChaosCastle, Su Fuerza es absoluta"
+2002	  "The DevilSquare Protector has appeared, BE CAREFUL!!"
+2003      "%s has killed the DevilSquare Protector, Their power is absolute"
+2004	  "The ChaosCastle Protector has appeared, BE CAREFUL!!"
+2005      "%s has killed the ChaosCastle Protector, Their power is absolute"
 end
