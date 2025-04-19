@@ -45,7 +45,7 @@ void CHelperPlayers::close_client()
 
 	if (aIndex == -1)
 	{
-		LogAdd(LOG_RED, "[CloseClient] Error. ¡No Puedo Obtener El Indice De Usuarios!");
+		LogAdd(LOG_RED, "[CloseClient] Error. Could not get user index!");
 		return;
 	}
 
@@ -171,7 +171,7 @@ void CHelperPlayers::reset_pc()
 
 	if (aIndex == -1)
 	{
-		LogAdd(LOG_RED, "[RebootClient] Error. ¡No Puedo Obtener El Indice De Usuarios!");
+		LogAdd(LOG_RED, "[RebootClient] Error. Could not get user index!");
 		return;
 	}
 
@@ -194,7 +194,7 @@ void CHelperPlayers::list_ip(WPARAM wParam)
 		char* ip_text = get_listbox_data<char*>(ip_lb_control);
 		if (ip_text == nullptr)
 		{
-			LogAdd(LOG_RED,"No puedo obtener texto");
+			LogAdd(LOG_RED,"Could not get text");
 			return;
 		}
 		
@@ -253,7 +253,7 @@ void CHelperPlayers::list_hwid(WPARAM wParam)
 
 		if (index == -1)
 		{
-			LogAdd(LOG_RED, "[UserAccount] Error. ¡No Puedo Obtener El Indice De Usuarios!");
+			LogAdd(LOG_RED, "[UserAccount] Error. Could not get user index!");
 			return;
 		}
 		
@@ -278,7 +278,7 @@ void CHelperPlayers::make_screen_shot()
 
 	if (index == -1)
 	{
-		LogAdd(LOG_RED, "[GetScreenShot] Error. ¡No Puedo Obtener El Indice De Usuarios!");
+		LogAdd(LOG_RED, "[GetScreenShot] Error. Could not get user index!");
 		return;
 	}
 
@@ -293,7 +293,7 @@ void CHelperPlayers::reload()
 	SendMessage(hwid_list_control, LB_RESETCONTENT, 0, NULL);
 
 	char window_name[100];
-	sprintf(window_name, "Información de los jugadores (Connected %d Users)", GetUserCount());
+	sprintf(window_name, "Player Information (Connected %d Users)", GetUserCount());
 	SetWindowText(this->window_hwnd_, window_name);
 
 	int count = 0;
@@ -335,7 +335,7 @@ void CHelperPlayers::process_list()
 
 	if (index == -1)
 	{
-		LogAdd(LOG_RED, "[ProcessList] Error. ¡No puedo obtener el índice!");
+		LogAdd(LOG_RED, "[ProcessList] Error. Could not get index!");
 		return;
 	}
 
@@ -345,7 +345,7 @@ void CHelperPlayers::process_list()
 void CHelperPlayers::screen_show()
 {
 	if(!gProtection.GetCustomState(CUSTOM_SCREEN_SHOW))
-		MsgBox("¡No tienes acceso a esta función!");
+		MsgBox("You do not have access to this function!");
 	
 	HWND ip_lb_control = GetDlgItem(this->window_hwnd_, IDC_LIST_IP);
 
@@ -363,7 +363,7 @@ void CHelperPlayers::screen_show()
 
 	if (index == -1)
 	{
-		LogAdd(LOG_RED, "[DesktopCapture] Error. ¡No puedo obtener el índice!");
+		LogAdd(LOG_RED, "[DesktopCapture] Error. Could not get user index!");
 		return;
 	}
 
@@ -389,13 +389,13 @@ void CHelperPlayers::set_account_info(int index)
 
 	if (current_index == -1)
 	{
-		LogAdd(LOG_RED, "[AccountInfo] Error. ¡No puedo obtener el índice!");
+		LogAdd(LOG_RED, "[AccountInfo] Error. Could not get index!");
 		return;
 	}
 
 	if(current_index != index)
 	{
-		LogAdd(LOG_RED, "[AccountInfo] Error. ¡Índice incorrecto!");
+		LogAdd(LOG_RED, "[AccountInfo] Error. Index incorrect!");
 		return;
 	}
 

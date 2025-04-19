@@ -16,7 +16,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Русский (Россия) resources
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
 LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
@@ -42,8 +42,8 @@ STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSM
 CAPTION "Dialog"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
-    DEFPUSHBUTTON   "ОК",IDOK,205,161,50,14
-    PUSHBUTTON      "Отмена",IDCANCEL,259,161,50,14
+    DEFPUSHBUTTON   "пїЅпїЅ",IDOK,205,161,50,14
+    PUSHBUTTON      "пїЅпїЅпїЅпїЅпїЅпїЅ",IDCANCEL,259,161,50,14
     LISTBOX         IDC_LIST1,7,7,302,109,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
 END
 
@@ -62,29 +62,29 @@ STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSM
 CAPTION "Dialog"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
-    PUSHBUTTON      "RECARGAR",ID_RELOAD,356,247,116,23
-    PUSHBUTTON      "CERRAR",IDCANCEL,476,247,116,23
+    PUSHBUTTON      "RELOAD",ID_RELOAD,356,247,116,23
+    PUSHBUTTON      "CLOSE",IDCANCEL,476,247,116,23
     LISTBOX         IDC_LIST_IP,7,7,157,266,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
-    PUSHBUTTON      "MOSTRAR ESCRITORIO",ID_DESKTOP,356,193,236,23
+    PUSHBUTTON      "SHOW DESKTOP",ID_DESKTOP,356,193,236,23
     LISTBOX         IDC_LIST_HWID,171,7,179,266,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
-    PUSHBUTTON      "MOSTRAR LISTA DE PROCESOS",ID_PROCESSLIST,476,220,116,23
-    GROUPBOX        "DIRECCION IP",IDC_STATIC,356,7,236,46
+    PUSHBUTTON      "SHOW PROCESS LIST",ID_PROCESSLIST,476,220,116,23
+    GROUPBOX        "IP ADDRESS",IDC_STATIC,356,7,236,46
     CONTROL         "",IDC_IP_ADDRESS,"SysIPAddress32",WS_TABSTOP,360,16,161,15
-    PUSHBUTTON      "BORRAR",IDC_CLEAR_IP,524,16,64,15
-    PUSHBUTTON      "BUSCAR",IDC_SEARCH_IP,360,33,228,16
+    PUSHBUTTON      "CLEAR",IDC_CLEAR_IP,524,16,64,15
+    PUSHBUTTON      "SEARCH",IDC_SEARCH_IP,360,33,228,16
     GROUPBOX        "INFO",IDC_STATIC,356,56,236,128
-    LTEXT           "DIRECCION IP:",IDC_STATIC_1,363,68,50,8
+    LTEXT           "IP ADDRESS:",IDC_STATIC_1,363,68,50,8
     LTEXT           "HARDWARE ID:",IDC_STATIC_2,363,82,50,8
     LTEXT           "NONE",IDC_STATIC_IP,424,68,131,8
     LTEXT           "NONE",IDC_STATIC_HWID,424,82,161,8
-    PUSHBUTTON      "PROHIBIR IP",IDC_BAN_IP,361,130,71,23
-    PUSHBUTTON      "PROHIBIR HWID",IDC_BAN_HWID,439,130,71,23
-    PUSHBUTTON      "CERRAR CLIENT",IDC_CLOSE_CLIENT,516,130,71,23
-    PUSHBUTTON      "REINCIAR PC",IDC_RESET_PC,361,157,71,23
-    PUSHBUTTON      "CAPTURAR PANTALLA",ID_MAKE_SCREENSHOT,356,220,116,23
-    LTEXT           "CUENTA:",IDC_STATIC_3,363,97,50,8
+    PUSHBUTTON      "BAN IP",IDC_BAN_IP,361,130,71,23
+    PUSHBUTTON      "BAN HWID",IDC_BAN_HWID,439,130,71,23
+    PUSHBUTTON      "CLOSE CLIENT",IDC_CLOSE_CLIENT,516,130,71,23
+    PUSHBUTTON      "RESTART PC",IDC_RESET_PC,361,157,71,23
+    PUSHBUTTON      "CAPTURE SCREEN",ID_MAKE_SCREENSHOT,356,220,116,23
+    LTEXT           "ACCOUNT:",IDC_STATIC_3,363,97,50,8
     LTEXT           "NONE",IDC_STATIC_ACCOUNT,424,97,160,8
-    LTEXT           "NOMBRE PERSONAJE:",IDC_STATIC_4,363,112,57,8
+    LTEXT           "CHARACTER NAME:",IDC_STATIC_4,363,112,57,8
     LTEXT           "NONE",IDC_STATIC_CHARACTER_NAME,424,112,163,8
 END
 
@@ -158,12 +158,12 @@ BEGIN
     0
 END
 
-#endif    // Русский (Россия) resources
+#endif    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Английский (США) resources
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
@@ -176,7 +176,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 IDD_ABOUTBOX DIALOGEX 22, 17, 230, 42
 STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
-CAPTION "Acerca de"
+CAPTION "About"
 FONT 8, "Sistema", 0, 0, 0x0
 BEGIN
     ICON            107,IDC_MYICON,14,9,20,20
@@ -246,25 +246,25 @@ IDC_HACKSERVER MENU
 BEGIN
     POPUP "&File"
     BEGIN
-        MENUITEM "Cerrar",                        IDM_EXIT
+        MENUITEM "Exit",                        IDM_EXIT
     END
-    POPUP "Recargar"
+    POPUP "Reload"
     BEGIN
-        MENUITEM "Recargar Config",               IDM_RELOAD_CONFIG
-        MENUITEM "Recargar Dump List",            IDM_RELOAD_DUMP
-        MENUITEM "Recargar Checksum List",        IDM_RELOAD_CHECKSUM
-        MENUITEM "Recargar Window List",          IDM_RELOAD_WINDOW
-        MENUITEM "Recargar Black List",           IDM_RELOAD_BLACKLIST
+        MENUITEM "Reload Config",               IDM_RELOAD_CONFIG
+        MENUITEM "Reload Dump List",            IDM_RELOAD_DUMP
+        MENUITEM "Reload Checksum List",        IDM_RELOAD_CHECKSUM
+        MENUITEM "Reload Window List",          IDM_RELOAD_WINDOW
+        MENUITEM "Reload Black List",           IDM_RELOAD_BLACKLIST
     END
     POPUP "Extra"
     BEGIN
-        MENUITEM "Prohibido",            ID_OTHER_BANNED
-        MENUITEM "Eliminar Prohibiciones",       ID_OTHER_DELETETEMPBANS
+        MENUITEM "Banned List",            ID_OTHER_BANNED
+        MENUITEM "Remove Bans",       ID_OTHER_DELETETEMPBANS
         MENUITEM "Users Info",                ID_OTHER_SCREEN
     END
-    POPUP "&Ayuda"
+    POPUP "&Help"
     BEGIN
-        MENUITEM "&Acerca de ...",                  IDM_ABOUT
+        MENUITEM "&About...",                  IDM_ABOUT
     END
 END
 
@@ -316,12 +316,12 @@ BEGIN
     IDC_HACKSERVER          "HACKSERVER"
 END
 
-#endif    // Английский (США) resources
+#endif    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Португальский (Бразилия) resources
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
 LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
@@ -367,7 +367,7 @@ BEGIN
             VALUE "FileDescription", "Antihack Server"
             VALUE "FileVersion", "1.1.0.0"
             VALUE "InternalName", "Antihack Server"
-            VALUE "LegalCopyright", "Copyright © OBBY.SITE 2023"
+            VALUE "LegalCopyright", "Copyright пїЅ OBBY.SITE 2023"
             VALUE "OriginalFilename", "MHPServer.exe"
             VALUE "ProductName", "OBBY EMU Antihack Server"
             VALUE "ProductVersion", "1.1.0.0"
@@ -379,7 +379,7 @@ BEGIN
     END
 END
 
-#endif    // Португальский (Бразилия) resources
+#endif    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

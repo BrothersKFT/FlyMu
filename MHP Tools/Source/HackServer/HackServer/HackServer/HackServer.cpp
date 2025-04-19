@@ -59,7 +59,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine
 
 	char buff[256];
 
-	wsprintf(buff, "Antihack Server (Version: %s)  (Usuarios : %d)", HACKSERVER_VERSION, GetUserCount());
+	wsprintf(buff, "Antihack Server (Version: %s)  (Users : %d)", HACKSERVER_VERSION, GetUserCount());
 
 	SetWindowText(hWnd,buff);
 
@@ -82,7 +82,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine
 	}
 	else
 	{
-		LogAdd(LOG_RED,"WSAStartup() fallу con el error: %d",WSAGetLastError());
+		LogAdd(LOG_RED,"WSAStartup() failed with error: %d",WSAGetLastError());
 	}
 
 	gServerDisplayer.PaintAllInfo();
@@ -171,7 +171,7 @@ LRESULT CALLBACK wnd_proc(HWND hWnd,UINT message,WPARAM wParam,LPARAM lParam) //
 					gHidManager.DeleteAllHardwareId();
 					break;
 				case IDM_EXIT:
-					if(MessageBox(nullptr,"їEstбs seguro de terminar MHPServer? "," Preguntar terminar servidor",MB_YESNO | MB_ICONQUESTION) == IDYES)
+					if(MessageBox(nullptr,"Are you sure you want to exit MHPServer?","Confirm Server Exit",MB_YESNO | MB_ICONQUESTION) == IDYES)
 					{
 						DestroyWindow(hWnd);
 					}
@@ -298,7 +298,7 @@ LRESULT CALLBACK Banned(HWND hDlg,UINT message,WPARAM wParam,LPARAM lParam) // O
 			{
 				char WindowName[100];
 				int UsersCount = gHidManager.m_HardwareIdInfo.size();
-				sprintf(WindowName, "%d Users Prohibidos", UsersCount);
+				sprintf(WindowName, "%d Banned Users", UsersCount);
 				SetWindowText(hDlg, WindowName);
 				HWND accounts_list_box = GetDlgItem(hDlg, IDC_LIST1); 
 
@@ -439,8 +439,8 @@ HWND CreateListView(HWND hWndParent, UINT uId)
         0, 0, rcl.right - rcl.left, rcl.bottom - rcl.top - 150,
         hWndParent, (HMENU)uId, GetModuleHandle(NULL), NULL);
  
-    // Чтобы определялись строка (item) и столбец (subitem) обязательно устанавливаем
-    // расширенный стиль LVS_EX_FULLROWSELECT.
+    // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ (item) пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (subitem) пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ LVS_EX_FULLROWSELECT.
     ListView_SetExtendedListViewStyleEx(hWndLV, 0, LVS_EX_FULLROWSELECT | LVS_EX_GRIDLINES);
  
     return (hWndLV);
@@ -465,8 +465,7 @@ LRESULT CALLBACK ProcessList(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPar
 
 				if (iSelect == -1) // no items
 				{
-					MessageBox(hWnd, "No hay elementos en ListView",
-						"Error", MB_OK | MB_ICONINFORMATION);
+					MessageBox(hWnd, "No items in ListView", "Error", MB_OK | MB_ICONINFORMATION);
 					break;
 				}
 
@@ -480,7 +479,7 @@ LRESULT CALLBACK ProcessList(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPar
 			//	NMLISTVIEW* plv;
 			//	plv = (NMLISTVIEW*)lParam;
 			//	plv.
-			//	// вот искомая переменная.
+			//	// пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 			//	MsgBox("dasdasdsa");
 			//	plv->iItem;
 			//	break;
@@ -493,7 +492,7 @@ LRESULT CALLBACK ProcessList(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPar
 		{
 			if ((hWndLV = CreateListView(hDlg, IDC_LISTVIEW)) == NULL)
 			{
-				MessageBox(nullptr, "No se puede crear el elemento ListView", "Error", MB_OK);
+				MessageBox(nullptr, "Could not create ListView element", "Error", MB_OK);
 			}
 
 			gProcessListInfo.hWndLV = hWndLV;
@@ -503,7 +502,7 @@ LRESULT CALLBACK ProcessList(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPar
 
 			ShowWindow(hWndLV, SW_SHOWDEFAULT);
 
-			SetWindowText(hDlg, "Lista de procesos");
+			SetWindowText(hDlg, "Process List");
 		}
 		break;
 	case WM_CLOSE:
