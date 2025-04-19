@@ -5,12 +5,12 @@
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
 226            00             00         122            110            03             //Trainer
 //371          00             00         150            144            01             //Leo the Helper
-248            00             00         125            146            01             //Wandering Merchant 
+//248            00             00         125            146            01             //Wandering Merchant kivéve, későbbre valamire
 //230            00             00         063            130            03             //Wandering Merchant Alex
-250            00             00         130            146            01             //Wandering Merchant
+//250            00             00         130            146            01             //Wandering Merchant kivéve, későbbre valamire
 //250            00             00         183            137            02             //Wandering Merchant
 253            00             00         127            086            02             //Potion Girl Amy
-251            00             00         116            141            03             //Hanzo the Blacksmith
+251            00             00         127            145            01             //Hanzo the Blacksmith
 255            00             00         123            135            01             //Lumen the Barmaid
 244            02             00         216            048            03             //Liaman the Barmaid
 254            00             00         118            112            03             //Pasi the Mage
@@ -35,7 +35,7 @@
 238            00             00         130            125            03             //Chaos Goblin
 233            00             00         130            133            03             //Messenger of Archangel
 452            00             00         130            129            03             //Seed Master
-453            00             00         130            127            03             //Seed Researcher
+453            00             00         116            141            03             //Seed Researcher
 406            00             00         137            122            03             //Apostle Devin
 380            00             00         141            143            03             //TVT Event NPC
 end
