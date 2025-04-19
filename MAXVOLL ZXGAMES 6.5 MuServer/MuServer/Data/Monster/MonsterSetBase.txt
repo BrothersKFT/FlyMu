@@ -33,7 +33,7 @@
 566            00             00         139            140            01             //Party Search
 //450          00             00       114              132            03             //Cherry Blossom Spirit Not FInd Message 727!
 238            00             00         130            125            03             //Chaos Goblin
-233            00             00         130            133            03             //Messenger of Archangel
+233            00             00         130            127            03             //Messenger of Archangel
 452            00             00         130            129            03             //Seed Master
 453            00             00         117            140            02             //Seed Researcher
 406            00             00         137            122            03             //Apostle Devin
