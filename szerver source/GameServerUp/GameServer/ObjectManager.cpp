@@ -1345,6 +1345,39 @@ void CObjectManager::CharacterCalcExperienceAlone(LPOBJ lpObj, LPOBJ lpMonster, 
 	}
 }
 
+// Segédfüggvény a solo alap XP kiszámításához (bónuszok nélkül)
+QWORD CObjectManager::GetBaseExperienceAlone(LPOBJ lpObj, LPOBJ lpMonster)
+{
+    if (lpMonster->Type != OBJECT_MONSTER)
+    {
+        return 0;
+    }
+
+    int level = ((lpMonster->Level + 25)*lpMonster->Level) / 3;
+
+    if (gMasterSkillTree.CheckMasterLevel(lpObj) == 0)
+    {
+        level = (((lpMonster->Level + 10)<lpObj->Level) ? ((level*(lpMonster->Level + 10)) / lpObj->Level) : level);
+    }
+    else
+    {
+        level = (((lpMonster->Level + 10)<(lpObj->Level + lpObj->MasterLevel)) ? ((level*(lpMonster->Level + 10)) / (lpObj->Level + lpObj->MasterLevel)) : level);
+    }
+
+    if (lpMonster->Level >= 65)
+    {
+        // A party kód is hozzáad egy bónuszt itt, de az a party méretétől függ.
+        // Az egyszerűség kedvéért a solo verziót használjuk itt.
+         level += (lpMonster->Level - 64)*(lpMonster->Level / 4);
+    }
+
+    level = ((level<0) ? 0 : level);
+
+    // Visszaadjuk a damage szorzás nélküli alap XP-t
+    // A damage itt nem releváns, mert csak az alapérték kell
+    return (QWORD)(level + (level / 4));
+}
+
 void CObjectManager::CharacterCalcExperienceParty(LPOBJ lpObj, LPOBJ lpMonster, int damage, int flag) // OK
 {
 	if (OBJECT_RANGE(lpObj->PartyNumber) == 0)
@@ -1459,6 +1492,20 @@ void CObjectManager::CharacterCalcExperienceParty(LPOBJ lpObj, LPOBJ lpMonster, 
 			continue;
 		}
 
+        // <<<<< ADDED CHECK >>>>>
+        if (TotalLevel == 0)
+        {
+            LogAdd(LOG_RED, "[PartyExp] Prevented division by zero! PartyNum: %d, Monster: %d, Member: %s", lpObj->PartyNumber, lpMonster->Class, lpTarget->Name);
+            continue; // Skip this member if total level is zero
+        }
+        // <<<<< END ADDED CHECK >>>>>
+
+		// <<<<< MODIFICATION START >>>>>
+        QWORD basePartyShareXP = 0;
+        QWORD baseSoloXP = this->GetBaseExperienceAlone(lpTarget, lpMonster);
+        QWORD cappedBaseXP = 0;
+        // <<<<< MODIFICATION END >>>>>
+
 		QWORD experience = 0;
 
 		if (gMasterSkillTree.CheckMasterLevel(lpTarget) == 0)
@@ -1482,7 +1529,15 @@ void CObjectManager::CharacterCalcExperienceParty(LPOBJ lpObj, LPOBJ lpMonster, 
 				expserver = gServerInfo.m_AddExperienceRate[lpTarget->AccountLevel];
 			}
 
-			experience = ((((TotalExperience*ExperienceRate)*lpTarget->Level) / TotalLevel) / 100)*expserver;
+            // <<<<< MODIFICATION START >>>>>
+            // Kiszámoljuk az alap party részesedést BÓNUSZOK NÉLKÜL
+            basePartyShareXP = ((((TotalExperience*ExperienceRate)*lpTarget->Level) / TotalLevel) / 100);
+            // Limitáljuk az alap XP-t
+            cappedBaseXP = min(basePartyShareXP, baseSoloXP);
+
+            // Alkalmazzuk az alap szerver szorzót (m_AddExperienceRate)
+			experience = cappedBaseXP * expserver;
+            // <<<<< MODIFICATION END >>>>>
 
 			experience = (experience*(lpTarget->ExperienceRate + lpTarget->EffectOption.AddExperienceRate + (lpTarget->EffectOption.AddPartyBonusExperienceRate*(PartyCount - 1)))) / 100;
 
@@ -1494,9 +1549,17 @@ void CObjectManager::CharacterCalcExperienceParty(LPOBJ lpObj, LPOBJ lpMonster, 
 
 			experience = (experience*gExperienceTable.GetExperienceRate(lpTarget)) / 100;
 		}
-		else
+		else // Master Level esetén
 		{
-			experience = ((((TotalExperience*ExperienceRate)*(lpTarget->Level + lpTarget->MasterLevel)) / TotalLevel) / 100)*gServerInfo.m_AddMasterExperienceRate[lpTarget->AccountLevel];
+             // <<<<< MODIFICATION START >>>>>
+            // Kiszámoljuk az alap party részesedést BÓNUSZOK NÉLKÜL
+            basePartyShareXP = ((((TotalExperience*ExperienceRate)*(lpTarget->Level + lpTarget->MasterLevel)) / TotalLevel) / 100);
+             // Limitáljuk az alap XP-t
+            cappedBaseXP = min(basePartyShareXP, baseSoloXP);
+
+            // Alkalmazzuk az alap szerver szorzót (m_AddMasterExperienceRate)
+			experience = cappedBaseXP * gServerInfo.m_AddMasterExperienceRate[lpTarget->AccountLevel];
+            // <<<<< MODIFICATION END >>>>>
 
 			experience = (experience*(lpTarget->MasterExperienceRate + lpTarget->EffectOption.AddMasterExperienceRate + (lpTarget->EffectOption.AddPartyBonusExperienceRate*(PartyCount - 1)))) / 100;
 
