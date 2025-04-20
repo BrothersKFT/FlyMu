@@ -55,6 +55,7 @@ public:
 	void CharacterCalcAttribute(int aIndex);
 	bool CharacterInfoSet(BYTE* aRecv,int aIndex);
 	void CharacterLifeCheck(LPOBJ lpObj,LPOBJ lpTarget,int damage,int DamageType,int flag,int type,int skill,int ShieldDamage);
+	QWORD GetBaseExperienceAlone(LPOBJ lpObj, LPOBJ lpMonster);
 };
 
 extern CObjectManager gObjectManager;
