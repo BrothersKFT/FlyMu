@@ -166,7 +166,7 @@
 207       "Player %s defeated Medusa!"
 208       "Merchant Moss appeared!"
 209       "Merchant Moss left!"
-210       "Invasion of invoking Demons started!"
+210       "The Fire Flame Ghosts have invaded Lost Tower"
 211       "Invasion of eggs Event started!"
 212       "Player %s claimed his new year's prize!"
 213       "Player %s has killed a summers!"
