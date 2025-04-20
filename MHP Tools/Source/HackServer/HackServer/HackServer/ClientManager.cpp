@@ -137,6 +137,11 @@ void CClientManager::DelClient() // OK
 	this->m_OnlineTime = GetTickCount();
 
 	this->m_PacketTime = 0;
+
+	if (strlen(this->m_HardwareId) > 0) // Csak ha van HWID
+	{
+		gHidManager.DecrementHwidCount(this->m_HardwareId);
+	}
 }
 
 void CClientManager::SetClientInfo(char* HardwareId) // OK

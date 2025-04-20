@@ -93,6 +93,14 @@ void CHClientInfoRecv(SDHP_CLIENT_INFO_RECV* lpMsg,int index) // OK
 		return;
 	}
 
+	if(gHidManager.CheckHwidConnectionLimit(lpMsg->HardwareId) == 0)
+	{
+		LogAdd(LOG_BLACK, "[HWID Limit] Connection rejected for %s (Limit: %d)", lpMsg->HardwareId, gServerInfo.m_MaxHwidConnection);
+		pMsg.result = 6;
+		gSocketManager.DataSend(index,(BYTE*)&pMsg,pMsg.header.size);
+		return;
+	}
+
 	if(gBlackList.CheckHardwareId(lpMsg->HardwareId) == 0)
 	{
 		pMsg.result = 4;
@@ -109,6 +117,7 @@ void CHClientInfoRecv(SDHP_CLIENT_INFO_RECV* lpMsg,int index) // OK
 
 	if(lpMsg->IsReconnect == 0)
 	{
+		gHidManager.IncrementHwidCount(lpMsg->HardwareId);
 		gClientManager[index].SetClientInfo(lpMsg->HardwareId);
 
 		pMsg.EncDecKey1 = gServerInfo.m_EncDecKey1;
@@ -159,6 +168,7 @@ void CHClientInfoRecv(SDHP_CLIENT_INFO_RECV* lpMsg,int index) // OK
 	}
 	else
 	{
+		gHidManager.IncrementHwidCount(lpMsg->HardwareId);
 		gClientManager[index].SetClientInfo(lpMsg->HardwareId);
 	}
 }

@@ -95,9 +95,11 @@ void CServerInfo::ReadStartupInfo(char* section,char* path) // OK
 
 	GetPrivateProfileString(section,"CustomerHardwareId","",this->m_CustomerHardwareId,sizeof(this->m_CustomerHardwareId),path);
 
-	this->m_HackServerPort = GetPrivateProfileInt(section,"MHPServerPort",0,path);
+	this->m_MHPServerPort = GetPrivateProfileInt(section,"MHPServerPort",0,path);
 
 	this->m_MaxIpConnection = GetPrivateProfileInt(section,"MaxIpConnection",0,path);
+
+	this->m_MaxHwidConnection = GetPrivateProfileInt(section,"MaxHwidConnection",0,path);
 
 	this->m_EncDecKey1 = GetPrivateProfileInt(section,"EncDecKey1",0,path);
 

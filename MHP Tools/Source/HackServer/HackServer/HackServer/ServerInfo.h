@@ -23,8 +23,9 @@ public:
 	char m_CustomerHardwareId[36];
 	char m_ClientVersion[8];
 	char m_ClientSerial[17];
-	int m_HackServerPort;
+	int m_MHPServerPort;
 	int m_MaxIpConnection;
+	int m_MaxHwidConnection;
 	int m_DetectionLockTime;
 	int m_WriteProtocolLog;
 	int m_EncDecKey1;

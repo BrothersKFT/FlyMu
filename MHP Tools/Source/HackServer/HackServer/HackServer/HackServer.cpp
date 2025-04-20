@@ -69,7 +69,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine
 
 	if(WSAStartup(MAKEWORD(2,2),&wsa) == 0)
 	{
-		if(gSocketManager.Start(gServerInfo.m_HackServerPort) != 0)
+		if(gSocketManager.Start(gServerInfo.m_MHPServerPort) != 0)
 		{
 			gServerInfo.ReadInit();
 
