@@ -12,13 +12,10 @@
 35@4@106@Pet Skeleton@170@250@+30% EXP #Attack Speed +10 #Auto collects zen # #+50% EXP Bonus when equipped with any premium transformation ring@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1060|@6779@2@3@1060|1061|1062|@0@508@669
 35@5@112@Demon@170@100@Attack (Wizardry) power +40% #Attack speed +10@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1120|@6720@2@3@1120|1121|1122|@0@508@669
 35@6@113@Spirit of Guardian@170@100@Absorb monster damage +30% #Max HP +50@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1130|@6721@2@3@1130|1131|1132|@0@508@669
-37@1@107@Devil Square Ticket@170@100@Allows free entrance into the Devil Square mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1070|@6702@2@1@1070|@0@508@669
-37@2@108@Devil Square Ticket@170@900@Allows 10 free entrances into the Devil Square mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1080|@6702@2@1@1080|@0@508@669
-37@3@109@Blood Castle Ticket@170@100@Allows free entrance into theBlood Castle mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1090|@6703@2@1@1090|@0@508@669
-37@4@110@Blood Castle Ticket@170@900@Allows 10 free entrances into the Blood Castle mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1100|@6703@2@1@1100|@0@508@669
-37@5@111@Kalima Ticket@170@900@Allows 10 entrances into the Kalima 7 map.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1110|@6704@2@1@1110|@0@508@669
-37@6@114@Illusion Temple Ticket@170@100@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1140|@6717@2@1@1140|@0@508@669
-37@7@115@Illusion Temple Ticket@170@900@Allows 10 free entrances into the Illusion Temple mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1150|@6717@2@1@1150|@0@508@669
+37@1@107@Devil Square Ticket@170@900@Allows 10 free entrances into the Devil Square mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1070|@6702@2@1@1070|@0@508@669
+37@2@109@Blood Castle Ticket@170@900@Allows 10 free entrances into the Blood Castle mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1090|@6703@2@1@1090|@0@508@669
+37@3@111@Kalima Ticket@170@900@Allows 10 entrances into the Kalima 7 map.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1110|@6704@2@1@1110|@0@508@669
+37@4@114@Illusion Temple Ticket@170@900@Allows 10  free entrances into theIllusion Temple mini-game.@@182@185@0@0@177@1@W Coin (C)@W Coin (C)@181@200@0@1140|@6717@2@1@1140|@0@508@669
 41@1@116@Seal of Ascension@170@200@+50% XP boost.  #  #Can be used simultaneously with Seal of Wealth@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1160|@6699@3@3@1160|1161|1162|@0@509@669
 41@2@117@Seal of Wealth@170@250@+50% EXP     #+50% Drop Rate   #   #Can be used simultaneously with Seal of Ascension.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1170|@6700@3@3@1170|1171|1172|@0@509@669
 41@3@118@Seal of Divinity@170@200@+50% Drop Rate      #Auto Mana Regeneration +5%      #      #@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1180|@6719@3@3@1180|1181|1182|@0@509@669
@@ -29,26 +26,22 @@
 42@4@122@Pet Skeleton@170@250@+30% EXP  #Attack Speed +10  #Auto collects zen  #  #+50% EXP Bonus when equipped with any premium transformation ring@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1220|@6779@3@3@1220|1221|1222|@0@509@669
 42@5@123@Demon@170@100@Attack (Wizardry) power +40%  #Attack speed +10@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1230|@6720@3@3@1230|1231|1232|@0@509@669
 42@6@124@Spirit of Guardian@170@100@Absorb monster damage +30%  #Max HP +50@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1240|@6721@3@3@1240|1241|1242|@0@509@669
-43@1@125@Devil Square Ticket@170@100@Allows free entrance into the Devil Square mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1250|@6702@3@1@1250|@0@509@669
-43@2@126@Devil Square Ticket@170@900@Allows 10 free entrances into the Devil Square mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1260|@6702@3@1@1260|@0@509@669
-43@3@127@Blood Castle Ticket@170@100@Allows free entrance into theBlood Castle mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1270|@6703@3@1@1270|@0@509@669
-43@4@128@Blood Castle Ticket@170@900@Allows 10 free entrances into the Blood Castle mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1280|@6703@3@1@1280|@0@509@669
-43@5@129@Kalima Ticket@170@900@Allows 10 entrances into the Kalima 7 map.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1290|@6704@3@1@1290|@0@509@669
-43@6@130@Illusion Temple Ticket@170@100@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1300|@6717@3@1@1300|@0@509@669
-43@7@131@Illusion Temple Ticket@170@900@Allows 10 free entrances into the Illusion Temple mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1310|@6717@3@1@1310|@0@509@669
+43@1@125@Devil Square Ticket@170@900@Allows 10  free entrances into the Devil Square mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1250|@6702@3@1@1250|@0@509@669
+43@2@127@Blood Castle Ticket@170@900@Allows 10 free entrances into theBlood Castle mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1270|@6703@3@1@1270|@0@509@669
+43@3@129@Kalima Ticket@170@900@Allows 10 entrances into the Kalima 7 map.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1290|@6704@3@1@1290|@0@509@669
+43@4@130@Illusion Temple Ticket@170@900@Allows 10  free entrances into theIllusion Temple mini-game.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1300|@6717@3@1@1300|@0@509@669
 44@1@153@FlyMu Box (Mini)@170@10@The FlyMu Box (Mini) contains 10 Wcoin(P) when dropped on the ground.       #       #CAN be traded with other players.       #       #Useful payment currency or even Wcoin(C)->Wcoin(P) exchanger.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1530|@7371@3@1@1530|@0@509@669
 44@2@149@FlyMu Box (Normal)@170@200@The FlyMu Box (Normal) contains 200 Wcoin(P) when dropped on the ground.     #     #CAN be traded with other players.     #     #Useful payment currency or even Wcoin(C)->Wcoin(P) exchanger.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1490|@7372@3@1@1490|@0@509@669
 44@3@151@FlyMu Box (Rare)@170@1000@The FlyMu Box (Rare) contains 1000 Wcoin(P) when dropped on the ground.     #     #CAN be traded with other players.     #     #Useful payment currency or even Wcoin(C)->Wcoin(P) exchanger.@@182@185@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@1510|@7373@3@1@1510|@0@509@669
-61@1@141@Devil Square Ticket@170@200@Allows free entrance into the Devil Square mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1410|@6702@5@1@1410|@1@0@669
-61@2@142@Blood Castle Ticket@170@200@Allows free entrance into theBlood Castle mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1420|@6703@5@1@1420|@1@0@669
-61@3@143@Kalima Ticket@170@200@Allows free entrance into the Kalima 7 map.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1430|@6704@5@1@1430|@1@0@669
-61@4@144@Illusion Temple Ticket@170@200@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1440|@6717@5@1@1440|@1@0@669
+61@1@141@Devil Square Ticket@170@500@Allows free entrance into the Devil Square mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1410|@6702@5@1@1410|@1@0@669
+61@2@142@Blood Castle Ticket@170@500@Allows free entrance into theBlood Castle mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1420|@6703@5@1@1420|@1@0@669
+61@3@143@Kalima Ticket@170@500@Allows free entrance into the Kalima 7 map.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1430|@6704@5@1@1430|@1@0@669
+61@4@144@Illusion Temple Ticket@170@500@Allows free entrance into theIllusion Temple mini-game.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1440|@6717@5@1@1440|@1@0@669
 62@1@132@Jewel of Bless@170@10@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1320|@7181@5@1@1320|@1@0@669
 62@2@133@Jewel of Soul@170@10@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1330|@7182@5@1@1330|@1@0@669
 62@3@134@Jewel of Life@170@10@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1340|@7184@5@1@1340|@1@0@669
-62@4@135@Jewel of Bless x10@170@100@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1350|@7181@5@1@1350|@1@0@669
-62@5@136@Jewel of Soul x10@170@100@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1360|@7182@5@1@1360|@1@0@669
-62@6@137@Jewel of Life x10@170@100@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1370|@7184@5@1@1370|@1@0@669
+62@4@135@bundle of Jewel of Bless@170@100@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1350|@6174@5@1@1350|@1@0@669
+62@5@136@bundle of Jewel of Soul@170@100@@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1360|@6175@5@1@1360|@1@0@669
 62@7@138@Seal of Ascension 1H@170@200@+100% XP boost for 1 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1380|@6699@5@1@1380|@1@0@669
 62@8@139@Seal of Ascension 6H@170@750@+100% XP boost for 6 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1390|@6699@5@1@1390|@1@0@669
 62@9@140@Seal of Ascension 12H@170@1400@+100% XP boost for 12 Hours.@@182@185@0@0@177@1@Goblin Points@Goblin Points@181@200@0@1400|@6699@5@1@1400|@1@0@669
