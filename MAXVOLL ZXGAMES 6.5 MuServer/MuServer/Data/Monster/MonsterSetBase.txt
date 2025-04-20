@@ -1476,8 +1476,8 @@ end
 502            33             30         010            010            240          240          -1             01            0          //Golden Rabbit Aida
 502            51             30         010            010            240          240          -1             01            0          //Golden Rabbit Elbeland
 
-463            4              30         010            010            240          240          -1             15            0          //Fire Flame Ghost Lost Tower
-413            51             30         010            010            240          240          -1             10            0          // Lunar Rabbit Invasion Elbeland
+463            4              30         010            010            240          240          -1             20            0          //Fire Flame Ghost Lost Tower
+413            51             30         010            010            240          240          -1             20            0          // Lunar Rabbit Invasion Elbeland
 end
 
 3
@@ -1495,28 +1495,9 @@ end
 
 3
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
-365            04             30         010            010            240          240          -1             10            0          //Pouch of Blessing
-365            07             30         010            010            240          240          -1             10            0          //Pouch of Blessing
-365            08             30         010            010            240          240          -1             10            0          //Pouch of Blessing
-365            33             30         010            010            240          240          -1             10            0          //Pouch of Blessing
-365            37             30         010            010            240          240          -1             10            0          //Pouch of Blessing
-365            57             30         010            010            240          240          -1             10            0          //Pouch of Blessing
+365            04             30         010            010            240          240          -1             20            0          //Pouch of Blessing
 end
 
-3
-//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
-38             04             30         010            010            240          240          -1             40            0          //Pouch of Blessing
-end
-
-3
-//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment
-413            04             30         010            010            240          240          -1             10            0          //Lunar Rabbit
-413            07             30         010            010            240          240          -1             10            0          //Lunar Rabbit
-413            08             30         010            010            240          240          -1             10            0          //Lunar Rabbit
-413            33             30         010            010            240          240          -1             10            0          //Lunar Rabbit
-413            37             30         010            010            240          240          -1             10            0          //Lunar Rabbit
-413            57             30         010            010            240          240          -1             10            0          //Lunar Rabbit
-end
 
 3
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Value      Comment

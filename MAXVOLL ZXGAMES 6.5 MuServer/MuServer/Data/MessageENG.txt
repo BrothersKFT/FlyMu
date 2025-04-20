@@ -152,7 +152,7 @@
 193       "Invasion of Red Dragon started!"
 194       "Invasion of Golden Monsters started!"
 195       "Invasion of White Wizard started!"
-196       "New Year invasion has begun!"
+196       "New Year invasion has begun. Travel to Devias!"
 197       "Invasion of rabbits started!"
 198       "Invasion of summer started!"
 199       "Christmas invasion has begun!"
