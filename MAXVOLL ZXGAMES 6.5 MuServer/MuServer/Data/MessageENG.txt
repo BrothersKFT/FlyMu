@@ -167,7 +167,7 @@
 208       "Merchant Moss appeared!"
 209       "Merchant Moss left!"
 210       "The Fire Flame Ghosts have invaded Lost Tower"
-211       "Invasion of eggs Event started!"
+211       "Lunar Rabbit Invasion has begun in Elbeland!"
 212       "Player %s claimed his new year's prize!"
 213       "Player %s has killed a summers!"
 214       "Player %s destroyed a Balrog!" // custom
