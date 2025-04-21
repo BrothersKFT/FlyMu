@@ -124,24 +124,20 @@ void CClientManager::DelClient() // OK
 
 	gIpManager.RemoveIpAddress(this->m_IpAddr);
 
-	this->m_index = -1;
-
-	this->m_state = CLIENT_OFFLINE;
-
-	memset(this->m_IpAddr,0,sizeof(this->m_IpAddr));
-
-	this->m_socket = INVALID_SOCKET;
-
-	memset(this->m_HardwareId,0,sizeof(this->m_HardwareId));
-
-	this->m_OnlineTime = GetTickCount();
-
-	this->m_PacketTime = 0;
-
+	// ELŐSZÖR MEGPRÓBÁLJUK CSÖKKENTENI A SZÁMLÁLÓT
 	if (strlen(this->m_HardwareId) > 0) // Csak ha van HWID
 	{
 		gHidManager.DecrementHwidCount(this->m_HardwareId);
 	}
+
+	// ÉS CSAK EZUTÁN TÖRÖLJÜK A MEZŐKET
+	this->m_index = -1;
+	this->m_state = CLIENT_OFFLINE;
+	memset(this->m_IpAddr,0,sizeof(this->m_IpAddr));
+	this->m_socket = INVALID_SOCKET;
+	memset(this->m_HardwareId,0,sizeof(this->m_HardwareId)); // Most már biztonságos törölni
+	this->m_OnlineTime = GetTickCount();
+	this->m_PacketTime = 0;
 }
 
 void CClientManager::SetClientInfo(char* HardwareId) // OK
