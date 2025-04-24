@@ -10,7 +10,7 @@
 //250            00             00         130            146            01             //Wandering Merchant kivéve, későbbre valamire
 //250            00             00         183            137            02             //Wandering Merchant
 253            00             00         127            086            02             //Potion Girl Amy
-251            00             00         127            145            01             //Hanzo the Blacksmith
+251            00             00         117            148            01             //Hanzo the Blacksmith
 255            00             00         123            135            01             //Lumen the Barmaid
 244            02             00         216            048            03             //Liaman the Barmaid
 254            00             00         118            112            03             //Pasi the Mage
@@ -35,7 +35,7 @@
 238            00             00         130            125            03             //Chaos Goblin
 233            00             00         130            127            03             //Messenger of Archangel
 452            00             00         130            129            03             //Seed Master
-453            00             00         117            140            02             //Seed Researcher
+453            00             00         115            146            02             //Seed Researcher
 406            00             00         130            121            03             //Apostle Devin
 380            00             00         141            143            03             //TVT Event NPC
 end
