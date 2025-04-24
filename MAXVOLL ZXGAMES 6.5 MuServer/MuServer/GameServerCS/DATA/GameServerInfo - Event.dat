@@ -8,7 +8,7 @@ TimerMarlonTeleport = 300
 ; Blood Castle Event Settings
 ;==================================================
 BloodCastleEvent = 1
-BloodCastleMaxUser = 20
+BloodCastleMaxUser = 10
 BloodCastlePvp_AL0 = 0
 BloodCastlePvp_AL1 = 0
 BloodCastlePvp_AL2 = 0
@@ -55,8 +55,8 @@ ChaosCastleBlowUserRate = 50
 ;==================================================
 CrywolfEvent = 1
 CrywolfBenefitSwitch = 1
-CrywolfBenefitChaosRate = 10
-CrywolfBenefitMonsterLife = 80
+CrywolfBenefitChaosRate = 5
+CrywolfBenefitMonsterLife = 90
 CrywolfPenaltySwitch = 0
 CrywolfPenaltyJewelDrop = 70
 CrywolfPenaltyExperience = 70
@@ -65,26 +65,26 @@ CrywolfPenaltyExperience = 70
 ; Devil Square Event Settings
 ;==================================================
 DevilSquareEvent = 1
-DevilSquareMaxUser = 20
+DevilSquareMaxUser = 15
 
 ;==================================================
 ; Double Goer Event Settings
 ;==================================================
 DoubleGoerEvent = 1
-DoubleGoerDifficultRate = 200
+DoubleGoerDifficultRate = 100
 
 ;==================================================
 ; Illusion Temple Event Settings
 ;==================================================
 IllusionTempleEvent = 1
-IllusionTempleMinUser = 2
-IllusionTempleRewardFenrirRate = 15
+IllusionTempleMinUser = 1
+IllusionTempleRewardFenrirRate = 5
 
 ;==================================================
 ; Imperial Guardian Event Settings
 ;==================================================
 ImperialGuardianEvent = 1
-ImperialGuardianDifficultRate = 200
+ImperialGuardianDifficultRate = 100
 
 ;==================================================
 ; Invasion Manager Settings
@@ -98,13 +98,13 @@ FlyingDragonsKillBossSwitch = 1
 ;==================================================
 ; Kanturu Event Settings
 ;==================================================
-KanturuEvent = 0
+KanturuEvent = 1
 
 ;==================================================
 ; Moss Merchant Event Settings
 ;==================================================
-MossMerchantEvent = 0
-MossMerchantEventTime = 120
+MossMerchantEvent = 1
+MossMerchantEventTime = 220
 
 ;==================================================
 ; Raklion Event Settings
@@ -114,31 +114,31 @@ RaklionEvent = 1
 ;==================================================
 ; Quickly Event (Veloz - Premium)
 ;==================================================
-QuicklyEvent = 0
+QuicklyEvent = 1
 
 ;==================================================
 ; Event Start (Iniciar evento - Premium)
 ;==================================================
-EventStartSwitch = 0
+EventStartSwitch = 1
 EventStartTime   = 15
 
 ;==================================================
 ; Event Hide and Seek (Esconde-Esconde - Premium)
 ;==================================================
-EventHideAndSeekSwitch = 0
+EventHideAndSeekSwitch = 1
 EventHideAndSeekMaxTime= 5
 
 ;==================================================
 ; Event Run And Catch (Pega-Pega - Premium)
 ;==================================================
-EventRunAndCatchSwitch = 0
+EventRunAndCatchSwitch = 1
 EventRunAndCatchTimeToEnter = 10
 EventRunAndCatchMaxTime= 10
 
 ;==================================================
 ; Event Russian Roulette (Roleta Russa)
 ;==================================================
-EventRussianRouletteSwitch 	= 0
+EventRussianRouletteSwitch 	= 1
 EventRussianRouletteTimeToEnter	= 10
 EventRussianRouletteMaxTime	= 10
 EventRussianRouletteMaxPlayer	= 8
@@ -146,7 +146,7 @@ EventRussianRouletteMaxPlayer	= 8
 ;==================================================
 ; Event PvP  (1x1)
 ;==================================================
-EventPvPSwitch = 0
+EventPvPSwitch = 1
 EventPvPMaxScore = 3
 EventPvPMaxTime= 3
 EventPvPAutoReward1 = 0
@@ -156,7 +156,7 @@ EventPvPAutoReward3 = 100
 ;==================================================
 ; Event Kill All (Mata-Mata Geral)
 ;==================================================
-EventKillAllSwitch = 0
+EventKillAllSwitch = 1
 EventKillAllTimeToEnter = 20
 EventKillAllDeadDecrease = 1
 EventKillAllKillIncrease = 2
@@ -182,5 +182,5 @@ EventTvtNpc = 380
 EventTvtNpcMap = 0
 EventTvtNpcX = 130
 EventTvtNpcY = 121
-EventTvtMinUsers = 4
+EventTvtMinUsers = 2
 EventTvtMaxUsers = 20

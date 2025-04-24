@@ -88,8 +88,12 @@ ImperialGuardianDifficultRate = 100
 
 ;==================================================
 ; Invasion Manager Settings
+; Activar Effecto dragones Voladores: [1/0]
+; Desactivar Efecto al morir Boss: [1/0]
 ;==================================================
 InvasionManagerSwitch = 1
+FlyingDragonsSwitch = 1
+FlyingDragonsKillBossSwitch = 1
 
 ;==================================================
 ; Kanturu Event Settings
