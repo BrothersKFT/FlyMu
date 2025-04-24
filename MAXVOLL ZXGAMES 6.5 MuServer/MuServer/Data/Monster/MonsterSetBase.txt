@@ -10,7 +10,7 @@
 //250            00             00         130            146            01             //Wandering Merchant kivéve, későbbre valamire
 //250            00             00         183            137            02             //Wandering Merchant
 253            00             00         127            086            02             //Potion Girl Amy
-251            00             00         114            148            02             //Hanzo the Blacksmith
+251            00             00         114            147            02             //Hanzo the Blacksmith
 255            00             00         123            135            01             //Lumen the Barmaid
 244            02             00         216            048            03             //Liaman the Barmaid
 254            00             00         118            112            03             //Pasi the Mage
