@@ -29,11 +29,11 @@ CastleDeepEventTime = 30
 ; Castle Siege Event Settings
 ;==================================================
 CastleSiegeEvent = 1
-CastleSiegeCycleStartYear = 2025
+CastleSiegeCycleStartYear = 2026
 CastleSiegeCycleStartMonth = 1
 CastleSiegeCycleStartDay = 1
 CastleSiegeSpecificState = 0
-CastleSiegeStateStartYear = 2025
+CastleSiegeStateStartYear = 2026
 CastleSiegeStateStartMonth = 1
 CastleSiegeStateStartDay = 1
 CastleSiegeStateStartHour = 12
