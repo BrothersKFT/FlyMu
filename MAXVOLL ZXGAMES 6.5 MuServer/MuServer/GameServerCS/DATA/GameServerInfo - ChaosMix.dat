@@ -62,10 +62,10 @@ PlusItemLevelMixRate5_AL0 = 40
 PlusItemLevelMixRate5_AL1 = 40
 PlusItemLevelMixRate5_AL2 = 40
 PlusItemLevelMixRate5_AL3 = 40
-PlusItemLevelMixRate6_AL0 = 40
-PlusItemLevelMixRate6_AL1 = 40
-PlusItemLevelMixRate6_AL2 = 40
-PlusItemLevelMixRate6_AL3 = 40
+PlusItemLevelMixRate6_AL0 = 20
+PlusItemLevelMixRate6_AL1 = 20
+PlusItemLevelMixRate6_AL2 = 20
+PlusItemLevelMixRate6_AL3 = 20
 
 ;==================================================
 ; Dinorant Mix Settings
@@ -262,10 +262,10 @@ IllusionTempleMixRate6_AL3 = 70
 ;==================================================
 ; Feather Of Condor Mix Settings
 ;==================================================
-FeatherOfCondorMixRate_AL0 = 50
-FeatherOfCondorMixRate_AL1 = 50
-FeatherOfCondorMixRate_AL2 = 50
-FeatherOfCondorMixRate_AL3 = 50
+FeatherOfCondorMixRate_AL0 = -1
+FeatherOfCondorMixRate_AL1 = -1
+FeatherOfCondorMixRate_AL2 = -1
+FeatherOfCondorMixRate_AL3 = -1
 
 ;==================================================
 ; Wing3 Mix Settings
@@ -278,10 +278,10 @@ Wing3MixRate_AL3 = -1
 ;==================================================
 ; Socket Item Create Seed Mix Settings
 ;==================================================
-SocketItemCreateSeedMixRate_AL0 = -1
-SocketItemCreateSeedMixRate_AL1 = -1
-SocketItemCreateSeedMixRate_AL2 = -1
-SocketItemCreateSeedMixRate_AL3 = -1
+SocketItemCreateSeedMixRate_AL0 = 20
+SocketItemCreateSeedMixRate_AL1 = 20
+SocketItemCreateSeedMixRate_AL2 = 20
+SocketItemCreateSeedMixRate_AL3 = 20
 
 ;==================================================
 ; Socket Item Create Seed Sphere Mix Settings

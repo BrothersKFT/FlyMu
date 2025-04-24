@@ -1,3 +1,9 @@
+//=================================================
+// Revision: 	13:52 05.01.2017
+// Team : MuOnline-Team
+// WebSite: www.muonline-team.com
+//=================================================
+
 [GameServerInfo]
 ;==================================================
 ; Mana Shield Skill Settings
@@ -5,16 +11,16 @@
 ManaShieldConstA = 10
 ManaShieldConstB = 50
 ManaShieldConstC = 200
-ManaShieldRateDW = 80
-ManaShieldRateDK = 80
-ManaShieldRateFE = 80
-ManaShieldRateMG = 80
-ManaShieldRateDL = 80
-ManaShieldRateSU = 80
-ManaShieldRateRF = 80
-ManaShieldTimeConstA = 300
-ManaShieldTimeConstB = 300
-ManaShieldMaxRate = 60
+ManaShieldRateDW = 100
+ManaShieldRateDK = 100
+ManaShieldRateFE = 100
+ManaShieldRateMG = 100
+ManaShieldRateDL = 100
+ManaShieldRateSU = 100
+ManaShieldRateRF = 100
+ManaShieldTimeConstA = 60
+ManaShieldTimeConstB = 40
+ManaShieldMaxRate = 50
 
 ;==================================================
 ; Defense Skill Settings
@@ -33,14 +39,14 @@ HealConstB = 5
 ;==================================================
 GreaterDefenseConstA = 2
 GreaterDefenseConstB = 8
-GreaterDefenseRateDW = 80
-GreaterDefenseRateDK = 80
-GreaterDefenseRateFE = 80
-GreaterDefenseRateMG = 80
-GreaterDefenseRateDL = 80
-GreaterDefenseRateSU = 80
-GreaterDefenseRateRF = 80
-GreaterDefenseTimeConstA = 600
+GreaterDefenseRateDW = 100
+GreaterDefenseRateDK = 100
+GreaterDefenseRateFE = 100
+GreaterDefenseRateMG = 100
+GreaterDefenseRateDL = 100
+GreaterDefenseRateSU = 100
+GreaterDefenseRateRF = 100
+GreaterDefenseTimeConstA = 60
 
 ;==================================================
 ; Greater Damage Skill Settings
@@ -54,7 +60,7 @@ GreaterDamageRateMG = 100
 GreaterDamageRateDL = 100
 GreaterDamageRateSU = 100
 GreaterDamageRateRF = 100
-GreaterDamageTimeConstA = 600
+GreaterDamageTimeConstA = 60
 
 ;==================================================
 ; Summon Monster Skill Settings
@@ -66,6 +72,7 @@ SummonMonster4 = 20
 SummonMonster5 = 10
 SummonMonster6 = 150
 SummonMonster7 = 151
+SummonMonster8 = 353
 
 ;==================================================
 ; Greater Life Skill Settings
@@ -73,16 +80,16 @@ SummonMonster7 = 151
 GreaterLifeConstA = 12
 GreaterLifeConstB = 100
 GreaterLifeConstC = 20
-GreaterLifeRateDW = 80
-GreaterLifeRateDK = 80
-GreaterLifeRateFE = 80
-GreaterLifeRateMG = 80
-GreaterLifeRateDL = 80
-GreaterLifeRateSU = 80
-GreaterLifeRateRF = 80
-GreaterLifeTimeConstA = 600
-GreaterLifeTimeConstB = 600
-GreaterLifeMaxRate = 80
+GreaterLifeRateDW = 100
+GreaterLifeRateDK = 100
+GreaterLifeRateFE = 100
+GreaterLifeRateMG = 100
+GreaterLifeRateDL = 100
+GreaterLifeRateSU = 100
+GreaterLifeRateRF = 100
+GreaterLifeTimeConstA = 60
+GreaterLifeTimeConstB = 10
+GreaterLifeMaxRate = 100
 
 ;==================================================
 ; Fire Slash Skill Settings
@@ -124,7 +131,7 @@ BrandTimeConstA = 10
 ;==================================================
 ; Infinity Arrow Skill Settings
 ;==================================================
-InfinityArrowTimeConstA = 3600
+InfinityArrowTimeConstA = 1800
 
 ;==================================================
 ; Magic Damage Immunity Skill Settings
@@ -154,8 +161,8 @@ ReflectDamageRateMG = 100
 ReflectDamageRateDL = 100
 ReflectDamageRateSU = 100
 ReflectDamageRateRF = 100
-ReflectDamageTimeConstA = 300
-ReflectDamageTimeConstB = 300
+ReflectDamageTimeConstA = 30
+ReflectDamageTimeConstB = 25
 ReflectDamageMaxRate = 50
 
 ;==================================================
@@ -211,8 +218,8 @@ NeilConstA = 60
 ;==================================================
 ; Magic Circle Skill Settings
 ;==================================================
-MagicCircleConstA = 70
-MagicCircleTimeConstA = 3600
+MagicCircleConstA = 20
+MagicCircleTimeConstA = 1800
 
 ;==================================================
 ; Shield Recover Skill Settings
@@ -252,3 +259,42 @@ GreaterDefenseSuccessRateConstA = 2
 GreaterDefenseSuccessRateConstB = 10
 GreaterDefenseSuccessRateTimeConstA = 60
 GreaterDefenseSuccessRateTimeConstB = 10
+
+;==================================================
+; Party Heal Skill Settings
+;==================================================
+PartyHealConstA = 5
+PartyHealConstB = 5
+
+;==================================================
+; Bless Skill Settings
+;==================================================
+BlessConstA = 100
+BlessTimeConstA = 300
+
+;==================================================
+; Blind Skill Settings
+;==================================================
+BlindConstA = 20
+BlindConstB = 25	
+BlindConstC = 50
+BlindTimeConstA = 5
+
+;==================================================
+; Earth Prison Skill Settings
+;==================================================
+EarthPrisonConstA = 10
+
+;==================================================
+; Iron Defense Skill Settings
+;==================================================
+IronDefenseConstA = 800
+IronDefenseConstB = 800
+IronDefenseTimeConstA = 10
+
+;==================================================
+; Blood Howling Skill Settings
+;==================================================
+BloodHowlingConstA = 10
+BloodHowlingConstB = 200
+BloodHowlingTimeConstA = 60

@@ -28,7 +28,7 @@ CastleDeepEventTime = 30
 ;==================================================
 ; Castle Siege Event Settings
 ;==================================================
-CastleSiegeEvent = 0
+CastleSiegeEvent = 1
 CastleSiegeCycleStartYear =0
 CastleSiegeCycleStartMonth =0
 CastleSiegeCycleStartDay =0
