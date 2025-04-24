@@ -669,5 +669,12 @@ end
 	0		 35			0			6		  1	  	  1		  	  1				4		//RF 380 PHONEIX SWORD
 
 
+		// Jewels
+    15		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
+    16		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
+    17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
+    18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
+    19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
+    20		 250			0			0		  0	  	  0		  	  0			0		//Jewel of Kundun
 
 end
