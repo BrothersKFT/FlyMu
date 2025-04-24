@@ -11,6 +11,12 @@ ServerPort = 55919
 ServerVersion = 1.04.05
 ServerSerial = TbYehR2hFUPBKgZj
 ServerMaxUserNumber = 1000
+ServerMinLevel = 0
+ServerMaxLevel = 0
+ServerMinReset = 0
+ServerMaxReset = 0
+ServerMinMasterReset = 0
+ServerMaxMasterReset = 0
 
 ;==================================================
 ; Select Language Message.txt
@@ -35,9 +41,10 @@ WriteChatLog = 0
 WriteCommandLog = 0
 WriteTradeLog = 0
 WriteConnectLog = 0
-WriteHackLog = 0
-WriteCashShopLog = 0
-WriteChaosMixLog = 0
+WriteHackLog = 1
+WriteCashShopLog = 1
+WriteChaosMixLog = 1
+WriteSystemAntifloodLog = 1
 
 ;==================================================
 ; AntiFlood Settings
@@ -75,7 +82,7 @@ SpeedHackSkillDebug = 1
 ;==================================================
 ; Common Settings
 ;==================================================
-MaxItemOption = 5
+MaxItemOption = 4
 PersonalCodeCheck = 0
 SetItemAcceptHarmonySwitch = 1
 
@@ -99,7 +106,7 @@ PKLimitCount = 4
 PKLimitFree = 0
 PKDownTime1 = 3600
 PKDownTime2 = 7200
-SelfDefenseTime = 60
+SelfDefenseTime = 60  //time in second
 
 ;==================================================
 ; Trade Settings
@@ -143,18 +150,18 @@ ElfBufferMaxReset_AL0 = 5
 ElfBufferMaxReset_AL1 = 5
 ElfBufferMaxReset_AL2 = 5
 ElfBufferMaxReset_AL3 = 5
-ElfBufferDamageConstA = 50
-ElfBufferDamageConstB = 5
-ElfBufferDefenseConstA = 45
-ElfBufferDefenseConstB = 3
+ElfBufferDamageConstA = 100
+ElfBufferDamageConstB = 100
+ElfBufferDefenseConstA = 100
+ElfBufferDefenseConstB = 100
 
 ;==================================================
 ; Experience Settings
 ;==================================================
 AddExperienceRate_AL0 = 100
-AddExperienceRate_AL1 = 110
-AddExperienceRate_AL2 = 120
-AddExperienceRate_AL3 = 130
+AddExperienceRate_AL1 = 120
+AddExperienceRate_AL2 = 130
+AddExperienceRate_AL3 = 140
 AddMasterExperienceRate_AL0 = 10
 AddMasterExperienceRate_AL1 = 15
 AddMasterExperienceRate_AL2 = 20
@@ -183,17 +190,17 @@ AutoResetExperienceRate_AL3 = 130
 ;==================================================
 ; Item Drop Settings
 ;==================================================
-ItemDropTime = 20
+ItemDropTime = 15
 ItemDropPickUpTime = 10
 ItemDropRate_AL0 = 20
 ItemDropRate_AL1 = 25
 ItemDropRate_AL2 = 30
-ItemDropRate_AL3 = 40
+ItemDropRate_AL3 = 35
 
 ;==================================================
 ; Money Drop Settings
 ;==================================================
-MoneyDropTime = 20
+MoneyDropTime = 10
 MoneyAmountDropRate_AL0 = 10
 MoneyAmountDropRate_AL1 = 15
 MoneyAmountDropRate_AL2 = 20
@@ -212,13 +219,13 @@ MoneyValue_AL3 = 170
 ;==================================================
 ; Item Durability Settings
 ;==================================================
-WeaponDurabilityRate = 50000
-ArmorDurabilityRate = 100
-WingDurabilityRate = 100
-GuardianDurabilityRate = 100
-PendantDurabilityRate = 100
-RingDurabilityRate = 100
-PetDurabilityRate = 100
+WeaponDurabilityRate = 255
+ArmorDurabilityRate = 255
+WingDurabilityRate = 255
+GuardianDurabilityRate = 255
+PendantDurabilityRate = 255
+RingDurabilityRate = 255
+PetDurabilityRate = 255
 
 ;==================================================
 ; Trade Item Block Settings
@@ -236,30 +243,37 @@ TradeItemBlockLucky = 1
 MaxLevelUp = 1
 MaxLevelUpEvent = 1
 MaxLevelUpQuest = 1
+
 DW_MaxStatPoint_STR = 32000
 DW_MaxStatPoint_AGI = 32000
 DW_MaxStatPoint_VIT = 32000
 DW_MaxStatPoint_ENE = 32000
+
 DK_MaxStatPoint_STR = 32000
 DK_MaxStatPoint_AGI = 32000
 DK_MaxStatPoint_VIT = 32000
 DK_MaxStatPoint_ENE = 32000
+
 ELF_MaxStatPoint_STR = 32000
 ELF_MaxStatPoint_AGI = 32000
 ELF_MaxStatPoint_VIT = 32000
 ELF_MaxStatPoint_ENE = 32000
+
 MG_MaxStatPoint_STR = 32000
 MG_MaxStatPoint_AGI = 32000
 MG_MaxStatPoint_VIT = 32000
 MG_MaxStatPoint_ENE = 32000
+
 DL_MaxStatPoint_STR = 32000
 DL_MaxStatPoint_AGI = 32000
 DL_MaxStatPoint_VIT = 32000
 DL_MaxStatPoint_ENE = 32000
+
 SU_MaxStatPoint_STR = 32000
 SU_MaxStatPoint_AGI = 32000
 SU_MaxStatPoint_VIT = 32000
 SU_MaxStatPoint_ENE = 32000
+
 RF_MaxStatPoint_STR = 32000
 RF_MaxStatPoint_AGI = 32000
 RF_MaxStatPoint_VIT = 32000
@@ -285,10 +299,10 @@ MGCreateType = 0
 DLCreateType = 0		
 SUCreateType = 0
 RFCreateType = 0
-MGCreateLevel_AL0 = 220
-MGCreateLevel_AL1 = 220
-MGCreateLevel_AL2 = 220
-MGCreateLevel_AL3 = 220
+MGCreateLevel_AL0 = 0
+MGCreateLevel_AL1 = 0
+MGCreateLevel_AL2 = 0
+MGCreateLevel_AL3 = 0
 MGCreateReset_AL0 = 0
 MGCreateReset_AL1 = 0
 MGCreateReset_AL2 = 0
@@ -297,10 +311,10 @@ MGCreateMasterReset_AL0 = 0
 MGCreateMasterReset_AL1 = 0
 MGCreateMasterReset_AL2 = 0
 MGCreateMasterReset_AL3 = 0
-DLCreateLevel_AL0 = 250
-DLCreateLevel_AL1 = 250
-DLCreateLevel_AL2 = 250
-DLCreateLevel_AL3 = 250
+DLCreateLevel_AL0 = 0
+DLCreateLevel_AL1 = 0
+DLCreateLevel_AL2 = 0
+DLCreateLevel_AL3 = 0
 DLCreateReset_AL0 = 0
 DLCreateReset_AL1 = 0
 DLCreateReset_AL2 = 0
@@ -321,10 +335,10 @@ SUCreateMasterReset_AL0 = 0
 SUCreateMasterReset_AL1 = 0
 SUCreateMasterReset_AL2 = 0
 SUCreateMasterReset_AL3 = 0
-RFCreateLevel_AL0 = 150
-RFCreateLevel_AL1 = 150
-RFCreateLevel_AL2 = 150
-RFCreateLevel_AL3 = 150
+RFCreateLevel_AL0 = 0
+RFCreateLevel_AL1 = 0
+RFCreateLevel_AL2 = 0
+RFCreateLevel_AL3 = 0
 RFCreateReset_AL0 = 0
 RFCreateReset_AL1 = 0
 RFCreateReset_AL2 = 0
@@ -352,9 +366,9 @@ MasterSkillTreeMaxLevel = 1000
 
 ;==================================================
 ; LevelPlus configuration // Max LevelPlus = 1000.
-; lvls que puedes subir un pj despues de llegar a lvl 400.
+; Levels that you can increase a character after reaching level 400.
 ; Formula: level max 400 + level plus 1000 = 1400 lvl.
-; DownGrade: Activar si usaras una config stilo downgrade.
+; DownGrade: Activate if you will use a downgrade style config.
 ;==================================================
 Max_LevelPlus = 1000
 DownGrade = 1
@@ -380,13 +394,13 @@ GensSystemFinalRewardDay = 7
 ; Helper Settings
 ;==================================================
 HelperSwitch = 1
-HelperActiveLevel = 0
-HelperActiveDelay = 5
-HelperActiveMoney1 = 20
-HelperActiveMoney2 = 50
-HelperActiveMoney3 = 80
-HelperActiveMoney4 = 100
-HelperActiveMoney5 = 120
+HelperActiveLevel = 1
+HelperActiveDelay = 1000
+HelperActiveMoney1 = 0
+HelperActiveMoney2 = 0
+HelperActiveMoney3 = 0
+HelperActiveMoney4 = 0
+HelperActiveMoney5 = 0
 
 ;==================================================
 ; Cash Shop Settings
@@ -406,20 +420,24 @@ CashShopGoblinPointValue_AL3 = 1
 
 ;==================================================
 ; Party Settings
+; Active RestrictRequest
+; Funtion DifferenceLevel
 ;==================================================
 PartyReconnectTime = 300
-PartyGeneralExperience1 = 1
-PartyGeneralExperience2 = 1
-PartyGeneralExperience3 = 1
-PartyGeneralExperience4 = 1
-PartyGeneralExperience5 = 1
-PartySpecialExperience1 = 1
-PartySpecialExperience2 = 1
-PartySpecialExperience3 = 1
-PartySpecialExperience4 = 1
-PartySpecialExperience5 = 1
-PartyDisablePK = 1
+PartyGeneralExperience1 = 100
+PartyGeneralExperience2 = 100
+PartyGeneralExperience3 = 100
+PartyGeneralExperience4 = 100
+PartyGeneralExperience5 = 100
+PartySpecialExperience1 = 100
+PartySpecialExperience2 = 100
+PartySpecialExperience3 = 100
+PartySpecialExperience4 = 100
+PartySpecialExperience5 = 100
 PartyMaxMembers = 5
+PartyDisablePK = 1
+RestrictRequest = 1
+DifferenceMaxLevel = 100
 
 ;==================================================
 ; Potion Settings
@@ -458,17 +476,17 @@ TransformationRing6 = 41
 ; Jewel Settings
 ;==================================================
 SoulSuccessRate_AL0 = 50
-SoulSuccessRate_AL1 = 50
-SoulSuccessRate_AL2 = 50
+SoulSuccessRate_AL1 = 60
+SoulSuccessRate_AL2 = 60
 SoulSuccessRate_AL3 = 70
-LifeSuccessRate_AL0 = 50
-LifeSuccessRate_AL1 = 50
-LifeSuccessRate_AL2 = 50
-LifeSuccessRate_AL3 = 80
+LifeSuccessRate_AL0 = 60
+LifeSuccessRate_AL1 = 65
+LifeSuccessRate_AL2 = 65
+LifeSuccessRate_AL3 = 70
 HarmonySuccessRate_AL0 = 50
-HarmonySuccessRate_AL1 = 50
-HarmonySuccessRate_AL2 = 50
-HarmonySuccessRate_AL3 = 60
+HarmonySuccessRate_AL1 = 60
+HarmonySuccessRate_AL2 = 60
+HarmonySuccessRate_AL3 = 70
 SmeltStoneSuccessRate1_AL0 = 50
 SmeltStoneSuccessRate1_AL1 = 50
 SmeltStoneSuccessRate1_AL2 = 50
@@ -479,12 +497,12 @@ SmeltStoneSuccessRate2_AL2 = 70
 SmeltStoneSuccessRate2_AL3 = 70
 AddLuckSuccessRate1_AL0 = 25
 AddLuckSuccessRate1_AL1 = 25
-AddLuckSuccessRate1_AL2 = 25
-AddLuckSuccessRate1_AL3 = 25
+AddLuckSuccessRate1_AL2 = 30
+AddLuckSuccessRate1_AL3 = 40
 AddLuckSuccessRate2_AL0 = 20
 AddLuckSuccessRate2_AL1 = 20
-AddLuckSuccessRate2_AL2 = 20
-AddLuckSuccessRate2_AL3 = 20
+AddLuckSuccessRate2_AL2 = 25
+AddLuckSuccessRate2_AL3 = 40
 
 ;==================================================
 ; Fruit Settings
@@ -504,7 +522,7 @@ FruitSubPointSuccessRate_AL3 = -1
 
 ;==================================================
 ; HP Bonus System
-; Aumenta a vida do personagem de acordo com a quantidade de master reset
+; Increases character's life according to the amount of master reset
 ;==================================================
 HpBonus_AL0 = 100
 HpBonus_AL1 = 100
@@ -514,28 +532,28 @@ HpBonus_MAX = 10000
 
 ;==================================================
 ; Die System
-; Mostra mensagem no chat quando o personagem morre.
+; Shows message in chat when character dies.
 ;==================================================
 DieUserSwitch = 0
 DieMonsterSwitch = 0
 
 ;==================================================
 ; Online User System
-; Exibe mensagem de conexão Gm/Player.
+; Shows connection message for GM/Player.
 ;==================================================
-OnlineGmSwitch = 1
+OnlineGmSwitch = 0
 OnlineUserSwitch = 0
 
 ;==================================================
 ; Disable exp message (Premium)
-; Desabilita a mensagem de experiencia ganha ao matar um mob.
-; São exibidas quando sobe de level.
+; Disables the experience message gained when killing a mob.
+; Only shown when leveling up.
 ;==================================================
 DisableExpMessage = 0
 
 ;==================================================
-; Remover Recuo (Premium)
-; Remove o recuo/empurrão das skills
+; Remove Recoil (Premium)
+; Removes the recoil/push effect from skills
 ;==================================================
 DisableLightningEffect  = 1
 DisableCycloneEffect  = 1
@@ -546,7 +564,7 @@ DisableUpperCutEffect  = 1
 
 ;==================================================
 ; Disable Wings Class Mix
-; Desabilita criação de asas para classes
+; Disables wing creation for classes
 ;==================================================
 DisableWingMixDL = 0
 DisableWingMixSU = 0
@@ -554,7 +572,7 @@ DisableWingMixRF = 0
 
 ;==================================================
 ; Pk Can Enter in events
-; Permitir Pk entrar nos eventos
+; Allow PK to enter events
 ;==================================================
 PkCanEnterBC = 0
 PkCanEnterCC = 0
@@ -564,21 +582,21 @@ PkCanEnterDS = 0
 ; Pk Item Drop
 ;==================================================
 PkItemDropSwitch = 0
-PkItemDropEnable_AL0 = 0
-PkItemDropEnable_AL1 = 0
-PkItemDropEnable_AL2 = 0
-PkItemDropEnable_AL3 = 0
-PkItemDropMinLevel = 150
-PkItemDropMaxLevel = 150
-PkItemDropExecellent = 0
-PkItemDropSocketItem = 0
-PkItemDropSetItem = 0
-PkItemDropHarmony = 0
+PkItemDropEnable_AL0 = 1
+PkItemDropEnable_AL1 = 1
+PkItemDropEnable_AL2 = 1
+PkItemDropEnable_AL3 = 1
+PkItemDropMinLevel = 0
+PkItemDropMaxLevel = 2
+PkItemDropExecellent = 1
+PkItemDropSocketItem = 1
+PkItemDropSetItem = 1
+PkItemDropHarmony = 1
 PkItemDropRate = 10
 
 ;==================================================
 ; Disconnect Online Account
-; Ao logar desconecta a conta se ela estiver online
+; When logging in, disconnects the account if it's already online
 ;==================================================
 DisconnectOnlineAccount = 1
 
@@ -596,3 +614,11 @@ EnableComboToAllSwitch = 1
 ; Socket + Joh
 ;==================================================
 SocketItemAcceptHarmonySwitch = 1
+;Points after level 400, can used to movereq up to level 400
+DWLevelUpPointPlus = 0
+DKLevelUpPointPlus = 0
+FELevelUpPointPlus = 0
+MGLevelUpPointPlus = 0
+DLLevelUpPointPlus = 0
+SULevelUpPointPlus = 0
+RFLevelUpPointPlus = 0

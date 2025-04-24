@@ -62,10 +62,10 @@ PlusItemLevelMixRate5_AL0 = 40
 PlusItemLevelMixRate5_AL1 = 40
 PlusItemLevelMixRate5_AL2 = 40
 PlusItemLevelMixRate5_AL3 = 40
-PlusItemLevelMixRate6_AL0 = 100
-PlusItemLevelMixRate6_AL1 = 100
-PlusItemLevelMixRate6_AL2 = 100
-PlusItemLevelMixRate6_AL3 = 100
+PlusItemLevelMixRate6_AL0 = 20
+PlusItemLevelMixRate6_AL1 = 20
+PlusItemLevelMixRate6_AL2 = 20
+PlusItemLevelMixRate6_AL3 = 20
 
 ;==================================================
 ; Dinorant Mix Settings
@@ -278,10 +278,10 @@ Wing3MixRate_AL3 = -1
 ;==================================================
 ; Socket Item Create Seed Mix Settings
 ;==================================================
-SocketItemCreateSeedMixRate_AL0 = 100
-SocketItemCreateSeedMixRate_AL1 = 100
-SocketItemCreateSeedMixRate_AL2 = 100
-SocketItemCreateSeedMixRate_AL3 = 100
+SocketItemCreateSeedMixRate_AL0 = 20
+SocketItemCreateSeedMixRate_AL1 = 20
+SocketItemCreateSeedMixRate_AL2 = 20
+SocketItemCreateSeedMixRate_AL3 = 20
 
 ;==================================================
 ; Socket Item Create Seed Sphere Mix Settings
