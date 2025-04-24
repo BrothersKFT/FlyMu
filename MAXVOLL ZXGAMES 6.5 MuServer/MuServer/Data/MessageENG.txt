@@ -254,7 +254,7 @@
 352       "Castle Deep will start in 5 minute(s)"
 353       "Castle Deep started"
 354       "Castle Deep ended"
-355       "Erohim player was killed by %s"
+355       "Erohim was killed by player %s"
 356       "%s killed by player %s"
 368       "Balgass joined forces with army of Kundun and is preparing to attack fortress of Crywolf"
 369       "Army of Balgass is ready to attack fortress of Crywolf"
