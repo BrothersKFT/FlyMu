@@ -1,25 +1,69 @@
 ---
-description: Az AI segítő feladatai, fontos információk magáról a projektről, kritikus pontok.
+description: 
 globs: 
 alwaysApply: true
 ---
+MuOnline szerver fejlesztési szabályzat (Cursor AI számára)
 
-# MuOnline szerver fájlok módosítása
-Egy MuOnline szerver-t készítünk, amely egy kliens-szerver oldali multiplayer játék (mmorpg), a Cliente Especial mappában található meg maga a kész kliens, benne az Exe fájlal is. Az exe fájl módosítására nincs jogosultságunk, ezért a workaround efelett a main.dll injektálása az exe fájlba. A main.dll visszafejtve tartalmazza a különböző megválasított metódusokat, logikát stb..
-A MuServer tartalmazza az szerver indító fájlait.
-A Szerver source mappa tartalmazza a forrásfájlokat.
-A szerver source mappában lévő Main_Ultimo mappa tartalmazza a main.dll buildeléshez szükséges fájlokat, általában itt végezzük el a módosításokat, ha magát a kliens-t akarjuk módosítani, de ez csak egy példa, ez ennél többrétegűbb.
+A projekt célja egy MuOnline alapú MMORPG szerver fejlesztése. A rendszer kliens-szerver architektúrára épül, és több különálló komponensből áll. A fejlesztés Visual Studio 2010 kompatibilis C++ kódbázissal zajlik, v100 toolset mellett. Az AI feladata segíteni a fejlesztésben, módosításokban, hibakeresésben és ötletek implementálásában — pontosan, megbízhatóan és elővigyázatosan.
 
-Te egy AI Assistens vagy, aki a c++ nyelvet profin kezeli és segítséget nyújtasz a kliens-szerver oldali programozásban, bugfixálásban, ötletek implementálásában, aki gondosan, pontosan végzi a munkáját.
+Mappa Struktúra és Jelentésük:
 
-Mivel egy MuOnline szervert készítünk, ami nagyon sok rétegű kódbázissal van ellátva, ne tegyél rögtön módosításokat, előbb mindig kérdezd meg hogy szerintem jó-e az adott változtatás/implementáció amit el akarnál végezni, csak aztán módosítsd tényleg a kódot ha erre engedélyt kaptál.
+- CLIENTE ESPECIAL: A teljesen lebuildelt, működő kliensfájlok mappája (beleértve a játék exe fájlját). A közvetlen exe módosítás nem engedélyezett, de a `main.dll` injektálásával módosítható a kliens működése.
+- Main_Ultimo: A `main.dll` (visszafejtett klienslogika) forráskódja. Itt történnek a kliensoldali módosítások. Ez a DLL injektálódik az exe-be.
+- MAXVOLL ZXGAMES 6.5 MuServer / MuServer: A működő szerver komponensek (GameServer, JoinServer, MHPServer, ConnectServer stb.) lebuildelt verziói.
+- MHP Tools
+  - Source: Az AntiHack rendszer forráskódja
+  - Release: Az AntiHack buildelt fájljai
+- Szerver source
+  - DataServerUp, GameServerUp, JoinServer: A szerveroldali komponensek forráskódjai
+  - Main_Info: Az encryptáló rendszer (`encryptbmd`) forrása
+  - Util: Közös segédfájlok
+  - Main_Ultimo: A main.dll forráskódja
 
-## Kulcsfontosságú szükségletek:
+---
+
+Fontos működési elvárások az AI részére:
+
 <critical>
-1. A kódot soha ne módosítsd rögtön, csak ha megkaptad az engedélyt rá.
-2. Amikor kódot írsz, mivel ez egy Kliens-Szerver oldali kódbázis, ellenőrizd mind a kliens oldalon, mind a szerver oldalon a fájlokat
-mielőtt egy új ötlettel előállsz.
-3. Minden új implementációt vagy ötletet, akár módosítást ellenőrizz le mielőtt elküldöd nekem és erről egy rövid tájékoztatást írj nekem hogy milyen ellenőrzéseket végeztél.
-4. Ha a 3. pontban bármilyen ellenőrzés során felmerül akármilyen hiba, még ha nem tudod megoldani is feltétlen tájékoztass.
-5. HA a Server Source mappában dolgozunk, ne implementálj rögtön új metódusokat vagy függvényeket, hiszen ezek már lehet meg vannak írva, nézd át az esetleges fájlokat amelyek tartalmazhatják az általad implementálni kívánt dolgot.
+
+1. **Soha ne módosítsd a kódot automatikusan.** Minden javaslatot előbb küldj el ellenőrzésre, és csak akkor hajtsd végre, ha a felhasználó jóváhagyta.
+2. **Mielőtt bármilyen implementációs ötletet javasolsz**, előtte elemezd, hogy az kliens- vagy szerveroldali vonatkozású, és annak megfelelően vizsgáld meg a vonatkozó fájlokat.
+3. **Minden új javaslat előtt végezz ellenőrzéseket**, majd röviden írd le, hogy:
+   - Hol és hogyan kerestél meglévő funkciót
+   - Milyen kompatibilitási vagy logikai tesztet végeztél
+   - Van-e hiba vagy ütközés
+4. **Bármilyen gyanús vagy problémás eredmény esetén** azonnal értesíts, még ha nem is tudsz azonnali megoldást adni.
+5. **Ne implementálj új funkciót anélkül, hogy ne ellenőriznéd, létezik-e már.** Ehhez alkalmazd az alábbi keresési technikákat:
+   - Kulcsszavas keresés (`grep`-szerű)
+   - Funkciónév-alapú keresés (`.cpp`, `.h`, `.def`, `.ini`, `.txt`)
+   - Fájlnév-összehasonlítás (`Invasion`, `Manager`, `Event`)
+   - Logikai keresés a releváns komponensekben (`Main_Ultimo`, `GameServerUp`, `Util`, `Main_Info`)
+   - Teljes projektre kiterjedő keresés, ne csak `Server Source` és `Main_Ultimo` mappákban
+6. **Ne hozz létre új fájlokat vagy rendszereket**, ha már létezik hasonló megoldás a projektben. Ha van már működő rendszer, inkább azt bővítsd vagy refaktoráld, hogy megfeleljen az új igényeknek. A felesleges újraimplementálások elkerülése érdekében mindig próbálj meglévő rendszert integrálni, vagy felhasználni a már jól működő megoldásokat. LEHETŐLEG CSAK akkor refaktorálj vagy módosíts neveket ha a FELHASZNÁLÓ úgy szeretné, vagy ha megkérdezted és bele egyeztek!
+7. **Mielőtt implementálsz egy új funkciót**, nézd át a már meglévő hasonló rendszereket. Ha léteznek hasonló megoldások, használd azokat alapként, és építs rájuk, hogy elkerüld a felesleges tesztelgetéseket, újrabeállításokat és logolgatásokat. Az AI-nak saját magának kell ellenőriznie, hogy az implementált funkció valóban újdonságot jelent-e, és nem egy meglévő, már jól működő rendszert próbál újraalkotni.
+
+8. A .cpp fájlokhoz tartozó konfigurációs fájlok kezelése:
+   A C++ forráskódok (`.cpp`) gyakran kiegészülnek konfigurációs fájlokkal (`.dat`, `.txt`), amelyek a rendszer bizonyos tulajdonságait módosíthatják. Ezeket mindig figyelembe kell venni a fejlesztés során. Minden ilyen fájlt alaposan ellenőrizni kell, hogy ne ütközzön más részekkel, és a kívánt hatást érje el.
+
+9. A .cpp fájlok és .h header fájlok kapcsolata:
+   A C++ fájlok mellett a `.h` fájlok is fontosak, ezek tartalmazzák a deklarációkat, osztályokat stb. Minden fejlesztésnél figyelni kell arra, hogy a header és a forrásfájl kompatibilisek legyenek, és helyesen kapcsolódjanak egymáshoz.
+   
+10. Módosítás esetén az #include direktívák ellenőrzése:
+    Ha egy meglévő .cpp vagy .h fájlban történik módosítás, minden esetben ellenőrizni kell az adott fájl `#include` direktíváit. 
+    - Ha új osztályt, függvényt vagy típust használunk, győződjünk meg róla, hogy a megfelelő header fájl be van húzva.
+    - Ha található fölösleges `#include`, ami már nem szükséges, jelezzük vagy távolítsuk el — de csak akkor, ha teljes bizonyossággal nem okoz hibát.
+    - Tilos olyan függőséget beemelni, ami nem szükséges, és feleslegesen növeli a build időt vagy komplexitást.
+
 </critical>
+
+---
+
+Kommunikációs irányelvek:
+
+- Kommunikálj profin, de természetesen. Ne ismételgesd a hibákat, ne kérj feleslegesen engedélyt minden apró kérdéshez.
+- Ha a felhasználó nem mondja meg pontosan, hogy kliens vagy szerver oldalon dolgozzon az AI, **automatikusan az utasítás tartalmából és a fájlnevekből következtesse ki**.
+- Ha a funkció neve vagy logikája nem egyértelmű, **keress rá, ne kérdezd meg rögtön**.
+- **Ne javasolj felesleges újraimplementálást**. Ha már van egy hasonló rendszer, integrálj vagy refaktorálj inkább, de leginkább csak akkor ha nem kerül feleslegesen több lépésbe, vagy a felhasználó nem kéri kifejezetten, vagy ha megkérdezed beleegyezik.
+
+
