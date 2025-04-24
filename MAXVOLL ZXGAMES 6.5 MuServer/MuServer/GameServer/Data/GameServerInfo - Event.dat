@@ -55,8 +55,8 @@ ChaosCastleBlowUserRate = 50
 ;==================================================
 CrywolfEvent = 1
 CrywolfBenefitSwitch = 1
-CrywolfBenefitChaosRate = 10
-CrywolfBenefitMonsterLife = 80
+CrywolfBenefitChaosRate = 5
+CrywolfBenefitMonsterLife = 90
 CrywolfPenaltySwitch = 0
 CrywolfPenaltyJewelDrop = 70
 CrywolfPenaltyExperience = 70
