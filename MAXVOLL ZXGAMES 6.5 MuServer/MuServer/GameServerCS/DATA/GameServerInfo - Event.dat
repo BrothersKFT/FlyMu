@@ -29,15 +29,15 @@ CastleDeepEventTime = 30
 ; Castle Siege Event Settings
 ;==================================================
 CastleSiegeEvent = 1
-CastleSiegeCycleStartYear = 2026
-CastleSiegeCycleStartMonth = 1
-CastleSiegeCycleStartDay = 1
-CastleSiegeSpecificState = 0
-CastleSiegeStateStartYear = 2026
-CastleSiegeStateStartMonth = 1
-CastleSiegeStateStartDay = 1
-CastleSiegeStateStartHour = 12
-CastleSiegeStateStartMinute = 0
+CastleSiegeCycleStartYear =0
+CastleSiegeCycleStartMonth =0
+CastleSiegeCycleStartDay =0
+CastleSiegeSpecificState =0
+CastleSiegeStateStartYear =0
+CastleSiegeStateStartMonth =0
+CastleSiegeStateStartDay =0
+CastleSiegeStateStartHour =0
+CastleSiegeStateStartMinute =0
 CastleSiegeOffensiveWeaponDamage = 300
 CastleSiegeDefensiveWeaponDamage = 200
 CastleSiegeLowerAccumulatedTimeValue = 0

@@ -29,3 +29,11 @@ MAXVOLL ZXGAMES 6.5 MuServer/MuServer/StartUp/Configuration/Configuration.xml.ba
 MAXVOLL ZXGAMES 6.5 MuServer/MuServer/StartUp/Logs/
 
 MAXVOLL ZXGAMES 6.5 MuServer/MuServer/StartUp/Configuration/Configuration.xml
+
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServerCS/CASH_SHOP_LOG/
+
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServerCS/ANTIFLOOD_LOG/
+
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServerCS/CHAOS_MIX_LOG/
+
+MAXVOLL ZXGAMES 6.5 MuServer/MuServer/GameServerCS/HACK_LOG/
