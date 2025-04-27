@@ -94,9 +94,9 @@
 7278      0       0       *         *         *         *         *         *         *         0          *           *              60                150               1000       //Sign of Dimensions
 7289      0       0       *         *         *         *         *         *         *         0          *           *              25                150               0       //Sealed Golden Box
 7290      0       0       *         *         *         *         *         *         *         0          *           *              25                150               0       //Sealed Silver Box
-7179      5       0       *         *         *         *         *         *         *         0          1           *              *                *                20000       // silver medal Dungeon
-7179      5       0       *         *         *         *         *         *         *         0          2           *              *                *                20000       // silver medal devias
-7179      6       0       *         *         *         *         *         *         *         0          7           *              *                *                20000       // gold medal Atlans
-7179      6       0       *         *         *         *         *         *         *         0          4           *              *                *                20000       // gold medal Lost Tower
-7179      6       0       *         *         *         *         *         *         *         0          8           *              *                *                20000       // gold medal Tarkan
+7179      5       0       *         *         *         *         *         *         *         0          1           *              *                *                10000       // silver medal Dungeon
+7179      5       0       *         *         *         *         *         *         *         0          2           *              *                *                10000       // silver medal devias
+7179      6       0       *         *         *         *         *         *         *         0          7           *              *                *                10000       // gold medal Atlans
+7179      6       0       *         *         *         *         *         *         *         0          4           *              *                *                10000       // gold medal Lost Tower
+7179      6       0       *         *         *         *         *         *         *         0          8           *              *                *                10000       // gold medal Tarkan
 end
