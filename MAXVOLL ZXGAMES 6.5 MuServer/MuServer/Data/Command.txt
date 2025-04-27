@@ -40,7 +40,7 @@
 	15       "/trace"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//trace <Name>			- Bring a player
 	16       "/disconnect"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//disconnect <Name>		- Disconnect Player
 	17       "/fireworks"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//fireworks			- Start Fireworks
-	18       "/make"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			1	0	0	0		0	1		0	0	0	//make <Group> <item> <level> <skill> <luck> <option> <exe> <set> <socket>
+	18       "/make"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	0		0	0	0	//make <Group> <item> <level> <skill> <luck> <option> <exe> <set> <socket>
 	19       "/skin"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//skin <name> <skin>		- Change player skin
 	20       "/setmoney"    		1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//setmoney <name> <value>	- Change player zen
 	21       "/notice"			1	1	1	1			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0			0	0	0	0		0	1		0	0	0	//notice <msg>			- Send msg to all servers
