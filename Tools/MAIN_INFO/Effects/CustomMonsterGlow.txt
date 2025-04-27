@@ -1,12 +1,14 @@
 0
 //MonsterID	Bright	Golden
-904		1	1
-905		1	1
-906		1	1
-907		1	1
+904		      1	       1
+905		      1	       1
+906		      1	       1
+907		      1	       1
+706		      1	       0
 end
 
 1
 //MonsterID	Type	Effect	ColorR	ColorG	ColorB
-889		5	68	255	0	0
+889		     5	       68	  255	   0	   0
+706		     5	       68	  255	   0	   0
 end
