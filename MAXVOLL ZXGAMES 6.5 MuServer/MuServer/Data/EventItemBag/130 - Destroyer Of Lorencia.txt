@@ -1,0 +1,534 @@
+0
+//EventName                      DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Destroyer of Lorencia"	 			1000	   100		  	  10		  	0		    		0		   		0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+
+	7		 30			0			6		  0	  	  0		  	  0				4		//Venom Mist Helm
+	8		 30			0			6		  0	  	  0		  	  0				4		//Venom Mist Armor
+	9		 30			0			6		  0	  	  0		  	  0				4		//Venom Mist Pants
+	10		 30			0			6		  0	  	  0		  	  0				4		//Venom Mist GLoves
+	11		 30			0			6		  0	  	  0		  	  0				4		//Venom Mist Boots
+	7		 29			0			6		  0	  	  0		  	  0				4		//Dragon Knight Helm
+	8		 29			0			6		  0	  	  0		  	  0				4		//Dragon Knight Armor
+	9		 29			0			6		  0	  	  0		  	  0				4		//Dragon Knight Pants
+	10		 29			0			6		  0	  	  0		  	  0				4		//Dragon Knight Gloves
+	11		 29			0			6		  0	  	  0		  	  0				4		//Dragon Knight Boots
+	7		 31			0			6		  0	  	  0		  	  0				4		//Sylpid Ray Helm
+	8		 31			0			6		  0	  	  0		  	  0				4		//Sylpid Ray Armor
+	9		 31			0			6		  0	  	  0		  	  0				4		//Sylpid Ray Pants
+	10		 31			0			6		  0	  	  0		  	  0				4		//Sylpid Ray Gloves
+	11		 31			0			6		  0	  	  0		  	  0				4		//Sylpid Ray Boots
+	8		 32			0			6		  0	  	  0		  	  0				4		//Volcano Armor
+	9		 32			0			6		  0	  	  0		  	  0				4		//Volcano Pants
+	10		 32			0			6		  0	  	  0		  	  0				4		//Volcano Gloves
+	11		 32			0			6		  0	  	  0		  	  0				4		//Volcano Boots
+	7		 33			0			6		  0	  	  0		  	  0				4		//Sunlight Helm
+	8		 33			0			6		  0	  	  0		  	  0				4		//Sunlight Armor
+	9		 33			0			6		  0	  	  0		  	  0				4		//Sunlight Pants
+	10		 33			0			6		  0	  	  0		  	  0				4		//Sunlight Gloves
+	11		 33			0			6		  0	  	  0		  	  0				4		//Sunlight Boots
+	7		 43			0			6		  0	  	  0		  	  0				4		//Aura Helm
+	8		 43			0			6		  0	  	  0		  	  0				4		//Aura Armor
+	9		 43			0			6		  0	  	  0		  	  0				4		//Aura Pants
+	10		 43			0			6		  0	  	  0		  	  0				4		//Aura Gloves
+	11		 43			0			6		  0	  	  0		  	  0				4		//Aura Boots
+	7		 73			0			6		  0	  	  0		  	  0				4		//RF 380 SET PHONEIX
+	8		 73			0			6		  0	  	  0		  	  0				4		//RF 380 SET PHONEIX
+	9		 73			0			6		  0	  	  0		  	  0				4		//RF 380 SET PHONEIX
+	11		 73			0			6		  0	  	  0		  	  0				4		//RF 380 SET PHONEIX
+	5		 12			0			6		  0	  	  0		  	  0				4		//Grand Viper Staff
+	0		 22			0			6		  0	  	  0		  	  0				4		//Bone Blade
+	4		 21			0			6		  0	  	  0		  	  0				4		//Sylph Wind Bow
+	0		 23			0			6		  0	  	  0		  	  0				4		//Explosion Blade
+	2		 14			0			6		  0	  	  0		  	  0				4		//Solay Scepter
+	5		 19			0			6		  0	  	  0		  	  0				4		//Aura Staff
+	0		 35			0			6		  0	  	  0		  	  0				4		//RF 380 PHONEIX SWORD
+
+	7		 30			0			6		  1	  	  0		  	  0				4		//Venom Mist Helm
+	8		 30			0			6		  1	  	  0		  	  0				4		//Venom Mist Armor
+	9		 30			0			6		  1	  	  0		  	  0				4		//Venom Mist Pants
+	10		 30			0			6		  1	  	  0		  	  0				4		//Venom Mist GLoves
+	11		 30			0			6		  1	  	  0		  	  0				4		//Venom Mist Boots
+	7		 29			0			6		  1	  	  0		  	  0				4		//Dragon Knight Helm
+	8		 29			0			6		  1	  	  0		  	  0				4		//Dragon Knight Armor
+	9		 29			0			6		  1	  	  0		  	  0				4		//Dragon Knight Pants
+	10		 29			0			6		  1	  	  0		  	  0				4		//Dragon Knight Gloves
+	11		 29			0			6		  1	  	  0		  	  0				4		//Dragon Knight Boots
+	7		 31			0			6		  1	  	  0		  	  0				4		//Sylpid Ray Helm
+	8		 31			0			6		  1	  	  0		  	  0				4		//Sylpid Ray Armor
+	9		 31			0			6		  1	  	  0		  	  0				4		//Sylpid Ray Pants
+	10		 31			0			6		  1	  	  0		  	  0				4		//Sylpid Ray Gloves
+	11		 31			0			6		  1	  	  0		  	  0				4		//Sylpid Ray Boots
+	8		 32			0			6		  1	  	  0		  	  0				4		//Volcano Armor
+	9		 32			0			6		  1	  	  0		  	  0				4		//Volcano Pants
+	10		 32			0			6		  1	  	  0		  	  0				4		//Volcano Gloves
+	11		 32			0			6		  1	  	  0		  	  0				4		//Volcano Boots
+	7		 33			0			6		  1	  	  0		  	  0				4		//Sunlight Helm
+	8		 33			0			6		  1	  	  0		  	  0				4		//Sunlight Armor
+	9		 33			0			6		  1	  	  0		  	  0				4		//Sunlight Pants
+	10		 33			0			6		  1	  	  0		  	  0				4		//Sunlight Gloves
+	11		 33			0			6		  1	  	  0		  	  0				4		//Sunlight Boots
+	7		 43			0			6		  1	  	  0		  	  0				4		//Aura Helm
+	8		 43			0			6		  1	  	  0		  	  0				4		//Aura Armor
+	9		 43			0			6		  1	  	  0		  	  0				4		//Aura Pants
+	10		 43			0			6		  1	  	  0		  	  0				4		//Aura Gloves
+	11		 43			0			6		  1	  	  0		  	  0				4		//Aura Boots
+	7		 73			0			6		  1	  	  0		  	  0				4		//RF 380 SET PHONEIX
+	8		 73			0			6		  1	  	  0		  	  0				4		//RF 380 SET PHONEIX
+	9		 73			0			6		  1	  	  0		  	  0				4		//RF 380 SET PHONEIX
+	11		 73			0			6		  1	  	  0		  	  0				4		//RF 380 SET PHONEIX
+	5		 12			0			6		  1	  	  0		  	  0				4		//Grand Viper Staff
+	0		 22			0			6		  1	  	  0		  	  0				4		//Bone Blade
+	4		 21			0			6		  1	  	  0		  	  0				4		//Sylph Wind Bow
+	0		 23			0			6		  1	  	  0		  	  0				4		//Explosion Blade
+	2		 14			0			6		  1	  	  0		  	  0				4		//Solay Scepter
+	5		 19			0			6		  1	  	  0		  	  0				4		//Aura Staff
+	0		 35			0			6		  1	  	  0		  	  0				4		//RF 380 PHONEIX SWORD
+
+	7		 30			0			6		  0	  	  1		  	  0				4		//Venom Mist Helm
+	8		 30			0			6		  0	  	  1		  	  0				4		//Venom Mist Armor
+	9		 30			0			6		  0	  	  1		  	  0				4		//Venom Mist Pants
+	10		 30			0			6		  0	  	  1		  	  0				4		//Venom Mist GLoves
+	11		 30			0			6		  0	  	  1		  	  0				4		//Venom Mist Boots
+	7		 29			0			6		  0	  	  1		  	  0				4		//Dragon Knight Helm
+	8		 29			0			6		  0	  	  1		  	  0				4		//Dragon Knight Armor
+	9		 29			0			6		  0	  	  1		  	  0				4		//Dragon Knight Pants
+	10		 29			0			6		  0	  	  1		  	  0				4		//Dragon Knight Gloves
+	11		 29			0			6		  0	  	  1		  	  0				4		//Dragon Knight Boots
+	7		 31			0			6		  0	  	  1		  	  0				4		//Sylpid Ray Helm
+	8		 31			0			6		  0	  	  1		  	  0				4		//Sylpid Ray Armor
+	9		 31			0			6		  0	  	  1		  	  0				4		//Sylpid Ray Pants
+	10		 31			0			6		  0	  	  1		  	  0				4		//Sylpid Ray Gloves
+	11		 31			0			6		  0	  	  1		  	  0				4		//Sylpid Ray Boots
+	8		 32			0			6		  0	  	  1		  	  0				4		//Volcano Armor
+	9		 32			0			6		  0	  	  1		  	  0				4		//Volcano Pants
+	10		 32			0			6		  0	  	  1		  	  0				4		//Volcano Gloves
+	11		 32			0			6		  0	  	  1		  	  0				4		//Volcano Boots
+	7		 33			0			6		  0	  	  1		  	  0				4		//Sunlight Helm
+	8		 33			0			6		  0	  	  1		  	  0				4		//Sunlight Armor
+	9		 33			0			6		  0	  	  1		  	  0				4		//Sunlight Pants
+	10		 33			0			6		  0	  	  1		  	  0				4		//Sunlight Gloves
+	11		 33			0			6		  0	  	  1		  	  0				4		//Sunlight Boots
+	7		 43			0			6		  0	  	  1		  	  0				4		//Aura Helm
+	8		 43			0			6		  0	  	  1		  	  0				4		//Aura Armor
+	9		 43			0			6		  0	  	  1		  	  0				4		//Aura Pants
+	10		 43			0			6		  0	  	  1		  	  0				4		//Aura Gloves
+	11		 43			0			6		  0	  	  1		  	  0				4		//Aura Boots
+	7		 73			0			6		  0	  	  1		  	  0				4		//RF 380 SET PHONEIX
+	8		 73			0			6		  0	  	  1		  	  0				4		//RF 380 SET PHONEIX
+	9		 73			0			6		  0	  	  1		  	  0				4		//RF 380 SET PHONEIX
+	11		 73			0			6		  0	  	  1		  	  0				4		//RF 380 SET PHONEIX
+	5		 12			0			6		  0	  	  1		  	  0				4		//Grand Viper Staff
+	0		 22			0			6		  0	  	  1		  	  0				4		//Bone Blade
+	4		 21			0			6		  0	  	  1		  	  0				4		//Sylph Wind Bow
+	0		 23			0			6		  0	  	  1		  	  0				4		//Explosion Blade
+	2		 14			0			6		  0	  	  1		  	  0				4		//Solay Scepter
+	5		 19			0			6		  0	  	  1		  	  0				4		//Aura Staff
+	0		 35			0			6		  0	  	  1		  	  0				4		//RF 380 PHONEIX SWORD
+
+	7		 30			0			6		  0	  	  0		  	  1				4		//Venom Mist Helm
+	8		 30			0			6		  0	  	  0		  	  1				4		//Venom Mist Armor
+	9		 30			0			6		  0	  	  0		  	  1				4		//Venom Mist Pants
+	10		 30			0			6		  0	  	  0		  	  1				4		//Venom Mist GLoves
+	11		 30			0			6		  0	  	  0		  	  1				4		//Venom Mist Boots
+	7		 29			0			6		  0	  	  0		  	  1				4		//Dragon Knight Helm
+	8		 29			0			6		  0	  	  0		  	  1				4		//Dragon Knight Armor
+	9		 29			0			6		  0	  	  0		  	  1				4		//Dragon Knight Pants
+	10		 29			0			6		  0	  	  0		  	  1				4		//Dragon Knight Gloves
+	11		 29			0			6		  0	  	  0		  	  1				4		//Dragon Knight Boots
+	7		 31			0			6		  0	  	  0		  	  1				4		//Sylpid Ray Helm
+	8		 31			0			6		  0	  	  0		  	  1				4		//Sylpid Ray Armor
+	9		 31			0			6		  0	  	  0		  	  1				4		//Sylpid Ray Pants
+	10		 31			0			6		  0	  	  0		  	  1				4		//Sylpid Ray Gloves
+	11		 31			0			6		  0	  	  0		  	  1				4		//Sylpid Ray Boots
+	8		 32			0			6		  0	  	  0		  	  1				4		//Volcano Armor
+	9		 32			0			6		  0	  	  0		  	  1				4		//Volcano Pants
+	10		 32			0			6		  0	  	  0		  	  1				4		//Volcano Gloves
+	11		 32			0			6		  0	  	  0		  	  1				4		//Volcano Boots
+	7		 33			0			6		  0	  	  0		  	  1				4		//Sunlight Helm
+	8		 33			0			6		  0	  	  0		  	  1				4		//Sunlight Armor
+	9		 33			0			6		  0	  	  0		  	  1				4		//Sunlight Pants
+	10		 33			0			6		  0	  	  0		  	  1				4		//Sunlight Gloves
+	11		 33			0			6		  0	  	  0		  	  1				4		//Sunlight Boots
+	7		 43			0			6		  0	  	  0		  	  1				4		//Aura Helm
+	8		 43			0			6		  0	  	  0		  	  1				4		//Aura Armor
+	9		 43			0			6		  0	  	  0		  	  1				4		//Aura Pants
+	10		 43			0			6		  0	  	  0		  	  1				4		//Aura Gloves
+	11		 43			0			6		  0	  	  0		  	  1				4		//Aura Boots
+	7		 73			0			6		  0	  	  0		  	  1				4		//RF 380 SET PHONEIX
+	8		 73			0			6		  0	  	  0		  	  1				4		//RF 380 SET PHONEIX
+	9		 73			0			6		  0	  	  0		  	  1				4		//RF 380 SET PHONEIX
+	11		 73			0			6		  0	  	  0		  	  1				4		//RF 380 SET PHONEIX
+	5		 12			0			6		  0	  	  0		  	  1				4		//Grand Viper Staff
+	0		 22			0			6		  0	  	  0		  	  1				4		//Bone Blade
+	4		 21			0			6		  0	  	  0		  	  1				4		//Sylph Wind Bow
+	0		 23			0			6		  0	  	  0		  	  1				4		//Explosion Blade
+	2		 14			0			6		  0	  	  0		  	  1				4		//Solay Scepter
+	5		 19			0			6		  0	  	  0		  	  1				4		//Aura Staff
+	0		 35			0			6		  0	  	  0		  	  1				4		//RF 380 PHONEIX SWORD
+
+	7		 30			0			6		  1	  	  1		  	  0				4		//Venom Mist Helm
+	8		 30			0			6		  1	  	  1		  	  0				4		//Venom Mist Armor
+	9		 30			0			6		  1	  	  1		  	  0				4		//Venom Mist Pants
+	10		 30			0			6		  1	  	  1		  	  0				4		//Venom Mist GLoves
+	11		 30			0			6		  1	  	  1		  	  0				4		//Venom Mist Boots
+	7		 29			0			6		  1	  	  1		  	  0				4		//Dragon Knight Helm
+	8		 29			0			6		  1	  	  1		  	  0				4		//Dragon Knight Armor
+	9		 29			0			6		  1	  	  1		  	  0				4		//Dragon Knight Pants
+	10		 29			0			6		  1	  	  1		  	  0				4		//Dragon Knight Gloves
+	11		 29			0			6		  1	  	  1		  	  0				4		//Dragon Knight Boots
+	7		 31			0			6		  1	  	  1		  	  0				4		//Sylpid Ray Helm
+	8		 31			0			6		  1	  	  1		  	  0				4		//Sylpid Ray Armor
+	9		 31			0			6		  1	  	  1		  	  0				4		//Sylpid Ray Pants
+	10		 31			0			6		  1	  	  1		  	  0				4		//Sylpid Ray Gloves
+	11		 31			0			6		  1	  	  1		  	  0				4		//Sylpid Ray Boots
+	8		 32			0			6		  1	  	  1		  	  0				4		//Volcano Armor
+	9		 32			0			6		  1	  	  1		  	  0				4		//Volcano Pants
+	10		 32			0			6		  1	  	  1		  	  0				4		//Volcano Gloves
+	11		 32			0			6		  1	  	  1		  	  0				4		//Volcano Boots
+	7		 33			0			6		  1	  	  1		  	  0				4		//Sunlight Helm
+	8		 33			0			6		  1	  	  1		  	  0				4		//Sunlight Armor
+	9		 33			0			6		  1	  	  1		  	  0				4		//Sunlight Pants
+	10		 33			0			6		  1	  	  1		  	  0				4		//Sunlight Gloves
+	11		 33			0			6		  1	  	  1		  	  0				4		//Sunlight Boots
+	7		 43			0			6		  1	  	  1		  	  0				4		//Aura Helm
+	8		 43			0			6		  1	  	  1		  	  0				4		//Aura Armor
+	9		 43			0			6		  1	  	  1		  	  0				4		//Aura Pants
+	10		 43			0			6		  1	  	  1		  	  0				4		//Aura Gloves
+	11		 43			0			6		  1	  	  1		  	  0				4		//Aura Boots
+	7		 73			0			6		  1	  	  1		  	  0				4		//RF 380 SET PHONEIX
+	8		 73			0			6		  1	  	  1		  	  0				4		//RF 380 SET PHONEIX
+	9		 73			0			6		  1	  	  1		  	  0				4		//RF 380 SET PHONEIX
+	11		 73			0			6		  1	  	  1		  	  0				4		//RF 380 SET PHONEIX
+	5		 12			0			6		  1	  	  1		  	  0				4		//Grand Viper Staff
+	0		 22			0			6		  1	  	  1		  	  0				4		//Bone Blade
+	4		 21			0			6		  1	  	  1		  	  0				4		//Sylph Wind Bow
+	0		 23			0			6		  1	  	  1		  	  0				4		//Explosion Blade
+	2		 14			0			6		  1	  	  1		  	  0				4		//Solay Scepter
+	5		 19			0			6		  1	  	  1		  	  0				4		//Aura Staff
+	0		 35			0			6		  1	  	  1		  	  0				4		//RF 380 PHONEIX SWORD
+
+	7		 30			0			6		  0	  	  1		  	  1				4		//Venom Mist Helm
+	8		 30			0			6		  0	  	  1		  	  1				4		//Venom Mist Armor
+	9		 30			0			6		  0	  	  1		  	  1				4		//Venom Mist Pants
+	10		 30			0			6		  0	  	  1		  	  1				4		//Venom Mist GLoves
+	11		 30			0			6		  0	  	  1		  	  1				4		//Venom Mist Boots
+	7		 29			0			6		  0	  	  1		  	  1				4		//Dragon Knight Helm
+	8		 29			0			6		  0	  	  1		  	  1				4		//Dragon Knight Armor
+	9		 29			0			6		  0	  	  1		  	  1				4		//Dragon Knight Pants
+	10		 29			0			6		  0	  	  1		  	  1				4		//Dragon Knight Gloves
+	11		 29			0			6		  0	  	  1		  	  1				4		//Dragon Knight Boots
+	7		 31			0			6		  0	  	  1		  	  1				4		//Sylpid Ray Helm
+	8		 31			0			6		  0	  	  1		  	  1				4		//Sylpid Ray Armor
+	9		 31			0			6		  0	  	  1		  	  1				4		//Sylpid Ray Pants
+	10		 31			0			6		  0	  	  1		  	  1				4		//Sylpid Ray Gloves
+	11		 31			0			6		  0	  	  1		  	  1				4		//Sylpid Ray Boots
+	8		 32			0			6		  0	  	  1		  	  1				4		//Volcano Armor
+	9		 32			0			6		  0	  	  1		  	  1				4		//Volcano Pants
+	10		 32			0			6		  0	  	  1		  	  1				4		//Volcano Gloves
+	11		 32			0			6		  0	  	  1		  	  1				4		//Volcano Boots
+	7		 33			0			6		  0	  	  1		  	  1				4		//Sunlight Helm
+	8		 33			0			6		  0	  	  1		  	  1				4		//Sunlight Armor
+	9		 33			0			6		  0	  	  1		  	  1				4		//Sunlight Pants
+	10		 33			0			6		  0	  	  1		  	  1				4		//Sunlight Gloves
+	11		 33			0			6		  0	  	  1		  	  1				4		//Sunlight Boots
+	7		 43			0			6		  0	  	  1		  	  1				4		//Aura Helm
+	8		 43			0			6		  0	  	  1		  	  1				4		//Aura Armor
+	9		 43			0			6		  0	  	  1		  	  1				4		//Aura Pants
+	10		 43			0			6		  0	  	  1		  	  1				4		//Aura Gloves
+	11		 43			0			6		  0	  	  1		  	  1				4		//Aura Boots
+	7		 73			0			6		  0	  	  1		  	  1				4		//RF 380 SET PHONEIX
+	8		 73			0			6		  0	  	  1		  	  1				4		//RF 380 SET PHONEIX
+	9		 73			0			6		  0	  	  1		  	  1				4		//RF 380 SET PHONEIX
+	11		 73			0			6		  0	  	  1		  	  1				4		//RF 380 SET PHONEIX
+	5		 12			0			6		  0	  	  1		  	  1				4		//Grand Viper Staff
+	0		 22			0			6		  0	  	  1		  	  1				4		//Bone Blade
+	4		 21			0			6		  0	  	  1		  	  1				4		//Sylph Wind Bow
+	0		 23			0			6		  0	  	  1		  	  1				4		//Explosion Blade
+	2		 14			0			6		  0	  	  1		  	  1				4		//Solay Scepter
+	5		 19			0			6		  0	  	  1		  	  1				4		//Aura Staff
+	0		 35			0			6		  0	  	  1		  	  1				4		//RF 380 PHONEIX SWORD
+
+	7		 30			0			6		  1	  	  0		  	  1				4		//Venom Mist Helm
+	8		 30			0			6		  1	  	  0		  	  1				4		//Venom Mist Armor
+	9		 30			0			6		  1	  	  0		  	  1				4		//Venom Mist Pants
+	10		 30			0			6		  1	  	  0		  	  1				4		//Venom Mist GLoves
+	11		 30			0			6		  1	  	  0		  	  1				4		//Venom Mist Boots
+	7		 29			0			6		  1	  	  0		  	  1				4		//Dragon Knight Helm
+	8		 29			0			6		  1	  	  0		  	  1				4		//Dragon Knight Armor
+	9		 29			0			6		  1	  	  0		  	  1				4		//Dragon Knight Pants
+	10		 29			0			6		  1	  	  0		  	  1				4		//Dragon Knight Gloves
+	11		 29			0			6		  1	  	  0		  	  1				4		//Dragon Knight Boots
+	7		 31			0			6		  1	  	  0		  	  1				4		//Sylpid Ray Helm
+	8		 31			0			6		  1	  	  0		  	  1				4		//Sylpid Ray Armor
+	9		 31			0			6		  1	  	  0		  	  1				4		//Sylpid Ray Pants
+	10		 31			0			6		  1	  	  0		  	  1				4		//Sylpid Ray Gloves
+	11		 31			0			6		  1	  	  0		  	  1				4		//Sylpid Ray Boots
+	8		 32			0			6		  1	  	  0		  	  1				4		//Volcano Armor
+	9		 32			0			6		  1	  	  0		  	  1				4		//Volcano Pants
+	10		 32			0			6		  1	  	  0		  	  1				4		//Volcano Gloves
+	11		 32			0			6		  1	  	  0		  	  1				4		//Volcano Boots
+	7		 33			0			6		  1	  	  0		  	  1				4		//Sunlight Helm
+	8		 33			0			6		  1	  	  0		  	  1				4		//Sunlight Armor
+	9		 33			0			6		  1	  	  0		  	  1				4		//Sunlight Pants
+	10		 33			0			6		  1	  	  0		  	  1				4		//Sunlight Gloves
+	11		 33			0			6		  1	  	  0		  	  1				4		//Sunlight Boots
+	7		 43			0			6		  1	  	  0		  	  1				4		//Aura Helm
+	8		 43			0			6		  1	  	  0		  	  1				4		//Aura Armor
+	9		 43			0			6		  1	  	  0		  	  1				4		//Aura Pants
+	10		 43			0			6		  1	  	  0		  	  1				4		//Aura Gloves
+	11		 43			0			6		  1	  	  0		  	  1				4		//Aura Boots
+	7		 73			0			6		  1	  	  0		  	  1				4		//RF 380 SET PHONEIX
+	8		 73			0			6		  1	  	  0		  	  1				4		//RF 380 SET PHONEIX
+	9		 73			0			6		  1	  	  0		  	  1				4		//RF 380 SET PHONEIX
+	11		 73			0			6		  1	  	  0		  	  1				4		//RF 380 SET PHONEIX
+	5		 12			0			6		  1	  	  0		  	  1				4		//Grand Viper Staff
+	0		 22			0			6		  1	  	  0		  	  1				4		//Bone Blade
+	4		 21			0			6		  1	  	  0		  	  1				4		//Sylph Wind Bow
+	0		 23			0			6		  1	  	  0		  	  1				4		//Explosion Blade
+	2		 14			0			6		  1	  	  0		  	  1				4		//Solay Scepter
+	5		 19			0			6		  1	  	  0		  	  1				4		//Aura Staff
+	0		 35			0			6		  1	  	  0		  	  1				4		//RF 380 PHONEIX SWORD
+
+	7		 30			0			6		  1	  	  1		  	  1				4		//Venom Mist Helm
+	8		 30			0			6		  1	  	  1		  	  1				4		//Venom Mist Armor
+	9		 30			0			6		  1	  	  1		  	  1				4		//Venom Mist Pants
+	10		 30			0			6		  1	  	  1		  	  1				4		//Venom Mist GLoves
+	11		 30			0			6		  1	  	  1		  	  1				4		//Venom Mist Boots
+	7		 29			0			6		  1	  	  1		  	  1				4		//Dragon Knight Helm
+	8		 29			0			6		  1	  	  1		  	  1				4		//Dragon Knight Armor
+	9		 29			0			6		  1	  	  1		  	  1				4		//Dragon Knight Pants
+	10		 29			0			6		  1	  	  1		  	  1				4		//Dragon Knight Gloves
+	11		 29			0			6		  1	  	  1		  	  1				4		//Dragon Knight Boots
+	7		 31			0			6		  1	  	  1		  	  1				4		//Sylpid Ray Helm
+	8		 31			0			6		  1	  	  1		  	  1				4		//Sylpid Ray Armor
+	9		 31			0			6		  1	  	  1		  	  1				4		//Sylpid Ray Pants
+	10		 31			0			6		  1	  	  1		  	  1				4		//Sylpid Ray Gloves
+	11		 31			0			6		  1	  	  1		  	  1				4		//Sylpid Ray Boots
+	8		 32			0			6		  1	  	  1		  	  1				4		//Volcano Armor
+	9		 32			0			6		  1	  	  1		  	  1				4		//Volcano Pants
+	10		 32			0			6		  1	  	  1		  	  1				4		//Volcano Gloves
+	11		 32			0			6		  1	  	  1		  	  1				4		//Volcano Boots
+	7		 33			0			6		  1	  	  1		  	  1				4		//Sunlight Helm
+	8		 33			0			6		  1	  	  1		  	  1				4		//Sunlight Armor
+	9		 33			0			6		  1	  	  1		  	  1				4		//Sunlight Pants
+	10		 33			0			6		  1	  	  1		  	  1				4		//Sunlight Gloves
+	11		 33			0			6		  1	  	  1		  	  1				4		//Sunlight Boots
+	7		 43			0			6		  1	  	  1		  	  1				4		//Aura Helm
+	8		 43			0			6		  1	  	  1		  	  1				4		//Aura Armor
+	9		 43			0			6		  1	  	  1		  	  1				4		//Aura Pants
+	10		 43			0			6		  1	  	  1		  	  1				4		//Aura Gloves
+	11		 43			0			6		  1	  	  1		  	  1				4		//Aura Boots
+	7		 73			0			6		  1	  	  1		  	  1				4		//RF 380 SET PHONEIX
+	8		 73			0			6		  1	  	  1		  	  1				4		//RF 380 SET PHONEIX
+	9		 73			0			6		  1	  	  1		  	  1				4		//RF 380 SET PHONEIX
+	11		 73			0			6		  1	  	  1		  	  1				4		//RF 380 SET PHONEIX
+	5		 12			0			6		  1	  	  1		  	  1				4		//Grand Viper Staff
+	0		 22			0			6		  1	  	  1		  	  1				4		//Bone Blade
+	4		 21			0			6		  1	  	  1		  	  1				4		//Sylph Wind Bow
+	0		 23			0			6		  1	  	  1		  	  1				4		//Explosion Blade
+	2		 14			0			6		  1	  	  1		  	  1				4		//Solay Scepter
+	5		 19			0			6		  1	  	  1		  	  1				4		//Aura Staff
+	0		 35			0			6		  1	  	  1		  	  1				4		//RF 380 PHONEIX SWORD
+
+// -----------------------------------------------------------------------------------------------------------------------
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+// ---------------------------------------------------------------------------------------
+
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+
+// 2x
+
+// -----------------------------------------------------------------------------------------------------------------------
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+14          204     0         0         0       0      0        0 // fly box normal
+
+// Jewels
+14          245     0         0         0       0      0        0
+14          246     0         0         0       0      0        0
+14          247     0         0         0       0      0        0
+14          248     0         0         0       0      0        0
+14          249     0         0         0       0      0        0
+14          250     0         0         0       0      0        0
+
+// ---------------------------------------------------------------------------------------
+
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
+13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
+13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+end

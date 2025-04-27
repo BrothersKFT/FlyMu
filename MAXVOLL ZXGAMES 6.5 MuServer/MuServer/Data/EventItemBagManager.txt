@@ -129,4 +129,5 @@
 127       *           *           *              60             //Online Lottery 
 128       *           *           *              61             //Gift System
 129       6827        *           *              *              //Pet egg
+130       *           *           706            *              //Destroyer Of Lorencia - Custom
 end
