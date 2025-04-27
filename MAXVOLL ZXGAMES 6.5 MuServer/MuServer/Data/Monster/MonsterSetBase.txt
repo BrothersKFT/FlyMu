@@ -600,7 +600,7 @@ end
 58             8              05         036            128            036          128          -1             5             //Tantalos
 58             8              05         070            127            070          127          -1             5             //Tantalos
 58             8              05         126            137            126          137          -1             5             //Tantalos
-63             8              30         167            205            167          205          -1             5             //Death Beam Knight
+63             8              30         167            205            167          205          -1             1             //Death Beam Knight
 end
 
 
@@ -629,7 +629,7 @@ end
 072            10             05         058            201            058          201          -1             5             //Phantom Knight
 075            10             05         036            217            036          217          -1             5             //Great Drakan
 075            10             05         046            226            046          226          -1             5             //Great Drakan
-077            10             05         034            238            034          238          -1             5             //Phoenix of Darkness
+077            10             05         034            238            034          238          -1             1             //Phoenix of Darkness
 end
 
 1
@@ -644,7 +644,7 @@ end
 305            33             05         191            147            191          147          -1             5             //Blue Golem
 306            33             05         162            166            162          166          -1             5             //Death Rider
 305            33             05         047            126            047          126          -1             5             //Blue Golem
-309            33             30         110            154            110          154          -1             5             //Hell Maine
+309            33             30         110            154            110          154          -1             1             //Hell Maine
 308            33             05         104            10             104          10           -1             5             //Death Tree
 308            33             05         132            017            132          017          -1             5             //Death Tree
 307            33             05         154            019            154          019          -1             5             //Forest Orc
@@ -2344,16 +2344,6 @@ end
 070            09             30         058            086            -1             //Queen Rainier
 070            09             30         074            096            -1             //Queen Rainier
 070            09             30         064            080            -1             //Queen Rainier
-063            09             30         066            090            -1             //Death Beam Knight
-063            09             30         058            101            -1             //Death Beam Knight
-063            09             30         066            078            -1             //Death Beam Knight
-063            09             30         066            099            -1             //Death Beam Knight
-063            09             30         067            094            -1             //Death Beam Knight
-063            09             30         056            080            -1             //Death Beam Knight
-063            09             30         060            088            -1             //Death Beam Knight
-063            09             30         082            095            -1             //Death Beam Knight
-063            09             30         074            084            -1             //Death Beam Knight
-063            09             30         073            100            -1             //Death Beam Knight
 end
 
 4
@@ -2440,16 +2430,6 @@ end
 075            32             30         127            164            -1             //Great Drakan
 075            32             30         143            174            -1             //Great Drakan
 075            32             30         133            158            -1             //Great Drakan
-077            32             30         135            168            -1             //Phoenix of Darkness
-077            32             30         127            179            -1             //Phoenix of Darkness
-077            32             30         135            156            -1             //Phoenix of Darkness
-077            32             30         135            177            -1             //Phoenix of Darkness
-077            32             30         136            172            -1             //Phoenix of Darkness
-077            32             30         125            158            -1             //Phoenix of Darkness
-077            32             30         129            166            -1             //Phoenix of Darkness
-077            32             30         151            173            -1             //Phoenix of Darkness
-077            32             30         143            162            -1             //Phoenix of Darkness
-077            32             30         142            178            -1             //Phoenix of Darkness
 end
 
 4
