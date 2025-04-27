@@ -34,7 +34,7 @@
 6688      0       0       *         *         *         *         *         *         *         0          34          *              97                134               200       //Splinter of Armor
 6689      0       0       *         *         *         *         *         *         *         0          34          *              97                134               200       //Bless of Guardian
 6690      0       0       *         *         *         *         *         *         *         0          34          *              97                134               200       //Claw of Beast
-6694      0       0       *         *         *         *         *         *         *         0          38          *              25                150               100      //Moonstone Pendant               
+6694      0       0       *         *         *         *         *         *         *         0          38          *              25                150               100000      //Moonstone Pendant               
 6705      1       0       *         *         *         *         *         *         *         0          *           *              46                57                100       //Old Scroll 1
 6705      2       0       *         *         *         *         *         *         *         0          *           *              58                68                100       //Old Scroll 2
 6705      3       0       *         *         *         *         *         *         *         0          *           *              69                76                100       //Old Scroll 3
@@ -94,9 +94,9 @@
 7278      0       0       *         *         *         *         *         *         *         0          *           *              60                150               1000       //Sign of Dimensions
 7289      0       0       *         *         *         *         *         *         *         0          *           *              25                150               0       //Sealed Golden Box
 7290      0       0       *         *         *         *         *         *         *         0          *           *              25                150               0       //Sealed Silver Box
-7179      5       0       *         *         *         *         *         *         *         0          1           *              *                *                50000       // silver medal Dungeon
-7179      5       0       *         *         *         *         *         *         *         0          2           *              *                *                50000       // silver medal devias
-7179      6       0       *         *         *         *         *         *         *         0          7           *              *                *                50000       // gold medal Atlans
-7179      6       0       *         *         *         *         *         *         *         0          4           *              *                *                50000       // gold medal Lost Tower
-7179      6       0       *         *         *         *         *         *         *         0          8           *              *                *                50000       // gold medal Tarkan
+7179      5       0       *         *         *         *         *         *         *         0          1           *              *                *                20000       // silver medal Dungeon
+7179      5       0       *         *         *         *         *         *         *         0          2           *              *                *                20000       // silver medal devias
+7179      6       0       *         *         *         *         *         *         *         0          7           *              *                *                20000       // gold medal Atlans
+7179      6       0       *         *         *         *         *         *         *         0          4           *              *                *                20000       // gold medal Lost Tower
+7179      6       0       *         *         *         *         *         *         *         0          8           *              *                *                20000       // gold medal Tarkan
 end
