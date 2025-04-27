@@ -1,6 +1,6 @@
 0
 //EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
-"Golden Twin Tail"	 1000	   100		  1		  0		    0		   0
+"Golden Twin Tail"	 1000	   100		  2		  0		    0		   0
 end
 
 1
