@@ -9,7 +9,7 @@
 
 // Teszt Szabályok:
 // Devias (Map 4): Minden nap 08:00-tól 1 órán át (08:59-ig).
-4   *   8    0    60    *
+2   *   8    0    60    *
 
 // Noria (Map 3): Minden nap 23:35-től 3 órán át (02:34-ig).
 3   *   23   35   180   *
