@@ -4,14 +4,15 @@
 // - DayOfWeek: A hét napja (0=Vasárnap, 1=Hétfő, ..., 6=Szombat). Használj '*' -ot, ha bármely napon érvényes.
 // - OpenHour, OpenMinute: A map megnyitásának időpontja (óra, perc).
 // - DurationMinutes: Hány percig marad nyitva a map a megnyitás időpontjától számítva.
-// - KickGate: (Opcionális) Annak a kapunak (Gate) a száma, ahova a játékost teleportáljuk az idő lejártakor. Ha '*' vagy nincs megadva, alapértelmezetten Lorencia kapujába (Gate 17) kerül.
+// - KickGate: (Opcionális) Annak a kapunak (Gate) a száma, ahova a játékost teleportáljuk az idő lejártakor. 
+//              Ha '*' vagy nincs megadva, alapértelmezetten Lorencia kapujába (Gate 17) kerül.
+//
 // Fontos: Ha egy map több időpontban/napon is nyitva van, minden esethez külön sor kell.
+//==================================================================================================================
 
-// Teszt Szabályok:
-// Devias (Map 4): Minden nap 08:00-tól 1 órán át (08:59-ig).
-2   *   8    0    60    *
+//MapID  DayOfWeek OpenHour OpenMinute DurationMinutes [KickGate]
 
-// Noria (Map 3): Minden nap 23:35-től 3 órán át (02:34-ig).
-3   *   0   37   2   *
+//    2        *        8         0           60              *
+
 
 end 
