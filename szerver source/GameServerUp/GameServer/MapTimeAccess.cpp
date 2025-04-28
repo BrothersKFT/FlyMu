@@ -195,6 +195,7 @@ int CMapTimeAccess::GetKickGate(int mapId) {
 }
 
 void CMapTimeAccess::CheckAndKickPlayers() {
+	LogAdd(LOG_BLUE, "[MapTimeAccess] CheckAndKickPlayers timer executing..."); // Log timer execution
 	SYSTEMTIME time;
 	GetLocalTime(&time);
 		int currentDayOfWeek = time.wDayOfWeek;
@@ -240,8 +241,10 @@ void CMapTimeAccess::CheckAndKickPlayers() {
 			GATE_INFO GateInfo; // Temporary struct to check gate validity
 			if (gGate.GetInfo(kickGate, &GateInfo)) { // Check if the gate is valid by trying to get its info
 				LogAdd(LOG_EVENT, "[MapTimeAccess] Attempting to kick %s from Map %d to Gate %d.", lpObj->Name, lpObj->Map, kickGate);
+				int originalMapForKickLog = lpObj->Map; // Store the original map in a variable
 				gObjMoveGate(lpObj->Index, kickGate);
-				LogAdd(LOG_EVENT, "[MapTimeAccess] Kicked %s from Map %d (Time Expired). Sent to Gate %d.", lpObj->Name, lpObj->Map, kickGate); // Log remains, gObjMoveGate might be async?
+				// Log the map *before* the potential async move completes
+				LogAdd(LOG_EVENT, "[MapTimeAccess] Kicked %s from Map %d (Time Expired). Sent to Gate %d.", lpObj->Name, originalMapForKickLog, kickGate); 
 			}
 			else {
 				LogAdd(LOG_BLACK, "[MapTimeAccess] Invalid KickGate %d specified for Map %d. Cannot kick %s.", kickGate, lpObj->Map, lpObj->Name);

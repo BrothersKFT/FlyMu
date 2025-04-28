@@ -2675,6 +2675,13 @@ void gObjPlayerKiller(LPOBJ lpObj,LPOBJ lpTarget) // OK
 
 BOOL gObjMoveGate(int aIndex,int gate) // OK
 {
+	LogAdd(LOG_BLUE, "[MapTimeAccess] gObjMoveGate called for player index %d, Gate %d", aIndex, gate);
+
+	if(OBJECT_RANGE(aIndex) == 0)
+	{
+		return FALSE;
+	}
+
 	LPOBJ lpObj = &gObj[aIndex];
 
 	if(lpObj->Type == OBJECT_USER)
