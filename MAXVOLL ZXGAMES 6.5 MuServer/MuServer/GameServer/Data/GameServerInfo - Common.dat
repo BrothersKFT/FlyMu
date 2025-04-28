@@ -475,18 +475,18 @@ TransformationRing6 = 41
 ;==================================================
 ; Jewel Settings
 ;==================================================
-SoulSuccessRate_AL0 = 50
+SoulSuccessRate_AL0 = 60
 SoulSuccessRate_AL1 = 60
 SoulSuccessRate_AL2 = 60
-SoulSuccessRate_AL3 = 70
-LifeSuccessRate_AL0 = 60
-LifeSuccessRate_AL1 = 65
-LifeSuccessRate_AL2 = 65
+SoulSuccessRate_AL3 = 60
+LifeSuccessRate_AL0 = 70
+LifeSuccessRate_AL1 = 70
+LifeSuccessRate_AL2 = 70
 LifeSuccessRate_AL3 = 70
 HarmonySuccessRate_AL0 = 50
-HarmonySuccessRate_AL1 = 60
-HarmonySuccessRate_AL2 = 60
-HarmonySuccessRate_AL3 = 70
+HarmonySuccessRate_AL1 = 50
+HarmonySuccessRate_AL2 = 50
+HarmonySuccessRate_AL3 = 50
 SmeltStoneSuccessRate1_AL0 = 50
 SmeltStoneSuccessRate1_AL1 = 50
 SmeltStoneSuccessRate1_AL2 = 50
