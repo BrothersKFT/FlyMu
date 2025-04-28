@@ -1,0 +1,8 @@
+Extended Stored Procedure for create and check WZ MD5 Hash on x64 systems. (13.06.2014)
+
+1. Copy the 'WZ_MD5_MOD_x64.dll' in C:\Program Files\Microsoft SQL Server\MSSQL\Binn\
+2. Run this script "Install WZ_MD5_MOD_x64.sql"
+3. Run  script "Test.sql" [optional]
+4. Enjoy!
+
+~ xakumm. 
