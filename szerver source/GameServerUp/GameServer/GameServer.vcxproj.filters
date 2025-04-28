@@ -1760,6 +1760,9 @@
     <ClCompile Include="InvokerHelper.cpp">
       <Filter>Source Files\ItemInvokerHelper</Filter>
     </ClCompile>
+    <ClCompile Include="MapTimeAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="GameServer.rc">

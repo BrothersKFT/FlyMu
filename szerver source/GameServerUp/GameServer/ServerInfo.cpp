@@ -141,7 +141,6 @@
 #include "ResetSystem.h"
 #include "GrandResetSystem.h"
 #include "InvokerHelper.h"
-#include "VipSystem.h"
 #include "MapTimeAccess.h" // Include for MapTimeAccess
 
 CServerInfo gServerInfo;

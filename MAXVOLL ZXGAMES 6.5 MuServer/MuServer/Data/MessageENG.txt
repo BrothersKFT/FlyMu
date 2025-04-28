@@ -704,6 +704,6 @@
 //=====================================================================================================
 2006	  "[FlyMu]: The Destroyer Of Lorencia has appeared, protect Lorencia at all costs!"
 2007	  "[FlyMu]: The Destroyer of Lorencia has been defeated!"
-
+2008      "[FlyMu]: The time for this map has expired."
 
 end

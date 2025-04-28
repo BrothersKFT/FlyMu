@@ -906,6 +906,7 @@ struct OBJECTSTRUCT
 	int DefensiveFullHPRestoreRate;
 	int DefensiveFullMPRestoreRate;
 	int DefensiveFullSDRestoreRate;
+	int DefensiveFullBPRestoreRate;
 	int OffensiveFullHPRestoreRate;
 	int OffensiveFullMPRestoreRate;
 	int OffensiveFullSDRestoreRate;

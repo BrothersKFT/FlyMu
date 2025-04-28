@@ -65,6 +65,7 @@
 #include "GrandResetSystem.h"
 #include "InvokerHelper.h"
 #include "MapTimeAccess.h"
+#include "Gate.h"
 
 void DataServerProtocolCore(BYTE head,BYTE* lpMsg,int size) // OK
 {
@@ -1517,8 +1518,10 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 	// === MapTimeAccess Check on Character Load Start ===
 	if (!gMapTimeAccess.IsMoveAllowed(lpObj->Map))
 	{
-		int kickGate = gMapTimeAccess.GetKickGate(lpObj->Map);
+		GATE_INFO DefaultGateInfo;
 		GATE_INFO GateInfo;
+		int kickGate = gMapTimeAccess.GetKickGate(lpObj->Map);
+		
 
 		if(gGate.GetInfo(kickGate, &GateInfo))
 		{
@@ -1532,7 +1535,7 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 		else
 		{
 			// Fallback if kick gate is invalid for some reason
-			GATE_INFO DefaultGateInfo;
+			
 			if(gGate.GetInfo(17, &DefaultGateInfo)) // Default to Lorencia Gate 17
 			{
 				lpObj->Map = DefaultGateInfo.Map;
@@ -1544,7 +1547,7 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 			else
 			{
 				// Extreme fallback if even Lorencia gate is missing
-				LogAdd(LOG_ERROR, "[MapTimeAccess] Cannot find kick gate %d or default gate 17 for restricted map %d login! Player %s might be stuck.", kickGate, lpMsg->Map, lpObj->Name);
+				LogAdd(LOG_BLACK, "[MapTimeAccess] Cannot find kick gate %d or default gate 17 for restricted map %d login! Player %s might be stuck.", kickGate, lpMsg->Map, lpObj->Name);
 				// Disconnect? Force to safe zone coords? 
 				// For now, let them log in at the original spot, but log the error.
 			}

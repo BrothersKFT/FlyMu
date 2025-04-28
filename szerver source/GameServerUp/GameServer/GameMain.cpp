@@ -19,6 +19,7 @@
 #include "CustomAttack.h"
 #include "OfflineMode.h"
 #include "CustomRanking.h"
+#include "MapTimeAccess.h"
 
 CConnection gJoinServerConnection;
 CConnection gDataServerConnection;

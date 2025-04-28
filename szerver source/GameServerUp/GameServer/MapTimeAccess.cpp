@@ -151,7 +151,8 @@ bool CMapTimeAccess::IsMoveAllowed(int mapId, int gate /*= -1*/) {
 		int currentMinute = time.wMinute;
 
 	const std::vector<MapTimeAccessRule>& rules = it->second;
-	for (const auto& rule : rules) {
+	for (std::vector<MapTimeAccessRule>::const_iterator iter = rules.begin(); iter != rules.end(); ++iter) {
+		const MapTimeAccessRule& rule = *iter;
 		if (IsTimeInRange(rule, currentDayOfWeek, currentHour, currentMinute)) {
 			return true; // Found a matching rule that allows access now
 		}
@@ -179,7 +180,8 @@ void CMapTimeAccess::CheckAndKickPlayers() {
 		int currentMinute = time.wMinute;
 
 	for (int n = OBJECT_START_USER; n < MAX_OBJECT; ++n) {
-		if (gObj[n].Connected != PLAYER_PLAYING || gObj[n].Type != OBJECT_USER) {
+		// Check if the object is a user, fully connected and in playing state
+		if (gObj[n].Connected != OBJECT_ONLINE || gObj[n].State != OBJECT_PLAYING || gObj[n].Type != OBJECT_USER) {
 			continue;
 		}
 
@@ -194,7 +196,8 @@ void CMapTimeAccess::CheckAndKickPlayers() {
 		// Check if *any* active rule allows the player to be on this map *right now*
 		bool allowed = false;
 		const std::vector<MapTimeAccessRule>& rules = it->second;
-		for (const auto& rule : rules) {
+		for (std::vector<MapTimeAccessRule>::const_iterator iter = rules.begin(); iter != rules.end(); ++iter) {
+			const MapTimeAccessRule& rule = *iter;
 			if (IsTimeInRange(rule, currentDayOfWeek, currentHour, currentMinute)) {
 				allowed = true;
 				break; // Found a valid time slot, player can stay
@@ -210,7 +213,8 @@ void CMapTimeAccess::CheckAndKickPlayers() {
 			gNotice.GCNoticeSend(lpObj->Index,1,0,0,0,0,0,gMessage.GetMessage(2008)); 
 
 			// Teleport the player
-			if (gGate.IsValidGate(kickGate)) {
+			GATE_INFO GateInfo; // Temporary struct to check gate validity
+			if (gGate.GetInfo(kickGate, &GateInfo)) { // Check if the gate is valid by trying to get its info
 				gObjMoveGate(lpObj->Index, kickGate);
 				LogAdd(LOG_EVENT, "[MapTimeAccess] Kicked %s from Map %d (Time Expired). Sent to Gate %d.", lpObj->Name, lpObj->Map, kickGate);
 			}
