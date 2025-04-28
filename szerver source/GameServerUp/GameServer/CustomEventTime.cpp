@@ -117,6 +117,17 @@ void CCustomEventTime::GCReqEventTime(int Index,PMSG_CUSTOM_EVENTTIME_RECV* lpMs
 		size += sizeof(info);
 	}
 
+	// --- Destroyer Of Lorencia (ID 42) hozzáadása ---
+	info.index = 42; // Kliens oldali ID beállítása (a CustomEventTimeText.txt alapján)
+
+	// Idő lekérése az InvasionManager által kezelt 9-es indexű invázióhoz tartozó változóból
+	info.time = gServerDisplayer.EventInvasion[9];
+
+	pMsg.count++;                         // Event számláló növelése
+	memcpy(&send[size],&info,sizeof(info)); // Adatok hozzáadása a küldendő bufferhez
+	size += sizeof(info);                 // Buffer méret növelése
+	// --- Destroyer Of Lorencia hozzáadása vége ---
+
 	pMsg.header.size[0] = SET_NUMBERHB(size);
 	pMsg.header.size[1] = SET_NUMBERLB(size);
 	// ---

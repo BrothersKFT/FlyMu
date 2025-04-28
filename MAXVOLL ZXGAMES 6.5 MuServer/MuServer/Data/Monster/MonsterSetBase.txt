@@ -1488,6 +1488,7 @@ end
 365            02             30         010            010            240          240          -1             20            0          //Pouch of Blessing
 463            04             30         010            010            240          240          -1             20            0          //Fire Flame Ghost Lost Tower
 413            51             30         010            010            240          240          -1             20            0          // Lunar Rabbit Invasion Elbeland
+706            00             5          144            62             144          62           -1             1             0          // Destroyer Of Lorencia
 end
 
 3

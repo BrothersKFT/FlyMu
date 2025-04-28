@@ -698,4 +698,12 @@
 2003      "%s has killed the DevilSquare Protector, Their power is absolute"
 2004	  "The ChaosCastle Protector has appeared, BE CAREFUL!!"
 2005      "%s has killed the ChaosCastle Protector, Their power is absolute"
+
+//=====================================================================================================
+// MESSAGES - INVASION
+//=====================================================================================================
+2006	  "[FlyMu]: The Destroyer Of Lorencia has appeared, protect Lorencia at all costs!"
+2007	  "[FlyMu]: The Destroyer of Lorencia has been defeated!"
+
+
 end
