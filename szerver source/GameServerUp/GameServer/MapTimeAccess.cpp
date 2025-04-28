@@ -24,21 +24,26 @@ int CMapTimeAccess::CalculateMinutesOfWeek(int dayOfWeek, int hour, int minute) 
 }
 
 void CMapTimeAccess::Load(char* path) {
+	LogAdd(LOG_BLUE, "[MapTimeAccess] Attempting to load file: %s", path);
 	CMemScript* lpMemScript = new CMemScript;
 
 	if (lpMemScript == 0) {
 		ErrorMessageBox(MEM_SCRIPT_ALLOC_ERROR, path);
+		LogAdd(LOG_RED, "[MapTimeAccess] Error: Failed to allocate CMemScript.");
 		return;
 	}
+	LogAdd(LOG_BLUE, "[MapTimeAccess] CMemScript allocated.");
 
 	if (lpMemScript->SetBuffer(path) == 0) {
 		ErrorMessageBox(lpMemScript->GetLastError());
+		LogAdd(LOG_RED, "[MapTimeAccess] Error: Failed to set buffer for file: %s. Error: %s", path, lpMemScript->GetLastError());
 		delete lpMemScript;
 		return;
 	}
+	LogAdd(LOG_BLUE, "[MapTimeAccess] Buffer set successfully for file: %s", path);
 
 	this->m_Rules.clear();
-
+	int rulesLoaded = 0; // Counter for loaded rules
 	try {
 		while (true) {
 			if (lpMemScript->GetToken() == TOKEN_END) {
@@ -87,13 +92,15 @@ void CMapTimeAccess::Load(char* path) {
 			
 
 			this->m_Rules[rule.MapID].push_back(rule);
+			rulesLoaded++; // Increment counter
 		}
 	}
 	catch (...) {
 		ErrorMessageBox(lpMemScript->GetLastError());
+		LogAdd(LOG_RED, "[MapTimeAccess] Exception caught while parsing file: %s. Error: %s", path, lpMemScript->GetLastError());
 	}
 
-	LogAdd(LOG_BLACK, "[MapTimeAccess] Loaded %d rules.", this->m_Rules.size());
+	LogAdd(LOG_BLACK, "[MapTimeAccess] Loaded %d rules from %d map entries.", rulesLoaded, this->m_Rules.size());
 	delete lpMemScript;
 }
 
