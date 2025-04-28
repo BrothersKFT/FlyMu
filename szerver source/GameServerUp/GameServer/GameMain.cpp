@@ -225,6 +225,9 @@ void CALLBACK QueueTimerCallback(PVOID lpParameter,BOOLEAN TimerOrWaitFired) // 
 		case QUEUE_TIMER_RANKING:
 			gRanking.SendDS();
 			break;
+		case QUEUE_TIMER_MAP_TIME_ACCESS:
+			gMapTimeAccess.CheckAndKickPlayers();
+			break;
 	}
 
 	critical.unlock();

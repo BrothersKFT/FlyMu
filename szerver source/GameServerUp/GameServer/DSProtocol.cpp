@@ -64,6 +64,7 @@
 #include "ResetSystem.h"
 #include "GrandResetSystem.h"
 #include "InvokerHelper.h"
+#include "MapTimeAccess.h"
 
 void DataServerProtocolCore(BYTE head,BYTE* lpMsg,int size) // OK
 {
@@ -1136,7 +1137,9 @@ void DGCharacterDeleteRecv(SDHP_CHARACTER_DELETE_RECV* lpMsg) // OK
 
 void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 {
-	if(gObjIsAccountValid(lpMsg->index,lpMsg->account) == 0)
+	int aIndex = lpMsg->index;
+
+	if(gObjIsAccountValid(aIndex,lpMsg->account) == 0)
 	{
 		LogAdd(LOG_RED,"[DGCharacterInfoRecv] Invalid Account [%d](%s)",lpMsg->index,lpMsg->account);
 		CloseClient(lpMsg->index);
@@ -1510,6 +1513,47 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 	}
 
 	LogAddConnect(LOG_BLUE,"[Obj][%d] LogInCharacter (%s)",lpObj->Index,lpObj->Name);
+
+	// === MapTimeAccess Check on Character Load Start ===
+	if (!gMapTimeAccess.IsMoveAllowed(lpObj->Map))
+	{
+		int kickGate = gMapTimeAccess.GetKickGate(lpObj->Map);
+		GATE_INFO GateInfo;
+
+		if(gGate.GetInfo(kickGate, &GateInfo))
+		{
+			lpObj->Map = GateInfo.Map;
+			lpObj->X = GateInfo.X;
+			lpObj->Y = GateInfo.Y;
+			LogAdd(LOG_EVENT, "[MapTimeAccess] %s logged in on restricted map %d. Moved to Gate %d (%d,%d,%d).", lpObj->Name, lpMsg->Map, kickGate, lpObj->Map, lpObj->X, lpObj->Y);
+			// Optional: Set a flag to send a message after player enters the game
+			lpObj->SendMapTimeAccessKickMessage = true; 
+		}
+		else
+		{
+			// Fallback if kick gate is invalid for some reason
+			GATE_INFO DefaultGateInfo;
+			if(gGate.GetInfo(17, &DefaultGateInfo)) // Default to Lorencia Gate 17
+			{
+				lpObj->Map = DefaultGateInfo.Map;
+				lpObj->X = DefaultGateInfo.X;
+				lpObj->Y = DefaultGateInfo.Y;
+				LogAdd(LOG_BLACK, "[MapTimeAccess] %s logged in on restricted map %d. Invalid KickGate %d. Moved to default Gate 17 (%d,%d,%d).", lpObj->Name, lpMsg->Map, kickGate, lpObj->Map, lpObj->X, lpObj->Y);
+				lpObj->SendMapTimeAccessKickMessage = true;
+			}
+			else
+			{
+				// Extreme fallback if even Lorencia gate is missing
+				LogAdd(LOG_ERROR, "[MapTimeAccess] Cannot find kick gate %d or default gate 17 for restricted map %d login! Player %s might be stuck.", kickGate, lpMsg->Map, lpObj->Name);
+				// Disconnect? Force to safe zone coords? 
+				// For now, let them log in at the original spot, but log the error.
+			}
+			
+		}
+	}
+	// === MapTimeAccess Check on Character Load End ===
+
+	lpObj->Experience = lpMsg->Experience;
 }
 
 void DGCreateItemRecv(SDHP_CREATE_ITEM_RECV* lpMsg) // OK

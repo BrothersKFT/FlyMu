@@ -141,6 +141,8 @@
 #include "ResetSystem.h"
 #include "GrandResetSystem.h"
 #include "InvokerHelper.h"
+#include "VipSystem.h"
+#include "MapTimeAccess.h" // Include for MapTimeAccess
 
 CServerInfo gServerInfo;
 
@@ -687,6 +689,8 @@ void CServerInfo::ReadMoveInfo() // OK
 	gGate.Load(gPath.GetFullPath("Move\\Gate.txt"));
 
 	gMove.Load(gPath.GetFullPath("Move\\Move.txt"));
+
+	gMapTimeAccess.Load(gPath.GetFullPath("MapTimeAccess.txt")); // Load MapTimeAccess config
 
 	gCustomMove.Load(gPath.GetFullPath("Custom\\CustomMove.txt"));
 

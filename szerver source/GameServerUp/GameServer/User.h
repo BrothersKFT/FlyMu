@@ -805,6 +805,8 @@ struct OBJECTSTRUCT
 	int LuckyCoinTransaction[2];
 	int PcPointTransaction[2];
 	DWORD AutoAttackTime;
+	DWORD AutoResumeTime;
+	bool SendMapTimeAccessKickMessage; // Flag to send message after login if moved due to map time restriction
 	DWORD TradeOkTime;
 	DWORD PotionTime;
 	DWORD ComboTime;
@@ -904,7 +906,6 @@ struct OBJECTSTRUCT
 	int DefensiveFullHPRestoreRate;
 	int DefensiveFullMPRestoreRate;
 	int DefensiveFullSDRestoreRate;
-	int DefensiveFullBPRestoreRate;
 	int OffensiveFullHPRestoreRate;
 	int OffensiveFullMPRestoreRate;
 	int OffensiveFullSDRestoreRate;
