@@ -675,6 +675,5 @@ end
     17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
     19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
-    20		 250			0			0		  0	  	  0		  	  0			0		//Jewel of Kundun
 
 end
