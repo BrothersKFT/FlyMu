@@ -23,7 +23,7 @@
 	20	"Summer"
 	21	"Cursed Santa"
 	22	"Medusa"
-	23	"Demons"
+	23	"Destroyer Of Lorencia"
 	24	"Eggs"
 	25	"Custom 1"
 	26	"Custom 2"
@@ -41,5 +41,5 @@
 	38	"Arena 10"
 	39	"Arena 11"
 	40	"Arena 12"	
-	41	"Arena 13"		
+	41	"Arena 13"
 end

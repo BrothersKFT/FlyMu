@@ -11,7 +11,7 @@
 703		1	"Urk Devil Fairy"                   "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster260"	        1.00
 704		1	"Urk Elemental Beast"               "Data\\Custom\\Monster\\"   "Custom\\Monster\\"	   "Monster261"	        1.00
 705		1	"Urk Elemental Knight"              "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster262"	        1.00
-706		1	"Lord Silvester"                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster263"		    2.10
+706		1	"Lord Silvester"                    "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "LordOfDarkness"		1.80
 707		1	"Nars Devil Fairy"                  "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster274"		    1.00
 708		1	"Nars Elemental Beast"              "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster275"	        1.00
 709		1	"Nars Elemental Knight"             "Data\\Custom\\Monster\\"	"Custom\\Monster\\"	   "Monster276"	        1.00

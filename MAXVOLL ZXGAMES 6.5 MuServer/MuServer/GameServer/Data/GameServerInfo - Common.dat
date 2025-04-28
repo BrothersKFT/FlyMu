@@ -190,7 +190,7 @@ AutoResetExperienceRate_AL3 = 130
 ;==================================================
 ; Item Drop Settings
 ;==================================================
-ItemDropTime = 15
+ItemDropTime = 25
 ItemDropPickUpTime = 10
 ItemDropRate_AL0 = 20
 ItemDropRate_AL1 = 25
