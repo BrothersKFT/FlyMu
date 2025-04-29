@@ -64,6 +64,8 @@
 #include "ResetSystem.h"
 #include "GrandResetSystem.h"
 #include "InvokerHelper.h"
+#include "MapTimeAccess.h"
+#include "Gate.h"
 
 void DataServerProtocolCore(BYTE head,BYTE* lpMsg,int size) // OK
 {
@@ -1136,7 +1138,9 @@ void DGCharacterDeleteRecv(SDHP_CHARACTER_DELETE_RECV* lpMsg) // OK
 
 void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 {
-	if(gObjIsAccountValid(lpMsg->index,lpMsg->account) == 0)
+	int aIndex = lpMsg->index;
+
+	if(gObjIsAccountValid(aIndex,lpMsg->account) == 0)
 	{
 		LogAdd(LOG_RED,"[DGCharacterInfoRecv] Invalid Account [%d](%s)",lpMsg->index,lpMsg->account);
 		CloseClient(lpMsg->index);
@@ -1510,6 +1514,52 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 	}
 
 	LogAddConnect(LOG_BLUE,"[Obj][%d] LogInCharacter (%s)",lpObj->Index,lpObj->Name);
+
+	// === MapTimeAccess Check on Character Load Start ===
+	BYTE originalMap = lpObj->Map;
+	BYTE originalX = lpObj->X;
+	BYTE originalY = lpObj->Y;
+	if (!gMapTimeAccess.IsMoveAllowed(originalMap))
+	{
+		GATE_INFO DefaultGateInfo;
+		GATE_INFO GateInfo;
+		int kickGate = gMapTimeAccess.GetKickGate(originalMap);
+		
+		if(gGate.GetInfo(kickGate, &GateInfo))
+		{
+			lpObj->Map = GateInfo.Map;
+			lpObj->X = GateInfo.X;
+			lpObj->Y = GateInfo.Y;
+			// Optional: Set a flag to send a message after player enters the game
+			lpObj->SendMapTimeAccessKickMessage = true; 
+		}
+		else
+		{
+			// Fallback if kick gate is invalid for some reason
+			if(gGate.GetInfo(17, &DefaultGateInfo)) // Default to Lorencia Gate 17
+			{
+				lpObj->Map = DefaultGateInfo.Map;
+				lpObj->X = DefaultGateInfo.X;
+				lpObj->Y = DefaultGateInfo.Y;
+				lpObj->SendMapTimeAccessKickMessage = true;
+			}
+			else
+			{
+				// Extreme fallback if even Lorencia gate is missing
+				LogAdd(LOG_BLACK, "[MapTimeAccess] Cannot find kick gate %d or default gate 17 for restricted map %d login! Player %s might be stuck.", kickGate, originalMap, lpObj->Name); // Changed LOG_ERROR to LOG_BLACK
+				// Disconnect? Force to safe zone coords? 
+				// For now, let them log in at the original spot, but log the error.
+				// Revert to original position to avoid potential issues if kick fails completely
+				lpObj->Map = originalMap;
+				lpObj->X = originalX;
+				lpObj->Y = originalY;
+			}
+			
+		}
+	}
+	// === MapTimeAccess Check on Character Load End ===
+
+	lpObj->Experience = lpMsg->Experience;
 }
 
 void DGCreateItemRecv(SDHP_CREATE_ITEM_RECV* lpMsg) // OK

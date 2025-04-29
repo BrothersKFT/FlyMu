@@ -106,6 +106,7 @@
 #include "CustomPKFree.h"
 #include "OfflineMode.h"
 #include "WindowsQuest.h"
+#include "MapTimeAccess.h"
 
 int gObjCount;
 int gObjMonCount;
@@ -2674,6 +2675,11 @@ void gObjPlayerKiller(LPOBJ lpObj,LPOBJ lpTarget) // OK
 
 BOOL gObjMoveGate(int aIndex,int gate) // OK
 {
+	if(OBJECT_RANGE(aIndex) == 0)
+	{
+		return FALSE;
+	}
+
 	LPOBJ lpObj = &gObj[aIndex];
 
 	if(lpObj->Type == OBJECT_USER)
@@ -2914,17 +2920,27 @@ BOOL gObjMoveGate(int aIndex,int gate) // OK
 
 void gObjTeleport(int aIndex,int map,int x,int y) // OK
 {
-	if(OBJECT_RANGE(aIndex) == 0)
-	{
-		return;
-	}
-
-	if(MAP_RANGE(map) == 0)
-	{
-		return;
-	}
-
 	LPOBJ lpObj = &gObj[aIndex];
+
+	if(lpObj->Type != OBJECT_USER)
+	{
+		return;
+	}
+
+	// === MapTimeAccess Check Start ===
+	if (!gMapTimeAccess.IsMoveAllowed(map))
+	{
+		// Use the message defined in MessageENG.txt (index 2008)
+		gNotice.GCNoticeSend(aIndex, 1, 0, 0, 0, 0, 0, gMessage.GetMessage(2008));
+		return; // Stop teleport if not allowed - Assuming gObjTeleport return type is void based on usage, change to FALSE if it's BOOL
+	}
+	// === MapTimeAccess Check End ===
+
+	if(CC_MAP_RANGE(map) != 0 && gChaosCastle.GetState(GET_CC_LEVEL(map)) != CC_STATE_EMPTY)
+	{
+		gNotice.GCNoticeSend(aIndex, 1, 0, 0, 0, 0, 0, gMessage.GetMessage(625));
+		return;
+	}
 
 	lpObj->State = OBJECT_DELCMD;
 

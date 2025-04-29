@@ -19,6 +19,7 @@
 #include "CustomAttack.h"
 #include "OfflineMode.h"
 #include "CustomRanking.h"
+#include "MapTimeAccess.h"
 
 CConnection gJoinServerConnection;
 CConnection gDataServerConnection;
@@ -224,6 +225,9 @@ void CALLBACK QueueTimerCallback(PVOID lpParameter,BOOLEAN TimerOrWaitFired) // 
 			break;
 		case QUEUE_TIMER_RANKING:
 			gRanking.SendDS();
+			break;
+		case QUEUE_TIMER_MAP_TIME_ACCESS:
+			gMapTimeAccess.CheckAndKickPlayers();
 			break;
 	}
 

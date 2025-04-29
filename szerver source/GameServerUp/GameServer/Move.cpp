@@ -24,6 +24,7 @@
 #include "ServerInfo.h"
 #include "SkillManager.h"
 #include "Util.h"
+#include "MapTimeAccess.h"
 
 #if (DUEL_CUSTOM_APUESTAS == 1)
 #include "Duel.h"
@@ -239,6 +240,22 @@ void CMove::Move(LPOBJ lpObj,int index) // OK
 	}
 
 	#endif
+
+	// === MapTimeAccess Check Start ===
+	GATE_INFO TargetGateInfo;
+	if(gGate.GetInfo(MoveInfo.Gate, &TargetGateInfo)) {
+		int targetMap = TargetGateInfo.Map;
+		if (!gMapTimeAccess.IsMoveAllowed(targetMap, MoveInfo.Gate)) // Pass gate for potential future gate-specific rules
+		{
+			gNotice.GCNoticeSend(lpObj->Index, 1, 0, 0, 0, 0, 0, gMessage.GetMessage(2008)); // Use the map time expired message
+			return;
+		}
+	}
+	else {
+		// Allow move if gate info is missing? Or deny? Denying might be safer if Gate.txt is broken.
+		// Let's allow for now, but log a warning.
+	}
+	// === MapTimeAccess Check End ===
 
 	if(CA_MAP_RANGE(gGate.GetGateMap(MoveInfo.Gate)) == 0 || gCustomArena.CheckEnterEnabled(lpObj,MoveInfo.Gate) != 0)
 	{

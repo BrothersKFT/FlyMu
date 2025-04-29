@@ -693,6 +693,7 @@
     <ClCompile Include="MapManager.cpp" />
     <ClCompile Include="MapPath.cpp" />
     <ClCompile Include="MapServerManager.cpp" />
+    <ClCompile Include="MapTimeAccess.cpp" />
     <ClCompile Include="MasterSkillTree.cpp" />
     <ClCompile Include="MemoryAllocator.cpp" />
     <ClCompile Include="MemoryAllocatorInfo.cpp" />

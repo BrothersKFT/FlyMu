@@ -18,6 +18,7 @@ enum eQueueTimerIndex
 	QUEUE_TIMER_ACCOUNT_LEVEL = 9,
 	QUEUE_TIMER_PICK_COMMAND = 10,
 	QUEUE_TIMER_RANKING = 11,
+	QUEUE_TIMER_MAP_TIME_ACCESS = 12, // Timer for MapTimeAccess checks
 };
 
 struct QUEUE_TIMER_INFO

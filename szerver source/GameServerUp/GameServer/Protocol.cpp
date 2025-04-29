@@ -84,7 +84,7 @@
 #include "ResetSystem.h"
 #include "GrandResetSystem.h"
 
-//Dragones function para chequear mapa de invasión y todos los personajes
+//Dragones function para chequear mapa de invasiÃ³n y todos los personajes
 void GCEventStateSendToAll(int map ,BYTE InvasionState, BYTE InvasionIndex)
 {
 	for ( int n=0; n<MAX_OBJECT ; n++ )
@@ -3125,6 +3125,15 @@ void GCMapServerMoveAuthSend(int aIndex,BYTE result) // OK
 	pMsg.result = result;
 
 	DataSend(aIndex,(BYTE*)&pMsg,pMsg.header.size);
+
+	// === Send MapTimeAccess Kick Message if needed ===
+	LPOBJ lpObj = &gObj[aIndex];
+	if (result == 0 && lpObj->SendMapTimeAccessKickMessage) // Check if login was successful (result 0) and the flag is set
+	{
+		gNotice.GCNoticeSend(aIndex, 1, 0, 0, 0, 0, 0, gMessage.GetMessage(2008)); // Use updated index 2008
+		lpObj->SendMapTimeAccessKickMessage = false; // Reset the flag
+	}
+	// === End Send Message ===
 }
 
 void GCTaxInfoSend(int aIndex,BYTE type,BYTE rate) // OK

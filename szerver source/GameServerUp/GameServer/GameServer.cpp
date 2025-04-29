@@ -141,6 +141,8 @@ int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine
 			gQueueTimer.CreateTimer(QUEUE_TIMER_PICK_COMMAND,6000,&QueueTimerCallback);
 
 			gQueueTimer.CreateTimer(QUEUE_TIMER_RANKING, 180000, &QueueTimerCallback);
+
+			gQueueTimer.CreateTimer(QUEUE_TIMER_MAP_TIME_ACCESS, 60000, &QueueTimerCallback);
 		}
 	}
 	else
