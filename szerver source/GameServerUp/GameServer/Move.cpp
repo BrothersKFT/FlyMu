@@ -245,17 +245,13 @@ void CMove::Move(LPOBJ lpObj,int index) // OK
 	GATE_INFO TargetGateInfo;
 	if(gGate.GetInfo(MoveInfo.Gate, &TargetGateInfo)) {
 		int targetMap = TargetGateInfo.Map;
-		LogAdd(LOG_BLUE, "[MapTimeAccess] CMove::Move: Checking access for MapID %d (Gate %d) for player %s", targetMap, MoveInfo.Gate, lpObj->Name);
 		if (!gMapTimeAccess.IsMoveAllowed(targetMap, MoveInfo.Gate)) // Pass gate for potential future gate-specific rules
 		{
-			LogAdd(LOG_BLUE, "[MapTimeAccess] CMove::Move: Access DENIED for MapID %d (Gate %d) for player %s. Sending message and returning.", targetMap, MoveInfo.Gate, lpObj->Name);
 			gNotice.GCNoticeSend(lpObj->Index, 1, 0, 0, 0, 0, 0, gMessage.GetMessage(2008)); // Use the map time expired message
 			return;
 		}
-		LogAdd(LOG_BLUE, "[MapTimeAccess] CMove::Move: Access ALLOWED for MapID %d (Gate %d) for player %s. Proceeding.", targetMap, MoveInfo.Gate, lpObj->Name);
 	}
 	else {
-		LogAdd(LOG_BLACK, "[MapTimeAccess] CMove::Move: Could not get gate info for Gate %d (Move Index %d). Allowing move as fallback.", MoveInfo.Gate, index);
 		// Allow move if gate info is missing? Or deny? Denying might be safer if Gate.txt is broken.
 		// Let's allow for now, but log a warning.
 	}

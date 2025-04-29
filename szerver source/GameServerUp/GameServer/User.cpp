@@ -2675,8 +2675,6 @@ void gObjPlayerKiller(LPOBJ lpObj,LPOBJ lpTarget) // OK
 
 BOOL gObjMoveGate(int aIndex,int gate) // OK
 {
-	LogAdd(LOG_BLUE, "[MapTimeAccess] gObjMoveGate called for player index %d, Gate %d", aIndex, gate);
-
 	if(OBJECT_RANGE(aIndex) == 0)
 	{
 		return FALSE;
@@ -2930,15 +2928,12 @@ void gObjTeleport(int aIndex,int map,int x,int y) // OK
 	}
 
 	// === MapTimeAccess Check Start ===
-	LogAdd(LOG_BLUE, "[MapTimeAccess] gObjTeleport: Checking access for MapID %d for player %s", map, lpObj->Name);
 	if (!gMapTimeAccess.IsMoveAllowed(map))
 	{
 		// Use the message defined in MessageENG.txt (index 2008)
-		LogAdd(LOG_BLUE, "[MapTimeAccess] gObjTeleport: Access DENIED for MapID %d for player %s. Sending message and returning.", map, lpObj->Name);
 		gNotice.GCNoticeSend(aIndex, 1, 0, 0, 0, 0, 0, gMessage.GetMessage(2008));
 		return; // Stop teleport if not allowed - Assuming gObjTeleport return type is void based on usage, change to FALSE if it's BOOL
 	}
-	LogAdd(LOG_BLUE, "[MapTimeAccess] gObjTeleport: Access ALLOWED for MapID %d for player %s. Proceeding.", map, lpObj->Name);
 	// === MapTimeAccess Check End ===
 
 	if(CC_MAP_RANGE(map) != 0 && gChaosCastle.GetState(GET_CC_LEVEL(map)) != CC_STATE_EMPTY)

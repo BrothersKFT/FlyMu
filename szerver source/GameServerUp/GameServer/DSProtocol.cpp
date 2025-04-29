@@ -1519,33 +1519,28 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 	BYTE originalMap = lpObj->Map;
 	BYTE originalX = lpObj->X;
 	BYTE originalY = lpObj->Y;
-	LogAdd(LOG_BLUE, "[MapTimeAccess] DGCharacterInfoRecv: Checking access for loaded MapID %d for player %s", originalMap, lpObj->Name);
 	if (!gMapTimeAccess.IsMoveAllowed(originalMap))
 	{
 		GATE_INFO DefaultGateInfo;
 		GATE_INFO GateInfo;
 		int kickGate = gMapTimeAccess.GetKickGate(originalMap);
-		LogAdd(LOG_BLUE, "[MapTimeAccess] DGCharacterInfoRecv: Access DENIED for MapID %d. Attempting to move to KickGate %d.", originalMap, kickGate);
 		
 		if(gGate.GetInfo(kickGate, &GateInfo))
 		{
 			lpObj->Map = GateInfo.Map;
 			lpObj->X = GateInfo.X;
 			lpObj->Y = GateInfo.Y;
-			LogAdd(LOG_EVENT, "[MapTimeAccess] %s logged in on restricted map %d (Original: %d,%d,%d). Moved to Gate %d (%d,%d,%d).", lpObj->Name, originalMap, originalX, originalY, kickGate, lpObj->Map, lpObj->X, lpObj->Y);
 			// Optional: Set a flag to send a message after player enters the game
 			lpObj->SendMapTimeAccessKickMessage = true; 
 		}
 		else
 		{
 			// Fallback if kick gate is invalid for some reason
-			LogAdd(LOG_BLACK, "[MapTimeAccess] DGCharacterInfoRecv: Invalid KickGate %d for Map %d. Attempting default Gate 17.", kickGate, originalMap);
 			if(gGate.GetInfo(17, &DefaultGateInfo)) // Default to Lorencia Gate 17
 			{
 				lpObj->Map = DefaultGateInfo.Map;
 				lpObj->X = DefaultGateInfo.X;
 				lpObj->Y = DefaultGateInfo.Y;
-				LogAdd(LOG_BLACK, "[MapTimeAccess] %s logged in on restricted map %d (Original: %d,%d,%d). Invalid KickGate %d. Moved to default Gate 17 (%d,%d,%d).", lpObj->Name, originalMap, originalX, originalY, kickGate, lpObj->Map, lpObj->X, lpObj->Y);
 				lpObj->SendMapTimeAccessKickMessage = true;
 			}
 			else
@@ -1561,9 +1556,6 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 			}
 			
 		}
-	}
-	else {
-		LogAdd(LOG_BLUE, "[MapTimeAccess] DGCharacterInfoRecv: Access ALLOWED for MapID %d for player %s.", originalMap, lpObj->Name);
 	}
 	// === MapTimeAccess Check on Character Load End ===
 

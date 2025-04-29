@@ -24,23 +24,18 @@ int CMapTimeAccess::CalculateMinutesOfWeek(int dayOfWeek, int hour, int minute) 
 }
 
 void CMapTimeAccess::Load(char* path) {
-	LogAdd(LOG_BLUE, "[MapTimeAccess] Attempting to load file: %s", path);
 	CMemScript* lpMemScript = new CMemScript;
 
 	if (lpMemScript == 0) {
 		ErrorMessageBox(MEM_SCRIPT_ALLOC_ERROR, path);
-		LogAdd(LOG_RED, "[MapTimeAccess] Error: Failed to allocate CMemScript.");
 		return;
 	}
-	LogAdd(LOG_BLUE, "[MapTimeAccess] CMemScript allocated.");
 
 	if (lpMemScript->SetBuffer(path) == 0) {
 		ErrorMessageBox(lpMemScript->GetLastError());
-		LogAdd(LOG_RED, "[MapTimeAccess] Error: Failed to set buffer for file: %s. Error: %s", path, lpMemScript->GetLastError());
 		delete lpMemScript;
 		return;
 	}
-	LogAdd(LOG_BLUE, "[MapTimeAccess] Buffer set successfully for file: %s", path);
 
 	this->m_Rules.clear();
 	int rulesLoaded = 0; // Counter for loaded rules
@@ -109,10 +104,6 @@ bool CMapTimeAccess::IsTimeInRange(const MapTimeAccessRule& rule, int currentDay
     int ruleDay = rule.DayOfWeek;
     bool result = false; // Initialize result
 
-    LogAdd(LOG_BLUE, "[MapTimeAccess]   - IsTimeInRange Check: Rule(Day %d, %02d:%02d, Dur %d) vs Current(Day %d, %02d:%02d)", 
-        ruleDay, rule.OpenHour, rule.OpenMinute, rule.DurationMinutes, 
-        currentDayOfWeek, currentHour, currentMinute);
-
     // If the rule's day is wildcard, or matches the current day
     if (ruleDay == -1 || ruleDay == currentDayOfWeek) {
 		// Calculate open/close times for the *current* day
@@ -148,16 +139,15 @@ bool CMapTimeAccess::IsTimeInRange(const MapTimeAccessRule& rule, int currentDay
     }
     //else: Rule day doesn't match current day, result remains false
 
-    LogAdd(LOG_BLUE, "[MapTimeAccess]   - IsTimeInRange Result: %s", (result ? "Allowed" : "Denied"));
     return result;
 }
 
 
 bool CMapTimeAccess::IsMoveAllowed(int mapId, int gate /*= -1*/) {
-	LogAdd(LOG_BLUE, "[MapTimeAccess] IsMoveAllowed called for MapID: %d", mapId);
+	// LogAdd(LOG_BLUE, "[MapTimeAccess] IsMoveAllowed called for MapID: %d", mapId); // REMOVED
 	auto it = this->m_Rules.find(mapId);
 	if (it == this->m_Rules.end()) {
-		LogAdd(LOG_BLUE, "[MapTimeAccess] No rules found for MapID: %d. Allowing move.", mapId);
+		// LogAdd(LOG_BLUE, "[MapTimeAccess] No rules found for MapID: %d. Allowing move.", mapId); // REMOVED
 		return true; // No rules for this map, always allowed
 	}
 
@@ -167,19 +157,19 @@ bool CMapTimeAccess::IsMoveAllowed(int mapId, int gate /*= -1*/) {
 		int currentHour = time.wHour;
 		int currentMinute = time.wMinute;
 
-	LogAdd(LOG_BLUE, "[MapTimeAccess] Checking rules for MapID: %d. Current Time: Day %d, %02d:%02d", mapId, currentDayOfWeek, currentHour, currentMinute);
+	// LogAdd(LOG_BLUE, "[MapTimeAccess] Checking rules for MapID: %d. Current Time: Day %d, %02d:%02d", mapId, currentDayOfWeek, currentHour, currentMinute); // REMOVED
 
 	const std::vector<MapTimeAccessRule>& rules = it->second;
 	for (std::vector<MapTimeAccessRule>::const_iterator iter = rules.begin(); iter != rules.end(); ++iter) {
 		const MapTimeAccessRule& rule = *iter;
-		LogAdd(LOG_BLUE, "[MapTimeAccess]  - Checking Rule: Day %d, %02d:%02d, Duration %d", rule.DayOfWeek, rule.OpenHour, rule.OpenMinute, rule.DurationMinutes);
+		// LogAdd(LOG_BLUE, "[MapTimeAccess]  - Checking Rule: Day %d, %02d:%02d, Duration %d", rule.DayOfWeek, rule.OpenHour, rule.OpenMinute, rule.DurationMinutes); // REMOVED
 		if (IsTimeInRange(rule, currentDayOfWeek, currentHour, currentMinute)) {
-			LogAdd(LOG_BLUE, "[MapTimeAccess]  - Rule MATCHED. Allowing move.");
+			// LogAdd(LOG_BLUE, "[MapTimeAccess]  - Rule MATCHED. Allowing move."); // REMOVED
 			return true; // Found a matching rule that allows access now
 		}
 	}
 
-	LogAdd(LOG_BLUE, "[MapTimeAccess] No matching rule allows access for MapID: %d at current time. Denying move.", mapId);
+	// LogAdd(LOG_BLUE, "[MapTimeAccess] No matching rule allows access for MapID: %d at current time. Denying move.", mapId); // REMOVED
 	return false; // No active rule allows access right now
 }
 
@@ -195,7 +185,7 @@ int CMapTimeAccess::GetKickGate(int mapId) {
 }
 
 void CMapTimeAccess::CheckAndKickPlayers() {
-	LogAdd(LOG_BLUE, "[MapTimeAccess] CheckAndKickPlayers timer executing..."); // Log timer execution
+	// LogAdd(LOG_BLUE, "[MapTimeAccess] CheckAndKickPlayers timer executing..."); // Log timer execution - REMOVED
 	SYSTEMTIME time;
 	GetLocalTime(&time);
 		int currentDayOfWeek = time.wDayOfWeek;
@@ -230,7 +220,6 @@ void CMapTimeAccess::CheckAndKickPlayers() {
 		// If no active rule allows the player to be here
 		if (!allowed)
 		{
-			LogAdd(LOG_BLACK, "[MapTimeAccess] Player %s is on restricted map %d outside allowed time. Kicking...", lpObj->Name, lpObj->Map);
 			// Kick the player
 			int kickGate = rules[0].KickGate; // Get kick gate from the first rule (assuming they are consistent)
 
@@ -240,14 +229,8 @@ void CMapTimeAccess::CheckAndKickPlayers() {
 			// Teleport the player
 			GATE_INFO GateInfo; // Temporary struct to check gate validity
 			if (gGate.GetInfo(kickGate, &GateInfo)) { // Check if the gate is valid by trying to get its info
-				LogAdd(LOG_EVENT, "[MapTimeAccess] Attempting to kick %s from Map %d to Gate %d.", lpObj->Name, lpObj->Map, kickGate);
 				int originalMapForKickLog = lpObj->Map; // Store the original map in a variable
 				gObjMoveGate(lpObj->Index, kickGate);
-				// Log the map *before* the potential async move completes
-				LogAdd(LOG_EVENT, "[MapTimeAccess] Kicked %s from Map %d (Time Expired). Sent to Gate %d.", lpObj->Name, originalMapForKickLog, kickGate); 
-			}
-			else {
-				LogAdd(LOG_BLACK, "[MapTimeAccess] Invalid KickGate %d specified for Map %d. Cannot kick %s.", kickGate, lpObj->Map, lpObj->Name);
 			}
 		}
 	}
