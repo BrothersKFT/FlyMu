@@ -6,6 +6,7 @@
 #include "Protect.h"
 #include "..\\..\\Util\\CCRC32.H"
 #include "Util.h"
+#include <Shellapi.h>
 
 CProtect gProtect;
 //////////////////////////////////////////////////////////////////////
@@ -173,6 +174,7 @@ void CProtect::CheckLauncher() // OK
 
 	if (FindWindow(0, gProtect.m_MainInfo.LauncherName) == 0)
 	{
+		ShellExecute(NULL, "open", "FlyMuLauncher.exe", NULL, NULL, SW_SHOWNORMAL);
 		ExitProcess(0);
 	}
 }
