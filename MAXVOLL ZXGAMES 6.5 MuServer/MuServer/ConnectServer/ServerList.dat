@@ -1,5 +1,5 @@
 //ServerCode	ServerName	ServerAddress		ServerPort	ServerType
 0		"FlyMu"	"185.65.68.79"		55901		"SHOW"
-1		"FlyMu2"	"185.65.68.79"		55902		"SHOW"
+//1		"FlyMu2"	"185.65.68.79"		55902		"SHOW"
 19		"FlyMuCS"	"185.65.68.79"		55919		"HIDE"
 end
