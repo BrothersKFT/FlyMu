@@ -5,12 +5,12 @@ CustomerName = FlyMu
 ; Server Settings
 ;==================================================
 ServerName = FlyMu-Sub1
-ServerCode = 0
+ServerCode = 1
 ServerLock = 0
 ServerPort = 55902
 ServerVersion = 1.04.05
 ServerSerial = TbYehR2hFUPBKgZj
-ServerMaxUserNumber = 1000
+ServerMaxUserNumber = 500
 ServerMinLevel = 0
 ServerMaxLevel = 0
 ServerMinReset = 0
