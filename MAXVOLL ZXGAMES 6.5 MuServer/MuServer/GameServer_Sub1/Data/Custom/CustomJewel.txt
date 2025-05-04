@@ -1,0 +1,29 @@
+0
+//Index   ItemIndex   MinItemLevel   MaxItemLevel   MaxItemOption1   MaxItemOption2   MinItemOption3   MaxItemOption3   MinItemNewOption   MaxItemNewOption   MaxItemSetOption   MinItemSocketOption   MaxItemSocketOption   EnableSlotWeapon   EnableSlotArmor   EnableSlotWing   SuccessRate_AL0   SuccessRate_AL1   SuccessRate_AL2   SuccessRate_AL3   SalePrice   ModelName
+  0       7412        0              6              *                *                *                *                *                  *                  *                  *                     *                     *                  *                 *                     100               100                100              100              20          "jewelofdarkbless"  //Jewel dark bless
+  1       7413        6              9              *                *                *                *                *                  *                  *                  *                     *                     *                  *                 *                     20                20                 20               20               20          "jewelofdarksoul"   //Jewel dark soul
+  2       7414        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                 *                     30                30                 30               30               20          "jewelofdarklife"   //Jewel darl life
+  3       7415        0              15             *                *                *                *                0                  2                  *                  *                     *                     *                  *                 *                     20                20                 20               20               20          "jewelofexcess"     //Jewel dark Excess
+  4       7416        0              15             *                1                *                *                *                  *                  *                  *                     *                     *                  *                 *                     50                50                 50               50               20          "jewelofluck"       //Jewel of luck
+  5       7417        0              15             1                *                *                *                *                  *                  *                  *                     *                     *                  *                 *                     30                30                 30               30               20          "jewelofscience"    //jewel o science
+  6       7418        0              14             *                *                *                *                *                  *                  *                  *                     *                     *                  *                 *                     5                 5                  5                5                20          "jewelofkundun"     //jewel of kundun
+  7       7419        0              15             *                *                *                *                *                  *                  *                  *                     *                     *                  *                 *                     1                 1                  1                1                20          "jewelofkondar"     //jewel of kondar
+  8       7420        0              15             *                *                *                *                *                  *                  *                  0                     5                     *                  *                 *                     5                 5                  5                5                20          "jewelofwisdom"     //jewel of wisdom
+end
+
+1
+//Index   Level   Option1   Option2   Option3   NewOption   SetOption   SocketOption
+  0       6       0         0         0         0           0           0           //Jewel dark bless - dropolható. +6 level
+  1       2       0         0         0         0           0           0           //Jewel dark soul - dropolható. + 2 level RARE!
+  2       0       0         0         7         0           0           0           //Jewel darl life - dropolható. + 28 add
+  3       0       0         0         0         1           0           0           //Jewel dark Excess - dropolható. +1 random exc opt
+  4       0       0         1         0         0           0           0           //Jewel of luck - dropolható. + Luck
+  5       0       1         0         0         0           0           0           //jewel o science - dropolható. + Skill
+  6       15      0         0         0         0           0           0           //jewel of kundun - max 15 level ULTRA RARE!
+  7       0       1         1         7         6           0           0           //jewel of kondar -> NO DROP!!!!!!!! FO CUCC
+  8       0       0         0         0         0           0           1           //jewel of wisdom -> NO DROP!!!!!!!! +1 SOCKET
+end
+
+2
+//Index   Level   Option1   Option2   Option3   NewOption   SetOption   SocketOption
+end

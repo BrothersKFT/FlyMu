@@ -1,0 +1,37 @@
+0
+//Index   Year   Month   Day   DoW   Hour   Minute   Second
+0         *      *       *     *     11     40        00
+0         *      *       *     *     15     40        00
+0         *      *       *     *     17     40        00
+0         *      *       *     *     23     40        00
+1         *      *       *     *     10     40        00
+1         *      *       *     *     16     40        00
+1         *      *       *     *     20     40        00
+end
+
+1
+//Index   Name                                 DropMap   DropX   DropY   DropRange   AlarmTime   EventTime
+0         "Drop Event - Lorencia"               0         145     135     5           5           3
+1         "Drop Event - Devias"                 2         208     40      5           5           3
+end
+
+2
+//Index   ItemIndex   ItemLevel   DropCount   DropDelay   Comment
+0         6159        0           3           00          //Jewel of Chaos
+0         6159        0           3           10          //Jewel of Chaos
+0         7181        0           3           20          //Jewel of Chaos
+0         7181        0           3           30          //Jewel of Bless
+0         7181        0           3           40          //Jewel of Bless
+0         7181        0           3           50          //Jewel of Bless
+0         7182        0           3           60          //Jewel of Soul
+0         7182        0           3           70          //Jewel of Soul
+0         7182        0           3           80          //Jewel of Soul
+0         7184        0           3           90          //Jewel of Life
+0         7184        0           3           100         //Jewel of Life
+0         7184        0           3           110         //Jewel of Life
+0         7416        0           1           120         //Jewel of LUCK - RARE
+1         7179        8           3           00          //Box of Kundun 1
+1         7179        8           3           10          //Box of Kundun 1
+1         7179        9           3           20          //Box of Kundun 2
+1         7179        9           3           30          //Box of Kundun 2
+end

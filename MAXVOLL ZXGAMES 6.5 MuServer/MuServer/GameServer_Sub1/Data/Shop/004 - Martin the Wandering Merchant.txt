@@ -1,0 +1,17 @@
+/////////////////////////////////////////////////////////////////////////////
+//Shop Editor cortesia de www.fb.com/igkgamers
+///////////////////////////
+//Aporte de www.fb.com/karuritoku
+///////////////////////////
+//Shop: 004 - Martin the Wandering Merchant
+/////////////////////////////////////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Acc	JoH	Oex	Sck[1]	Sck[2]	Sck[3]	Sck[4]	Sck[5]	Info
+/////////////////////////////////////////////////////////////////////////////
+//
+0	32	6	0	1	1	4	0	0	0	0	255	255	255	255	255	//Sacred Glove
+7	59	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Sacred Fire Helm
+8	59	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Sacred Fire Armor
+9	59	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Sacred Fire Pants
+15	32	0	0	0	1	0	0	0	0	0	255	255	255	255	255	//Dragon Roar Parchment
+11	59	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Sacred Fire Boots
+end

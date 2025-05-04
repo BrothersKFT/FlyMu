@@ -1,0 +1,16 @@
+0
+//WarningTime   NotifyTime   EventTime   CloseTime
+end
+
+1
+//Year   Month   Day   DoW   Hour   Minute   Second
+end
+
+2
+//Level   ExperienceTable1   ExperienceTable2
+end
+
+//Reward 
+3
+//Level   	WC	WP	GP 
+end

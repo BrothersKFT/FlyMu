@@ -1,0 +1,23 @@
+<!--
+// ============================================================
+// ZXGAMES DEVELOP VENEZUELA
+// ============================================================
+// MU Online Season 6 Episode 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Whatsapp:+584120376639
+// FB:maxvoll.original
+// ============================================================
+//
+//	The deaths are saved in dbo.MonsterKillCount.
+-->
+
+<MonsterKillCount EnableFeature="0" >
+	<Monster Index="20" Name="Elite Yeti" >
+		<Reward Count="10" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" Ruud="0" Description="[New achievement] You killed 10 Elite Yeti." >
+			<Item Cat="12" Index="37" Level="15" Durability="255" Skill="63" Luck="5" Option="0" Exc="0" Set="0" SocketCount="0" Duration="0" />
+		</Reward>
+		<Reward Count="20" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" Ruud="0" Description="[New achievement] You killed 20 Elite Yeti." >
+			<Item Cat="5" Index="5" Level="15" Durability="255" Skill="63" Luck="63" Option="63" Exc="63" Set="0" SocketCount="0" Duration="0" />
+		</Reward>
+	</Monster>
+</MonsterKillCount>

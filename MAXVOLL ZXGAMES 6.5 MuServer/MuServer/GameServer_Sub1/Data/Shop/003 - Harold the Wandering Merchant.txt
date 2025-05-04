@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////
+//Shop Editor cortesia de www.fb.com/igkgamers
+///////////////////////////
+//Aporte de www.fb.com/karuritoku
+///////////////////////////
+//Shop: 003 - Harold the Wandering Merchant
+/////////////////////////////////////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Acc	JoH	Oex	Sck[1]	Sck[2]	Sck[3]	Sck[4]	Sck[5]	Info
+/////////////////////////////////////////////////////////////////////////////
+//
+7	25	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Light Plate Mask
+9	25	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Light Plate Pants
+10	25	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Light Plate Gloves
+8	25	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Light Plate Armor
+11	25	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Light Plate Boots
+2	9	6	0	1	1	4	0	0	0	0	255	255	255	255	255	//Master Scepter
+6	7	3	0	0	1	4	0	0	0	0	255	255	255	255	255	//Spiked Shield
+12	21	0	0	0	0	0	0	0	0	0	255	255	255	255	255	//Scroll of FireBurst
+12	22	0	0	0	0	0	0	0	0	0	255	255	255	255	255	//Scroll of Summon
+12	23	0	0	0	0	0	0	0	0	0	255	255	255	255	255	//Scroll of Critical Damage
+end

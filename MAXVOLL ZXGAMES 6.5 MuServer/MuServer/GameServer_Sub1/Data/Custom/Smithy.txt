@@ -1,0 +1,50 @@
+
+
+0
+//MaxLevel   LevelPrice   LuckPrice   AddPrice   Opt1Price   Opt2Price   Opt3Price   Opt4Price   Opt5Price   Opt6Price   AncPrice
+15           5            5           5          5           5           5           5           5           5           5
+end
+1
+//Type   Index   Price
+7        0       50
+7        1       50
+7        2       50
+7        3       50
+7        4       50
+7        5       50
+7        6       50
+7        7       50
+7        8       50
+7        9       50
+7        10       50
+7        11       50
+7        12       50
+7        13       50
+7        14       50
+end
+2
+//Type   Index   Price
+7        1       50
+7        45      150
+12       36      500
+end
+3
+//Type   Index   Price
+7        2       50
+end
+4
+//Type   Index   Price
+7        3       50
+end
+5
+//Type   Index   Price
+7        4       50
+end
+6
+//Type   Index   Price
+7        5       50
+end
+7
+//Type   Index   Price
+7        6       50
+end

@@ -1,0 +1,31 @@
+/////////////////////////////////////////////////////////////////////////////
+//Editor Cortesia de www.GamesBit.net
+///////////////////////////
+//Aporte de www.facebook.com/Arnold.DGD
+///////////////////////////
+//Archivo: 018 - Blood Castle 7
+/////////////////////////////////////////////////////////////////////////////
+0
+//EventName	        DropZen	        ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
+"Blood Castle 7"	30000000	             80	            1	            0	            0	            1
+end
+
+1
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	NameItem
+14	93	0	0	0	0	0	0 // rare item ticket
+
+12	        30	        0	        0	      0	      0	      1	        0         // Bless bundled jewel
+12	        31	        0	        0	      0	      0	      1	        0         // Soul  bundled jewel
+12	        136	        0	        0	      0	      0	      1	        0         // Life  bundled jewel
+12	        137	        0	        0	      0	      0	      1	        0         // Creation  bundled jewel
+12	        141	        0	        0	      0	      0	      1	        0         // Chaos  bundled jewel
+
+12	        30	        0	        0	      0	      0	      2	        0         // Bless bundled jewel
+12	        31	        0	        0	      0	      0	      2	        0         // Soul  bundled jewel
+12	        136	        0	        0	      0	      0	      2	        0         // Life  bundled jewel
+12	        137	        0	        0	      0	      0	      2	        0         // Creation  bundled jewel
+12	        141	        0	        0	      0	      0	      2	        0         // Chaos  bundled jewel
+end
+2
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
+end
