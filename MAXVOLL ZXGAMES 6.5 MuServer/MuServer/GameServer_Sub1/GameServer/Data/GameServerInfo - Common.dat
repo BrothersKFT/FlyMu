@@ -5,7 +5,7 @@ CustomerName = FlyMu
 ; Server Settings
 ;==================================================
 ServerName = FlyMu-Sub1
-ServerCode = 20
+ServerCode = 5
 ServerLock = 0
 ServerPort = 55902
 ServerVersion = 1.04.05
