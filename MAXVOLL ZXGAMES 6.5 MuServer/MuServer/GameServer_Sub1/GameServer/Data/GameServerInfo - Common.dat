@@ -28,7 +28,7 @@ Message_Language = 1
 ; Connection Settings
 ;==================================================
 DataServerAddress = 185.65.68.79
-DataServerPort = 55961
+DataServerPort = 55960
 JoinServerAddress = 185.65.68.79
 JoinServerPort = 55970
 ConnectServerAddress = 185.65.68.79
