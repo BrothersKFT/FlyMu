@@ -19,7 +19,6 @@
 "Data\Local\Eng\skill_eng.bmd.ORIGINAL"			"0x899DB3F3"
 "Data\Local\Eng\slide_eng.bmd"			"0xBF3E491C"
 "Data\Local\Eng\socketitem_eng.bmd"			"0xC76C7C8B"
-"Data\Local\Eng\Text_eng.bmd"			"0x526C9F7A"
 "Data\Local\Por\BuffEffect_por.bmd"			"0xDD201DB1"
 "Data\Local\Por\Dialog_por.bmd"			"0x5F7BF844"
 "Data\Local\Por\ItemLevelTooltip_por.bmd"			"0xC19DDBEA"
@@ -38,7 +37,6 @@
 "Data\Local\Por\skill_por.bmd"			"0x77DA090B"
 "Data\Local\Por\slide_por.bmd"			"0xBF3E491C"
 "Data\Local\Por\socketitem_por.bmd"			"0xC76C7C8B"
-"Data\Local\Por\Text_por.bmd"			"0xEB01FCA0"
 "Data\Local\Spn\BuffEffect_spn.bmd"			"0xDD201DB1"
 "Data\Local\Spn\Dialog_spn.bmd"			"0x5F7BF844"
 "Data\Local\Spn\ItemLevelTooltip_spn.bmd"			"0xC19DDBEA"
@@ -57,5 +55,4 @@
 "Data\Local\Spn\skill_spn.bmd"			"0x77DA090B"
 "Data\Local\Spn\slide_spn.bmd"			"0xBF3E491C"
 "Data\Local\Spn\socketitem_spn.bmd"			"0xC76C7C8B"
-"Data\Local\Spn\Text_spn.bmd"			"0xEB01FCA0"
 end
