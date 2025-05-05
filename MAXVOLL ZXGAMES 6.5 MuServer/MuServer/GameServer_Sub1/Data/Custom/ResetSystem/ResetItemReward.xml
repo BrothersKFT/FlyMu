@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<!--
+Class Codes:
+	CLASS_DW = 0,
+	CLASS_DK = 1,
+	CLASS_FE = 2,
+	CLASS_MG = 3,
+	CLASS_DL = 4,
+	CLASS_SU = 5,
+	CLASS_RF = 6,
+	
+Maximum 5 items in group
+
+ExcType - Тип расчета экселлент опции:
+	0 - рандомный расчет между минимумом (MinExcellentCount) и максимумом (MaxExcellentCount)
+	1 - явное указание опций (ExcCode)
+	
+	Коды Excellent опций:
+		
+	Оружия:
+	1 - MANA
+	2 - LIFE
+	4 - SPEED
+	8 - ID 2%
+	16 - ID/lvl
+	32 - RATE
+	
+	Сеты:
+	1 - ZEN
+	2 - RATE
+	4 - REF
+	8 - DD
+	16 - MANA
+	32 - HP
+	
+	Чтобы расчитать код, нужно сложить между собой коды всех необходимых опций. Например мы хотим оружие с Rate, Speed и ID 2%. Для этого складываем между собой их коды. 32 + 4 + 8. Получается 44. 
+
+-->
+
+<ResetItemReward>
+<!--
+	<Group MinGReset="0" MaxGReset="0" MinReset="0" MaxReset="200">
+		<Class Index="0" Zen="0" WCoinC="0" WCoinP="0" WCoinG="0" Credits="10"> 
+			<Item ID="0" MinLevel="0" MaxLevel="0" MinOption="0" MaxOption="0" IsLuck="0" IsSkill="0" ExcType="0" MinExcellentCount="0" MaxExcellentCount="0" ExcCode="0" IsAncient="0" MaxSocket="0" Count="0"/>
+		</Class>
+		<Class Index="1" Zen="0" WCoinC="0" WCoinP="0" WCoinG="0" Credits="10"> 
+			<Item ID="0" MinLevel="0" MaxLevel="0" MinOption="0" MaxOption="0" IsLuck="0" IsSkill="0" ExcType="0" MinExcellentCount="0" MaxExcellentCount="0" ExcCode="0" IsAncient="0" MaxSocket="0" Count="0"/>
+		</Class>
+		<Class Index="2" Zen="0" WCoinC="0" WCoinP="0" WCoinG="0" Credits="10"> 
+			<Item ID="0" MinLevel="0" MaxLevel="0" MinOption="0" MaxOption="0" IsLuck="0" IsSkill="0" ExcType="0" MinExcellentCount="0" MaxExcellentCount="0" ExcCode="0" IsAncient="0" MaxSocket="0" Count="0"/>
+		</Class>
+		<Class Index="3" Zen="0" WCoinC="0" WCoinP="0" WCoinG="0" Credits="10"> 
+			<Item ID="0" MinLevel="0" MaxLevel="0" MinOption="0" MaxOption="0" IsLuck="0" IsSkill="0" ExcType="0" MinExcellentCount="0" MaxExcellentCount="0" ExcCode="0" IsAncient="0" MaxSocket="0" Count="0"/>
+		</Class>
+		<Class Index="4" Zen="0" WCoinC="0" WCoinP="0" WCoinG="0" Credits="10"> 
+			<Item ID="0" MinLevel="0" MaxLevel="0" MinOption="0" MaxOption="0" IsLuck="0" IsSkill="0" ExcType="0" MinExcellentCount="0" MaxExcellentCount="0" ExcCode="0" IsAncient="0" MaxSocket="0" Count="0"/>
+		</Class>
+		<Class Index="5" Zen="0" WCoinC="0" WCoinP="0" WCoinG="0" Credits="10"> 
+			<Item ID="0" MinLevel="0" MaxLevel="0" MinOption="0" MaxOption="0" IsLuck="0" IsSkill="0" ExcType="0" MinExcellentCount="0" MaxExcellentCount="0" ExcCode="0" IsAncient="0" MaxSocket="0" Count="0"/>
+		</Class>
+		<Class Index="6" Zen="0" WCoinC="0" WCoinP="0" WCoinG="0" Credits="10"> 
+			<Item ID="0" MinLevel="0" MaxLevel="0" MinOption="0" MaxOption="0" IsLuck="0" IsSkill="0" ExcType="0" MinExcellentCount="0" MaxExcellentCount="0" ExcCode="0" IsAncient="0" MaxSocket="0" Count="0"/>
+		</Class>
+	</Group>
+	-->
+</ResetItemReward>

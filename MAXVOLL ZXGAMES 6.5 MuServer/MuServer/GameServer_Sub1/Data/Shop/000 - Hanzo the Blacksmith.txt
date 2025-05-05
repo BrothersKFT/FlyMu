@@ -1,0 +1,38 @@
+/////////////////////////////////////////////////////////////////////////////
+//Shop Editor cortesia de www.fb.com/igkgamers
+///////////////////////////
+//Aporte de www.fb.com/karuritoku
+///////////////////////////
+//Shop: 000 - Hanzo the Blacksmith
+/////////////////////////////////////////////////////////////////////////////
+//Group	Index	Level	Dur	Skill	Luck	Opt	ExeOpt	Acc	JoH	Oex	Sck[1]	Sck[2]	Sck[3]	Sck[4]	Sck[5]	Info
+/////////////////////////////////////////////////////////////////////////////
+//
+7	0	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Bronze Helm
+7	5	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Leather Helm
+7	6	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Scale Helm
+7	8	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Brass Helm
+8	0	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Bronze Armor
+8	5	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Leather Armor
+8	6	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Scale Armor
+8	8	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Brass Armor
+9	0	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Bronze Pants
+9	6	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Scale Pants
+9	8	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Brass Pants
+9	5	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Leather Pants
+10	0	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Bronze Gloves
+10	6	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Scale Gloves
+10	8	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Brass Gloves
+10	5	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Leather Gloves
+11	0	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Bronze Boots
+11	6	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Scale Boots
+11	8	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Brass Boots
+11	5	4	100	0	1	2	0	0   0   0   0   0   0   0   0   //Leather Boots
+0	3	3	100	1	1	2	0	0   0   0   0   0   0   0   0   //Katana
+0	5	3	100	1	1	2	0	0   0   0   0   0   0   0   0   //Blade
+13	67	0	0	0	1	0	0	0   0   0   0   0   0   0   0   //Pet Rudolph
+12	7	0	0	0	1	0	0	0   0   0   0   0   0   0   0   //Orb of Twisting Slash
+15	32	0	0	0	1	0	0	0   0   0   0   0   0   0   0   //Dragon Roar Parchment
+0	32	0	100	0	1	0	0	0   0   0   0   0   0   0   0   //Sacred Glove
+2	8	0	100	0	1	0	0	0   0   0   0   0   0   0   0   //Battle Scepter
+end

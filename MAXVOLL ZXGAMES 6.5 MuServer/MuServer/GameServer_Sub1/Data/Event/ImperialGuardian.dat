@@ -1,0 +1,11 @@
+0
+//NotifyTime   EventTime   CloseTime
+end
+
+1
+//DefaultMonsterAIUnitNumber   SupportMonsterAIUnitNumber
+end
+
+2
+//Index   Level   MaxLife   DamageMin   DamageMax   Defense   AttackRate   DefenseRate
+end

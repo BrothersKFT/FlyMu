@@ -1,0 +1,10 @@
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Fire Flame Ghost"	    1000000	   50		  1		  0		    0		   0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+13          171     0          0          0       0      0        0
+14          203     0          0          0       0      0        0 // Fly box mini
+end

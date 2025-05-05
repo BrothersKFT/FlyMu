@@ -1,0 +1,9 @@
+//Section   Type   Level   Dur   Skill   Luck   Option   Excellent
+5	14	3	0	0	1	2	0	0	0	0	255	255	255	255	255	//Mystery Stick
+7	39	4	0	0	1	2	0	0	0	0	255	255	255	255	255	//Violent Wind Helm
+8	39	4	0	0	1	2	0	0	0	0	255	255	255	255	255	//Violent Wind Armor
+9	39	4	0	0	1	2	0	0	0	0	255	255	255	255	255	//Violent Wind Pants
+5	21	3	0	0	1	2	0	0	0	0	255	255	255	255	255	//Book of Samut
+10	39	4	0	0	1	2	0	0	0	0	255	255	255	255	255	//Violent Wind Gloves
+11	39	4	0	0	1	2	0	0	0	0	255	255	255	255	255	//Violent Wind Boots
+end

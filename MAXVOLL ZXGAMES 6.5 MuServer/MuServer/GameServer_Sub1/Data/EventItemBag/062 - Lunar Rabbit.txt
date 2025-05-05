@@ -1,0 +1,10 @@
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Lunar Rabbit"	         1000000	   20		  1		  0		    0		   0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+12          15     0          0          0       0      0        0
+14         203     0          0          0       0      0        0 // Fly box mini
+end

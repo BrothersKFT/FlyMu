@@ -1,0 +1,60 @@
+//=================================================================================================================
+// Custom Auto Quiz System
+//=================================================================================================================
+0
+//Index   Year   Month   Day   DoW   Hour   Minute   Second
+0         *      *       *     *     *      10       0
+end
+
+1
+//Index   Name                       AlarmTime   EventTime
+0         "FlyQuiz"                        3           3
+end
+
+
+//=================================================================================================================
+// Questions
+//=================================================================================================================
+//  ID  	->  Question ID
+//  WC 		->  Premia��o em WCoinC
+//  WP      	->  Premia��o em WCoinP
+//  GP      	->  Premia��o em Goblin Point
+//  Question   	->  Pergunta
+//  Answer   	->  Resposta
+//=================================================================================================================
+// Obs: Evite usar respostas que possuem acentos. 
+//=================================================================================================================
+//=================================================================================================================
+//       #ID     #WC     #WP	 #GP         #Question				      		        #Answer		 
+//=================================================================================================================
+2
+	  0      0       10       5	     "What is the main stat for Dark Wizard class?" "Energy"
+	  1      0       10       5	     "Which snowy map requires level 15 to enter?" "Devias"
+	  2      0       10       5	     "What is the result of 12 x 12?" "144"
+	  3      0       10       5	     "What is the capital city of Brazil?" "Brasilia"
+	  4      0       10       5	     "What is the name of the main starting town for Dark Wizard?" "Lorencia"
+	  5      0       10       5	     "In which map can you find the Hydra monster?" "Atlans"
+	  6      0       10       5	     "What is the primary stat for Dark Knight class?" "Strength"
+	  7      0       10       5	     "Which character class primarily uses staff weapon?" "Wizard"
+	  8      0       10       5	     "What is the main weapon for Summoner class?" "Stick"
+	  9      0       10       5	     "What is the main mount used by the Dark Lord class?" "Horse"
+	  10     0       10       5	     "What is the maximum level that can be reached in the game?" "400"
+	  11     0       10       5	     "What is the result of 1000 - 369?" "631"
+	  12     0       10       5	     "What is the result of 1000 - 763?" "237"
+	  13     0       10       5	     "What is the result of 355 + 350?" "705"
+	  14     0       10       5	     "What is the result of 1000 - 999?" "1"
+	  15     0       10       5	     "What is the name of the main starting town for Dark Knight?" "Lorencia"
+	  16     0       10       5	     "What is the name of the main starting town for Elf?" "Noria"
+	  17     0       10       5	     "What is the result of 411 x 3 ?" "1233"
+	  18     0       10       5	     "What is the result of (50+7x5) x 2?" "170"
+	  19     0       10       5	     "What is the result of 2x2x4?" "16"
+	  20     0       10       5	     "What is the result of 5x5x5?" "125"
+	  21     0       10       5	     "What is the result of 1000 - 817?" "183"
+	  22     0       10       5	     "Which jewel is used to upgrade items to +9?" "Soul"
+	  23     0       10       5	     "What is the capital of Hungary?" "Budapest"
+	  24     0       10       5	     "What is the capital of France?" "Paris"
+	  25     0       10       5	     "What is the capital of Italy?" "Rome"
+	  26     0       10       5	     "What is the capital of Spain?" "Madrid"
+	  27     0       10       5	     "What is the capital of Russia?" "Moscow"
+	  28     0       10       5	     "Which jewel is used to upgrade items to +6?" "Bless"
+end
