@@ -195,7 +195,7 @@ ItemDropPickUpTime = 10
 ItemDropRate_AL0 = 20
 ItemDropRate_AL1 = 25
 ItemDropRate_AL2 = 30
-ItemDropRate_AL3 = 35
+ItemDropRate_AL3 = 40
 
 ;==================================================
 ; Money Drop Settings
