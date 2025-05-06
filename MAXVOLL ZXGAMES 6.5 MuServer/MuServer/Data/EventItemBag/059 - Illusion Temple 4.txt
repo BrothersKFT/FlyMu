@@ -6,4 +6,11 @@ end
 1
 //Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
 12          15     0          0          0       0      0        0
+14          13     0          0          0       0      0        0
+14          14     0          0          0       0      0        0
+
+14          22     0          0          0       0      0        0
+14          31     0          0          0       0      0        0
+
+14          141     0          0          0       0      0        0
 end
