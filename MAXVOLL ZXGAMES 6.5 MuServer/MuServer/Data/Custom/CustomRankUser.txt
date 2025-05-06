@@ -1,41 +1,40 @@
-//=================================================================================================================
-//-- Definições do Ranking
-//=================================================================================================================
-//  RankIndex ->  Index do Ranking
-//  Name      ->  Titulo do Rank
-//  ResetMin  ->  Minimo de Resets para determinado Rank
-//  ResetMin  ->  Maximo de Resets para determinado Rank
-//  Cash      ->  Premiação em Cash ao antigir a patente
-//  Gold      ->  Premiação em Gold ao antigir a patente
-//  PcPoint   ->  Premiação em PcPoint ao antigir a patente
-//=================================================================================================================
-//-- Obs: Obrigatorio o Ultimo Rank o ResetMax ter o valor (-1)
-//=================================================================================================================
+    //-- Definiï¿½ï¿½es do Ranking
+    //=================================================================================================================
+    //  RankIndex ->  Index do Ranking
+    //  Name      ->  Titulo do Rank
+    //  ResetMin  ->  Minimo de Resets para determinado Rank
+    //  ResetMin  ->  Maximo de Resets para determinado Rank
+    //  Cash      ->  Premiaï¿½ï¿½o em Cash ao antigir a patente
+    //  Gold      ->  Premiaï¿½ï¿½o em Gold ao antigir a patente
+    //  PcPoint   ->  Premiaï¿½ï¿½o em PcPoint ao antigir a patente
+    //=================================================================================================================
+    //-- Obs: Obrigatorio o Ultimo Rank o ResetMax ter o valor (-1)
+    //=================================================================================================================
 
-//=================================================================================================================
-//     #RankIndex          #Name            #ResetMin        #ResetMax       #Cash      #Gold     #PcPoint		 
-//=================================================================================================================
-0
-            0            "Noob"             0                9               0          0           0		
-            1            "Noob I"           10               19              2          0           0	
-            2            "Noob III"         20              29              2          0           0	
-            3            "Lord Noob"            30              39              2          0           0	
-            4            "King Noob"           40              49              2          0           0	
-            5            "Average"           50              59              2          0           0	
-            6            "Average I"           60              69              2          0           0	
-            7            "Average II"          70              79              2          0           0	
-            8            "Average III"            80              89              2          0           0	
-            9            "Good"               90              99              2          0           0	
-            10           "Good I"          100              109              2          0           0	
-            11           "Good II"          110              119              2          0           0	
-            12           "Good III"            120              129              2          0           0	
-            13           "Good Lord"      130              139              2          0           0	
-            14           "WMUKing"         140              149              2          0           0	
-            15           "WMUKing I"               150              159              2          0           0	
-            16           "WMUKing II"               160            169           2          0           0	
-            17           "WMUKing III"           170              179              2          0           0	
-            18           "Silver God"            180              185              2          0           0	
-            19           "Gold God"              186              189             2          0           0	
-            20           "Diamond God"              190             195             2          0           0	
-            21           "Graphene XD"            196             -1               2          0           0
-end
+    //=================================================================================================================
+    //     #RankIndex          #Name            #ResetMin        #ResetMax       #Cash      #Gold     #PcPoint		 
+    //=================================================================================================================
+    0
+    //            0            "Aspirant"             0                9               0          0           0		
+    //            1            "Initiate"           10               19              2          0           0	
+    //            2            "Adept"         20              29              2          0           0	
+    //            3            "Veteran"            30              39              2          0           0	
+    //            4            "Champion"           40              49              2          0           0	
+    //            5            "Guardian"           50              59              2          0           0	
+    //            6            "Sentinel"           60              69              2          0           0	
+    //            7            "Protector"          70              79              2          0           0	
+    //            8            "Vindicator"            80              89              2          0           0	
+    //            9            "Valiant"               90              99              2          0           0	
+    //            10           "Hero"          100              109              2          0           0	
+    //            11           "Legend"          110              119              2          0           0	
+    //            12           "Mythic"            120              129              2          0           0	
+    //            13           "Demigod"      130              139              2          0           0	
+    //            14           "FlyMuKing"         140              149              2          0           0	
+    //            15           "FlyMu Sovereign"               150              159              2          0           0	
+    //            16           "FlyMu Emperor"               160            169           2          0           0	
+    //            17           "FlyMu Ascendant"           170              179              2          0           0	
+    //            18           "Celestial Knight"            180              185              2          0           0	
+    //            19           "Divine Paladin"              186              189             2          0           0	
+    //            20           "Eternal Paragon"              190             195             2          0           0	
+    //            21           "Cosmic Entity"            196             -1               2          0           0
+    end
