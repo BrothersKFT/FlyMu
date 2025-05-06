@@ -97,10 +97,10 @@ CustomStoreOfflineMapZone = -1
 ;==================================================
 ; Custom Attack Settings
 ;==================================================
-CustomAttackTime_AL0 = 600
-CustomAttackTime_AL1 = 700
-CustomAttackTime_AL2 = 800
-CustomAttackTime_AL3 = 900
+CustomAttackTime_AL0 = 1
+CustomAttackTime_AL1 = 1
+CustomAttackTime_AL2 = 1
+CustomAttackTime_AL3 = 1
 CustomAttackDelay = 0
 CustomAttackAutoPotionDelay = 0
 CustomAttackAutoBuff_AL0 = 1
