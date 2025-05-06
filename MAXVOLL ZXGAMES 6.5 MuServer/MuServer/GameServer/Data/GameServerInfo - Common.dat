@@ -142,10 +142,10 @@ GuildOwnerDestroyLimit = 1
 ;==================================================
 ; Elf Buffer Settings
 ;==================================================
-ElfBufferMaxLevel_AL0 = 400
-ElfBufferMaxLevel_AL1 = 400
-ElfBufferMaxLevel_AL2 = 400
-ElfBufferMaxLevel_AL3 = 400
+ElfBufferMaxLevel_AL0 = 300
+ElfBufferMaxLevel_AL1 = 300
+ElfBufferMaxLevel_AL2 = 300
+ElfBufferMaxLevel_AL3 = 300
 ElfBufferMaxReset_AL0 = 5
 ElfBufferMaxReset_AL1 = 5
 ElfBufferMaxReset_AL2 = 5
