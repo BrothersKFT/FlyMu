@@ -150,10 +150,10 @@ ElfBufferMaxReset_AL0 = 5
 ElfBufferMaxReset_AL1 = 5
 ElfBufferMaxReset_AL2 = 5
 ElfBufferMaxReset_AL3 = 5
-ElfBufferDamageConstA = 100
-ElfBufferDamageConstB = 100
-ElfBufferDefenseConstA = 100
-ElfBufferDefenseConstB = 100
+ElfBufferDamageConstA = 40
+ElfBufferDamageConstB = 40
+ElfBufferDefenseConstA = 40
+ElfBufferDefenseConstB = 40
 
 ;==================================================
 ; Experience Settings
