@@ -78,7 +78,7 @@ DoubleGoerDifficultRate = 100
 ;==================================================
 IllusionTempleEvent = 1
 IllusionTempleMinUser = 1
-IllusionTempleRewardFenrirRate = 5
+IllusionTempleRewardFenrirRate = 100
 
 ;==================================================
 ; Imperial Guardian Event Settings
