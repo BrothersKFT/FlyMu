@@ -58,10 +58,10 @@ CustomNpcTalkPriestJames = 709
 ;==================================================
 ; Custom MuHelper Settings
 ;==================================================
-MuOffHelperTime_AL0 = 600
-MuOffHelperTime_AL1 = 700
-MuOffHelperTime_AL2 = 800
-MuOffHelperTime_AL3 = 900
+MuOffHelperTime_AL0 = 1
+MuOffHelperTime_AL1 = 1
+MuOffHelperTime_AL2 = 1
+MuOffHelperTime_AL3 = 1
 MuOffHelperEnabled_AL0 = 1
 MuOffHelperEnabled_AL1 = 1
 MuOffHelperEnabled_AL2 = 1
