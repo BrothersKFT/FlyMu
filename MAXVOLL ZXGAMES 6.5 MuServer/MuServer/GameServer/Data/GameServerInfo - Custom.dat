@@ -7,8 +7,8 @@ DisabledSD = 0
 ;==================================================
 ; Announce Chaos Mix Settings
 ;==================================================
-AnnounceChaosMix = 0
-AnnounceChaosMixText = %s put the item %s +15
+AnnounceChaosMix = 1
+AnnounceChaosMixText = %s has successfully upgraded %s to +15!
 
 ;==================================================
 ; Custom Arena Settings
@@ -41,8 +41,8 @@ CustomArenaText19 = His class is not allowed in the arena
 ;==================================================
 CustomEventDropSwitch = 1
 CustomEventDropText1 = [%s] will start in %d minute(s)
-CustomEventDropText2 = [%s] started
-CustomEventDropText3 = [%s] finished
+CustomEventDropText2 = [%s] started!
+CustomEventDropText3 = [%s] finished!
 
 ;==================================================
 ; Custom NPC Talk
@@ -58,10 +58,10 @@ CustomNpcTalkPriestJames = 709
 ;==================================================
 ; Custom MuHelper Settings
 ;==================================================
-MuOffHelperTime_AL0 = 1
-MuOffHelperTime_AL1 = 1
-MuOffHelperTime_AL2 = 1
-MuOffHelperTime_AL3 = 1
+MuOffHelperTime_AL0 = 720
+MuOffHelperTime_AL1 = 1440
+MuOffHelperTime_AL2 = 1440
+MuOffHelperTime_AL3 = 1440
 MuOffHelperEnabled_AL0 = 1
 MuOffHelperEnabled_AL1 = 1
 MuOffHelperEnabled_AL2 = 1
@@ -71,10 +71,10 @@ MuOffHelperEnabled_AL3 = 1
 ; Custom Store Settings
 ;==================================================
 CustomStoreMapZone = -1
-CustomStoreTime_AL0 = 9999999
-CustomStoreTime_AL1 = 9999999
-CustomStoreTime_AL2 = 9999999
-CustomStoreTime_AL3 = 9999999
+CustomStoreTime_AL0 = 720
+CustomStoreTime_AL1 = 1440
+CustomStoreTime_AL2 = 1440
+CustomStoreTime_AL3 = 1440
 CustomStoreCommandJoBSyntax = bless
 CustomStoreCommandJoSSyntax = soul
 CustomStoreCommandJoCSyntax = chaos
@@ -97,12 +97,12 @@ CustomStoreOfflineMapZone = -1
 ;==================================================
 ; Custom Attack Settings
 ;==================================================
-CustomAttackTime_AL0 = 1
-CustomAttackTime_AL1 = 1
-CustomAttackTime_AL2 = 1
-CustomAttackTime_AL3 = 1
-CustomAttackDelay = 0
-CustomAttackAutoPotionDelay = 0
+CustomAttackTime_AL0 = 1440
+CustomAttackTime_AL1 = 1440
+CustomAttackTime_AL2 = 1440
+CustomAttackTime_AL3 = 1440
+CustomAttackDelay = 1
+CustomAttackAutoPotionDelay = 1
 CustomAttackAutoBuff_AL0 = 1
 CustomAttackAutoBuff_AL1 = 1
 CustomAttackAutoBuff_AL2 = 1
@@ -181,7 +181,7 @@ CustomPickRequireMoney_AL3 = 200000
 ;==================================================
 ; Custom Ranking Settings (CustomRanking.txt) F8 in game
 ;==================================================
-CustomRankingSwitch = 1
+CustomRankingSwitch = 0
 
 ;==================================================
 ; Custom EventTime Settings H in game
