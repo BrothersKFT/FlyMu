@@ -173,10 +173,10 @@ CustomPickRequireReset_AL0 = 0
 CustomPickRequireReset_AL1 = 0
 CustomPickRequireReset_AL2 = 0
 CustomPickRequireReset_AL3 = 0
-CustomPickRequireMoney_AL0 = 0
-CustomPickRequireMoney_AL1 = 0
-CustomPickRequireMoney_AL2 = 0
-CustomPickRequireMoney_AL3 = 200000
+CustomPickRequireMoney_AL0 = 200000
+CustomPickRequireMoney_AL1 = 180000
+CustomPickRequireMoney_AL2 = 150000
+CustomPickRequireMoney_AL3 = 100000
 
 ;==================================================
 ; Custom Ranking Settings (CustomRanking.txt) F8 in game
