@@ -673,91 +673,76 @@ end
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 	// Jewels
     14		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
     14		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
-    14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 
 	
 	// ULTRA RATE - 0.013% (1/750)
