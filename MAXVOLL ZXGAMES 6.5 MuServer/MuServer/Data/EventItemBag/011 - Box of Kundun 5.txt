@@ -1118,14 +1118,8 @@ end
 	13		22			0			0		  0		  0			  3				3	//Ring of Earth
 	13		23			0			0		  0		  0			  3				3	//Ring of Wind
 	13		24			0			0		  0		  0			  3				3	//Ring of Magic
-	
-	
-	
-	
-	
-	
-		  
 
+end
 2
 //Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent	SetOption	SocketOption	NameItem
 end
