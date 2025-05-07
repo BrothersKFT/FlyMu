@@ -673,4 +673,46 @@ end
     17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
     19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
+		// Jewels
+    15		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
+    16		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
+    17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
+    18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
+    19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
+		// Jewels
+    15		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
+    16		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
+    17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
+    18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
+    19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
+		// Jewels
+    15		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
+    16		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
+    17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
+    18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
+    19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
+		// Jewels
+    15		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
+    16		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
+    17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
+    18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
+    19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
+		// Jewels
+    15		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
+    16		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
+    17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
+    18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
+    19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
+		// Jewels
+    15		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
+    16		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
+    17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
+    18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
+    19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
+		// Jewels
+    15		 245			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Soul
+    16		 246			0			0		  0	  	  0		  	  0			0		//Jewel of Dark Life
+    17		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
+    18		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
+    19		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 end
