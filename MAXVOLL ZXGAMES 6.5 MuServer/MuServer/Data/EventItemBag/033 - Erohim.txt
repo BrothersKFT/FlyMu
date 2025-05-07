@@ -710,4 +710,6 @@ end
     14		 247			0			0		  0	  	  0		  	  0			0		//Jewel of Excess
     14		 249			0			0		  0	  	  0		  	  0			0		//Jewel of Science
 
+	// ULTRA RATE - 0.004% (1/250) kb.
+	14		 250			0			0		  0	  	  0		  	  0			0		//Jewel of KUNDUN 
 end

@@ -745,7 +745,7 @@ end
     14		 248			0			0		  0	  	  0		  	  0			0		//Jewel of Luck
 
 	
-	// ULTRA RATE - 0.013% (1/750)
+	// ULTRA RATE - 0.004% (1/250) kb.
 	14		 250			0			0		  0	  	  0		  	  0			0		//Jewel of KUNDUN 
 		
 
