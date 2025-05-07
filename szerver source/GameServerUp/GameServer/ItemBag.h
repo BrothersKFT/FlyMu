@@ -8,7 +8,7 @@
 #include "ItemBagEx.h"
 #include "User.h"
 
-#define MAX_BAG_ITEM 500
+#define MAX_BAG_ITEM 1500
 
 struct ITEM_BAG_INFO
 {
