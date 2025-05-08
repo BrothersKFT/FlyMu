@@ -4989,7 +4989,7 @@ void CItemManager::CGMoveItemProc(PMSG_MOVEITEM* aRecv, short aIndex) {
 			return;
 		this->ItemByteConvert(pMsg.ItemInfo, lpObj->Inventory[aRecv->Source]);
 
-				if (aRecv->Source > 11) // wear equipment case
+		if (aRecv->Source > 11) // wear equipment case
 		{ 
 			CItem* lpItemToEquip = &lpObj->Inventory[aRecv->Source]; 
 		
@@ -5009,11 +5009,24 @@ void CItemManager::CGMoveItemProc(PMSG_MOVEITEM* aRecv, short aIndex) {
 			// --- Check for alternative slots if default is occupied ---
 			if(ItemInfo.Slot == 10 || ItemInfo.Slot == 11) // Rings
 			{
+
+				if (IsTransformationRing(lpItemToEquip->m_Index)) 
+				{
+					// ...ellenőrizzük, hogy van-e MÁR TR a 10-es VAGY a 11-es slotban.
+					if ((lpObj->Inventory[10].IsItem() && IsTransformationRing(lpObj->Inventory[10].m_Index)) ||
+					    (lpObj->Inventory[11].IsItem() && IsTransformationRing(lpObj->Inventory[11].m_Index)))
+					{
+						// Ha igen, nem lehet felvenni másodikat.
+						return; 
+					}
+				}
+
 				BYTE otherRingSlot = (ItemInfo.Slot == 10) ? 11 : 10;
 				if (lpObj->Inventory[ItemInfo.Slot].IsItem() && !lpObj->Inventory[otherRingSlot].IsItem())
 				{
 					potentialTargetSlot = otherRingSlot; // Try other ring slot
 				}
+				
 			}
 			else if (ItemInfo.Slot == 0) // Right Hand
 			{
