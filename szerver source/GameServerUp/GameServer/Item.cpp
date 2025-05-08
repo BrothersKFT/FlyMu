@@ -221,6 +221,18 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 		return;
 	}
 
+	// === NAPLÓZÁS Convert elején ===
+    LogAdd(LOG_RED,"[CONVERT_START] Item: %d(%s)+%d, BaseItemInfo.ReqSTR: %d, BaseItemInfo.ReqAGI: %d", index, ItemInfo.Name, this->m_Level, ItemInfo.RequireStrength, ItemInfo.RequireDexterity); // Kibővítettem Agility-vel és szinttel
+    // === NAPLÓZÁS VÉGE ===
+
+    this->m_Index = index;
+    // ... 
+    this->m_RequireStrength = ItemInfo.RequireStrength; // Alapérték beállítása
+    this->m_RequireDexterity = ItemInfo.RequireDexterity; // Alapérték beállítása Agility-re is
+    // ...
+
+    
+
 	this->m_Index = index;
 
 	this->m_Level &= 15;
@@ -953,6 +965,15 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 		this->m_Defense = (WORD)(this->m_Defense*this->m_CurrentDurabilityState);
 		this->m_DefenseSuccessRate = (BYTE)(this->m_DefenseSuccessRate*this->m_CurrentDurabilityState);
 	}
+
+	// === IDE KELLENE LOGOLNI MINDEN OLYAN LÉPÉST, AMI MÓDOSÍTHATJA AZ m_RequireStrength-et VAGY m_RequireDexterity-t ===
+    // Például, ha van logika excellent opciókra, set opciókra, tárgyszintre:
+    // LogAdd(LOG_RED,"[CONVERT_STEP_XYZ] Item: %s, m_RequireStrength after XYZ calc: %d", ItemInfo.Name, this->m_RequireStrength);
+    // ===
+
+    // === NAPLÓZÁS Convert vége felé (mielőtt Harmony stb. lefut) ===
+    LogAdd(LOG_RED,"[CONVERT_END] Item: %s, Final m_ReqSTR: %d, Final m_ReqAGI: %d", gItemManager.GetItemName(this->m_Index), this->m_RequireStrength, this->m_RequireDexterity); // Kibővítettem Agility-vel
+    // === NAPLÓZÁS VÉGE ===
 }
 
 void CItem::Value() // OK
@@ -1764,7 +1785,7 @@ BOOL CItem::IsClassBot(char aClass, int ChangeUP)
 
 	if ((aClass < 0) || (aClass >= MAX_TYPE_PLAYER_BOTS))
 	{
-		LogAdd(LOG_BLUE, "Wrong Class:%d (%s %d)", aClass, __FILE__, __LINE__); // Ŭ���� ���� : %d (%s %d)
+		LogAdd(LOG_BLUE, "Wrong Class:%d (%s %d)", aClass, __FILE__, __LINE__); // Ŭ���� ���� : %d (%s %d)
 		return 0;
 	}
 
