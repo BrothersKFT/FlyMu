@@ -4989,113 +4989,98 @@ void CItemManager::CGMoveItemProc(PMSG_MOVEITEM* aRecv, short aIndex) {
 			return;
 		this->ItemByteConvert(pMsg.ItemInfo, lpObj->Inventory[aRecv->Source]);
 
-		if (aRecv->Source > 11)
-		{ //wear equipment case
+				if (aRecv->Source > 11) // wear equipment case
+		{ 
+			CItem* lpItemToEquip = &lpObj->Inventory[aRecv->Source]; 
+		
 			ITEM_INFO ItemInfo;
-			if (this->GetInfo(lpObj->Inventory[aRecv->Source].m_Index, &ItemInfo) == 0)
+			if (this->GetInfo(lpItemToEquip->m_Index, &ItemInfo) == 0) 
 			{
-				return; //invalid item.
+				return; // Invalid item
 			}
 
-			if (CheckItemNotSlot(lpObj->Inventory[aRecv->Source].m_Index))
+			if (CheckItemNotSlot(lpItemToEquip->m_Index))
 			{
-				return; //Items invalidos.
+				return; // Item has no valid slot
 			}
 
-			lpObj->Inventory[aRecv->Source].m_Class;
-				
-			pMsg.TargetSlot = ItemInfo.Slot;
+			BYTE potentialTargetSlot = ItemInfo.Slot; // Start with default slot
 
-			if(pMsg.TargetSlot == 10 || pMsg.TargetSlot == 11)
+			// --- Check for alternative slots if default is occupied ---
+			if(ItemInfo.Slot == 10 || ItemInfo.Slot == 11) // Rings
 			{
-			    if(IsTransformationRing(lpObj->Inventory[aRecv->Source].m_Index))
-			    {
-			        if((lpObj->Inventory[10].IsItem() && IsTransformationRing(lpObj->Inventory[10].m_Index)) ||
-			           (lpObj->Inventory[11].IsItem() && IsTransformationRing(lpObj->Inventory[11].m_Index)))
-			        {
-			            return;
-			        }
-			    }
-			
-			    if(pMsg.TargetSlot == 10 && lpObj->Inventory[10].IsItem() && !lpObj->Inventory[11].IsItem())
-			    {
-			        pMsg.TargetSlot = 11;
-			    }
+				BYTE otherRingSlot = (ItemInfo.Slot == 10) ? 11 : 10;
+				if (lpObj->Inventory[ItemInfo.Slot].IsItem() && !lpObj->Inventory[otherRingSlot].IsItem())
+				{
+					potentialTargetSlot = otherRingSlot; // Try other ring slot
+				}
 			}
-
-			if (pMsg.TargetSlot == 0)
+			else if (ItemInfo.Slot == 0) // Right Hand
 			{
-				if(lpObj->Inventory[0].IsItem() //slot 0 already has item
-					&& !lpObj->Inventory[1].IsItem() //slot 1 is empty
-					&& lpObj->Inventory[aRecv->Source].m_Index < GET_ITEM(6, 0)
+				if(lpObj->Inventory[0].IsItem() && !lpObj->Inventory[1].IsItem() 
+					&& lpItemToEquip->m_Index < GET_ITEM(6, 0) 
 					&& (lpObj->Class != CLASS_DL && lpObj->Class != CLASS_DW && lpObj->Class != CLASS_FE && lpObj->Class != CLASS_SU))
 				{
-					if (lpObj->Class == CLASS_RF)
-					{
-						if (ItemInfo.RequireClass[CLASS_RF] == 0)
-						{
-							return;
-						}
-						//verificamos si el item de la mano izquierda o derecha es solo para RF, y el otro item no
-						if ((CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[aRecv->Source].m_Index) == false && CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[0].m_Index) == true)
-							|| (CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[aRecv->Source].m_Index) == true && CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[0].m_Index) == false))
-						{
-							return;
-						}
+					if (lpObj->Class == CLASS_RF) { 
+						if (ItemInfo.RequireClass[CLASS_RF] == 0) { return; }
+						if ((!CheckItemRequireClassUnick(CLASS_RF, lpItemToEquip->m_Index) && CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[0].m_Index))
+							|| (CheckItemRequireClassUnick(CLASS_RF, lpItemToEquip->m_Index) && !CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[0].m_Index)))
+						{ return; }
 					}
-					pMsg.TargetSlot = 1;
+					potentialTargetSlot = 1; // Try Left Hand
 				}
-				else
+			}
+			else if (ItemInfo.Slot == 1) // Left Hand
+			{
+				if(lpObj->Inventory[1].IsItem() && !lpObj->Inventory[0].IsItem()
+					&& lpItemToEquip->m_Index < GET_ITEM(6, 0)
+					&& (lpObj->Class != CLASS_DL && lpObj->Class != CLASS_DW && lpObj->Class != CLASS_FE && lpObj->Class != CLASS_SU))
 				{
-					//verificamos slot 0 vacio
-					if (!lpObj->Inventory[0].IsItem() && lpObj->Inventory[1].IsItem()) //slot 0 vacio - slot 1 tiene item
-					{
-						if (lpObj->Class == CLASS_RF)
-						{
-							if ((CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[aRecv->Source].m_Index) == false && CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[1].m_Index) == true) ||
-								(CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[aRecv->Source].m_Index) == true && CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[1].m_Index) == false))
-							{
-								return;
-							}
-						}
+					if (lpObj->Class == CLASS_RF) {
+						if (ItemInfo.RequireClass[CLASS_RF] == 0) { return; }
+						if ((!CheckItemRequireClassUnick(CLASS_RF, lpItemToEquip->m_Index) && CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[1].m_Index))
+							|| (CheckItemRequireClassUnick(CLASS_RF, lpItemToEquip->m_Index) && !CheckItemRequireClassUnick(CLASS_RF, lpObj->Inventory[1].m_Index)))
+						{ return; }
 					}
-				}
+                    potentialTargetSlot = 0; // Try Right Hand
+                }
 			}
-			else if (pMsg.TargetSlot == 10
-				&& lpObj->Inventory[10].IsItem() //slot 10 already has item
-				&& !lpObj->Inventory[11].IsItem()) //slot 11 empty
-			{	
-				pMsg.TargetSlot = 11;
-			}
-			else if(pMsg.TargetSlot == 8) //slot 10 already has item
+			// Note: Mount slot map restrictions are handled by CheckItemMoveToInventory
+
+			// --- Final checks for the chosen potentialTargetSlot ---
+
+			// 1. Requirement Check (Attribute, Level, Class, TR rules, Map limits etc.)
+			if (this->CheckItemMoveToInventory(lpObj, lpItemToEquip, potentialTargetSlot) == 0) 
 			{
-				if((lpObj->Map == MAP_ICARUS && lpObj->Inventory[aRecv->Source].m_Index == GET_ITEM(13,2)) 
-					|| (lpObj->Map == MAP_ATLANS && (lpObj->Inventory[aRecv->Source].m_Index == GET_ITEM(13,2) || lpObj->Inventory[aRecv->Source].m_Index == GET_ITEM(13,3))))
-				{
-					return;
-				}
+				return; // Failed requirements for the target slot
 			}
-			else if (lpObj->Inventory[ItemInfo.Slot].IsItem())
+
+			// 2. Occupancy Check
+			if (lpObj->Inventory[potentialTargetSlot].IsItem())
 			{
-				return;
-			}//already has item this slot
-		}
-		else 
-		{ //unequipment case
-			
+				return; // Target slot is occupied
+			}
+
+			// All checks passed, set the final target slot for the message
+			pMsg.TargetSlot = potentialTargetSlot;
+
+		} // End of wear equipment case
+		else // unequipment case
+		{ 
+			// Wings check for Icarus
 			if(lpObj->Map == MAP_ICARUS && CheckWings(lpObj->Inventory[aRecv->Source].m_Index))
 			{
 				return;
 			}
 			
-			int Target = this->InventoryCheckInsertItem(aIndex, lpObj->Inventory[aRecv->Source].m_Index);
-
+			// Find empty slot in inventory
+			int Target = this->InventoryCheckInsertItem(aIndex, lpObj->Inventory[aRecv->Source].m_Index); 
 			if (Target == 0xFF)
 			{
-				return;
+				return; // No empty slot found
 			}
 
-			pMsg.TargetSlot = Target;
+			pMsg.TargetSlot = Target; // Set inventory slot as target
 		}
 	}
 	else 
