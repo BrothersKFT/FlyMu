@@ -4992,6 +4992,16 @@ void CItemManager::CGMoveItemProc(PMSG_MOVEITEM* aRecv, short aIndex) {
 		if (aRecv->Source > 11) // wear equipment case
 		{ 
 			CItem* lpItemToEquip = &lpObj->Inventory[aRecv->Source]; 
+
+			//Attribute check
+
+			if (this->CheckItemRequireLevel(lpObj, lpItemToEquip) == 0) { return; }
+			if (this->CheckItemRequireStrength(lpObj, lpItemToEquip) == 0) { return; }
+			if (this->CheckItemRequireDexterity(lpObj, lpItemToEquip) == 0) { return; }
+			if (this->CheckItemRequireVitality(lpObj, lpItemToEquip) == 0) { return; }
+			if (this->CheckItemRequireEnergy(lpObj, lpItemToEquip) == 0) { return; }
+			if (this->CheckItemRequireLeadership(lpObj, lpItemToEquip) == 0) { return; }
+			if (this->CheckItemRequireClass(lpObj, lpItemToEquip->m_Index) == 0) { return; }
 		
 			ITEM_INFO ItemInfo;
 			if (this->GetInfo(lpItemToEquip->m_Index, &ItemInfo) == 0) 
