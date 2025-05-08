@@ -413,18 +413,6 @@ end
 13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
 13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
 13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
 13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
 13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
 13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
@@ -507,28 +495,5 @@ end
 12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
 12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
 12	        141	        0	        2	      0	      0	      0	        0         // Chaos  bundled jewel
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	            122	        0	        0	      0	      0	      0	        0         // Skeleton Ring
-13	            123	        0	        0	      0	      0	      0	        0         // Skeleton Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
-13	        76	        0	        0	      0	      0	      0	        0         // Panda Ring
-13	        80	        0	        0	      0	      0	      0	        0         // Panda Pet
+
 end

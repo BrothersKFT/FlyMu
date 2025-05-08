@@ -28,6 +28,24 @@ end
 	13		22			0			0		0		0		2		1	//Ring of Earth
 	13		23			0			0		0		0		2		1	//Ring of Wind
 	13		24			0			0		0		0		2		1	//Ring of Magic
+
+	13		8			0			0		0		0		1		1	//Ring of Ice
+	13		9			0			0		0		0		1		1	//Ring of Poison
+	13		12			0			0		0		0		1		1	//Pendant of Lighting
+	13		13			0			0		0		0		1		1	//Pendant of Fire
+	13		21			0			0		0		0		1		1	//Ring of Fire
+	13		22			0			0		0		0		1		1	//Ring of Earth
+	13		23			0			0		0		0		1		1	//Ring of Wind
+	13		24			0			0		0		0		1		1	//Ring of Magic
+	13		8			0			0		0		0		2		1	//Ring of Ice
+	13		9			0			0		0		0		2		1	//Ring of Poison
+	13		12			0			0		0		0		2		1	//Pendant of Lighting
+	13		13			0			0		0		0		2		1	//Pendant of Fire
+	13		21			0			0		0		0		2		1	//Ring of Fire
+	13		22			0			0		0		0		2		1	//Ring of Earth
+	13		23			0			0		0		0		2		1	//Ring of Wind
+	13		24			0			0		0		0		2		1	//Ring of Magic
+	
 	12		15			0			0		0		0		0		0   //Jewel of Chaos
 	0		 2			0			0		0	 	0		0		1	//Rapier
 	0		 3			0			0		0	 	0		0		1	//Katana
