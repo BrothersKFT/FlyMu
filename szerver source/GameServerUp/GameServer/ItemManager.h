@@ -297,6 +297,8 @@ struct PMSG_SET_CHAOSBOX_STATE
 };
 
 
+
+
 class CItemManager
 {
 public:
@@ -401,6 +403,7 @@ public:
 	int CheckItemSkill(int index);
 private:
 	std::map<int,ITEM_INFO> m_ItemInfo;
+	bool IsTransformationRing(int ItemIndex);
 };
 
 extern  ITEM_ATTRIBUTE ItemAttribute[MAX_ITEM];//MC

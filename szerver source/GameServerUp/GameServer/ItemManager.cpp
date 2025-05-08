@@ -5006,6 +5006,23 @@ void CItemManager::CGMoveItemProc(PMSG_MOVEITEM* aRecv, short aIndex) {
 				
 			pMsg.TargetSlot = ItemInfo.Slot;
 
+			if(pMsg.TargetSlot == 10 || pMsg.TargetSlot == 11)
+			{
+			    if(IsTransformationRing(lpObj->Inventory[aRecv->Source].m_Index))
+			    {
+			        if((lpObj->Inventory[10].IsItem() && IsTransformationRing(lpObj->Inventory[10].m_Index)) ||
+			           (lpObj->Inventory[11].IsItem() && IsTransformationRing(lpObj->Inventory[11].m_Index)))
+			        {
+			            return;
+			        }
+			    }
+			
+			    if(pMsg.TargetSlot == 10 && lpObj->Inventory[10].IsItem() && !lpObj->Inventory[11].IsItem())
+			    {
+			        pMsg.TargetSlot = 11;
+			    }
+			}
+
 			if (pMsg.TargetSlot == 0)
 			{
 				if(lpObj->Inventory[0].IsItem() //slot 0 already has item
@@ -5182,4 +5199,13 @@ bool CItemManager::CheckItemNotSlot(int index) // OK
 	}
 
 	return false;
+}
+
+bool CItemManager::IsTransformationRing(int ItemIndex)
+{
+    return (ItemIndex == GET_ITEM(13,10) || 
+           (ItemIndex >= GET_ITEM(13,39) && ItemIndex <= GET_ITEM(13,42)) || 
+           ItemIndex == GET_ITEM(13,68) || 
+           ItemIndex == GET_ITEM(13,76) || 
+           ItemIndex == GET_ITEM(13,122));
 }
