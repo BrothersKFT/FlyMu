@@ -633,14 +633,33 @@ bool CItemManager::CheckItemRequireLevel(LPOBJ lpObj,CItem* lpItem) // OK
 
 bool CItemManager::CheckItemRequireStrength(LPOBJ lpObj,CItem* lpItem) // OK
 {
-	if((lpObj->Strength+lpObj->AddStrength) >= (lpItem->m_RequireStrength-lpItem->m_SubRequireStr))
-	{
-		return 1;
-	}
-	else
-	{
-		return 0;
-	}
+	// === NAPLÓZÁS KEZDETE ===
+        LogAdd(LOG_RED,"[STR_CHECK] Char: %s, Item: %d(%s)+%d, CharSTR: %d, ItemReqSTR: %d, ItemSubSTR: %d, FinalItemReq: %d",
+            lpObj->Name,
+            lpItem->m_Index,
+            gItemManager.GetItemName(lpItem->m_Index), // Tárgy neve a jobb olvashatóságért
+            lpItem->m_Level,
+            (lpObj->Strength + lpObj->AddStrength),
+            lpItem->m_RequireStrength,
+            lpItem->m_SubRequireStr,
+            (lpItem->m_RequireStrength - lpItem->m_SubRequireStr)
+        );
+        // === NAPLÓZÁS VÉGE ===
+
+        if((lpObj->Strength+lpObj->AddStrength) >= (lpItem->m_RequireStrength-lpItem->m_SubRequireStr))
+        {
+            // === NAPLÓZÁS ===
+            LogAdd(LOG_RED,"[STR_CHECK_RESULT] Char: %s, Item: %s - PASSED", lpObj->Name, gItemManager.GetItemName(lpItem->m_Index));
+            // === NAPLÓZÁS VÉGE ===
+            return 1;
+        }
+        else
+        {
+            // === NAPLÓZÁS ===
+            LogAdd(LOG_RED,"[STR_CHECK_RESULT] Char: %s, Item: %s - FAILED", lpObj->Name, gItemManager.GetItemName(lpItem->m_Index));
+            // === NAPLÓZÁS VÉGE ===
+            return 0;
+        }
 }
 
 bool CItemManager::CheckItemRequireDexterity(LPOBJ lpObj,CItem* lpItem) // OK
@@ -4993,15 +5012,6 @@ void CItemManager::CGMoveItemProc(PMSG_MOVEITEM* aRecv, short aIndex) {
 		{ 
 			CItem* lpItemToEquip = &lpObj->Inventory[aRecv->Source]; 
 
-			//Attribute check
-
-			if (this->CheckItemRequireLevel(lpObj, lpItemToEquip) == 0) { return; }
-			if (this->CheckItemRequireStrength(lpObj, lpItemToEquip) == 0) { return; }
-			if (this->CheckItemRequireDexterity(lpObj, lpItemToEquip) == 0) { return; }
-			if (this->CheckItemRequireVitality(lpObj, lpItemToEquip) == 0) { return; }
-			if (this->CheckItemRequireEnergy(lpObj, lpItemToEquip) == 0) { return; }
-			if (this->CheckItemRequireLeadership(lpObj, lpItemToEquip) == 0) { return; }
-			if (this->CheckItemRequireClass(lpObj, lpItemToEquip->m_Index) == 0) { return; }
 		
 			ITEM_INFO ItemInfo;
 			if (this->GetInfo(lpItemToEquip->m_Index, &ItemInfo) == 0) 
