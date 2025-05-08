@@ -350,6 +350,7 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 	}
 
 	int ItemLevel = ItemInfo.Level;
+	LogAdd(LOG_RED,"[CONVERT_ITEMLEVEL_CHECK] Item: %s, this->m_Level: %d, ItemInfo.Level (used as ItemLevel_variable): %d", ItemInfo.Name, this->m_Level, ItemLevel); 
 
 	if (NewOption != 0 || this->m_SetOption != 0)
 	{
