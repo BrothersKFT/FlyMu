@@ -69,7 +69,7 @@ end
 //NPC NORIA
 0
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
-237            03             00         171            105            03             //Charon
+237            03             00         171            104           03              //Charon
 242            03             00         173            125            01             //Elf Lala
 243            03             00         195            124            02             //Eo the Craftsman
 238            03             00         180            103            01             //Chaos Goblin
