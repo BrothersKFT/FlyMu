@@ -955,47 +955,29 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 		}
 	}
 
-	// === SAJÁT KÓD AZ "ADDITIONAL DEFENSE" SZINT ALAPÚ REQUIREMENT KORREKCIÓHOZ ===
-	// Feltételezzük, hogy az "Additional Defense" a SPECIAL_EXCELLENT3 slotban van,
-	// és az opció azonosítója ITEM_OPTION_ADD_DEFENSE (83).
-	if (this->m_NewOption != 0 && this->m_SpecialIndex[SPECIAL_EXCELLENT3] == ITEM_OPTION_ADD_DEFENSE)
+	// ... a CItem::Convert függvényben, a mi korábbi IF blokkunk (ami nem futott le) helyett,
+	// vagy akár az EXCELLENT_SLOT_CHECK logolás után/helyett:
+	
+	LogAdd(LOG_BLUE, "[OPTION_STATE_CHECK] Item: %s, NewOption: %d, Option1: %d, Option2: %d, Option3: %d", 
+	       ItemInfo.Name, this->m_NewOption, this->m_Option1, this->m_Option2, this->m_Option3);
+	
+	LogAdd(LOG_BLUE, "[EXCELLENT_SLOTS_INFO] Item: %s", ItemInfo.Name);
+	for (int i = SPECIAL_EXCELLENT1; i <= SPECIAL_EXCELLENT6; ++i)
 	{
-	    // this->m_SpecialValue[SPECIAL_EXCELLENT3] itt a +4, +8, +12, stb. konkrét defense bónusz értéket tartalmazza.
-	    int addDefRawValue = this->m_SpecialValue[SPECIAL_EXCELLENT3];
-
-
-		if (this->m_NewOption != 0) // Csak akkor logolunk, ha van excellent opció
-    	{
-        	LogAdd(LOG_BLUE, "[EXCELLENT_SLOT_CHECK] Item: %s, NewOption: %d", ItemInfo.Name, this->m_NewOption);
-        	for (int i = SPECIAL_EXCELLENT1; i <= SPECIAL_EXCELLENT6; ++i)
-        	{
-            	if (this->m_SpecialIndex[i] != 0 && this->m_SpecialIndex[i] != 0xFF) // Csak ha van valós opció az adott slotban
-            	{
-            	    LogAdd(LOG_BLUE, "[EXCELLENT_SLOT_CHECK] Slot EX%d -> Index: %d, Value: %d", (i-SPECIAL_EXCELLENT1+1), this->m_SpecialIndex[i], this->m_SpecialValue[i]);
-            	}
-        	}
-    	}
-
-	    if (addDefRawValue > 0) // Csak ha van valós Add Defense érték
+	    if (this->m_SpecialIndex[i] != 0 && this->m_SpecialIndex[i] != 0xFF)
 	    {
-	        // Kiszámoljuk az "Add Defense szintjét". Minden +4 defense bónusz egy szintnek felel meg.
-	        int addDefLevel = addDefRawValue / 4; 
-	        
-	        if (addDefLevel > 0) // Csak ha van legalább 1. szintű Add Defense
-	        {
-	            // ÚJ LOGIKA: Minden "Add Defense szint" +2 STR követelményt ad.
-	            int strIncreaseDueToAddDefLevel = addDefLevel * 2; 
-	            
-	            LogAdd(LOG_BLUE, "[ADD_DEF_REQ_ADJUST_EX3_V2] Item: %s, AddDef Value(EX3): %d, AddDef Level: %d, Adding %d (level*2) to ReqSTR (current: %d)",
-	                   ItemInfo.Name, addDefRawValue, addDefLevel, strIncreaseDueToAddDefLevel, this->m_RequireStrength);
-	            
-	            this->m_RequireStrength += strIncreaseDueToAddDefLevel;
-	            
-	            LogAdd(LOG_BLUE, "[ADD_DEF_REQ_ADJUST_EX3_V2] Item: %s, New ReqSTR: %d", ItemInfo.Name, this->m_RequireStrength);
-	        }
+	        LogAdd(LOG_BLUE, "  EX_SLOT[%d] -> Index: %d, Value: %d", i, this->m_SpecialIndex[i], this->m_SpecialValue[i]);
 	    }
 	}
-	// === SAJÁT KÓD VÉGE ===
+	
+	LogAdd(LOG_BLUE, "[COMMON_SLOTS_INFO] Item: %s", ItemInfo.Name);
+	for (int i = SPECIAL_COMMON1; i <= SPECIAL_COMMON5; ++i) // Feltételezve, hogy SPECIAL_COMMON5 a max
+	{
+	    if (this->m_SpecialIndex[i] != 0 && this->m_SpecialIndex[i] != 0xFF)
+	    {
+	        LogAdd(LOG_BLUE, "  COMMON_SLOT[%d] -> Index: %d, Value: %d", i, this->m_SpecialIndex[i], this->m_SpecialValue[i]);
+	    }
+	}
 
 	// ÁTHELYEZETT ÉS FRISSÍTETT CONVERT_END LOGOLÁS
 	// Ennek a blokknak minden _RequireStat módosítás UTÁN kell lennie.
