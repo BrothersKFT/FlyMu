@@ -955,6 +955,47 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 		}
 	}
 
+	// === SAJÁT KÓD AZ "ADDITIONAL DEFENSE" SZINT ALAPÚ REQUIREMENT KORREKCIÓHOZ ===
+	// Feltételezzük, hogy az "Additional Defense" a SPECIAL_EXCELLENT3 slotban van,
+	// és az opció azonosítója ITEM_OPTION_ADD_DEFENSE (83).
+	if (this->m_NewOption != 0 && this->m_SpecialIndex[SPECIAL_EXCELLENT3] == ITEM_OPTION_ADD_DEFENSE)
+	{
+	    // this->m_SpecialValue[SPECIAL_EXCELLENT3] itt a +4, +8, +12, stb. konkrét defense bónusz értéket tartalmazza.
+	    int addDefRawValue = this->m_SpecialValue[SPECIAL_EXCELLENT3];
+
+	    if (addDefRawValue > 0) // Csak ha van valós Add Defense érték
+	    {
+	        // Kiszámoljuk az "Add Defense szintjét". Minden +4 defense bónusz egy szintnek felel meg.
+	        int addDefLevel = addDefRawValue / 4; 
+	        
+	        if (addDefLevel > 0) // Csak ha van legalább 1. szintű Add Defense
+	        {
+	            // A megfigyelésed szerint minden "Add Defense szint" +1 STR követelményt
+	            // kellene hogy jelentsen a szerveren is, hogy szinkronban legyen a klienssel.
+	            int strIncreaseDueToAddDefLevel = addDefLevel; 
+	            
+	            LogAdd(LOG_BLUE, "[ADD_DEF_REQ_ADJUST_EX3] Item: %s, AddDef Value(EX3): %d, AddDef Level: %d, Adding %d to ReqSTR (current: %d)",
+	                   ItemInfo.Name, addDefRawValue, addDefLevel, strIncreaseDueToAddDefLevel, this->m_RequireStrength);
+	            
+	            this->m_RequireStrength += strIncreaseDueToAddDefLevel;
+	            
+	            LogAdd(LOG_BLUE, "[ADD_DEF_REQ_ADJUST_EX3] Item: %s, New ReqSTR: %d", ItemInfo.Name, this->m_RequireStrength);
+	        }
+	    }
+	}
+	// === SAJÁT KÓD VÉGE ===
+
+	// ÁTHELYEZETT ÉS FRISSÍTETT CONVERT_END LOGOLÁS
+	// Ennek a blokknak minden _RequireStat módosítás UTÁN kell lennie.
+	LogAdd(LOG_RED,"[CONVERT_END] Item: %s, Final m_ReqSTR: %d, Final m_ReqAGI: %d, Final m_ReqVIT: %d, Final m_ReqENE: %d, Final m_ReqCMD: %d", 
+		gItemManager.GetItemName(this->m_Index), 
+		this->m_RequireStrength, 
+		this->m_RequireDexterity,
+		this->m_RequireVitality,
+		this->m_RequireEnergy,
+		this->m_RequireLeadership);
+	// === ÁTHELYEZETT LOGOLÁS VÉGE ===
+
 	this->Value();
 
 	if (this->m_Index != GET_ITEM(4, 7) && this->m_Index != GET_ITEM(4, 15) && this->IsPentagramItem() == 0) // Arrow,Bolt
@@ -967,14 +1008,6 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 		this->m_DefenseSuccessRate = (BYTE)(this->m_DefenseSuccessRate*this->m_CurrentDurabilityState);
 	}
 
-	// === IDE KELLENE LOGOLNI MINDEN OLYAN LÉPÉST, AMI MÓDOSÍTHATJA AZ m_RequireStrength-et VAGY m_RequireDexterity-t ===
-    // Például, ha van logika excellent opciókra, set opciókra, tárgyszintre:
-    // LogAdd(LOG_RED,"[CONVERT_STEP_XYZ] Item: %s, m_RequireStrength after XYZ calc: %d", ItemInfo.Name, this->m_RequireStrength);
-    // ===
-
-    // === NAPLÓZÁS Convert vége felé (mielőtt Harmony stb. lefut) ===
-    LogAdd(LOG_RED,"[CONVERT_END] Item: %s, Final m_ReqSTR: %d, Final m_ReqAGI: %d", gItemManager.GetItemName(this->m_Index), this->m_RequireStrength, this->m_RequireDexterity); // Kibővítettem Agility-vel
-    // === NAPLÓZÁS VÉGE ===
 }
 
 void CItem::Value() // OK
