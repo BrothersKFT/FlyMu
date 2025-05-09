@@ -203,25 +203,25 @@ end
 //SPOT - LORENCIA
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-	2				0			5			180				128			 180	      128			-1				5			//Budge Dragon
-	2				0			5			190				118			 190		  118			-1				5			//Budge Dragon
-	3				0			5			194				131			 194		  131			-1				5			//Spider
-	3				0			5			197				150			 197		  150			-1				5			//Spider
-	3				0			5			215				130			 215		  130		    -1				5			//Spider
-	0				0			5			139				78			 139		  78		    -1				5			//Bull Fighter
-	0				0			5			157				74			 157		  74		    -1				5			//Bull Fighter
-	0				0			5			142				63			 142		  63		    -1				5			//Bull Fighter
-	0				0			5			163				59			 163		  59		    -1				5			//Bull Fighter
-	6				0			5			111				186			 111		  186		    -1				5			//Lich
-	6				0			5			129				190			 129		  190		    -1				5			//Lich
-	14				0			5			140				217			 140		  217		    -1				5			//SkeletonWarrior
-	14				0			5			153				232			 153		  232		    -1				5			//SkeletonWarrior
-	1				0			5			84				117			  84		  117		    -1				5			//Hound
-	1				0			5			93				102			  93		  102		    -1				5			//Hound
-	4				0			5			79				136			  79		  136		    -1				5			//EliteBullFighter
-	4				0			5			59				136			  59		  136		    -1				5			//EliteBullFighter
-	7				0			5			22				42			  22		  42		    -1				5			//Giant
-	7				0			5			22				21			  22		  21		    -1				5			//Giant
+	2				0			3			180				128			 180	      128			-1				5			//Budge Dragon
+	2				0			3			190				118			 190		  118			-1				5			//Budge Dragon
+	3				0			3			194				131			 194		  131			-1				5			//Spider
+	3				0			3			197				150			 197		  150			-1				5			//Spider
+	3				0			3			215				130			 215		  130		    -1				5			//Spider
+	0				0			3			139				78			 139		  78		    -1				5			//Bull Fighter
+	0				0			3			157				74			 157		  74		    -1				5			//Bull Fighter
+	0				0			3			142				63			 142		  63		    -1				5			//Bull Fighter
+	0				0			3			163				59			 163		  59		    -1				5			//Bull Fighter
+	6				0			3			111				186			 111		  186		    -1				5			//Lich
+	6				0			3			129				190			 129		  190		    -1				5			//Lich
+	14				0			3			140				217			 140		  217		    -1				5			//SkeletonWarrior
+	14				0			3			153				232			 153		  232		    -1				5			//SkeletonWarrior
+	1				0			3			84				117			  84		  117		    -1				5			//Hound
+	1				0			3			93				102			  93		  102		    -1				5			//Hound
+	4				0			3			79				136			  79		  136		    -1				5			//EliteBullFighter
+	4				0			3			59				136			  59		  136		    -1				5			//EliteBullFighter
+	7				0			3			22				42			  22		  42		    -1				5			//Giant
+	7				0			3			22				21			  22		  21		    -1				5			//Giant
 end
 
 1
