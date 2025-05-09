@@ -222,7 +222,7 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 	}
 
 	// === NAPLÓZÁS Convert elején ===
-    LogAdd(LOG_RED,"[CONVERT_START] Item: %d(%s)+%d, BaseItemInfo.ReqSTR: %d, BaseItemInfo.ReqAGI: %d", index, ItemInfo.Name, this->m_Level, ItemInfo.RequireStrength, ItemInfo.RequireDexterity); // Kibővítettem Agility-vel és szinttel
+    //LogAdd(LOG_RED,"[CONVERT_START] Item: %d(%s)+%d, BaseItemInfo.ReqSTR: %d, BaseItemInfo.ReqAGI: %d", index, ItemInfo.Name, this->m_Level, ItemInfo.RequireStrength, ItemInfo.RequireDexterity); // Kibővítettem Agility-vel és szinttel
     // === NAPLÓZÁS VÉGE ===
 
     this->m_Index = index;
@@ -350,7 +350,6 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 	}
 
 	int ItemLevel = ItemInfo.Level;
-	LogAdd(LOG_RED,"[CONVERT_ITEMLEVEL_CHECK] Item: %s, this->m_Level: %d, ItemInfo.Level (used as ItemLevel_variable): %d", ItemInfo.Name, this->m_Level, ItemLevel); 
 
 	if (NewOption != 0 || this->m_SetOption != 0)
 	{
@@ -955,40 +954,6 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 		}
 	}
 
-	// ... a CItem::Convert függvényben, a mi korábbi IF blokkunk (ami nem futott le) helyett,
-	// vagy akár az EXCELLENT_SLOT_CHECK logolás után/helyett:
-
-	LogAdd(LOG_BLUE, "[OPTION_STATE_CHECK] Item: %s, NewOption: %d, Option1: %d, Option2: %d, Option3: %d", 
-	       ItemInfo.Name, this->m_NewOption, this->m_Option1, this->m_Option2, this->m_Option3);
-
-	LogAdd(LOG_BLUE, "[EXCELLENT_SLOTS_INFO] Item: %s", ItemInfo.Name);
-	for (int i = SPECIAL_EXCELLENT1; i <= SPECIAL_EXCELLENT6; ++i)
-	{
-	    if (this->m_SpecialIndex[i] != 0 && this->m_SpecialIndex[i] != 0xFF)
-	    {
-	        LogAdd(LOG_BLUE, "  EX_SLOT[%d] -> Index: %d, Value: %d", i, this->m_SpecialIndex[i], this->m_SpecialValue[i]);
-	    }
-	}
-
-	LogAdd(LOG_BLUE, "[COMMON_SLOTS_INFO] Item: %s", ItemInfo.Name);
-	for (int i = SPECIAL_COMMON1; i <= SPECIAL_COMMON5; ++i) // Feltételezve, hogy SPECIAL_COMMON5 a max
-	{
-	    if (this->m_SpecialIndex[i] != 0 && this->m_SpecialIndex[i] != 0xFF)
-	    {
-	        LogAdd(LOG_BLUE, "  COMMON_SLOT[%d] -> Index: %d, Value: %d", i, this->m_SpecialIndex[i], this->m_SpecialValue[i]);
-	    }
-	}
-
-	// ÁTHELYEZETT ÉS FRISSÍTETT CONVERT_END LOGOLÁS
-	// Ennek a blokknak minden _RequireStat módosítás UTÁN kell lennie.
-	LogAdd(LOG_RED,"[CONVERT_END] Item: %s, Final m_ReqSTR: %d, Final m_ReqAGI: %d, Final m_ReqVIT: %d, Final m_ReqENE: %d, Final m_ReqCMD: %d", 
-		gItemManager.GetItemName(this->m_Index), 
-		this->m_RequireStrength, 
-		this->m_RequireDexterity,
-		this->m_RequireVitality,
-		this->m_RequireEnergy,
-		this->m_RequireLeadership);
-	// === ÁTHELYEZETT LOGOLÁS VÉGE ===
 
 	this->Value();
 
