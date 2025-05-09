@@ -229,16 +229,7 @@ end
 //SPOT - NORIA
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-26             3              05         168            074            168          074          -1             5            //Goblin
-03             3              05         168            074            168          074          -1             5            //Spider
-02             3              05         154            082            154          082          -1             5            //Budge Dragon
-27             3              05         154            077            154          077          -1             5            //Chain Scorpion
-33             3              05         157            063            157          063          -1             5            //Elite Goblin
-28             3              05         153            126            153          126          -1             5            //Beetle Monster
-29             3              05         147            116            147          116          -1             5            //Hunter
-31             3              05         135            116            135          116          -1             5            //Agon
-32             3              05         218            134            218          134          -1             5            //Stone Golem
-30             3              05         204            147            204          147          -1             5            //Forest Monster
+
 end
 
 1
