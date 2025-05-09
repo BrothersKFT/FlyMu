@@ -1,2 +1,3 @@
 //Index	Group	Type	InfoX	InfoY	name
+0	      1	      1	      140	128	    "Teszt NPC Lorencia"
 end
