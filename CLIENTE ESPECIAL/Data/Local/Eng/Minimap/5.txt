@@ -1,0 +1,9 @@
+16
+2	164	0	315	Entrance to Devias	
+2	190	5	225	Lost Tower Level 2 Entrance	
+2	165	165	225	Lost Tower Level 3 Entrance	
+2	133	246	135	Lost Tower Level 4 Entrance	
+2	133	136	135	Lost Tower Level 5 Entrance	
+2	129	14	225	Lost Tower Level 6 Entrance	
+2	4	7	225	Lost Tower Level 7 Entrance	
+2	16	250	135	Entrance to Icarus

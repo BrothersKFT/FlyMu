@@ -1,0 +1,17 @@
+16
+1	209	28	0	Messenger of Archangel	
+1	183	31	0	Sebina the Priest	
+1	226	23	0	Caren the Barmaid	
+1	225	39	0	Wizard Izabel	
+1	186	46	0	Weapons Merchant Zienna	
+1	215	45	0	Royal Guard Captain Lorence	
+1	217	62	0	Safety Guardian	
+1	170	44	0	Shadow Phantom Soldier	
+1	219	73	0	Shadow Phantom Soldier	
+1	229	221	0	Jerint the Assistant	
+1	30	30	0	Natasha the Firecracker Merchant	
+1	204	61	0	Mercenary Guild Manager Tercia	
+2	251	33	45	Entrance to Lorencia	
+2	162	248	135	Entrance to Elveland	
+2	0	250	180	Entrance to the Lost Tower	
+2	51	92	135	Entrance to La Cleon	

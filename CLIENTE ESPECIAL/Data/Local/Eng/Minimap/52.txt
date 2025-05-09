@@ -1,0 +1,17 @@
+16
+1	36	241	0	Lahap	
+1	43	229	0	Potion Merchant Silvia	
+1	28	236	0	Weapons Merchant Rhea	
+1	35	219	0	Magic Shop Owner Marce	
+1	41	191	0	Shadow Phantom Soldier	
+1	56	232	0	Shadow Phantom Soldier	
+1	72	220	0	Shadow Phantom Soldier	
+1	49	229	0	Safety Guardian	
+1	54	243	0	Mirage	
+1	45	243	0	Seed Master	
+1	49	243	0	Seed Researcher	
+1	48	216	0	Lugard	
+1	21	225	0	Moss	
+1	20	214	0	David	
+2	248	149	45	Entrance to Atlans	
+2	19	27	225	Entrance to Devias
