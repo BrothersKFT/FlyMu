@@ -535,46 +535,7 @@ end
 //SPOT - ATLANS 1 al 3
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-046            7              05         043            012            046          012          -1             5            //Vepar
-045            7              05         046            012            046          012          -1             5            //Bahamut
-046            7              05         063            020            063          020          -1             5            //Vepar
-045            7              05         063            020            063          020          -1             5            //Bahamut
-046            7              05         079            019            079          019          -1             5            //Vepar
-045            7              05         079            019            079          019          -1             5            //Bahamut
-046            7              05         047            065            047          065          -1             5            //Vepar
-045            7              05         047            065            047          065          -1             5            //Bahamut
-047            7              05         036            109            036          109          -1             5             //Valkyria
-047            7              05         051            091            051          091          -1             5             //Valkyria
-046            7              05         062            045            062          045          -1             5             //Vepar
-045            7              05         026            050            026          050          -1             5             //Bahamut
-046            7              05         024            122            024          122          -1             5             //Vepar
-047            7              05         070            085            070          085          -1             5             //Valkyria
-45             7              05         046            012            046          012          -1             5             //Bahamut
-46             7              05         063            020            063          020          -1             5             //Vepar
-46             7              05         047            065            047          065          -1             5             //Vepar
-46             7              05         110            041            110          041          -1             5            //Vepar
-47             7              05         110            041            110          041          -1             5            //Valkyrie
-46             7              05         117            028            117          028          -1             5            //Vepar
-47             7              05         117            028            117          028          -1             5            //Valkyrie
-51             7              05         227            052            227          052          -1             5             //Great Bahamut
-51             7              05         194            050            194          050          -1             5             //Great Bahamut
-51             7              05         171            058            171          058          -1             5             //Great Bahamut
-52             7              05         227            073            227          073          -1             5             //Silver Valkyrie
-52             7              05         184            094            184          094          -1             5             //Silver Valkyrie
-48             7              05         226            153            226          153          -1             5             //Lizard King
-48             7              05         232            173            232          173          -1             5             //Lizard King
-52             7              05         065            145            065          145          -1             5             //Silver Valkyrie
-52             7              05         073            134            073          134          -1             5             //Silver Valkyrie
-51             7              05         107            099            107          099          -1             5             //Great Bahamut
-51             7              05         113            137            113          137          -1             5             //Great Bahamut
-51             7              05         063            181            063          181          -1             5             //Great Bahamut
-51             7              05         086            181            086          181          -1             5             //Great Bahamut
-52             7              05         238            018            238          018          -1             5             //Silver Valkyrie
-52             7              05         188            021            188          021          -1             5             //Silver Valkyrie
-48             7              05         166            147            166          147          -1             5             //Lizard King
-48             7              05         025            229            025          229          -1             5             //Lizard King
-49             7              05         046            219            046          219          -1             5             //Hydra
-48             7              05         033            207            033          207          -1             5             //Lizard King
+
 end
 
 1
