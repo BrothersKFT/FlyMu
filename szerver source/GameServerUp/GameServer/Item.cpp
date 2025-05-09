@@ -970,16 +970,15 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 	        
 	        if (addDefLevel > 0) // Csak ha van legalább 1. szintű Add Defense
 	        {
-	            // A megfigyelésed szerint minden "Add Defense szint" +1 STR követelményt
-	            // kellene hogy jelentsen a szerveren is, hogy szinkronban legyen a klienssel.
-	            int strIncreaseDueToAddDefLevel = addDefLevel; 
+	            // ÚJ LOGIKA: Minden "Add Defense szint" +2 STR követelményt ad.
+	            int strIncreaseDueToAddDefLevel = addDefLevel * 2; 
 	            
-	            LogAdd(LOG_BLUE, "[ADD_DEF_REQ_ADJUST_EX3] Item: %s, AddDef Value(EX3): %d, AddDef Level: %d, Adding %d to ReqSTR (current: %d)",
+	            LogAdd(LOG_BLUE, "[ADD_DEF_REQ_ADJUST_EX3_V2] Item: %s, AddDef Value(EX3): %d, AddDef Level: %d, Adding %d (level*2) to ReqSTR (current: %d)",
 	                   ItemInfo.Name, addDefRawValue, addDefLevel, strIncreaseDueToAddDefLevel, this->m_RequireStrength);
 	            
 	            this->m_RequireStrength += strIncreaseDueToAddDefLevel;
 	            
-	            LogAdd(LOG_BLUE, "[ADD_DEF_REQ_ADJUST_EX3] Item: %s, New ReqSTR: %d", ItemInfo.Name, this->m_RequireStrength);
+	            LogAdd(LOG_BLUE, "[ADD_DEF_REQ_ADJUST_EX3_V2] Item: %s, New ReqSTR: %d", ItemInfo.Name, this->m_RequireStrength);
 	        }
 	    }
 	}
