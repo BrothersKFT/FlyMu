@@ -633,14 +633,33 @@ bool CItemManager::CheckItemRequireLevel(LPOBJ lpObj,CItem* lpItem) // OK
 
 bool CItemManager::CheckItemRequireStrength(LPOBJ lpObj,CItem* lpItem) // OK
 {
-	if((lpObj->Strength+lpObj->AddStrength) >= (lpItem->m_RequireStrength-lpItem->m_SubRequireStr))
-	{
-		return 1;
-	}
-	else
-	{
-		return 0;
-	}
+	// === NAPLÓZÁS KEZDETE ===
+        //LogAdd(LOG_RED,"[STR_CHECK] Char: %s, Item: %d(%s)+%d, CharSTR: %d, ItemReqSTR: %d, ItemSubSTR: %d, FinalItemReq: %d",
+           // lpObj->Name,
+           // lpItem->m_Index,
+            //gItemManager.GetItemName(lpItem->m_Index), // Tárgy neve a jobb olvashatóságért
+           // lpItem->m_Level,
+           // (lpObj->Strength + lpObj->AddStrength),
+           // lpItem->m_RequireStrength,
+           // lpItem->m_SubRequireStr,
+            //(lpItem->m_RequireStrength - lpItem->m_SubRequireStr)
+        //);
+        // === NAPLÓZÁS VÉGE ===
+
+        if((lpObj->Strength+lpObj->AddStrength) >= (lpItem->m_RequireStrength-lpItem->m_SubRequireStr))
+        {
+            // === NAPLÓZÁS ===
+            //LogAdd(LOG_RED,"[STR_CHECK_RESULT] Char: %s, Item: %s - PASSED", lpObj->Name, gItemManager.GetItemName(lpItem->m_Index));
+            // === NAPLÓZÁS VÉGE ===
+            return 1;
+        }
+        else
+        {
+            // === NAPLÓZÁS ===
+            //LogAdd(LOG_RED,"[STR_CHECK_RESULT] Char: %s, Item: %s - FAILED", lpObj->Name, gItemManager.GetItemName(lpItem->m_Index));
+            // === NAPLÓZÁS VÉGE ===
+            return 0;
+        }
 }
 
 bool CItemManager::CheckItemRequireDexterity(LPOBJ lpObj,CItem* lpItem) // OK
@@ -4992,6 +5011,74 @@ void CItemManager::CGMoveItemProc(PMSG_MOVEITEM* aRecv, short aIndex) {
 		if (aRecv->Source > 11) // wear equipment case
 		{ 
 			CItem* lpItemToEquip = &lpObj->Inventory[aRecv->Source]; 
+
+
+			// Right click check for attribute
+			bool canEquipBasedOnTooltipStats = true;
+
+			// --- Erő (Strength) Ellenőrzése ---
+			int actualRequiredStrength = lpItemToEquip->m_RequireStrength - lpItemToEquip->m_SubRequireStr;
+			if (actualRequiredStrength < 0) { actualRequiredStrength = 0; } // A követelmény nem lehet negatív
+			if (lpItemToEquip->m_RequireStrength > 0 && (lpObj->Strength + lpObj->AddStrength) < actualRequiredStrength)
+			{
+			    canEquipBasedOnTooltipStats = false;
+			    //LogAdd(LOG_RED,"[SAJAT_PROC_CHECK_FAIL] User: %s, Item: %s (%d). STR Hiba. Szükséges (tooltip): %d, Karakteré: %d",
+			           //lpObj->Name, lpItemToEquip->GetName(), lpItemToEquip->m_Index, actualRequiredStrength, (lpObj->Strength + lpObj->AddStrength));
+			}
+
+			// --- Ügyesség (Dexterity) Ellenőrzése ---
+			if (canEquipBasedOnTooltipStats == true) // Csak ha az előző ellenőrzés sikeres volt
+			{
+			    int actualRequiredDexterity = lpItemToEquip->m_RequireDexterity - lpItemToEquip->m_SubRequireDex;
+			    if (actualRequiredDexterity < 0) { actualRequiredDexterity = 0; }
+			    if (lpItemToEquip->m_RequireDexterity > 0 && (lpObj->Dexterity + lpObj->AddDexterity) < actualRequiredDexterity)
+			    {
+			        canEquipBasedOnTooltipStats = false;
+			        //LogAdd(LOG_RED,"[SAJAT_PROC_CHECK_FAIL] User: %s, Item: %s (%d). DEX Hiba. Szükséges (tooltip): %d, Karakteré: %d",
+			               //lpObj->Name, lpItemToEquip->GetName(), lpItemToEquip->m_Index, actualRequiredDexterity, (lpObj->Dexterity + lpObj->AddDexterity));
+			    }
+			}
+
+			// --- Vitalitás (Vitality) Ellenőrzése ---
+			if (canEquipBasedOnTooltipStats == true && lpItemToEquip->m_RequireVitality > 0 && (lpObj->Vitality + lpObj->AddVitality) < lpItemToEquip->m_RequireVitality)
+			{
+			    canEquipBasedOnTooltipStats = false;
+			    //LogAdd(LOG_RED,"[SAJAT_PROC_CHECK_FAIL] User: %s, Item: %s (%d). VIT Hiba. Szükséges (tooltip): %d, Karakteré: %d",
+			           //lpObj->Name, lpItemToEquip->GetName(), lpItemToEquip->m_Index, lpItemToEquip->m_RequireVitality, (lpObj->Vitality + lpObj->AddVitality));
+			}
+
+			// --- Energia (Energy) Ellenőrzése ---
+			if (canEquipBasedOnTooltipStats == true && lpItemToEquip->m_RequireEnergy > 0 && (lpObj->Energy + lpObj->AddEnergy) < lpItemToEquip->m_RequireEnergy)
+			{
+			    canEquipBasedOnTooltipStats = false;
+			    //LogAdd(LOG_RED,"[SAJAT_PROC_CHECK_FAIL] User: %s, Item: %s (%d). ENE Hiba. Szükséges (tooltip): %d, Karakteré: %d",
+			           //lpObj->Name, lpItemToEquip->GetName(), lpItemToEquip->m_Index, lpItemToEquip->m_RequireEnergy, (lpObj->Energy + lpObj->AddEnergy));
+			}
+
+			// --- Vezetés (Leadership) Ellenőrzése ---
+			if (canEquipBasedOnTooltipStats == true && lpItemToEquip->m_RequireLeadership > 0 && (lpObj->Leadership + lpObj->AddLeadership) < lpItemToEquip->m_RequireLeadership)
+			{
+			    canEquipBasedOnTooltipStats = false;
+			    //LogAdd(LOG_RED,"[SAJAT_PROC_CHECK_FAIL] User: %s, Item: %s (%d). CMD Hiba. Szükséges (tooltip): %d, Karakteré: %d",
+			           //lpObj->Name, lpItemToEquip->GetName(), lpItemToEquip->m_Index, lpItemToEquip->m_RequireLeadership, (lpObj->Leadership + lpObj->AddLeadership));
+			}
+
+			// --- Szint (Level) Ellenőrzése ---
+			if (canEquipBasedOnTooltipStats == true && lpItemToEquip->m_RequireLevel > 0 && lpObj->Level < lpItemToEquip->m_RequireLevel)
+			{
+			    canEquipBasedOnTooltipStats = false;
+			    //LogAdd(LOG_RED,"[SAJAT_PROC_CHECK_FAIL] User: %s, Item: %s (%d). LVL Hiba. Szükséges (tooltip): %d, Karakteré: %d",
+			           //lpObj->Name, lpItemToEquip->GetName(), lpItemToEquip->m_Index, lpItemToEquip->m_RequireLevel, lpObj->Level);
+			}
+
+			if (canEquipBasedOnTooltipStats == false)
+			{
+			    return; // Megszakítja a CGMoveItemProc további végrehajtását, a kliens 0xFF-et kap.
+			}
+
+
+			//End of right click check for attribute
+
 		
 			ITEM_INFO ItemInfo;
 			if (this->GetInfo(lpItemToEquip->m_Index, &ItemInfo) == 0) 
