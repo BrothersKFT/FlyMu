@@ -204,8 +204,8 @@ end
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
 	2				0			3			180				128			 180	      128			-1				5			//Budge Dragon
-	2				0			3			190				118			 190		  118			-1				5			//Budge Dragon
-	3				0			3			194				131			 194		  131			-1				5			//Spider
+	2				0			3			192				110			 192		  110			-1				5			//Budge Dragon
+	3				0			3			207				116			 207		  116			-1				5			//Spider
 	3				0			3			197				150			 197		  150			-1				5			//Spider
 	3				0			3			215				130			 215		  130		    -1				5			//Spider
 	0				0			3			139				78			 139		  78		    -1				5			//Bull Fighter
