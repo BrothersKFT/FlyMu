@@ -229,6 +229,13 @@ end
 //SPOT - NORIA
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+	26				3			3			153				117			 153		  117		    -1				5			//Goblin
+	26				3			3			140				120			 140		  120		    -1				5			//Goblin
+	27				3			3			132				104			 132		  104		    -1				5			//ChainScorpion
+	28				3			3			140				85			 140		  85		    -1				5			//BeetleMonster
+	26				3			3			161				74			 161		  74		    -1				5			//Goblin
+	27				3			3			172				61			 172		  61		    -1				5			//ChainScorpion
+	30				3			3			111				107			 111		  107		    -1				5			//Hunter
 
 end
 
