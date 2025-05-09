@@ -776,7 +776,7 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 			this->m_RequireStrength += (this->m_Option3 * 4);
 			break;
 		default:
-			this->m_RequireStrength += ((this->m_Index<GET_ITEM(12, 0)) ? (this->m_Option3 * 4) : 0);
+			this->m_RequireStrength += ((this->m_Index<GET_ITEM(12, 0)) ? (this->m_Option3 * 5) : 0);
 			break;
 		}
 	}
@@ -957,10 +957,10 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 
 	// ... a CItem::Convert függvényben, a mi korábbi IF blokkunk (ami nem futott le) helyett,
 	// vagy akár az EXCELLENT_SLOT_CHECK logolás után/helyett:
-	
+
 	LogAdd(LOG_BLUE, "[OPTION_STATE_CHECK] Item: %s, NewOption: %d, Option1: %d, Option2: %d, Option3: %d", 
 	       ItemInfo.Name, this->m_NewOption, this->m_Option1, this->m_Option2, this->m_Option3);
-	
+
 	LogAdd(LOG_BLUE, "[EXCELLENT_SLOTS_INFO] Item: %s", ItemInfo.Name);
 	for (int i = SPECIAL_EXCELLENT1; i <= SPECIAL_EXCELLENT6; ++i)
 	{
@@ -969,7 +969,7 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 	        LogAdd(LOG_BLUE, "  EX_SLOT[%d] -> Index: %d, Value: %d", i, this->m_SpecialIndex[i], this->m_SpecialValue[i]);
 	    }
 	}
-	
+
 	LogAdd(LOG_BLUE, "[COMMON_SLOTS_INFO] Item: %s", ItemInfo.Name);
 	for (int i = SPECIAL_COMMON1; i <= SPECIAL_COMMON5; ++i) // Feltételezve, hogy SPECIAL_COMMON5 a max
 	{
