@@ -963,6 +963,19 @@ void CItem::Convert(int index, BYTE Option1, BYTE Option2, BYTE Option3, BYTE Ne
 	    // this->m_SpecialValue[SPECIAL_EXCELLENT3] itt a +4, +8, +12, stb. konkrét defense bónusz értéket tartalmazza.
 	    int addDefRawValue = this->m_SpecialValue[SPECIAL_EXCELLENT3];
 
+
+		if (this->m_NewOption != 0) // Csak akkor logolunk, ha van excellent opció
+    	{
+        	LogAdd(LOG_BLUE, "[EXCELLENT_SLOT_CHECK] Item: %s, NewOption: %d", ItemInfo.Name, this->m_NewOption);
+        	for (int i = SPECIAL_EXCELLENT1; i <= SPECIAL_EXCELLENT6; ++i)
+        	{
+            	if (this->m_SpecialIndex[i] != 0 && this->m_SpecialIndex[i] != 0xFF) // Csak ha van valós opció az adott slotban
+            	{
+            	    LogAdd(LOG_BLUE, "[EXCELLENT_SLOT_CHECK] Slot EX%d -> Index: %d, Value: %d", (i-SPECIAL_EXCELLENT1+1), this->m_SpecialIndex[i], this->m_SpecialValue[i]);
+            	}
+        	}
+    	}
+
 	    if (addDefRawValue > 0) // Csak ha van valós Add Defense érték
 	    {
 	        // Kiszámoljuk az "Add Defense szintjét". Minden +4 defense bónusz egy szintnek felel meg.
