@@ -43,26 +43,27 @@ end
 //NPC Devias
 0
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
-229            02             00         198            047            02             //Marlon
-//236            02             00         226            066            01             //Golden Archer
-233            02             00         209            030            01             //Messenger of Archangel
-233            02             00         219            009            03             //Messenger of Archangel
-235            02             00         183            032            03             //Sebina the Priest
-244            02             00         226            025            03             //Caren the Barmaid
+
 //245            02             00         225            041            03             //Wizard Izabel kivéve, későbbre valamire
-246            02             00         186            047            03             //Weapons Merchant Zienna
+//236            02             00         226            066            01             //Golden Archer
+//601            02             00         130            121            03             //Reset system
+229            02             00         198            047            02             //Marlon
 247            02             20         224            079            05             //Guard
 247            02             20         219            079            05             //Guard
 247            02             20         169            045            07             //Guard
 247            02             20         169            039            07             //Guard
+233            02             00         209            030            01             //Messenger of Archangel
+233            02             00         219            009            03             //Messenger of Archangel
+235            02             00         183            032            03             //Sebina the Priest 
+244            02             00         226            025            03             //Caren the Barmaid
+246            02             00         186            047            03             //Weapons Merchant Zienna
 241            02             00         215            045            01             //Royal Guard Captain Lorence
 240            02             00         218            063            02             //Safety Guardian
 257            02             00         219            073            03             //Shadow Phantom Soldier
 257            02             00         172            044            01             //Shadow Phantom Soldier
 566            02             00         204            061            01             //Mercenary Guild Manager Tercia
 478            02             00         191            017            03             //Delgado
-379            02             00         032            031            03             //Natasha the Firecracker Merchan
-//601            02             00         130            121            03             //Reset system
+379            02             00         032            031            03             //Natasha the Firecracker Merchant
 601            02             00         205            045            03             //Grand Reset system
 end
 
@@ -288,39 +289,43 @@ end
 //SPOT - DEVIAS 1 al 4
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-24             2              05         217            085            217          085          -1             5            //Worm
-24             2              05         240            080            240          080          -1             5            //Worm
-24             2              05         192            082            192          082          -1             5            //Worm
-24             2              05         175            070            175          070          -1             5            //Worm
-24             2              05         158            053            158          053          -1             5            //Worm
-24             2              05         162            033            162          033          -1             5            //Worm
-23             2              05         121            028            121          028          -1             5            //Hommerd
-21             2              05         116            058            116          058          -1             5            //Assassin
-22             2              05         126            082            126          082          -1             5            //Ice Monster
-21             2              05         147            089            147          089          -1             5            //Assassin
-23             2              05         152            118            152          118          -1             5            //Hommerd
-21             2              05         181            111            181          111          -1             5            //Assassin
-22             2              05         204            116            204          116          -1             5            //Ice Monster
-23             2              05         233            125            233          125          -1             5            //Hommerd
-20             2              05         217            156            217          156          -1             5            //Elite Yeti
-20             2              05         191            159            191          159          -1             5            //Elite Yeti
-20             2              05         208            170            208          170          -1             5            //Elite Yeti
-20             2              05         225            166            225          166          -1             5            //Elite Yeti
-20             2              05         238            187            238          187          -1             5            //Elite Yeti
-20             2              05         206            188            206          188          -1             5            //Elite Yeti
-20             2              05         215            215            215          215          -1             5            //Elite Yeti
-20             2              05         238            215            238          215          -1             5            //Elite Yeti
-20             2              05         225            231            225          231          -1             5            //Elite Yeti
-19             2              05         037            036            037          036          -1             5            //Yeti
-19             2              05         035            013            035          013          -1             5            //Yeti
-19             2              05         064            028            064          028          -1             5            //Yeti
-23             2              05         055            059            055          059          -1             5            //Hommerd
-20             2              05         030            069            030          069          -1             5            //Elite Yeti
-19             2              05         022            090            022          090          -1             5            //Yeti
-25             2              05         095            178            095          178          -1             5            //Ice Queen
-20             2              05         116            200            116          200          -1             5            //Elite Yeti
-20             2              05         141            222            141          222          -1             5            //Elite Yeti
-20             2              05         199            237            199          237          -1             5            //Elite Yeti
+20	2	3	164	243	164	243	-1	5 //Elite Yeti
+20	2	3	163	190	163	190	-1	5 //Elite Yeti
+20	2	3	131	218	131	218	-1	5 //Elite Yeti
+20	2	3	112	238	112	238	-1	5 //Elite Yeti
+19	2	3	98	171	98	171	-1	5 //Yeti
+19	2	3	19	105	19	105	-1	5 //Yeti
+19	2	3	21	62	21	62	-1	5 //Yeti
+19	2	3	72	138	72	138	-1	5 //Yeti
+19	2	3	13	143	13	143	-1	5 //Yeti
+20	2	3	199	244	199	244	-1	5 //Elite Yeti
+20	2	3	197	148	197	148	-1	5 //Elite Yeti
+25	2	3	34	224	34	224	-1	1 //Ice Queen
+20	2	3	198	175	198	175	-1	5 //Elite Yeti
+20	2	3	220	164	220	164	-1	5 //Elite Yeti
+20	2	3	241	219	241	219	-1	5 //Elite Yeti
+20	2	3	216	218	216	218	-1	5 //Elite Yeti
+20	2	3	218	189	218	189	-1	5 //Elite Yeti
+20	2	3	239	188	239	188	-1	5 //Elite Yeti
+19	2	3	61	51	61	51	-1	5 //Yeti
+22	2	3	236	129	236	129	-1	5 //Ice Monster
+24	2	3	169	16	169	16	-1	5 //Worm
+22	2	3	174	113	174	113	-1	5 //Ice Monster
+22	2	3	207	117	207	117	-1	5 //Ice Monster
+24	2	3	162	36	162	36	-1	5 //Worm
+24	2	3	217	85	217	85	-1	5 //Worm
+24	2	3	241	86	241	86	-1	5 //Worm
+24	2	3	168	59	168	59	-1	5 //Worm
+24	2	3	182	76	182	76	-1	5 //Worm
+21	2	3	40	27	40	27	-1	5 //Assassin
+21	2	3	22	12	22	12	-1	5 //Assassin
+19	2	3	62	13	62	13	-1	5 //Yeti
+21	2	3	21	41	21	41	-1	5 //Assassin
+23	2	3	101	111	101	111	-1	5 //Hommerd
+23	2	3	124	69	124	69	-1	5 //Hommerd
+22	2	3	125	24	125	24	-1	5 //Ice Monster
+23	2	3	145	150	145	150	-1	5 //Hommerd
+23	2	3	149	97	149	97	-1	5 //Hommerd
 end
 //=========================================================================================================================================
 // [SPOTS] Kanturu Relic
@@ -497,7 +502,7 @@ end
 13	1	3	158	121	158	121 -1	5   //Hell Spider
 10	1	3	6	129	6	129 -1	5   //Dark Knight
 8	1	3	7	104	7	104 -1	5   //Poison Bull
-18	1	3	25	96	25	96  -1	5   //Gorgon
+18	1	3	25	96	25	96  -1	1   //Gorgon
 10	1	3	41	119	41	119 -1	5   //Dark Knight
 9	1	3	24	57	24	57  -1	5   //Thunder Lich
 9	1	3	6	57	6	57  -1	5   //Thunder Lich
