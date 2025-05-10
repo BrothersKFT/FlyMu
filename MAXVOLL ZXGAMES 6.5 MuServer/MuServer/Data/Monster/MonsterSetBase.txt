@@ -289,7 +289,6 @@ end
 //SPOT - DEVIAS 1 al 4
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-20	2	3	164	243	164	243	-1	5 //Elite Yeti
 20	2	3	163	190	163	190	-1	5 //Elite Yeti
 20	2	3	131	218	131	218	-1	5 //Elite Yeti
 20	2	3	112	238	112	238	-1	5 //Elite Yeti
