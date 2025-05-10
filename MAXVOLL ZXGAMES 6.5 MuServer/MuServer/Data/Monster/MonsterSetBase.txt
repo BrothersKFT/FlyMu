@@ -203,25 +203,39 @@ end
 //SPOT - LORENCIA
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-	2				0			3			180				128			 180	      128			-1				5			//Budge Dragon
-	2				0			3			192				110			 192		  110			-1				5			//Budge Dragon
-	3				0			3			207				116			 207		  116			-1				5			//Spider
-	3				0			3			197				150			 197		  150			-1				5			//Spider
-	3				0			3			215				130			 215		  130		    -1				5			//Spider
-	0				0			3			139				78			 139		  78		    -1				5			//Bull Fighter
-	0				0			3			157				74			 157		  74		    -1				5			//Bull Fighter
-	0				0			3			142				63			 142		  63		    -1				5			//Bull Fighter
-	0				0			3			163				59			 163		  59		    -1				5			//Bull Fighter
-	6				0			3			111				186			 111		  186		    -1				5			//Lich
-	6				0			3			129				190			 129		  190		    -1				5			//Lich
-	14				0			3			140				217			 140		  217		    -1				5			//SkeletonWarrior
-	14				0			3			153				232			 153		  232		    -1				5			//SkeletonWarrior
-	1				0			3			84				117			  84		  117		    -1				5			//Hound
-	1				0			3			93				102			  93		  102		    -1				5			//Hound
-	4				0			3			79				136			  79		  136		    -1				5			//EliteBullFighter
-	4				0			3			59				136			  59		  136		    -1				5			//EliteBullFighter
-	7				0			3			22				42			  22		  42		    -1				5			//Giant
-	7				0			3			22				21			  22		  21		    -1				5			//Giant
+0	0	3	145	76	-1	//Bull Fighter
+0	0	3	165	84	-1	//Bull Fighter
+0	0	3	143	44	-1	//Bull Fighter
+0	0	3	166	59	-1	//Bull Fighter
+1	0	3	86	116	-1	//Hound
+1	0	3	100	94	-1	//Hound
+1	0	3	78	79	-1	//Hound
+1	0	3	56	113	-1	//Hound
+1	0	3	88	146	-1	//Hound
+1	0	3	55	151	-1	//Hound
+2	0	3	189	117	-1	//Budge Dragon
+2	0	3	201	90	-1	//Budge Dragon
+2	0	3	213	109	-1	//Budge Dragon
+2	0	3	215	131	-1	//Budge Dragon
+3	0	3	193	143	-1	//Spider
+3	0	3	203	161	-1	//Spider
+3	0	3	206	185	-1	//Spider
+3	0	3	226	163	-1	//Spider
+4	0	3	117	45	-1	//Elite Bull Fighter
+4	0	3	92	52	-1	//Elite Bull Fighter
+4	0	3	136	21	-1	//Elite Bull Fighter
+6	0	3	124	178	-1	//Lich
+6	0	3	101	172	-1	//Lich
+6	0	3	120	212	-1	//Lich
+6	0	3	85	190	-1	//Lich
+7	0	3	28	20	-1	//Giant
+7	0	3	16	43	-1	//Giant
+7	0	3	12	74	-1	//Giant
+14	0	3	147	174	-1	//Skeleton Warrior
+14	0	3	160	199	-1	//Skeleton Warrior
+14	0	3	141	221	-1	//Skeleton Warrior
+14	0	3	164	238	-1	//Skeleton Warrior
+14	0	3	207	234	-1	//Skeleton Warrior
 end
 
 1
