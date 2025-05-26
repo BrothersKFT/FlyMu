@@ -361,65 +361,65 @@ end
 //SPOT - LOST TOWER 1 al 7
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-40             4              05         130            047            130         047           -1             5             //Death Knight
-40             4              05         130            026            130          26           -1             5             //Death Knight
-40             4              05         130            008            130          008          -1             5             //Death Knight
-40             4              112        112            008            112          008          -1             5             //Death Knight
-35             4              05         112            026            112          026          -1             5             //Death Gorgon
-35             4              05         111            041            111          041          -1             5             //Death Gorgon
-40             4              05         111            055            111          055          -1             5             //Death Knight
-40             4              05         098            055            098          055          -1             5             //Death Knight
-35             4              05         098            041            098          041          -1             5             //Death Gorgon
-35             4              05         098            025            098          025          -1             5             //Death Gorgon
-40             4              05         098            007            098          007          -1             5             //Death Knight
-40             4              05         084            008            084          008          -1             5             //Death Knight
-40             4              05         084            025            084          025          -1             5             //Death Knight
-40             4              05         084            042            084          042          -1             5             //Death Knight
-40             4              05         084            056            084          056          -1             5             //Death Knight
-34             4              05         102            169            102          169          -1             5             //Cursed Wizard
-41             4              05         085            184            085          184          -1             5             //Death Cow
-34             4              05         098            175            098          175          -1             5             //Cursed Wizard
-41             4              05         087            218            087          218          -1             5             //Death Cow
-34             4              05         084            246            084          246          -1             5             //Cursed Wizard
-41             4              05         084            246            084          246          -1             5             //Death Cow
-41             4              05         101            231            101          231          -1             5             //Death Cow
-41             4              05         101            214            101          214          -1             5             //Death Cow
-41             4              05         101            197            101          197          -1             5             //Death Cow
-41             4              05         101            183            101          183          -1             5             //Death Cow
-34             4              05         119            230            119          230          -1             5             //Cursed Wizard
-41             4              05         114            201            114          201          -1             5             //Death Cow
-41             4              05         114            182            114          182          -1             5             //Death Cow
-34             4              05         127            193            127          193          -1             5             //Cursed Wizard
-36             4              05         210            091            210          091          -1             5             //Shadow
-36             4              05         190            088            190          088          -1             5             //Shadow
-39             4              05         197            104            197          104          -1             5             //Poison Shadow
-39             4              05         200            129            200          129          -1             5             //Poison Shadow
-39             4              05         165            126            165          126          -1             5             //Poison Shadow
-36             4              05         197            057            197          057          -1             5             //Shadow
-36             4              05         209            046            209          046          -1             5             //Shadow
-40             4              05         025            087            025          087          -1             5             //Death Knight
-40             4              05         054            091            054          091          -1             5            //Death Knight
-35             4              05         033            103            033          103          -1             5             //Death Gorgon
-40             4              05         012            100            012          100          -1             5             //Death Knight
-35             4              05         054            116            054          116          -1             5             //Death Gorgon
-37             4              05         031            129            031          129          -1             5             //Devil
-40             4              05         031            129            031          129          -1             5             //Death Knight
-35             4              05         016            130            016          130          -1             5             //Death Gorgon
-35             4              05         054            134            054          134          -1             5             //Death Gorgon
-35             4              05         045            171            045          171          -1             5             //Death Gorgon
-35             4              05         023            171            023          171          -1             5             //Death Gorgon
-38             4              05         030            211            030          211          -1             5             //Balrog
-40             4              05         054            048            054          048          -1             5             //Death Knight
-37             4              05         046            033            046          033          -1             5             //Devil
-37             4              05         054            008            054          008          -1             5             //Devil
-37             4              05         022            010            022          010          -1             5             //Devil
-40             4              05         038            049            038          049          -1             5             //Death Knight
-40             4              05         014            048            014          048          -1             5             //Death Knight
-41             4              05         109            109            109          109          -1             5             //Death Cow
-34             4              05         129            108            129          108          -1             5             //Cursed Wizard
-37             4              05         086            109            086          109          -1             5             //Devil
-41             4              05         086            137            086          137          -1             5             //Death Cow
-34             4              05         104            137            104          137          -1             5             //Cursed Wizard
+40             4              03         130            047            130         047           -1             5             //Death Knight
+40             4              03         130            026            130          26           -1             5             //Death Knight
+40             4              03         130            008            130          008          -1             5             //Death Knight
+40             4              03        112            008            112          008          -1             5             //Death Knight
+35             4              03         112            026            112          026          -1             5             //Death Gorgon
+35             4              03         111            041            111          041          -1             5             //Death Gorgon
+40             4              03         111            055            111          055          -1             5             //Death Knight
+40             4              03         098            055            098          055          -1             5             //Death Knight
+35             4              03         098            041            098          041          -1             5             //Death Gorgon
+35             4              03         098            025            098          025          -1             5             //Death Gorgon
+40             4              03         098            007            098          007          -1             5             //Death Knight
+40             4              03         084            008            084          008          -1             5             //Death Knight
+40             4              03         084            025            084          025          -1             5             //Death Knight
+40             4              03         084            042            084          042          -1             5             //Death Knight
+40             4              03         084            056            084          056          -1             5             //Death Knight
+34             4              03         102            169            102          169          -1             5             //Cursed Wizard
+41             4              03         085            184            085          184          -1             5             //Death Cow
+34             4              03         098            175            098          175          -1             5             //Cursed Wizard
+41             4              03         087            218            087          218          -1             5             //Death Cow
+34             4              03         084            246            084          246          -1             5             //Cursed Wizard
+41             4              03         084            246            084          246          -1             5             //Death Cow
+41             4              03         101            231            101          231          -1             5             //Death Cow
+41             4              03         101            214            101          214          -1             5             //Death Cow
+41             4              03         101            197            101          197          -1             5             //Death Cow
+41             4              03         101            183            101          183          -1             5             //Death Cow
+34             4              03         119            230            119          230          -1             5             //Cursed Wizard
+41             4              03         114            201            114          201          -1             5             //Death Cow
+41             4              03         114            182            114          182          -1             5             //Death Cow
+34             4              03         127            193            127          193          -1             5             //Cursed Wizard
+36             4              03         210            091            210          091          -1             5             //Shadow
+36             4              03         190            088            190          088          -1             5             //Shadow
+36             4              03         197            104            197          104          -1             5             //Shadow
+39             4              03         200            129            200          129          -1             5             //Poison Shadow
+39             4              03         165            126            165          126          -1             5             //Poison Shadow
+36             4              03         197            057            197          057          -1             5             //Shadow
+36             4              03         209            046            209          046          -1             5             //Shadow
+40             4              03         025            087            025          087          -1             5             //Death Knight
+40             4              03         054            091            054          091          -1             5            //Death Knight
+35             4              03         033            103            033          103          -1             5             //Death Gorgon
+40             4              03         012            100            012          100          -1             5             //Death Knight
+35             4              03         054            116            054          116          -1             5             //Death Gorgon
+37             4              03         031            129            031          129          -1             5             //Devil
+40             4              03         031            129            031          129          -1             5             //Death Knight
+35             4              03         016            130            016          130          -1             5             //Death Gorgon
+35             4              03         054            134            054          134          -1             5             //Death Gorgon
+35             4              03         045            171            045          171          -1             5             //Death Gorgon
+35             4              03         023            171            023          171          -1             5             //Death Gorgon
+38             4              03         030            211            030          211          -1             5             //Balrog
+40             4              03         054            048            054          048          -1             5             //Death Knight
+37             4              03         046            033            046          033          -1             5             //Devil
+37             4              03         054            008            054          008          -1             5             //Devil
+37             4              03         022            010            022          010          -1             5             //Devil
+40             4              03         038            049            038          049          -1             5             //Death Knight
+40             4              03         014            048            014          048          -1             5             //Death Knight
+41             4              03         109            109            109          109          -1             5             //Death Cow
+34             4              03         129            108            129          108          -1             5             //Cursed Wizard
+37             4              03         086            109            086          109          -1             5             //Devil
+41             4              03         086            137            086          137          -1             5             //Death Cow
+34             4              03         104            137            104          137          -1             5             //Cursed Wizard
 443            56             4          061            201            061          201          -1             5             //Sapi-Tres
 448            56             4          044            229            044          229          -1             5             //Ghost Napin
 449            56             4          069            212            069          212          -1             5             //Blaze Napin
