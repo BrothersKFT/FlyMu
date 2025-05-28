@@ -689,27 +689,28 @@ end
 //ICARUS
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-069            10             05         012            039            012          039          -1             5             //Alquamos
-069            10             05         024            022            024          022          -1             5             //Alquamos
-069            10             05         043            034            043          034          -1             5             //Alquamos
-071            10             05         072            048            072          048          -1             5             //Mega Crust
-071            10             05         071            027            071          021          -1             5             //Mega Crust
-071            10             05         090            032            090          032          -1             5             //Mega Crust
-070            10             05         091            060            091          060          -1             5             //Queen Rainier
-070            10             05         078            068            078          068          -1             5             //Queen Rainier
-070            10             05         086            086            086          086          -1             5             //Queen Rainier
-070            10             05         063            083            063          083          -1             5             //Queen Rainier
-073            10             05         047            069            047          069          -1             5             //Drakan
-073            10             05         026            068            026          068          -1             5             //Drakan
-074            10             05         043            084            043          084          -1             5             //Alpha Crust
-074            10             05         029            100            029          100          -1             5             //Alpha Crust
-074            10             05         051            120            051          120          -1             5             //Alpha Crust
-074            10             05         060            158            060          158          -1             5             //Alpha Crust
-072            10             05         038            144            038          144          -1             5             //Phantom Knight
-072            10             05         058            201            058          201          -1             5             //Phantom Knight
-075            10             05         036            217            036          217          -1             5             //Great Drakan
-075            10             05         046            226            046          226          -1             5             //Great Drakan
-077            10             05         034            238            034          238          -1             1             //Phoenix of Darkness
+74	10	3	48	143	48	143	-1	5 //Alpha Crust
+72	10	3	43	170	43	170	-1	5 //Phantom Knight
+74	10	3	54	126	54	126	-1	5 //Alpha Crust
+73	10	3	37	105	37	105	-1	5 //Drakan
+74	10	3	39	125	39	125	-1	5 //Alpha Crust
+72	10	3	60	161	60	161	-1	5 //Phantom Knight
+75	10	3	28	226	28	226	-1	5 //Giant Drakan
+77	10	3	38	235	38	235	-1	1 //Dark Phoenix
+75	10	3	49	230	49	230	-1	5 //Giant Drakan
+72	10	3	61	190	61	190	-1	5 //Phantom Knight
+75	10	3	50	201	50	201	-1	5 //Giant Drakan
+69	10	3	75	47	75	47	-1	5 //Alquamos
+71	10	3	91	37	91	37	-1	5 //Mega Crust
+69	10	3	57	35	57	35	-1	5 //Alquamos
+69	10	3	17	34	17	34	-1	5 //Alquamos
+69	10	3	37	34	37	34	-1	5 //Alquamos
+71	10	3	92	57	92	57	-1	5 //Mega Crust
+73	10	3	29	68	29	68	-1	5 //Drakan
+73	10	3	36	87	36	87	-1	5 //Drakan
+70	10	3	49	72	49	72	-1	5 //Queen Rainer
+71	10	3	86	84	86	84	-1	5 //Mega Crust
+70	10	3	70	77	70	77	-1	5 //Queen Rainer
 end
 
 1
