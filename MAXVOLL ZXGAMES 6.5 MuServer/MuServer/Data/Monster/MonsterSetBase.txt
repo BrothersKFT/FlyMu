@@ -886,44 +886,6 @@ end
 889				89				05			85				123				88			127			-1				5				//Paraca
 end
 
-1
-//=================================
-//SPOT - VULCANUS
-//=================================
-//Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-480            63             05         116            083            116          083          -1             05            //Zombie Fighter
-480            63             05         114            066            114          066          -1             05            //Zombie Fighter
-480            63             05         078            080            078          080          -1             05            //Zombie Fighter
-482            63             05         060            065            060          065          -1             05            //Resurrected Gladiator
-482            63             05         081            042            081          042          -1             05            //Resurrected Gladiator
-482            63             05         098            025            098          025          -1             05            //Resurrected Gladiator
-481            63             05         076            021            076          021          -1             05            //Zombie Fighter
-481            63             05         047            018            047          018          -1             05            //Zombie Fighter
-481            63             05         037            039            037          039          -1             05            //Zombie Fighter
-480            63             05         036            060            036          060          -1             05            //Zombie Fighter
-480            63             05         035            088            035          088          -1             05            //Zombie Fighter
-484            63             05         031            140            031          140          -1             05            //Ash Slaughterer
-484            63             05         021            175            021          175          -1             05            //Ash Slaughterer
-484            63             05         058            139            058          139          -1             05            //Ash Slaughterer
-484            63             05         067            162            067          162          -1             05            //Ash Slaughterer
-485            63             05         092            180            092          180          -1             05            //Ash Slaughterer
-485            63             05         045            222            045          222          -1             05            //Ash Slaughterer
-485            63             05         036            203            036          203          -1             05            //Ash Slaughterer
-482            63             05         078            217            078          217          -1             05            //Resurrected Gladiator
-482            63             05         084            201            084          201          -1             05            //Resurrected Gladiator
-482            63             05         095            215            095          215          -1             05            //Resurrected Gladiator
-484            63             05         207            221            207          221          -1             05            //Ash Slaughterer
-486            63             05         179            225            179          225          -1             05            //Blood Assassin
-489            63             05         157            054            157          054          -1             05            //Burning Lava Giant
-490            63             05         153            013            153          013          -1             05            //Ruthless Lava Giant
-491            63             05         193            014            193          014          -1             05            //Ruthless Lava Giant
-489            63             05         210            026            210          026          -1             05            //Burning Lava Giant
-487            63             05         215            047            215          047          -1             05            //Cruel Blood Assassin
-487            63             05         234            059            234          059          -1             05            //Cruel Blood Assassin
-488            63             05         178            109            178          109          -1             05            //Cruel Blood Assassin
-486            63             05         236            120            236          120          -1             05            //Blood Assassin
-486            63             05         209            135            209          135          -1             05            //Blood Assassin
-end
 
 1
 //=============================================================
