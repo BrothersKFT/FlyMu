@@ -70,17 +70,18 @@ end
 //NPC NORIA
 0
 //Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
-237            03             00         171            104           03              //Charon
+237            03             00         171            104            03             //Charon
 242            03             00         173            125            01             //Elf Lala
 243            03             00         195            124            02             //Eo the Craftsman
+240            03             00         172            96             03             //Safety Guardian
 238            03             00         180            103            01             //Chaos Goblin
 257            03             00         167            118            01             //Shadow Phantom Soldier
-450            03             00         179            126            01             //Cherry Blossom Spirit
-451            03             00         179            129            03             //Cherry Blossom Tree
 257            03             00         166            085            02             //Shadow Phantom Soldier
 257            03             00         201            129            02             //Shadow Phantom Soldier
+
+450            03             00         179            126            01             //Cherry Blossom Spirit
+451            03             00         179            129            03             //Cherry Blossom Tree
 544            03             00         167            100            02             //Gens Vanert Steward
-240            03             00         172            96             03             //Safety Guardian
 546            03             00         183            103            01             //Jeweler Raul
 end
 
@@ -244,17 +245,41 @@ end
 //SPOT - NORIA
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-	26				3			3			153				117			 153		  117		    -1				5			//Goblin
-	26				3			3			140				120			 140		  120		    -1				5			//Goblin
-	27				3			3			132				104			 132		  104		    -1				5			//ChainScorpion
-	28				3			3			140				85			 140		  85		    -1				5			//BeetleMonster
-	26				3			3			161				74			 161		  74		    -1				5			//Goblin
-	27				3			3			172				61			 172		  61		    -1				5			//ChainScorpion
-	30				3			3			111				107			 111		  107		    -1				5			//Forest monster
-	31				3			3			208				140			 208		  140		    -1				5			//Agon
-	32				3			3			204				164			 204		  164		    -1				5			//Stone Golem
-	33				3			3			222				162			 222		  162		    -1				5			//Elite Goblin
-	3				3			3			151				58			 151		  58		    -1				5			//Spider
+31	3	3	45	85	45	85	-1	5   //Agon
+31	3	3	50	168	50	168	-1	5   //Agon
+31	3	3	108	26	108	26	-1	5   //Agon
+31	3	3	57	26	57	26	-1	5   //Agon
+30	3	3	232	201	232	201	-1	5   //Forest Monster
+30	3	3	202	208	202	208	-1	5   //Forest Monster
+30	3	3	221	233	221	233	-1	5   //Forest Monster
+30	3	3	169	182	169	182	-1	5   //Forest Monster
+31	3	3	77	100	77	100	-1	5   //Agon
+33	3	3	46	233	46	233	-1	5   //Elite Goblin
+33	3	3	14	236	14	236	-1	5   //Elite Goblin
+33	3	3	142	238	142	238	-1	5   //Elite Goblin
+33	3	3	101	238	101	238	-1	5   //Elite Goblin
+32	3	3	11	41	11	41	-1	5   //Stone Golem
+32	3	3	31	20	31	20	-1	5   //Stone Golem
+33	3	3	20	207	20	207	-1	5   //Elite Goblin
+32	3	3	26	115	26	115	-1	5   //Stone Golem
+29	3	3	170	143	170	143	-1	5   //Hunter
+26	3	3	104	130	104	130	-1	5   //Goblin
+26	3	3	126	155	126	155	-1	5   //Goblin
+27	3	3	171	64	171	64	-1	5   //Chain Scorpion
+26	3	3	93	167	93	167	-1	5   //Goblin
+26	3	3	131	129	131	129	-1	5   //Goblin
+26	3	3	145	121	145	121	-1	5   //Goblin
+26	3	3	127	101	127	101	-1	5   //Goblin
+26	3	3	148	101	148	101	-1	5   //Goblin
+27	3	3	170	29	170	29	-1	5   //Chain Scorpion
+29	3	3	208	141	208	141	-1	5   //Hunter
+28	3	3	235	58	235	58	-1	5   //Beetle Monster
+29	3	3	193	170	193	170	-1	5   //Hunter
+29	3	3	222	167	222	167	-1	5   //Hunter
+27	3	3	200	35	200	35	-1	5   //Chain Scorpion
+27	3	3	147	49	147	49	-1	5   //Chain Scorpion
+28	3	3	230	111	230	111	-1	5   //Beetle Monster
+28	3	3	214	70	214	70	-1	5   //Beetle Monster
 end
 
 1
