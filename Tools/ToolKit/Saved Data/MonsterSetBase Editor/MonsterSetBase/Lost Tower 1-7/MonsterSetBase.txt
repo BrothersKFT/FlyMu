@@ -83,67 +83,67 @@ end
 
 //minimap
 
-2   107     35	0   //Death Knight
-2   32      57	0   //Death Knight
-2   80      56	0   //Death Knight
-2   100     57	0   //Death Knight
-2   31      17	0   //Death Knight
-2   16      32	0   //Death Knight
-2   49      33	0   //Death Knight
-2   49      9	0   //Death Knight
-2   108     135	0   //Devil
-2   129     131	0   //Devil
-2   116     110	0   //Devil
-2   129     89	0   //Devil
-2   101     8	0   //Death Knight
-2   80      8	0   //Death Knight
-2   126     34	0   //Devil
-2   126     7	0   //Devil
-2   2       175	0   //Death Gorgon
-2   49      210	0   //Death Gorgon
-2   49      136	0   //Death Gorgon
-2   48      176	0   //Death Gorgon
-2   17      200	0   //Death Gorgon
-2   11      245	0   //Balrog
-2   48      242	0   //Death Gorgon
-2   17      226	0   //Death Gorgon
-2   48      92	0   //Death Knight
-2   22      104	0   //Death Gorgon
-2   8       50	0   //Death Knight
-2   7       9	0   //Death Gorgon
-2   25      128	0   //Death Gorgon
+2   107    35	0   //Death Knight
+2   32     57	0   //Death Knight
+2   80     56	0   //Death Knight
+2   100    57	0   //Death Knight
+2   31     17	0   //Death Knight
+2   16     32	0   //Death Knight
+2   49     33	0   //Death Knight
+2   49     9	0   //Death Knight
+2   108    135	0   //Devil
+2   129    131	0   //Devil
+2   116    110	0   //Devil
+2   129    89	0   //Devil
+2   101    8	0   //Death Knight
+2   80     8	0   //Death Knight
+2   126    34	0   //Devil
+2   126    7	0   //Devil
+2   2      175	0   //Death Gorgon
+2   49     210	0   //Death Gorgon
+2   49     136	0   //Death Gorgon
+2   48     176	0   //Death Gorgon
+2   17     200	0   //Death Gorgon
+2   11     245	0   //Balrog
+2   48     242	0   //Death Gorgon
+2   17     226	0   //Death Gorgon
+2   48     92	0   //Death Knight
+2   22     104	0   //Death Gorgon
+2   8      50	0   //Death Knight
+2   7      9	0   //Death Gorgon
+2   25     128	0   //Death Gorgon
 2   0      130	0   //Death Gorgon
 2   0      104	0   //Death Gorgon
-2   49      116	0   //Death Gorgon
-2   188     40	0   //Poison Shadow
-2   192     131	0   //Poison Shadow
-2   220     110	0   //Shadow
-2   225     70	0   //Shadow
-2   189     184	0   //Poison Shadow
-2   234     214	0   //Poison Shadow
-2   225     248	0   //Poison Shadow
-2   164     248	0   //Poison Shadow
-2   242     117	0   //Shadow
-2   242     73	0   //Shadow
-2   206     89	0   //Shadow
-2   220     119	0   //Shadow
-2   197     115	0   //Shadow
-2   216     33	0   //Shadow
-2   242     16	0   //Shadow
-2   188     99	0   //Shadow
-2   123     248	0   //Death Cow
-2   109     200	0   //Death Cow
-2   96      219	0   //Cursed Wizard
-2   97      187	0   //Cursed Wizard
-2   82      135	0   //Death Cow
-2   107     88	0   //Death Cow
-2   128     214	0   //Death Cow
-2   82      95	0   //Death Cow
-2   226     186	0   //Cursed Wizard
-2   92      173	0   //Cursed Wizard
-2   210     214	0   //Poison Shadow
-2   172     191	0   //Poison Shadow
-2   79      248	0   //Cursed Wizard
-2   105     248	0   //Cursed Wizard
-2   79      191	0   //Cursed Wizard
-2   7       220	0   //Cursed Wizard
+2   49     116	0   //Death Gorgon
+2   188    40	0   //Poison Shadow
+2   192    131	0   //Poison Shadow
+2   220    110	0   //Shadow
+2   225    70	0   //Shadow
+2   189    184	0   //Poison Shadow
+2   234    214	0   //Poison Shadow
+2   225    248	0   //Poison Shadow
+2   164    248	0   //Poison Shadow
+2   242    117	0   //Shadow
+2   242    73	0   //Shadow
+2   206    89	0   //Shadow
+2   220    119	0   //Shadow
+2   197    115	0   //Shadow
+2   216    33	0   //Shadow
+2   242    16	0   //Shadow
+2   188    99	0   //Shadow
+2   123    248	0   //Death Cow
+2   109    200	0   //Death Cow
+2   96     219	0   //Cursed Wizard
+2   97     187	0   //Cursed Wizard
+2   82     135	0   //Death Cow
+2   107    88	0   //Death Cow
+2   128    214	0   //Death Cow
+2   82     95	0   //Death Cow
+2   226    186	0   //Cursed Wizard
+2   92     173	0   //Cursed Wizard
+2   210    214	0   //Poison Shadow
+2   172    191	0   //Poison Shadow
+2   79     248	0   //Cursed Wizard
+2   105    248	0   //Cursed Wizard
+2   79     191	0   //Cursed Wizard
+2   7      220	0   //Cursed Wizard
