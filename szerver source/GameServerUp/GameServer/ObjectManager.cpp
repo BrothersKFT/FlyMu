@@ -2955,7 +2955,15 @@ bool CObjectManager::CharacterUseCustomJewel(LPOBJ lpObj, int SourceSlot, int Ta
 	{
 		CUSTOM_JEWEL_SUCCESS_INFO* lpInfo = gCustomJewel.GetSuccessInfo(lpObj->Inventory[SourceSlot].m_Index);
 
-		lpItem->m_Level = (((lpItem->m_Level + lpInfo->Level)>15) ? 15 : (lpItem->m_Level + lpInfo->Level));
+		// Custom logic for Jewel of Dark Bless (ItemIndex 7412)
+		if (lpObj->Inventory[SourceSlot].m_Index == 7412) // Jewel of Dark Bless
+		{
+			lpItem->m_Level = 6; // Set level directly to 6
+		}
+		else
+		{
+			lpItem->m_Level = (((lpItem->m_Level + lpInfo->Level)>15) ? 15 : (lpItem->m_Level + lpInfo->Level));
+		}
 
 		lpItem->m_Option1 = (((lpItem->m_Option1 + lpInfo->Option1)>1) ? 1 : (lpItem->m_Option1 + lpInfo->Option1));
 
