@@ -82,7 +82,7 @@ SpeedHackSkillDebug = 1
 ;==================================================
 ; Common Settings
 ;==================================================
-MaxItemOption = 4
+MaxItemOption = 7
 PersonalCodeCheck = 0
 SetItemAcceptHarmonySwitch = 1
 
