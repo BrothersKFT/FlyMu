@@ -699,7 +699,7 @@ end
 77	10	3	38	235	38	235	-1	1 //Dark Phoenix
 75	10	3	49	230	49	230	-1	5 //Giant Drakan
 72	10	3	61	190	61	190	-1	5 //Phantom Knight
-75	10	3	50	201	50	201	-1	5 //Giant Drakan
+75	10	3	43	213	43	213	-1	5 //Giant Drakan
 69	10	3	75	47	75	47	-1	5 //Alquamos
 71	10	3	91	37	91	37	-1	5 //Mega Crust
 69	10	3	57	35	57	35	-1	5 //Alquamos
