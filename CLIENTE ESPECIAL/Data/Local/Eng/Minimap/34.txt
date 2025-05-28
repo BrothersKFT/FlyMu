@@ -1,5 +1,0 @@
-16
-1	77	13	0	Osbourne	
-1	85	13	0	Jerridon	
-2	72	10	225	Entrance to Noria	
-2	238	165	135	Entrance to Karutan

@@ -1,3 +1,0 @@
-16
-2	250	40	45	Entrance to Atlans	
-2	3	199	225	Entrance to the Kanturu Ruins
