@@ -1,0 +1,69 @@
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// =========== MapID: 57
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1
+563	57	3	37	91	37	91	-1	5 //Bad Ice Giant
+563	57	3	39	134	39	134	-1	5 //Bad Ice Giant
+563	57	3	56	162	56	162	-1	5 //Bad Ice Giant
+562	57	3	73	88	73	88	-1	5 //Bad Giant Mammoth
+458	57	3	210	32	210	32	-1	5 //Iron Knight
+562	57	3	128	96	128	96	-1	5 //Bad Giant Mammoth
+562	57	3	75	118	75	118	-1	5 //Bad Giant Mammoth
+565	57	3	131	47	131	47	-1	5 //Bad Iron Knight
+565	57	3	49	197	49	197	-1	5 //Bad Iron Knight
+565	57	3	33	225	33	225	-1	5 //Bad Iron Knight
+565	57	3	137	22	137	22	-1	5 //Bad Iron Knight
+564	57	3	44	48	44	48	-1	5 //Bad Coolutin
+564	57	3	67	34	67	34	-1	5 //Bad Coolutin
+564	57	3	94	31	94	31	-1	5 //Bad Coolutin
+458	57	3	178	65	178	65	-1	5 //Iron Knight
+455	57	3	107	220	107	220	-1	5 //Giant Mammoth
+455	57	3	98	195	98	195	-1	5 //Giant Mammoth
+456	57	3	120	181	120	181	-1	5 //Ice Giant
+455	57	3	147	215	147	215	-1	5 //Giant Mammoth
+454	57	3	185	188	185	188	-1	5 //Ice Walker
+454	57	3	174	213	174	213	-1	5 //Ice Walker
+454	57	3	164	189	164	189	-1	5 //Ice Walker
+458	57	3	218	156	218	156	-1	5 //Iron Knight
+458	57	3	232	113	232	113	-1	5 //Iron Knight
+458	57	3	224	87	224	87	-1	5 //Iron Knight
+458	57	3	196	110	196	110	-1	5 //Iron Knight
+457	57	3	117	141	117	141	-1	5 //Cooler
+457	57	3	137	133	137	133	-1	5 //Cooler
+457	57	3	158	127	158	127	-1	5 //Cooler
+end
+
+//minimap
+2   32    91	0   //Bad Ice Giant
+2   34    134	0   //Bad Ice Giant
+2   51    162	0   //Bad Ice Giant
+2   68    88	0   //Bad Giant Mammoth
+2   205   32	0   //Iron Knight
+2   123   96	0   //Bad Giant Mammoth
+2   70    118	0   //Bad Giant Mammoth
+2   126   47	0   //Bad Iron Knight
+2   44    197	0   //Bad Iron Knight
+2   28    225	0   //Bad Iron Knight
+2   132   22	0   //Bad Iron Knight
+2   39    48	0   //Bad Coolutin
+2   62    34	0   //Bad Coolutin
+2   89    31	0   //Bad Coolutin
+2   173   65	0   //Iron Knight
+2   102   220	0   //Giant Mammoth
+2   93    195	0   //Giant Mammoth
+2   115   181	0   //Ice Giant
+2   142   215	0   //Giant Mammoth
+2   180   188	0   //Ice Walker
+2   169   213	0   //Ice Walker
+2   159   189	0   //Ice Walker
+2   213   156	0   //Iron Knight
+2   227   113	0   //Iron Knight
+2   219   87	0   //Iron Knight
+2   191   110	0   //Iron Knight
+2   112   141	0   //Cooler
+2   132   133	0   //Cooler
+2   153   127	0   //Cooler    
+
+

@@ -383,15 +383,35 @@ end
 //=========================================================================================================================================
 1
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity        Comment
-454 		57 		3 	 186 		191 		186 		191 	  -1 		5 		//Ice Walke
-454 		57 		3 	 179 		210 		179 		210 	  -1 		5 		//Ice Walke
-455 		57 		3 	 169 		219 		169 		219 	  -1 		5 		//Giant Mammoth
-455 		57 		3 	 170 		183 		170 		183 	  -1 		5 		//Giant Mammoth
-456 		57 		3 	 151 		216 		151 		216 	  -1 		5 		//Ice Giant
-456 		57 		3 	 142 		196 		142 		196 	  -1 		5 		//Ice Giant
-458 		57 		3 	 90  		180 		90  		180 	  -1 		5 		//Iron Knight
-//458 		57 		3 	 133 		219 		133 		219 	  -1 		5 		//Iron Knight
-458 		57 		3 	 88  		213 		88  		213 	  -1 		5 		//Iron Knight
+563	57	3	37	91	37	91	-1	5 //Bad Ice Giant
+563	57	3	39	134	39	134	-1	5 //Bad Ice Giant
+563	57	3	56	162	56	162	-1	5 //Bad Ice Giant
+562	57	3	73	88	73	88	-1	5 //Bad Giant Mammoth
+458	57	3	210	32	210	32	-1	5 //Iron Knight
+562	57	3	128	96	128	96	-1	5 //Bad Giant Mammoth
+562	57	3	75	118	75	118	-1	5 //Bad Giant Mammoth
+565	57	3	131	47	131	47	-1	5 //Bad Iron Knight
+565	57	3	49	197	49	197	-1	5 //Bad Iron Knight
+565	57	3	33	225	33	225	-1	5 //Bad Iron Knight
+565	57	3	137	22	137	22	-1	5 //Bad Iron Knight
+564	57	3	44	48	44	48	-1	5 //Bad Coolutin
+564	57	3	67	34	67	34	-1	5 //Bad Coolutin
+564	57	3	94	31	94	31	-1	5 //Bad Coolutin
+458	57	3	178	65	178	65	-1	5 //Iron Knight
+455	57	3	107	220	107	220	-1	5 //Giant Mammoth
+455	57	3	98	195	98	195	-1	5 //Giant Mammoth
+456	57	3	120	181	120	181	-1	5 //Ice Giant
+455	57	3	147	215	147	215	-1	5 //Giant Mammoth
+454	57	3	185	188	185	188	-1	5 //Ice Walker
+454	57	3	174	213	174	213	-1	5 //Ice Walker
+454	57	3	164	189	164	189	-1	5 //Ice Walker
+458	57	3	218	156	218	156	-1	5 //Iron Knight
+458	57	3	232	113	232	113	-1	5 //Iron Knight
+458	57	3	224	87	224	87	-1	5 //Iron Knight
+458	57	3	196	110	196	110	-1	5 //Iron Knight
+457	57	3	117	141	117	141	-1	5 //Cooler
+457	57	3	137	133	137	133	-1	5 //Cooler
+457	57	3	158	127	158	127	-1	5 //Cooler
 end
 1
 //=================================
