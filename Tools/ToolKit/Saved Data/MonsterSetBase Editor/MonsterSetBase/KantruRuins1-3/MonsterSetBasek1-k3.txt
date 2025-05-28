@@ -1,0 +1,88 @@
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// =========== MapID: 37
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1
+356	37	3	141	46	141	46	-1	5 //Gigantis
+356	37	3	120	26	120	26	-1	5 //Gigantis
+356	37	3	112	61	112	61	-1	5 //Gigantis
+355	37	3	153	12	153	12	-1	5 //Kentauros
+354	37	3	206	192	206	192	-1	5 //Blade Hunter
+355	37	3	189	13	189	13	-1	5 //Kentauros
+355	37	3	170	48	170	48	-1	5 //Kentauros
+350	37	3	87	77	87	77	-1	5 //Berserker
+357	37	3	47	74	47	74	-1	5 //Genocider
+357	37	3	61	88	61	88	-1	5 //Genocider
+357	37	3	41	94	41	94	-1	5 //Genocider
+350	37	3	43	37	43	37	-1	5 //Berserker
+350	37	3	69	65	69	65	-1	5 //Berserker
+350	37	3	91	36	91	36	-1	5 //Berserker
+350	37	3	67	26	67	26	-1	5 //Berserker
+352	37	3	143	226	143	226	-1	5 //Iron Rider
+352	37	3	157	238	157	238	-1	5 //Iron Rider
+352	37	3	158	199	158	199	-1	5 //Iron Rider
+351	37	3	120	238	120	238	-1	5 //Splinter Wolf
+351	37	3	41	235	41	235	-1	5 //Splinter Wolf
+351	37	3	63	234	63	234	-1	5 //Splinter Wolf
+351	37	3	93	240	93	240	-1	5 //Splinter Wolf
+352	37	3	183	219	183	219	-1	5 //Iron Rider
+354	37	3	238	136	238	136	-1	5 //Blade Hunter
+354	37	3	216	145	216	145	-1	5 //Blade Hunter
+354	37	3	178	157	178	157	-1	5 //Blade Hunter
+353	37	3	225	82	225	82	-1	5 //Satyros
+353	37	3	221	45	221	45	-1	5 //Satyros
+353	37	3	233	104	233	104	-1	5 //Satyros
+353	37	3	237	65	237	65	-1	5 //Satyros
+553	37	3	72	169	72	169	-1	5 //Kentauros Warrior
+553	37	3	62	136	62	136	-1	5 //Kentauros Warrior
+553	37	3	101	157	101	157	-1	5 //Kentauros Warrior
+554	37	3	136	164	136	164	-1	5 //Gigantis Warrior
+554	37	3	134	129	134	129	-1	5 //Gigantis Warrior
+554	37	3	114	103	114	103	-1	5 //Gigantis Warrior
+555	37	3	148	92	148	92	-1	5 //Genocider Warrior
+555	37	3	192	99	192	99	-1	5 //Genocider Warrior
+555	37	3	164	119	164	119	-1	5 //Genocider Warrior
+end
+
+
+// minimap
+
+2   136    46	0 //Gigantis
+2   115    26	0 //Gigantis
+2   107    61	0 //Gigantis
+2   148    12	0 //Kentauros
+2   201    192	0 //Blade Hunter
+2   184    13	0 //Kentauros
+2   165    48	0 //Kentauros
+2   82     77	0 //Berserker
+2   42     74	0 //Genocider
+2   56     88	0 //Genocider
+2   36     94	0 //Genocider
+2   38     37	0 //Berserker
+2   64     65	0 //Berserker
+2   86     36	0 //Berserker
+2   62     26	0 //Berserker
+2   138    226	0 //Iron Rider
+2   152    238	0 //Iron Rider
+2   153    199	0 //Iron Rider
+2   115    238	0 //Splinter Wolf
+2   36     235	0 //Splinter Wolf
+2   58     234	0 //Splinter Wolf
+2   88     240	0 //Splinter Wolf
+2   178    219	0 //Iron Rider
+2   233    136	0 //Blade Hunter
+2   211    145	0 //Blade Hunter
+2   173    157	0 //Blade Hunter
+2   220    82	0 //Satyros
+2   216    45	0 //Satyros
+2   228    104	0 //Satyros
+2   232    65	0 //Satyros
+2   67     169	0 //Kentauros Warrior 
+2   57     136	0 //Kentauros Warrior 
+2   96     157	0 //Kentauros Warrior 
+2   131    164	0 //Gigantis Warrior 
+2   129    129	0 //Gigantis Warrior 
+2   109    103	0 //Gigantis Warrior 
+2   143    92	0 //Genocider Warrior 
+2   187    99	0 //Genocider Warrior 
+2   159    119	0 //Genocider Warrior 

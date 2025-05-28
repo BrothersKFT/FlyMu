@@ -764,127 +764,45 @@ end
 //=========================================================================================================================================
 1
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-351            37             4          040            232            041          232          -1             5             //Splinter Wolf
-351            37             4          053            230            053          230          -1             5             //Splinter Wolf
-351            37             4          070            233            070          233          -1             5             //Splinter Wolf
-351            37             4          156            233            156          233          -1             5             //Splinter Wolf
-351            37             4          111            233            111          233          -1             5             //Splinter Wolf
-352            37             4          173            214            173          214          -1             5             //Iron Rider
-352            37             4          181            228            181          228          -1             5             //Iron Rider
-352            37             4          184            203            184          203          -1             5             //Iron Rider
-352            37             4          202            198            202          198          -1             5             //Iron Rider
-352            37             4          179            173            179          173          -1             5             //Iron Rider
-352            37             4          203            182            203          182          -1             5             //Iron Rider
-352            37             4          225            138            225          138          -1             5             //iron rider
-353            37             4          225            138            225          138          -1             5             //Satyros
-353            37             4          218            043            218          043          -1             5             //Satyros
-353            37             4          209            168            209          168          -1             5             //Satyros
-353            37             4          219            122            219          122          -1             5             //Satyros
-353            37             4          203            153            203          153          -1             5             //Satyros
-353            37             4          184            142            184          142          -1             5             //Satyros
-353            37             4          213            141            213          141          -1             5             //Satyros
-352            37             4          226            111            226          111          -1             5             //Iron Rider
-352            37             4          226            111            226          111          -1             5             //Satyros
-353            37             4          232            123            232          123          -1             5             //Iron Rider
-352            37             4          232            123            232          123          -1             5             //Satyros
-353            37             4          238            100            238          100          -1             5             //Satyros
-353            37             4          241            087            241          087          -1             5             //Satyros
-353            37             4          227            087            227          087          -1             5             //Satyros
-353            37             4          221            071            221          071          -1             5             //Satyros
-353            37             4          228            057            228          057          -1             5             //Satyros
-353            37             4          236            067            236          067          -1             5             //Genocider
-354            37             4          207            039            207          039          -1             5             //Blade Hunter
-354            37             4          187            039            187          039          -1             5             //Blade Hunter
-350            37             4          155            057            155          057          -1             5             //Berseker
-350            37             4          140            044            140          044          -1             5             //Berseker
-355            37             4          156            037            156          037          -1             5             //Kentauros
-355            37             4          162            022            162          022          -1             5             //Kentauros
-355            37             4          152            010            152          010          -1             5             //Kentauros
-356            37             4          116            059            116          059          -1             5             //Gigantis
-356            37             4          086            072            086          072          -1             5             //Gigantis
-356            37             4          077            054            077          054          -1             5             //Gigantis
-356            37             4          088            029            088          029          -1             5             //Gigantis
-356            37             4          069            023            069          023          -1             5             //Gigantis
-356            37             4          057            034            057          034          -1             5             //Gigantis
-357            37             4          047            047            047          047          -1             5             //Genocider
-357            37             4          033            058            033          058          -1             5             //Genocider
-357            37             4          044            071            044          071          -1             5             //Genocider
-357            37             4          032            083            032          083          -1             5             //Genocider
-357            37             4          060            095            060          095          -1             5             //Genocider
-357            37             4          071            091            071          091          -1             5             //Genocider
-355            37             4          167            038            167          038          -1             5             //Kentauros
-553            37             4          072            163            072          163          -1             5             //Berserker Warrior
-555            37             4          098            157            098          157          -1             5             //Gigantis Warrior
-554            37             4          056            153            056          153          -1             5             //Kentauros Warrior
-554            37             4          051            133            051          136          -1             5             //Kentauros Warrior
-554            37             4          106            141            106          141          -1             5             //Kentauros Warrior
-556            37             4          080            126            080          126          -1             5             //Genocider Warrior
-553            37             4          166            115            166          115          -1             5             //Berserker Warrior
-555            37             4          192            099            192          099          -1             5             //Gigantis Warrior
-554            37             4          128            109            128          109          -1             5             //Kentauros Warrior
-end
-
-2
-//Monster      MapNumber      Range      PositionX      PositionY      Direction      Comment
-553            37             30         068            164            -1             //Berserker Warrior
-553            37             30         077            157            -1             //Berserker Warrior
-553            37             30         079            166            -1             //Berserker Warrior
-554            37             30         074            162            -1             //Kentauros Warrior
-554            37             30         096            156            -1             //Kentauros Warrior
-554            37             30         102            150            -1             //Kentauros Warrior
-554            37             30         136            161            -1             //Kentauros Warrior
-554            37             30         133            127            -1             //Kentauros Warrior
-554            37             30         089            124            -1             //Kentauros Warrior
-553            37             30         060            156            -1             //Berserker Warrior
-553            37             30         058            135            -1             //Berserker Warrior
-553            37             30         104            157            -1             //Berserker Warrior
-553            37             30         124            165            -1             //Berserker Warrior
-553            37             30         093            118            -1             //Berserker Warrior
-553            37             30         131            119            -1             //Berserker Warrior
-553            37             30         110            140            -1             //Berserker Warrior
-553            37             30         098            137            -1             //Berserker Warrior
-553            37             30         069            158            -1             //Berserker Warrior
-554            37             30         061            131            -1             //Kentauros Warrior
-554            37             30         052            153            -1             //Kentauros Warrior
-554            37             30         094            128            -1             //Kentauros Warrior
-554            37             30         115            162            -1             //Kentauros Warrior
-554            37             30         140            152            -1             //Kentauros Warrior
-555            37             30         120            160            -1             //Gigantis Warrior
-555            37             30         141            159            -1             //Gigantis Warrior
-555            37             30         128            130            -1             //Gigantis Warrior
-555            37             30         081            125            -1             //Gigantis Warrior
-555            37             30         107            103            -1             //Gigantis Warrior
-555            37             30         115            104            -1             //Gigantis Warrior
-555            37             30         126            109            -1             //Gigantis Warrior
-555            37             30         134            107            -1             //Gigantis Warrior
-555            37             30         142            127            -1             //Gigantis Warrior
-556            37             30         145            133            -1             //Genocider Warrior
-556            37             30         148            129            -1             //Genocider Warrior
-556            37             30         167            114            -1             //Genocider Warrior
-556            37             30         171            106            -1             //Genocider Warrior
-556            37             30         191            096            -1             //Genocider Warrior
-556            37             30         187            087            -1             //Genocider Warrior
-556            37             30         131            081            -1             //Genocider Warrior
-556            37             30         119            087            -1             //Genocider Warrior
-556            37             30         181            109            -1             //Genocider Warrior
-556            37             30         177            089            -1             //Genocider Warrior
-556            37             30         141            089            -1             //Genocider Warrior
-556            37             30         151            087            -1             //Genocider Warrior
-555            37             30         145            091            -1             //Gigantis Warrior
-555            37             30         167            090            -1             //Gigantis Warrior
-555            37             30         175            113            -1             //Gigantis Warrior
-555            37             30         129            114            -1             //Gigantis Warrior
-555            37             30         112            098            -1             //Gigantis Warrior
-555            37             30         145            153            -1             //Gigantis Warrior
-554            37             30         086            119            -1             //Kentauros Warrior
-554            37             30         091            164            -1             //Kentauros Warrior
-554            37             30         049            140            -1             //Kentauros Warrior
-554            37             30         132            111            -1             //Kentauros Warrior
-554            37             30         171            111            -1             //Kentauros Warrior
-554            37             30         145            087            -1             //Kentauros Warrior
-554            37             30         141            133            -1             //Kentauros Warrior
-555            37             30         110            106            -1             //Gigantis Warrior
-556            37             30         115            098            -1             //Genocider Warrior
+356	37	3	141	46	141	46	-1	5 //Gigantis
+356	37	3	120	26	120	26	-1	5 //Gigantis
+356	37	3	112	61	112	61	-1	5 //Gigantis
+355	37	3	153	12	153	12	-1	5 //Kentauros
+354	37	3	206	192	206	192	-1	5 //Blade Hunter
+355	37	3	189	13	189	13	-1	5 //Kentauros
+355	37	3	170	48	170	48	-1	5 //Kentauros
+350	37	3	87	77	87	77	-1	5 //Berserker
+357	37	3	47	74	47	74	-1	5 //Genocider
+357	37	3	61	88	61	88	-1	5 //Genocider
+357	37	3	41	94	41	94	-1	5 //Genocider
+350	37	3	43	37	43	37	-1	5 //Berserker
+350	37	3	69	65	69	65	-1	5 //Berserker
+350	37	3	91	36	91	36	-1	5 //Berserker
+350	37	3	67	26	67	26	-1	5 //Berserker
+352	37	3	143	226	143	226	-1	5 //Iron Rider
+352	37	3	157	238	157	238	-1	5 //Iron Rider
+352	37	3	158	199	158	199	-1	5 //Iron Rider
+351	37	3	120	238	120	238	-1	5 //Splinter Wolf
+351	37	3	41	235	41	235	-1	5 //Splinter Wolf
+351	37	3	63	234	63	234	-1	5 //Splinter Wolf
+351	37	3	93	240	93	240	-1	5 //Splinter Wolf
+352	37	3	183	219	183	219	-1	5 //Iron Rider
+354	37	3	238	136	238	136	-1	5 //Blade Hunter
+354	37	3	216	145	216	145	-1	5 //Blade Hunter
+354	37	3	178	157	178	157	-1	5 //Blade Hunter
+353	37	3	225	82	225	82	-1	5 //Satyros
+353	37	3	221	45	221	45	-1	5 //Satyros
+353	37	3	233	104	233	104	-1	5 //Satyros
+353	37	3	237	65	237	65	-1	5 //Satyros
+553	37	3	72	169	72	169	-1	5 //Kentauros Warrior
+553	37	3	62	136	62	136	-1	5 //Kentauros Warrior
+553	37	3	101	157	101	157	-1	5 //Kentauros Warrior
+554	37	3	136	164	136	164	-1	5 //Gigantis Warrior
+554	37	3	134	129	134	129	-1	5 //Gigantis Warrior
+554	37	3	114	103	114	103	-1	5 //Gigantis Warrior
+555	37	3	148	92	148	92	-1	5 //Genocider Warrior
+555	37	3	192	99	192	99	-1	5 //Genocider Warrior
+555	37	3	164	119	164	119	-1	5 //Genocider Warrior
 end
 
 1
