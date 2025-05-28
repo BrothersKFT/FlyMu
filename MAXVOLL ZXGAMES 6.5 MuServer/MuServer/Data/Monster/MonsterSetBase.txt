@@ -284,29 +284,41 @@ end
 
 1
 //=================================
-//SPOT - ELBELAND 1 al 3
+//SPOT - ELBELAND 1-3
 //=================================
 //Monster      MapNumber      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
-003            51             05         109            220            109          220          -1             5            //Spider
-002            51             05         112            204            112          204          -1             5            //Budge Dragon
-421            51             10         099            196            099          196          -1             5            //Polluted Butterfly
-003            51             10         073            165            073          165          -1             5            //Spider
-003            51             10         051            148            051          148          -1             5            //Spider
-421            51             10         051            148            051          148          -1             5            //Polluted Butterfly
-422            51             05         103            064            103          064          -1             5            //Cursed Lich
-422            51             05         097            053            097          053          -1             5            //Cursed Lich
-420            51             05         070            079            070          079          -1             5            //Werewolf
-420            51             05         076            057            076          057          -1             5            //Werewolf
-423            51             05         192            148            192          148          -1             5            //Totem Golem
-423            51             05         198            168            198          168          -1             5            //Totem Golem
-424            51             05         202            193            202          193          -1             5            //Grizzly
-424            51             05         176            176            176          176          -1             5            //Grizzly
-425            51             05         208            128            208          128          -1             5            //Captain Grizzly
-425            51             05         226            137            226          137          -1             5            //Captain Grizzly
-423            51             05         222            111            222          111          -1             5            //Totem Golem
-423            51             05         207            036            207          036          -1             5            //Totem Golem
-425            51             05         207            036            207          036          -1             5            //Captain Grizzly
-424            51             05         207            036            207          036          -1             5            //Grizzly
+423	51	3	196	156	-1	//Totem Golem
+422	51	3	84	16	-1	//Curser Rich
+423	51	3	174	177	-1	//Totem Golem
+423	51	3	198	195	-1	//Totem Golem
+422	51	3	51	87	-1	//Curser Rich
+420	51	3	107	73	-1	//Rabbits
+422	51	3	82	45	-1	//Curser Rich
+422	51	3	70	70	-1	//Curser Rich
+425	51	3	230	47	-1	//CaptainBeasty
+425	51	3	209	18	-1	//CaptainBeasty
+424	51	3	201	48	-1	//Beasty
+425	51	3	224	75	-1	//CaptainBeasty
+424	51	3	174	79	-1	//Beasty
+424	51	3	190	97	-1	//Beasty
+425	51	3	171	26	-1	//CaptainBeasty
+424	51	3	157	64	-1	//Beasty
+421	51	3	79	140	-1	//Wolf Man
+418	51	3	33	136	-1	//Bizarne Rabbit
+421	51	3	123	168	-1	//Wolf Man
+421	51	3	123	193	-1	//Wolf Man
+418	51	3	110	220	-1	//Bizarne Rabbit
+418	51	3	129	232	-1	//Bizarne Rabbit
+418	51	3	48	150	-1	//Bizarne Rabbit
+418	51	3	35	160	-1	//Bizarne Rabbit
+420	51	3	101	53	-1	//Rabbits
+419	51	3	160	121	-1	//Dirty Butterfly
+420	51	3	111	25	-1	//Rabbits
+420	51	3	133	36	-1	//Rabbits
+419	51	3	114	108	-1	//Dirty Butterfly
+421	51	3	104	139	-1	//Wolf Man
+419	51	3	137	93	-1	//Dirty Butterfly
+419	51	3	141	144	-1	//Dirty Butterfly
 end
 
 1

@@ -1,0 +1,93 @@
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// =========== MapID: 51
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1
+423	51	3	196	156	-1	//Totem Golem
+422	51	3	84	16	-1	//Curser Rich
+423	51	3	174	177	-1	//Totem Golem
+423	51	3	198	195	-1	//Totem Golem
+422	51	3	51	87	-1	//Curser Rich
+420	51	3	107	73	-1	//Rabbits
+422	51	3	82	45	-1	//Curser Rich
+422	51	3	70	70	-1	//Curser Rich
+425	51	3	230	47	-1	//CaptainBeasty
+425	51	3	209	18	-1	//CaptainBeasty
+424	51	3	201	48	-1	//Beasty
+425	51	3	224	75	-1	//CaptainBeasty
+424	51	3	174	79	-1	//Beasty
+424	51	3	190	97	-1	//Beasty
+425	51	3	171	26	-1	//CaptainBeasty
+424	51	3	157	64	-1	//Beasty
+421	51	3	79	140	-1	//Wolf Man
+418	51	3	33	136	-1	//Bizarne Rabbit
+421	51	3	123	168	-1	//Wolf Man
+421	51	3	123	193	-1	//Wolf Man
+418	51	3	110	220	-1	//Bizarne Rabbit
+418	51	3	129	232	-1	//Bizarne Rabbit
+418	51	3	48	150	-1	//Bizarne Rabbit
+418	51	3	35	160	-1	//Bizarne Rabbit
+420	51	3	101	53	-1	//Rabbits
+419	51	3	160	121	-1	//Dirty Butterfly
+420	51	3	111	25	-1	//Rabbits
+420	51	3	133	36	-1	//Rabbits
+419	51	3	114	108	-1	//Dirty Butterfly
+421	51	3	104	139	-1	//Wolf Man
+419	51	3	137	93	-1	//Dirty Butterfly
+419	51	3	141	144	-1	//Dirty Butterfly
+end
+
+
+// minimap
+
+//npc
+1   32    241  1  //Lahap
+1   39    229  1  //Silvia
+1   24    236  2  //Rhea
+1   32    218  2  //Marce
+1   38    191  3  //Shadow Phantom Soldier
+1   52    232  3  //Shadow Phantom Soldier
+1   68    220  1  //Shadow Phantom Soldier
+1   45    229  1  //Safety Guardian
+1   50    243  1  //Mirage
+1   41    243  1  //Seed Master
+1   45    243  1  //Seed Researcher
+1   44    216  2  //Lugard
+1   15    214  3  //David
+
+//monster
+
+
+
+2   191  156    0  //Totem Golem 	      
+2   79   16	    0  //Curser Rich       
+2   169  177    0  //Totem Golem 	      
+2   193  195    0  //Totem Golem 	      
+2   46   87	    0  //Curser Rich       
+2   102  73	    0  //Rabbits       
+2   77   45	    0  //Curser Rich       
+2   65   70	    0  //Curser Rich       
+2   225  47	    0  //CaptainBeasty       
+2   204  18	    0  //CaptainBeasty       
+2   196  48	    0  //Beasty       
+2   219  75	    0  //CaptainBeasty       
+2   169  79	    0  //Beasty       
+2   185  97	    0  //Beasty       
+2   166  26	    0  //CaptainBeasty       
+2   152  64	    0  //Beasty       
+2   74   140    0  //Wolf Man 	      
+2   28   136    0  //Bizarne Rabbit 	      
+2   118  168    0  //Wolf Man 	      
+2   118  193    0  //Wolf Man 	      
+2   105  220    0  //Bizarne Rabbit 	      
+2   124  232    0  //Bizarne Rabbit 	      
+2   43   150    0  //Bizarne Rabbit 	      
+2   30   160    0  //Bizarne Rabbit 	      
+2   96   53	    0  //Rabbits       
+2   155  121    0  //Dirty Butterfly 	      
+2   106  25	    0  //Rabbits       
+2   128  36	    0  //Rabbits       
+2   109  108    0  //Dirty Butterfly 	      
+2   99   139    0  //Wolf Man 	      
+2   132  93	    0  //Dirty Butterfly       
+2   136  144    0  //Dirty Butterfly 	      
