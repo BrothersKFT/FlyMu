@@ -14,43 +14,85 @@ end
 // ==========================================================================================================================================================================================================================================
 //Mob	Map	Dis	X	Y	Dir	Name
 // ==========================================================================================================================================================================================================================================
-309	33	3	119	104	-1	//Hell Maine
-304	33	3	148	198	-1	//Witch Queen
-0	33	3	91	120	-1	//Bull Fighter
-0	33	3	100	171	-1	//Bull Fighter
-304	33	3	132	228	-1	//Witch Queen
-304	33	3	158	117	-1	//Witch Queen
-304	33	3	179	121	-1	//Witch Queen
-304	33	3	160	235	-1	//Witch Queen
-304	33	3	135	133	-1	//Witch Queen
-0	33	3	88	80	-1	//Bull Fighter
-0	33	3	56	121	-1	//Bull Fighter
-0	33	3	30	135	-1	//Bull Fighter
-0	33	3	54	56	-1	//Bull Fighter
-0	33	3	25	56	-1	//Bull Fighter
-0	33	3	54	159	-1	//Bull Fighter
-0	33	3	84	229	-1	//Bull Fighter
-0	33	3	106	45	-1	//Bull Fighter
-0	33	3	25	187	-1	//Bull Fighter
-0	33	3	35	226	-1	//Bull Fighter
-305	33	3	194	208	-1	//Blue Golem
-307	33	3	216	35	-1	//Forest Orc
-308	33	3	230	13	-1	//Death Tree
-307	33	3	168	80	-1	//Forest Orc
-307	33	3	156	46	-1	//Forest Orc
-308	33	3	192	18	-1	//Death Tree
-308	33	3	127	29	-1	//Death Tree
-308	33	3	107	12	-1	//Death Tree
-308	33	3	170	17	-1	//Death Tree
-308	33	3	140	18	-1	//Death Tree
-307	33	3	194	55	-1	//Forest Orc
-305	33	3	198	154	-1	//Blue Golem
-306	33	3	236	155	-1	//Death Rider
-305	33	3	215	206	-1	//Blue Golem
-305	33	3	167	168	-1	//Blue Golem
-306	33	3	222	142	-1	//Death Rider
-306	33	3	230	52	-1	//Death Rider
-306	33	3	188	98	-1	//Death Rider
-306	33	3	211	120	-1	//Death Rider
-306	33	3	238	95	-1	//Death Rider
+309	33	3	119	104	119	104 -1	1 //Hell Maine
+304	33	3	148	198	148	198 -1	5 //Witch Queen
+304	33	3	132	228	132	228 -1	5 //Witch Queen
+304	33	3	158	117	158	117 -1	5 //Witch Queen
+304	33	3	179	121	179	121 -1	5 //Witch Queen
+304	33	3	160	235	160	235 -1	5 //Witch Queen
+304	33	3	135	133	135	133 -1	5 //Witch Queen
+305	33	3	194	208	194	208 -1	5 //Blue Golem
+307	33	3	216	35	216	35  -1	5 //Forest Orc
+308	33	3	230	13	230	13  -1	5 //Death Tree
+307	33	3	168	80	168	80  -1	5 //Forest Orc
+307	33	3	156	46	156	46  -1	5 //Forest Orc
+308	33	3	192	18	192	18  -1	5 //Death Tree
+308	33	3	127	29	127	29  -1	5 //Death Tree
+308	33	3	107	12	107	12  -1	5 //Death Tree
+308	33	3	170	17	170	17  -1	5 //Death Tree
+308	33	3	140	18	140	18  -1	5 //Death Tree
+307	33	3	194	55	194	55  -1	5 //Forest Orc
+305	33	3	198	154	198	154 -1	5 //Blue Golem
+306	33	3	236	155	236	155 -1	5 //Death Rider
+305	33	3	215	206	215	206 -1	5 //Blue Golem
+305	33	3	167	168	167	168 -1	5 //Blue Golem
+306	33	3	222	142	222	142 -1	5 //Death Rider
+306	33	3	230	52	230	52  -1	5 //Death Rider
+306	33	3	188	98	188	98  -1	5 //Death Rider
+306	33	3	211	120	211	120 -1	5 //Death Rider
+306	33	3	238	95	238	95  -1	5 //Death Rider
+549	33	3	88	80	88	80  -1	5 //Bloody Orc
+549	33	3	56	121	56	121 -1	5 //Bloody Orc
+549	33	3	30	135	30	135 -1	5 //Bloody Orc
+549	33	3	54	56	54	56  -1	5 //Bloody Orc
+550	33	3	25	56	25	56  -1	5 //Bloody Death Rider
+550	33	3	54	159	54	159 -1	5 //Bloody Death Rider
+550	33	3	84	229	84	229 -1	5 //Bloody Death Rider
+550	33	3	106	45	106	45  -1	5 //Bloody Death Rider
+551	33	3	25	187	25	187 -1	5 //Bloody Golem
+551	33	3	35	226	35	226 -1	5 //Bloody Golem
+552	33	3	91	120	91	120 -1	5 //Bloody Witch Queen
+552	33	3	100	171	100	171 -1	5 //Bloody Witch Queen
 end
+
+//minimap
+
+2 114  	104	0 //Hell Maine
+2 143  	198	0 //Witch Queen
+2 127  	228	0 //Witch Queen
+2 153  	117	0 //Witch Queen
+2 174  	121	0 //Witch Queen
+2 155  	235	0 //Witch Queen
+2 130  	133	0 //Witch Queen
+2 189  	208	0 //Blue Golem
+2 211  	35	0 //Forest Orc
+2 225  	13	0 //Death Tree
+2 163  	80	0 //Forest Orc
+2 151  	46	0 //Forest Orc
+2 187  	18	0 //Death Tree
+2 122  	29	0 //Death Tree
+2 102  	12	0 //Death Tree
+2 165  	17	0 //Death Tree
+2 135  	18	0 //Death Tree
+2 189  	55	0 //Forest Orc
+2 193  	154	0 //Blue Golem
+2 231  	155	0 //Death Rider
+2 210  	206	0 //Blue Golem
+2 162  	168	0 //Blue Golem
+2 217  	142	0 //Death Rider
+2 225  	52	0 //Death Rider
+2 183  	98	0 //Death Rider
+2 206  	120	0 //Death Rider
+2 233  	95	0 //Death Rider
+2 83  	80	0 //Bloody Orc
+2 51  	121	0 //Bloody Orc
+2 25  	135	0 //Bloody Orc
+2 49  	56	0 //Bloody Orc
+2 20  	56	0 //Bloody Death Rider
+2 49  	159	0 //Bloody Death Rider
+2 79  	229	0 //Bloody Death Rider
+2 101  	45	0 //Bloody Death Rider
+2 20  	187	0 //Bloody Golem
+2 30  	226	0 //Bloody Golem
+2 86  	120	0 //Bloody Witch Queen
+2 95	171	0 //Bloody Witch Queen
