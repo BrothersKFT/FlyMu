@@ -497,7 +497,7 @@ void GCCharacterInfoRecv(PMSG_CHARACTER_INFO_RECV* lpMsg) // OK
 			SetByte(0x00556C38,((gProtect.m_MainInfo.DWMaxAttackSpeed>=0xFFFF)?0x06:0x0F));
 			break;
 		case 1:
-			SetByte(0x00556C38,((gProtect.m_MainInfo.DKMaxAttackSpeed>=0xFFFF)?0x0F:0x0F)); // Fixed
+			SetByte(0x00556C38,((gProtect.m_MainInfo.DKMaxAttackSpeed>=0xFFFF)?0x06:0x0F)); // Fixed
 			break;
 		case 2:
 			SetByte(0x00556C38,((gProtect.m_MainInfo.FEMaxAttackSpeed>=0xFFFF)?0x06:0x0F));

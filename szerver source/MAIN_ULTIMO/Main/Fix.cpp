@@ -87,7 +87,7 @@ __declspec(naked) void FixAttackSpeed()
     {
         if (STR_SPEED > 1368)
         {
-            STR_SPEED = 1368;
+            STR_SPEED = 1168;
         }
     }
 
@@ -123,22 +123,37 @@ __declspec(naked) void FixAttackSpeed()
         }
     }
 
-    // Death Stab sebesség korlátozás
-    if (gObjUser.MagickAttack == 263 ||   // Death Stab
-        gObjUser.MagickAttack == 559)     // Death Stab (Master)
+    //cyclone
+
+    if (gObjUser.MagickAttack == 22 ||
+        gObjUser.MagickAttack == 326 ||
+        gObjUser.MagickAttack == 479)     
     {
-        if (STR_SPEED > 1368)
+        if (STR_SPEED > 1582)
         {
-            STR_SPEED = 1368;
+            STR_SPEED = 1582;
+        }
+    }
+
+    // Death Stab sebesség korlátozás
+    if (gObjUser.MagickAttack == 43 ||   // Death Stab
+        gObjUser.MagickAttack == 336 ||// Death Stab
+        gObjUser.MagickAttack == 339 ||// Death Stab
+        gObjUser.MagickAttack == 342)     // Death Stab (Master)
+    {
+        if (STR_SPEED > 1627)
+        {
+            STR_SPEED = 1627;
         }
     }
 	// Meteorit sebesség korlátozás
-    if (gObjUser.MagickAttack == 266 ||   // Meteorit
-        gObjUser.MagickAttack == 561)     // Meteorit (Master)
+    if (gObjUser.MagickAttack == 2 ||   // Meteorit
+        gObjUser.MagickAttack == 390 ||
+		gObjUser.MagickAttack == 394)     // Meteorit (Master)
     {
-        if (STR_SPEED > 1368)
+        if (STR_SPEED > 2100)
         {
-            STR_SPEED = 1368;
+            STR_SPEED = 2100;
         }
     }
 
@@ -185,8 +200,6 @@ __declspec(naked) void FixAttackSpeed2()
 // Inicializáló függvény
 void InitAttackSpeed()
 {
-    SetByte(0x00649E24 + 3, 14);     // Test 1
-    SetByte(0x00556C32 + 6, 2);      // Test 2
     SetOp((LPVOID)0x005509CE, (LPVOID)FixAttackSpeed, ASM::JMP);
     SetOp((LPVOID)0x00551573, (LPVOID)FixAttackSpeed2, ASM::JMP);
 }
