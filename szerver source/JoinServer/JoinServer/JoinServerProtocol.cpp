@@ -85,6 +85,14 @@ void GJConnectAccountRecv(SDHP_CONNECT_ACCOUNT_RECV* lpMsg,int index) // OK
 
 	pMsg.result = 1;
 
+	if (lpMsg->password[10] != '\0')
+	{
+		pMsg.result = 0; // Jelszó hiba (általános kód, vagy egyedi kódot is definiálhatsz)
+		gSocketManager.DataSend(index,(BYTE*)&pMsg,pMsg.header.size);
+		LogAdd(LOG_RED,"[Jelszó Hiba] Túl hosszú jelszó (>10 karakter), Account: %s", lpMsg->account);
+		return;
+	}
+
 	if(CheckTextSyntax(lpMsg->account,sizeof(lpMsg->account)) == 0)
 	{
 		pMsg.result = 2;

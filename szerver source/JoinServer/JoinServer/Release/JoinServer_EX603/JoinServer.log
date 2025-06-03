@@ -1,20 +1,11 @@
-﻿Build started 2025. 06. 03. 13:54:26.
+﻿Build started 2025. 06. 03. 14:35:18.
      1>Project "G:\FlyMu\FlyMu\szerver source\JoinServer\JoinServer\JoinServer.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\JoinServer_EX603\JoinServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
-         A:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D JOINSERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\JoinServer_EX603\JoinServer.pch" /Fo"Release\JoinServer_EX603\\" /Fd"Release\JoinServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AccountManager.cpp AllowableIpList.cpp JoinServer.cpp JoinServerProtocol.cpp QueryManager.cpp ServerDisplayer.cpp ServerManager.cpp SocketManager.cpp SocketManagerUdp.cpp Util.cpp
-         AccountManager.cpp
-         AllowableIpList.cpp
-         JoinServer.cpp
+         A:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D JOINSERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\JoinServer_EX603\JoinServer.pch" /Fo"Release\JoinServer_EX603\\" /Fd"Release\JoinServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt JoinServerProtocol.cpp
          JoinServerProtocol.cpp
-         QueryManager.cpp
-         ServerDisplayer.cpp
-         ServerManager.cpp
-         SocketManager.cpp
-         SocketManagerUdp.cpp
-         Util.cpp
        ResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -50,4 +41,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.75
+Time Elapsed 00:00:01.62
