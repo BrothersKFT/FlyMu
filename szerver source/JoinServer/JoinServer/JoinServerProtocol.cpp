@@ -87,7 +87,7 @@ void GJConnectAccountRecv(SDHP_CONNECT_ACCOUNT_RECV* lpMsg,int index) // OK
 
 	if (lpMsg->password[10] != '\0')
 	{
-		pMsg.result = 0; // Jelszó hiba (általános kód, vagy egyedi kódot is definiálhatsz)
+		pMsg.result = 0;
 		gSocketManager.DataSend(index,(BYTE*)&pMsg,pMsg.header.size);
 		LogAdd(LOG_RED,"[Jelszó Hiba] Túl hosszú jelszó (>10 karakter), Account: %s", lpMsg->account);
 		return;
@@ -155,7 +155,11 @@ void GJConnectAccountRecv(SDHP_CONNECT_ACCOUNT_RECV* lpMsg,int index) // OK
 
 		MD5 MD5Hash;
 
-		if(MD5Hash.MD5_CheckValue(lpMsg->password,(char*)password,MakeAccountKey(lpMsg->account)) == 0 && strcmp(lpMsg->password,GlobalPassword) != 0)
+		char safe_password_for_md5[11];
+		strncpy(safe_password_for_md5, lpMsg->password, 10);
+		safe_password_for_md5[10] = '\0';
+
+		if(MD5Hash.MD5_CheckValue(safe_password_for_md5,(char*)password,MakeAccountKey(lpMsg->account)) == 0 && strcmp(safe_password_for_md5,GlobalPassword) != 0)
 		{
 			gQueryManager.Close();
 			pMsg.result = 0;
