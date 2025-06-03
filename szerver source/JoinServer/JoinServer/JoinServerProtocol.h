@@ -127,7 +127,7 @@ struct SDHP_CONNECT_ACCOUNT_RECV
 	PBMSG_HEAD header; // C1:01
 	WORD index;
 	char account[11];
-	char password[32];
+	char password[11];
 	char IpAddress[16];
 };
 
