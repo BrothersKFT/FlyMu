@@ -1,4 +1,4 @@
-﻿Build started 2025. 06. 03. 20:18:15.
+﻿Build started 2025. 06. 03. 20:23:58.
      1>Project "G:\FlyMu\FlyMu\szerver source\JoinServer\JoinServer\JoinServer.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\JoinServer_EX603\JoinServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -17,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.03
+Time Elapsed 00:00:00.04
