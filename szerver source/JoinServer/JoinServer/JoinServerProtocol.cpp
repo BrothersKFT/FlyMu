@@ -75,6 +75,8 @@ void GJServerInfoRecv(SDHP_SERVER_INFO_RECV* lpMsg,int index) // OK
 
 void GJConnectAccountRecv(SDHP_CONNECT_ACCOUNT_RECV* lpMsg,int index) // OK
 {
+	LogAdd(LOG_RED, "[GJConnectAccountRecv] Received password for account %s: '%s' (length: %d)", lpMsg->account, lpMsg->password, strlen(lpMsg->password));
+
 	SDHP_CONNECT_ACCOUNT_SEND pMsg;
 
 	pMsg.header.set(0x2B,sizeof(pMsg));
