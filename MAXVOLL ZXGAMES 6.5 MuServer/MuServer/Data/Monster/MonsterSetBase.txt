@@ -240,6 +240,10 @@ end
 14	0	3	207	234	207	234	-1	5 //Skeleton Warrior
 end
 
+2
+711 0 0 139 87 3// training dummy
+end
+
 1
 //=================================
 //SPOT - NORIA
