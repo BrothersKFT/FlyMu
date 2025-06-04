@@ -856,7 +856,7 @@ struct PMSG_CHARACTER_INFO_SEND
 	DWORD ViewEnergy;
 	DWORD ViewLeadership;
 	#endif
-
+	int DeathStabMultipleDamageSwitch;
 };
 
 struct PMSG_CHARACTER_REGEN_SEND

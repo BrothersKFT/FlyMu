@@ -350,7 +350,7 @@ struct PMSG_CHARACTER_INFO_RECV
 	DWORD ViewVitality;
 	DWORD ViewEnergy;
 	DWORD ViewLeadership;
-	
+	int DeathStabMultipleDamageSwitch;
 };
 
 struct PMSG_CHARACTER_REGEN_RECV
@@ -843,3 +843,13 @@ void CGSendWarehouseOpen(int Number);
 void GCWarehouseInterfaceOpenRecv(PMSG_WAREHOUSEINTERFACE_RECV* lpMsg);
 #endif
 void UpdateLuckyWheel(ITEM_WIN_SEND * lpMsg);
+
+struct PMSG_LEVEL_RECV
+{
+    PSBMSG_HEAD header;
+    int MaxLevel;
+    int MaxMasterLevel;
+    int DeathStabMultipleDamageSwitch;
+};
+
+void GCMaxLevelRecv(PMSG_LEVEL_RECV* lpMsg);

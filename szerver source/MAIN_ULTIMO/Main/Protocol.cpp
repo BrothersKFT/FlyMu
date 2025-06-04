@@ -212,7 +212,7 @@ BOOL ProtocolCoreEx(BYTE head,BYTE* lpMsg,int size,int key) // OK
 		case 0x7D:
 			jCRenderRuud.LoadRuudShop_Recv((PMSG_RUUD_ITEM_LIST_RECV*)lpMsg);
 			break;
-			//--post item
+		//--post item
 		case 0x78:
 			RecvPostItem((PMSG_POSTITEM*)lpMsg);
 			break;
@@ -220,7 +220,7 @@ BOOL ProtocolCoreEx(BYTE head,BYTE* lpMsg,int size,int key) // OK
 		case 0x2D:
 			gIconBuff.Recv((PMSG_SEND_BUFF_ICON * )lpMsg);
 			break;
-			//-- Party Buff
+		//-- Party Buff
 		case 0x2E:
 			gPartyBuffs.RecvPartyBuffs((PMSG_PARTY_EFFECT_LIST_SEND*)lpMsg);
 			break;
@@ -515,6 +515,27 @@ void GCCharacterInfoRecv(PMSG_CHARACTER_INFO_RECV* lpMsg) // OK
 			SetByte(0x00556C38,((gProtect.m_MainInfo.RFMaxAttackSpeed>=0xFFFF)?0x06:0x0F));
 			break;
 	}
+
+	// Death Stab Multiple Damage Switch logika KEZDETE
+	BYTE characterClass = ((*(BYTE*)(*(DWORD*)(MAIN_CHARACTER_STRUCT)+0x0B)) & 7);
+
+	switch (characterClass)
+	{
+		case 1: // Dark Knight
+			SetDword(0x0059C6FE, ((lpMsg->DeathStabMultipleDamageSwitch == 1) ? 0 : 300));
+			break;
+		case 0: // Wizard
+		case 2: // Elf
+		case 3: // Magic Gladiator
+		case 4: // Dark Lord
+		case 5: // Summoner
+		case 6: // Rage Fighter
+		default: // Ismeretlen vagy más class
+			SetDword(0x0059C6FE, 300); // Multiple damage kikapcsolva
+			// LogAdd(0, "[DEBUG] Other Class (%d) DeathStabSwitch: OFF", characterClass);
+			break;
+	}
+	// Death Stab Multiple Damage Switch logika VÉGE
 }
 
 void GCCharacterRegenRecv(PMSG_CHARACTER_REGEN_RECV* lpMsg) // OK

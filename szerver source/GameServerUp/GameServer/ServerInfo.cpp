@@ -4031,6 +4031,9 @@ void CServerInfo::ReadSkillInfo(char* section,char* path) // OK
 {
 	char GameServerInfo[100] = {0};
 
+	// Death Stab Multiple Damage Switch beolvasása
+	this->m_DeathStabMultipleDamageSwitch = GetPrivateProfileInt(section,"DeathStabMultipleDamageSwitch",0,path);
+
 	this->m_ManaShieldConstA = GetPrivateProfileInt(section,"ManaShieldConstA",0,path);
 
 	this->m_ManaShieldConstB = GetPrivateProfileInt(section,"ManaShieldConstB",0,path);

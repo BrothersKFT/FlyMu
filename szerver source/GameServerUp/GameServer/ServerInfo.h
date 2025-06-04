@@ -1080,6 +1080,8 @@ public:
 
 	int Max_LevelPlus;
 	int DownGrade;
+
+	int m_DeathStabMultipleDamageSwitch; // Death Stab Multiple Damage Switch
 };
 
 extern CServerInfo gServerInfo;
