@@ -37,6 +37,7 @@
 #include "ResetSystemPanel.h"
 #include "GrandResetSystem.h"
 #include "PartyBar.h"
+#include <stdio.h>
 
 BOOL ProtocolCoreEx(BYTE head,BYTE* lpMsg,int size,int key) // OK
 {
@@ -532,10 +533,8 @@ void GCCharacterInfoRecv(PMSG_CHARACTER_INFO_RECV* lpMsg) // OK
 		case 6: // Rage Fighter
 		default: // Ismeretlen vagy más class
 			SetDword(0x0059C6FE, 300); // Multiple damage kikapcsolva
-			// LogAdd(0, "[DEBUG] Other Class (%d) DeathStabSwitch: OFF", characterClass);
 			break;
 	}
-	// Death Stab Multiple Damage Switch logika VÉGE
 }
 
 void GCCharacterRegenRecv(PMSG_CHARACTER_REGEN_RECV* lpMsg) // OK

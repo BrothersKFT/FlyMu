@@ -1284,7 +1284,7 @@ void DGCharacterInfoRecv(SDHP_CHARACTER_INFO_RECV* lpMsg) // OK
 	pMsg.ViewLeadership = lpObj->Leadership;
 	#endif
 
-	// Death Stab Multiple Damage Switch értékének beállítása
+	// Death Stab Multiple Damage Switch érték
 	pMsg.DeathStabMultipleDamageSwitch = gServerInfo.m_DeathStabMultipleDamageSwitch;
 
 	DataSend(lpObj->Index,(BYTE*)&pMsg,pMsg.header.size);
