@@ -240,12 +240,12 @@ end
 14	0	3	207	234	207	234	-1	5 //Skeleton Warrior
 end
 
-2
-711 0 0 139 87 3// training dummy 8mil
-712 0 0 139 87 3// training dummy 4mil
-713 0 0 139 87 3// training dummy 1mil
-714 0 0 139 87 3// training dummy 200k
-end
+1
+711 0 0 139 87 139 87 -1 1    // training dummy 8mil
+712 0 0 143 87 143 87 -1 1    // training dummy 4mil
+713 0 0 147 87 147 87 -1 1    // training dummy 1mil
+714 0 0 151 87 151 87 -1 1    // training dummy 200k
+end 
 
 1
 //=================================
