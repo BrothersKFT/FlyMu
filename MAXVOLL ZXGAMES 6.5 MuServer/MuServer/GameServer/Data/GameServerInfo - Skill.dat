@@ -298,3 +298,8 @@ IronDefenseTimeConstA = 10
 BloodHowlingConstA = 10
 BloodHowlingConstB = 200
 BloodHowlingTimeConstA = 60
+
+;==================================================
+; Death Stab Skill Hit Mutiplier
+;==================================================
+DeathStabMultipleDamageSwitch = 1
