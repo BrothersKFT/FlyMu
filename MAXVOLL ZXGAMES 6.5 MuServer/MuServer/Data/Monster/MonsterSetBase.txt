@@ -241,7 +241,10 @@ end
 end
 
 2
-711 0 0 139 87 3// training dummy
+711 0 0 139 87 3// training dummy 8mil
+712 0 0 139 87 3// training dummy 4mil
+713 0 0 139 87 3// training dummy 1mil
+714 0 0 139 87 3// training dummy 200k
 end
 
 1
