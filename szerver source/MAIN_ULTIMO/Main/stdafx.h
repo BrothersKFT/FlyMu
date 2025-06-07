@@ -73,3 +73,5 @@ typedef unsigned __int64 QWORD;
 #define ADD_PARTY_LEADER 0
 
 #define LODWORD(h)					((DWORD)(__int64(h) & __int64(0xffffffff)))
+
+#define FixSkill_DarkSide            1

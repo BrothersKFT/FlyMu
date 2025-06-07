@@ -119,6 +119,7 @@
     <ClInclude Include="CustomGloves.h" />
     <ClInclude Include="CustomPetEffect.h" />
     <ClInclude Include="Entryproy.h" />
+    <ClInclude Include="FixSkillDarkSide.h" />
     <ClInclude Include="GetBarChat.h" />
     <ClInclude Include="GLFont.h" />
     <ClInclude Include="GrandResetSystem.h" />
@@ -259,6 +260,7 @@
     <ClCompile Include="CustomFont.cpp" />
     <ClCompile Include="CustomGloves.cpp" />
     <ClCompile Include="CustomPetEffect.cpp" />
+    <ClCompile Include="FixSkillDarkSide.cpp" />
     <ClCompile Include="GetBarChat.cpp" />
     <ClCompile Include="GLFont.cpp" />
     <ClCompile Include="GrandResetSystem.cpp" />

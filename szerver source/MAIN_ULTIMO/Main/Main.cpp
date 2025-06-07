@@ -78,6 +78,7 @@
 #include "InfoLog.h"
 #include "ItemTooltip.h"
 #include "RenderSkillDarkhorse.h"
+#include "FixSkillDarkSide.h"
 
 #include "ConnectServer.h"
 #include "ServerInfo.h"
@@ -244,7 +245,9 @@ extern "C" _declspec(dllexport) void EntryProc() // OK
 
 	SetCompleteHook(0xE9,0x0064452A,0x00644537); //-- Fix montura
 
-	SetCompleteHook(0xE9, 0x0071AE92, 0x00720894); //Fix RF Skill	SetCompleteHook(0xE9, 0x0071B1A3, 0x00720894); //Fix RF Skill
+	SetCompleteHook(0xE9, 0x0071AE92, 0x00720894); //Fix RF Skill
+
+	SetCompleteHook(0xE9, 0x0071B1A3, 0x00720894); //Fix RF Skill
 
 	SetCompleteHook(0xE9, 0x005880F0, 0x0058811F); //Fix gm wing on Blood castle
 	SetDword(0x00588444 + 3, 4095);
@@ -731,8 +734,8 @@ extern "C" _declspec(dllexport) void EntryProc() // OK
 	//==============================================================================
 	if (gProtect.m_MainInfo.DisableVaultExp == 1)
 	{
-		SetCompleteHook(0xE9, 0x00856FAA, 0x00856FD2); // Remove (H) Baú Aberto
-		SetCompleteHook(0xE9, 0x007D371E, 0x007D3725); // Remove botão (H)
+		SetCompleteHook(0xE9, 0x00856FAA, 0x00856FD2); // Remove (H) Ba Aberto
+		SetCompleteHook(0xE9, 0x007D371E, 0x007D3725); // Remove boto (H)
 	}
 
 	//==============================================================================

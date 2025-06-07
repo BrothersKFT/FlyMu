@@ -24,13 +24,13 @@ __declspec(naked) void FixAttackSpeed()
 		MOV MAG_SPEED,CX
 	}
 	gObjUser.MagickAttack = gObjUser.GetActiveSkill();
-	if(STR_SPEED > 1600)
+	if(STR_SPEED > 3276)
 	{
-		STR_SPEED = 1600;
+		STR_SPEED = 3276;
 	}
-	if(MAG_SPEED > 1600)
+	if(MAG_SPEED > 3276)
 	{
-		MAG_SPEED = 1600;
+		MAG_SPEED = 3276;
 	}
 	/////////////////////////////////////////////////
     /*=====================SM======================*/	

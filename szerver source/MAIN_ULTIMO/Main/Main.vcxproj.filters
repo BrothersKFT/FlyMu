@@ -687,6 +687,9 @@
     <ClInclude Include="NoShadow.h">
       <Filter>Source Files\Main\Item\Effect\CEffect</Filter>
     </ClInclude>
+    <ClInclude Include="FixSkillDarkSide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -1060,6 +1063,9 @@
     </ClCompile>
     <ClCompile Include="NoShadow.cpp">
       <Filter>Source Files\Main\Item\Effect\CEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FixSkillDarkSide.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
