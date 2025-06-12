@@ -137,6 +137,12 @@ BOOL CCustomJewel::CheckCustomJewelApplyItem(int ItemIndex,int TargetItemIndex) 
 		return 0;
 	}
 
+	//- Fix Custom Jewel apply on Arrow/Bolt chris
+	if(TargetItemIndex == GET_ITEM(4,7) || TargetItemIndex == GET_ITEM(4,15)) // Bolt,Arrow
+	{
+		return 0;
+	}
+
 	return 1;
 }
 
