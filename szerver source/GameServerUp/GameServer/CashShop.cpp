@@ -538,6 +538,13 @@ void CCashShop::CGCashShopItemBuyRecv(PMSG_CASH_SHOP_ITEM_BUY_RECV* lpMsg,int aI
 
 	LPOBJ lpObj = &gObj[aIndex];
 
+	// Xshop fix by Chris
+	if((GetTickCount() - lpObj->CashShopLastBuyTime) < 3000)
+	{
+		gNotice.GCNoticeSend(lpObj->Index, 1, 0, 0, 0, 0, 0, "You must wait 3 seconds between purchases.");
+		return;
+	}
+
 	if(gObjIsConnectedGP(aIndex) == 0)
 	{
 		return;
@@ -593,6 +600,12 @@ void CCashShop::CGCashShopItemGifRecv(PMSG_CASH_SHOP_ITEM_GIF_RECV* lpMsg,int aI
 
 	if(gObjIsConnectedGP(aIndex) == 0)
 	{
+		return;
+	}
+	// Xshop fix by Chris
+	if((GetTickCount() - lpObj->CashShopLastBuyTime) < 3000)
+	{
+		gNotice.GCNoticeSend(lpObj->Index, 1, 0, 0, 0, 0, 0, "You must wait 3 seconds between purchases.");
 		return;
 	}
 
@@ -1023,6 +1036,8 @@ void CCashShop::DGCashShopItemBuyRecv(SDHP_CASH_SHOP_ITEM_BUY_RECV* lpMsg) // OK
 		pMsg.result = 0;
 
 		DataSend(lpObj->Index,(BYTE*)&pMsg,pMsg.header.size);
+		// Xshop fix by Chris
+		lpObj->CashShopLastBuyTime = GetTickCount();
 
 		this->GDCashShopSubPointSaveSend(lpObj->Index,0,WCoinC,WCoinP,GoblinPoint,0);
 
@@ -1082,6 +1097,8 @@ void CCashShop::DGCashShopItemBuyRecv(SDHP_CASH_SHOP_ITEM_BUY_RECV* lpMsg) // OK
 		pMsg.result = 0;
 
 		DataSend(lpObj->Index,(BYTE*)&pMsg,pMsg.header.size);
+		// Xshop fix by Chris
+		lpObj->CashShopLastBuyTime = GetTickCount();
 
 		this->GDCashShopSubPointSaveSend(lpObj->Index,0,WCoinC,WCoinP,GoblinPoint,0);
 
@@ -1184,7 +1201,9 @@ void CCashShop::DGCashShopItemGifRecv(SDHP_CASH_SHOP_ITEM_GIF_RECV* lpMsg) // OK
 		pMsg.result = 0;
 
 		DataSend(lpObj->Index,(BYTE*)&pMsg,pMsg.header.size);
-
+		// Xshop fix by Chris
+		lpObj->CashShopLastBuyTime = GetTickCount();
+		
 		this->GDCashShopSubPointSaveSend(lpObj->Index,0,WCoinC,WCoinP,GoblinPoint,0);
 
 		if(lpPackageInfo->BonusGP > 0){this->GDCashShopAddPointSaveSend(lpObj->Index,0,0,0,lpPackageInfo->BonusGP,0);}
@@ -1243,6 +1262,8 @@ void CCashShop::DGCashShopItemGifRecv(SDHP_CASH_SHOP_ITEM_GIF_RECV* lpMsg) // OK
 		pMsg.result = 0;
 
 		DataSend(lpObj->Index,(BYTE*)&pMsg,pMsg.header.size);
+		// Xshop fix by Chris
+		lpObj->CashShopLastBuyTime = GetTickCount();
 
 		this->GDCashShopSubPointSaveSend(lpObj->Index,0,WCoinC,WCoinP,GoblinPoint,0);
 
