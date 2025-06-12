@@ -730,6 +730,7 @@ struct OBJECTSTRUCT
 	int PShopCustomOffline;
 	int PShopCustomOfflineTime;
 	int PShopCustomTime;
+	int PShopActiveIBuy; //By Narvu ( Anti wCoins Dupe in PersonalShop CustomStore )
 	CRITICAL_SECTION PShopTrade;
 	int VpPShopPlayer[MAX_VIEWPORT];
 	int VpPShopPlayerCount;

@@ -775,6 +775,7 @@ void gObjCharZeroSet(int aIndex) // OK
 	lpObj->UseEventServer = 0;
 	lpObj->LoadWarehouse = 0;
 	lpObj->LoadGuildWarehouse = 0;
+	lpObj->PShopActiveIBuy = 0; //By Narvu
 
 	memset(lpObj->Quest,0xFF,sizeof(lpObj->Quest));
 

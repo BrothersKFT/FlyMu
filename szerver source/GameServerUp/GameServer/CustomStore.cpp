@@ -401,6 +401,17 @@ bool CCustomStore::OnPShopBuyItemRecv(PMSG_PSHOP_BUY_ITEM_RECV* lpMsg,int aIndex
 
 	LPOBJ lpTarget = &gObj[bIndex];
 
+	if(lpObj->PShopActiveIBuy == 1) //By Narvu ( Anti wCoins Dupe in PersonalShop CustomStore )
+	{
+		gNotice.GCNoticeSend(lpObj->Index,1,0,0,0,0,0,"Process Stopped, avoid spaming when buying an items.");
+		gNotice.GCNoticeSend(lpTarget->Index,1,0,0,0,0,0,"Character [%s] was spaming item buy in your store",lpObj->Name);
+		gLog.Output(LOG_TRADE,"[SellPesonalShopItem Process Stopped ] Item Seller: [%s][%s] -> Item Buyer: [%s][%s] Detected that user was spaming item buy in store.",lpTarget->Account,lpTarget->Name,lpObj->Account,lpObj->Name);
+		lpObj->PShopActiveIBuy = 0;
+		return 1;
+	}
+
+	lpObj->PShopActiveIBuy = 1;
+
 	if(lpTarget->PShopOpen == 0)
 	{
 		gPersonalShop.GCPShopBuyItemSend(aIndex,bIndex,0,3);
@@ -596,24 +607,28 @@ void CCustomStore::OnPShopBuyItemCallbackRecv(LPOBJ lpObj,LPOBJ lpTarget,DWORD s
 {
 	if(gObjIsConnectedGP(lpTarget->Index) == 0)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,3);
 		return;
 	}
 
 	if(lpTarget->PShopOpen == 0)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,3);
 		return;
 	}
 
 	if(lpTarget->PShopTransaction != 0)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,4);
 		return;
 	}
 
 	if(lpTarget->Inventory[slot].IsItem() == 0)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,6);
 		return;
 	}
@@ -627,24 +642,28 @@ void CCustomStore::OnPShopBuyItemCallbackRecv(LPOBJ lpObj,LPOBJ lpTarget,DWORD s
 	#if(GAMESERVER_UPDATE>=501)
 	if(WCoinC < PShopWCCValue)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,7);
 		return;
 	}
 
 	if(WCoinP < PShopWCPValue)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,7);
 		return;
 	}
 	#else
 	if(lpObj->Coin1 < PShopWCCValue)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,7);
 		return;
 	}
 
 	if(lpObj->Coin2 < PShopWCPValue)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,7);
 		return;
 	}
@@ -652,6 +671,7 @@ void CCustomStore::OnPShopBuyItemCallbackRecv(LPOBJ lpObj,LPOBJ lpTarget,DWORD s
 
 	if(GoblinPoint < PShopWGPValue)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,7);
 		return;
 	}
@@ -662,11 +682,12 @@ void CCustomStore::OnPShopBuyItemCallbackRecv(LPOBJ lpObj,LPOBJ lpTarget,DWORD s
 
 	if(result == 0xFF)
 	{
+		lpObj->PShopActiveIBuy = 0;
 		gPersonalShop.GCPShopBuyItemSend(lpObj->Index,lpTarget->Index,0,8);
 		return;
 	}
 
-	gLog.Output(LOG_TRADE,"[SellPesonalShopItem][%s][%s] - (Account: %s, Name: %s, Value: %d, WCCValue: %d, WCPValue: %d, WGPValue: %d, Index: %04d, Level: %02d, Serial: %08X, Option1: %01d, Option2: %01d, Option3: %01d, NewOption: %03d, JewelOfHarmonyOption: %03d, ItemOptionEx: %03d, SocketOption: %03d, %03d, %03d, %03d, %03d)",lpTarget->Account,lpTarget->Name,lpObj->Account,0,PShopWCCValue,PShopWCPValue,PShopWGPValue,lpTarget->Inventory[slot].m_Index,lpTarget->Inventory[slot].m_Level,lpTarget->Inventory[slot].m_Serial,lpTarget->Inventory[slot].m_Option1,lpTarget->Inventory[slot].m_Option2,lpTarget->Inventory[slot].m_Option3,lpTarget->Inventory[slot].m_NewOption,lpTarget->Inventory[slot].m_JewelOfHarmonyOption,lpTarget->Inventory[slot].m_ItemOptionEx,lpTarget->Inventory[slot].m_SocketOption[0],lpTarget->Inventory[slot].m_SocketOption[1],lpTarget->Inventory[slot].m_SocketOption[2],lpTarget->Inventory[slot].m_SocketOption[3],lpTarget->Inventory[slot].m_SocketOption[4]);
+	gLog.Output(LOG_TRADE,"[SellPesonalShopItem][%s][%s] - (Account: %s, Name: %s, Value: %d, WCCValue: %d, WCPValue: %d, WGPValue: %d, Index: %04d, Level: %02d, Serial: %08X, Option1: %01d, Option2: %01d, Option3: %01d, NewOption: %03d, JewelOfHarmonyOption: %03d, ItemOptionEx: %03d, SocketOption: %03d, %03d, %03d, %03d, %03d)",lpTarget->Account,lpTarget->Name,lpObj->Account,lpObj->Name,0,PShopWCCValue,PShopWCPValue,PShopWGPValue,lpTarget->Inventory[slot].m_Index,lpTarget->Inventory[slot].m_Level,lpTarget->Inventory[slot].m_Serial,lpTarget->Inventory[slot].m_Option1,lpTarget->Inventory[slot].m_Option2,lpTarget->Inventory[slot].m_Option3,lpTarget->Inventory[slot].m_NewOption,lpTarget->Inventory[slot].m_JewelOfHarmonyOption,lpTarget->Inventory[slot].m_ItemOptionEx,lpTarget->Inventory[slot].m_SocketOption[0],lpTarget->Inventory[slot].m_SocketOption[1],lpTarget->Inventory[slot].m_SocketOption[2],lpTarget->Inventory[slot].m_SocketOption[3],lpTarget->Inventory[slot].m_SocketOption[4]);
 
 	#if(GAMESERVER_UPDATE>=501)
 
@@ -736,6 +757,7 @@ void CCustomStore::OnPShopBuyItemCallbackRecv(LPOBJ lpObj,LPOBJ lpTarget,DWORD s
 	}
 
 	lpTarget->PShopTransaction = 0;
+	lpObj->PShopActiveIBuy = 0;
 }
 
 void CCustomStore::CGOffTradeRecv(PMSG_OFFTRADE_RECV* lpMsg, int aIndex)
