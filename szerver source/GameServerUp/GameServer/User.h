@@ -803,6 +803,7 @@ struct OBJECTSTRUCT
 	int UsePartyMatchingJoin;
 	int CashShopTransaction[4];
 	int CommandManagerTransaction[1];
+	DWORD CashShopLastBuyTime;
 	int LuckyCoinTransaction[2];
 	int PcPointTransaction[2];
 	DWORD AutoAttackTime;

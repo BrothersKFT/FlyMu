@@ -801,6 +801,8 @@ void gObjCharZeroSet(int aIndex) // OK
 	lpObj->MasterPoint = 0;
 	lpObj->MasterExperience = 0;
 	lpObj->MasterNextExperience = 0;
+	// Xshop fix by Chris
+	lpObj->CashShopLastBuyTime = 0;
 
 	for(int n=0;n < MAX_EFFECT_LIST;n++)
 	{
