@@ -418,11 +418,11 @@ void ExWinQuestSystem::Draw()
 
 	if (this->ewdata[a].Start)
 	{
-		gInterface.DrawFormat(eWhite, StartX + (MainWidth / 2) - (70 / 2), StartY + MainHeight - 25, 59, 3, "Finish");
+		gInterface.DrawFormat(eWhite, StartX + (MainWidth / 2) - (110 / 2), StartY + MainHeight - 23, 110, 3, "Finish");
 	}
 	else
 	{
-		gInterface.DrawFormat(eWhite, StartX + (MainWidth / 2) - (90 / 2), StartY + MainHeight - 25, 59, 3, "Accept");
+		gInterface.DrawFormat(eWhite, StartX + (MainWidth / 2) - (110 / 2), StartY + MainHeight - 23, 110, 3, "Accept");
 	}
 	//------
 	if (!Finish)
@@ -625,20 +625,20 @@ void ExWinQuestSystem::DrawOpenWQ()
 
 	  gInterface.Data[OPEN_QUEST].OnShow = true;
 
-	  gInterface.DrawGUI(OPEN_QUEST, 610, 200);
+	  gInterface.DrawGUI(OPEN_QUEST, 615, 370);
 
 	  if (gInterface.IsWorkZone(OPEN_QUEST))
 	  {
 
-		  gInterface.DrawToolTip(560, 210, "Quest Panel");
+		  gInterface.DrawToolTip(562, 385, "Quest Panel");
 		  // ----
 		  if (gInterface.Data[OPEN_QUEST].OnClick)
 		  {
-			  gInterface.DrawColoredGUI(OPEN_QUEST, 610, 200, pMakeColor(40, 20, 3, 130));
+			  gInterface.DrawColoredGUI(OPEN_QUEST, 615, 370, pMakeColor(40, 20, 3, 130));
 			  return;
 		  }
 		  // ----
-		  gInterface.DrawColoredGUI(OPEN_QUEST, 610, 200, pMakeColor(255, 204, 20, 200));
+		  gInterface.DrawColoredGUI(OPEN_QUEST, 615, 370, pMakeColor(255, 204, 20, 200));
 	  }
 		
 }
@@ -648,45 +648,65 @@ int ExWinQuestSystem::Button(DWORD Event)
 {
 	if (gInterface.ButtonEx(Event, OPEN_QUEST, false))
 	{
-		g_ExWinQuestSystem.SwitchStatsWindowState();
-
-		return true;
+		if (gInterface.Data[OBJECT_WIN_QUEST_MAIN].OnShow)
+		{
+			g_ExWinQuestSystem.SwitchStatsWindowState();
+		}
+		else
+		{
+			if (gInterface.CheckWindow(Party) || gInterface.CheckWindow(Guild) || gInterface.CheckWindow(Trade)
+				|| gInterface.CheckWindow(Warehouse) || gInterface.CheckWindow(ChaosBox) || gInterface.CheckWindow(CommandWindow)
+				|| gInterface.CheckWindow(PetInfo) || gInterface.CheckWindow(Shop) || gInterface.CheckWindow(Inventory)
+				|| gInterface.CheckWindow(Store) || gInterface.CheckWindow(OtherStore) || gInterface.CheckWindow(Character)
+				|| gInterface.CheckWindow(FastMenu) || gInterface.CheckWindow(SkillTree) || gInterface.CheckWindow(NPC_Titus)
+				|| gInterface.CheckWindow(CashShop) || gInterface.CheckWindow(FullMap) || gInterface.CheckWindow(NPC_Dialog)
+				|| gInterface.CheckWindow(GensInfo) || gInterface.CheckWindow(NPC_Julia) || gInterface.CheckWindow(ExpandInventory)
+				|| gInterface.CheckWindow(ExpandWarehouse) || gInterface.CheckWindow(MuHelper) || gInterface.CheckWindow(Quest)
+				|| gInterface.CheckWindow(NPC_Devin) || gInterface.CheckWindow(DevilSquare) || gInterface.CheckWindow(GuardNPC)
+				|| gInterface.CheckWindow(CastleGateSwitch) || gInterface.CheckWindow(GoldenArcher2) || gInterface.CheckWindow(LuckyCoin1)
+				|| gInterface.CheckWindow(LuckyCoin2) || gInterface.CheckWindow(BloodCastle))
+			{
+				// A conflicting window is open, do nothing.
+			}
+			else
+			{
+				g_ExWinQuestSystem.SwitchStatsWindowState();
+			}
+		}
+		return true; 
 	}
 
+	// --- From here, handle buttons INSIDE the quest window ---
 	if (!gInterface.Data[OBJECT_WIN_QUEST_MAIN].OnShow)
 	{
 		return false;
 	}
 
-	if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_FINISH, true))
-	{
-		this->CG_AcceptQuest();
-
-		return true;
-	}
-	else if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_CLOSE, false))
+	if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_CLOSE, false))
 	{
 		pSetCursorFocus = false;
 		gInterface.Data[OBJECT_WIN_QUEST_MAIN].Close();
+		return true;
+	}
 
+	if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_FINISH, true))
+	{
+		this->CG_AcceptQuest();
 		return true;
 	}
 	else if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_TAB1, false))
 	{
 		this->OpenTab = 0;
-
 		return true;
 	}
 	else if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_TAB2, false))
 	{
 		this->OpenTab = 1;
-
 		return true;
 	}
 	else if (gInterface.ButtonEx(Event, OBJECT_WIN_QUEST_TAB3, false))
 	{
 		this->OpenTab = 2;
-
 		return true;
 	}
 
