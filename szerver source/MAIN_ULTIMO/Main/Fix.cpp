@@ -203,12 +203,20 @@ __declspec(naked) void FixAttackSpeed()
 	
 	}
 	
-	/////////////////////////////////////////////////
+	///////////////////////////////////////////////// 
     /*=====================RF======================*/	
 	/////////////////////////////////////////////////
 
 	if( CLASS == Monk || CLASS == FirstMaster )
 	{
+		if(gObjUser.MagickAttack == 263 || gObjUser.MagickAttack == 559 || gObjUser.MagickAttack == 563)
+		{
+			if(STR_SPEED < 500 || MAG_SPEED < 500)
+			{
+				STR_SPEED = 500;
+				MAG_SPEED = 500;
+			}
+		}
 		//FIX RF SKILL BEAST UPPERCUT
 		if(gObjUser.GetActiveSkill() == 261 || gObjUser.GetActiveSkill() == 552 || gObjUser.GetActiveSkill() == 555)
 		{
