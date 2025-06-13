@@ -60,9 +60,9 @@ __declspec(naked) void FixAttackSpeed()
 		}
 		else if(gObjUser.MagickAttack == SKILL_INFERNO)
 		{
-			if(MAG_SPEED > 3276)
+			if(MAG_SPEED > 2850)
 			{
-				MAG_SPEED = 3276;
+				MAG_SPEED = 2850;
 			}
 		}
 	}
@@ -151,9 +151,9 @@ __declspec(naked) void FixAttackSpeed()
 		}
 		if(gObjUser.MagickAttack == SKILL_INFERNO)
 		{
-			if(MAG_SPEED > 3276)
+			if(MAG_SPEED > 2850)
 			{
-				MAG_SPEED = 3276;
+				MAG_SPEED = 2850;
 			}
 		}
 	}
@@ -163,7 +163,7 @@ __declspec(naked) void FixAttackSpeed()
 	/////////////////////////////////////////////////
 
 	if( CLASS == DarkLord || CLASS == LordEmperor){
-		if(gObjUser.MagickAttack == SKILL_FIRE_SCREAM || gObjUser.MagickAttack == 518 )
+		if(gObjUser.MagickAttack == SKILL_FIRE_SCREAM || gObjUser.MagickAttack == 518 || gObjUser.MagickAttack == 520)
 		{
 			if(STR_SPEED > 249 && STR_SPEED < 264)
 			{
@@ -186,6 +186,21 @@ __declspec(naked) void FixAttackSpeed()
 				STR_SPEED = 1449;
 			}
 		}
+		else if(gObjUser.MagickAttack == 61 || gObjUser.MagickAttack == 508 || gObjUser.MagickAttack == 514)
+		{
+			if(STR_SPEED > 1000)
+			{
+				STR_SPEED = 1000;
+			}
+		}
+		else if(gObjUser.MagickAttack == SKILL_BIRDS || gObjUser.MagickAttack == 523)
+		{
+			if(STR_SPEED > 1449)
+			{
+				STR_SPEED = 1449;
+			}
+		}
+	
 	}
 	
 	/////////////////////////////////////////////////

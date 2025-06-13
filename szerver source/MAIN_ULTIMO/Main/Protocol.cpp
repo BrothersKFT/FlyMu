@@ -531,6 +531,8 @@ void GCCharacterInfoRecv(PMSG_CHARACTER_INFO_RECV* lpMsg) // OK
 		case 2: // Elf
 		case 3: // Magic Gladiator
 		case 4: // Dark Lord
+			SetDword(0x0059C6FE, 0); // Fire Burst Multiple Damage
+			break;
 		case 5: // Summoner
 		case 6: // Rage Fighter
 		default: // Ismeretlen vagy más class
